@@ -1,0 +1,27 @@
+﻿ig_trait_fazenda_ibicaba = {
+	icon = "gfx/interface/icons/ig_trait_icons/honest_work.dds"
+	min_approval = happy
+	
+	modifier = {
+		state_working_adult_ratio_add = 0.05
+		state_slave_import_mult = 0.35
+	}
+}
+
+ig_trait_brasilidade = {
+	icon = "gfx/interface/icons/ig_trait_icons/propagandists.dds"
+	min_approval = loyal
+	
+	modifier = {
+		state_migration_pull_mult = 0.2
+	}
+}
+
+ig_trait_clube_militar = {
+	icon = "gfx/interface/icons/ig_trait_icons/veteran_consultation.dds"
+	min_approval = happy
+	
+	modifier = {
+		country_authority_mult = 0.15
+	}
+}

@@ -1,0 +1,67 @@
+INC = {
+	dynamic_country_name = {
+		name = INC-dynamic-name-monarchy
+		adjective = INC-dynamic-name-monarchy-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = INC-dynamic-name-presidential
+		adjective = INC-dynamic-name-presidential-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_presidential_republic
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = INC-dynamic-name-parlement
+		adjective = INC-dynamic-name-parlement-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_parliamentary_republic
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = INC-dynamic-name-council
+		adjective = INC-dynamic-name-council-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = INC-dynamic-name-theocracy
+		adjective = INC-dynamic-name-theocracy-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+}

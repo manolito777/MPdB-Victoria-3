@@ -1,0 +1,182 @@
+﻿l_spanish:
+ ger_explosion_demografica: "Explosión demográfica alemana"
+ 
+ state_trait_depositos_del_potosi: "Depósitos del Potosí"
+ state_trait_depositos_de_lima: "Depósitos de Lima"
+ state_trait_cerro_de_mutun: "Cerro de Mutún"
+ state_trait_tagus_estuary: "Estuario del Tajo"
+ 
+ fe_en_la_confederacion: "Fe en la Confederación"
+ 
+ ideology_ottomanism: "Otomanista"
+ ideology_ottomanism_desc: "Ideología que busca renovar al Imperio Otomano bajo un modelo ideal basado en el occidental."
+ 
+ ideology_state_ottomanism: "State Ottomanism"
+ ideology_state_ottomanism_desc: "Ideological wave set to reform the Ottoman Empire along a Western model. However, beware: the spectre of nationalism looms near, and can taint even the purest movement."
+
+ ideology_ottoman_turkism: "Turquismo Otomano"
+ ideology_ottoman_turkism_desc: "This group believes on an Ottoman state united around the turkic ethnicity and an endorsment of any heterogeneous voice. Este grupo cree en un Estado Otomano puramente turco, y en la represión necesaria para llevarla a cabo."    
+
+ aceptar_nativos_decision: "Aceptar a los Indígenas"
+ aceptar_nativos_decision_desc: "Nuestra patria nunca podrá avanzar hasta que no aceptemos a los pueblos que estuvieron aquí antes que nosotros. Apartemos nuestros prejuicios y aceptemos la plurinacialidad de nuestro país."
+ 
+ ig_trait_by_blood_alone: "Solo con la sangre de nuestros soldados conseguiremos el renacer de nuestro país. ¡Avanti!"
+ ig_trait_hacienda_andina: "Hacienda Andina"
+ ig_trait_hacienda_andina_desc: "Nuestras élites saben bien lo que hacen, pues han vivido y prosperado en un lugar donde muchos otros solo hallarían ruina. Cooperemos con ellos con el fin que de nuestra nación prospere."
+
+ ig_trait_mezcolanza_latinoamericana: "Mezcolanza Latinoamericana"
+ ig_trait_mezcolanza_latinoamericana_desc: "Nuestra tierra alberga dos culturas muy distintas: en vez de rechazar una y denigrar la otra, aprovechemos al máximo nuestro legado ibérico y precolombino."
+
+ state_trait_gol_gohar_deposit: "Depósito de Gol Gohar"
+ 
+ state_trait_north_china_plain: "Llanura del Norte de China"
+ state_trait_Khingan_mountains: "Montañas de Khingan"
+ state_trait_southern_mountains: "Sierra del Sur"
+ 
+ country_institution_military_max_investment_add: "Institucion Militar Máxima"
+ 
+ institution_military: "Institución Militar"
+ country_institution_cost_institution_military_mult: "Costo de la Institución Militar"
+ 
+ la_ultima_cruzada: "Promover la Jihad"
+ la_ultima_cruzada_desc: "El Sultán del Imperio Otomano es también el Califa Islámico desde 1517, y su palabra contiene el espíritu y esfuerzo de su gente: con una palabra hará levantarse a miles en defensa de la fe, algo tan"
+ sponsored_state_jihad: "Sponsored State Jihad"
+ 
+ integrar_ejercito: "Reestructurar las Fuerzas Armadas Otomanas"
+ integrar_ejercito_desc: "Nuestro Imperio gobierna sobre muchas nacionalidades distintas y hace escaso uso de ellas: muchos hombres capaces se quedan en puestos de baja categoría por su etnia o religión. Si queremos vencer a las grandes potencias, debemos aceptarlos y hacer uso de ellos."
+ 
+ ig_trait_the_unshackled_empire: "Sultanato Desencadenado"
+ ig_trait_the_unshackled_empire_desc: "El Imperio Otomano se ha visto arrestado por disensiones internas, y grandes potencias desean particionarlo. A partir de ahora no será así: aunaremos fuerzas con todos los miembros del Imperio para defender hasta el último palmo de terreno."
+ ig_trait_unwavering_loyalty: "Lealtad Inquebrantable"
+ ig_trait_unwavering_loyalty_desc: "La reforma del ejército emprendida por Mahmut II llevó a la abolición del Timar en 1831. El nuevo ejército es una herramienta de centralización política, leal personalmente al Sultán, y opera a distintos niveles para asegurar la prosperidad del Imperio."
+ 
+ nueva_indigeneidad: "Nueva Indigeneidad"
+ 
+ unit_combat_unit_type_irregular_infantry_defense_mult: " Defensa de Infantería Irregular"
+
+ desamortizacion_mendizabal: "La Primera Desamortización"
+ desamortizacion_mendizabal_desc: "Nuestra economía se ve retrasada por la acción, o más bien inacción, de la Iglesia. Ahora que hemos resuelto el asunto de los carlistas podemos decidir qué hacer al respecto. El objeto del beneficio de la desamortización, por supuesto, depende de nuestras leyes y voluntad."
+
+ mendizabal.1.t: "La Primera Desamortización"
+ mendizabal.1.d: "Todas las propiedades monásticas con menos de doce miembros, infructíferas, inertes, costosas, han sido puestas en manos del Estado."
+ mendizabal.1.f: ""Había, pues, situación Mendizábal para un rato, y se verían realizadas las reformas que el grande hombre había prometido en su famosa exposición a la Reina..." - Episodios Nacionales, nº21; Benito Perez Galdós."
+
+ mendizabal.1.a: "... para el beneficio del Estado."
+ mendizabal.1.b: "... para el beneficio del pueblo."
+ mendizabal.1.c: "... para el gran beneficio del pueblo."
+
+ desamortizacion_madoz: "La Segunda Desamortización"
+ desamortizacion_madoz_desc: "Ahora que hemos introducido con éxito la desamortización en la legislación, podemos llevar a cabo una verdadera subasta de los bienes eclesiásticos en manos muertas."
+
+ madoz.1.t: "La Segunda Desamortización"
+ madoz.1.d: "Las posibilidades de esta desamortización son enormes, pero nuestras decisiones y resultados dependerán de nuestras leyes y sistemas."
+ madoz.1.f: ""Artículo 1. Se declaran en estado de venta, con arreglo a las prescripciones de la presente ley, y sin perjuicio de las cargas y servidumbres a que legítimamente estén sujetos, todos los predios rústicos y urbanos, censos y foros pertenecientes: al Estado; al clero; a las órdenes militares de Santiago, Alcántara, Calatrava, Montesa y San Juan de Jerusalén; a las cofradías, obras pías y santuarios; al secuestro del ex Infante D. Carlos; a los propios y comunes de los pueblos; a la beneficiencia; a la instrucción pública. Y cualesquiera otros pertenecientes a manos muertas, ya estén o no mandados vender por leyes anteriores... ""
+
+ madoz.1.a: "... para el beneficio del Estado."
+ madoz.1.b: "... para el beneficio del pueblo."
+ madoz.1.c: "... para el gran beneficio del pueblo."
+ madoz.1.h: "... para el beneficio del capital."
+ madoz.1.i: "... para el gran beneficio del capital."
+ 
+ upset_intelligentsia: "Agitación liberal"
+ planear_gran_campana: "Planear Gran Campaña"
+ 
+ ig_trait_orden_natural: "El orden natural de las cosas"
+ ig_trait_orden_natural_desc: "Mi padre fue dueño de estas tierras; ahora lo es el estado, pero yo sigo percibiendo las mismas rentas. A mi padre le llamaban señor; a mí, cacique. Afortunadamente, por mucho progreso que los liberales quieran, el orden natural de las cosas seguirá siendo el mismo, y los campesinos lo entienden."
+ 
+ ig_trait_tierra_dorada: "Nuevo Siglo de Oro"
+ ig_trait_tierra_dorada_desc: "Sea por nuestros campos estivales o los metales precioso de nuestros extensos dominios, España, por la gracia de Dios, del rey y de nuestros nobles, entrará en un nuevo siglo de oro."
+ 
+ state_trait_rias_gallegas: "Rías Gallegas"
+ state_trait_tagus_river: "Tío Tajo"
+ state_trait_cuenca_guadalquivir: "Cuenca del Guadalquivir"
+ state_trait_bahia_de_cadiz: "Bahía de Cádiz"
+ state_trait_iberian_pyrite_belt: "Cinturón de Pirita Ibérico"
+ state_trait_ebro_river: "Río Ebro"
+ state_trait_cochinilla_canaria: "Cochinilla Canaria"
+ 
+ state_trait_golfo_di_genoa: "Golfo de Génova"
+ state_trait_golfo_di_cagliari: "Golfo de los Ángeles"
+ state_trait_golfo_di_tarento: "Golfo de Tarento"
+ state_trait_golfo_di_napoli: "Golfo de Nápoles"
+ state_trait_laguna_veneta: "Laguna de Venecia"
+ 
+ state_trait_bosphorus_strait: "Estrecho del Bósforo"
+ state_trait_pinsk_marshlands: "Marismas de Pinsk"
+ state_trait_cold_water_ports: "Puerto de aguas frías"
+ state_trait_tiranny_of_distance: "La Tiranía de la Distancia"
+ state_trait_savage_river: "Río Salvaje"
+ state_trait_yilgarin_eastern_deposits: "Depósitos de Yilgarin y del Este"
+ state_trait_pilbara_deposits: "Depósitos de Pilbara"
+ 
+ state_trait_ethiopian_highlands: "Tierras Altas Etíopes"
+ state_trait_yemeni_highlands: "Tierras Altas Yemeníes"
+ 
+ state_trait_anatolian_plateau: "Meseta de Anatolia"
+ state_trait_cedar_woods: "Bosques de cedro"
+ state_trait_canadian_forests: "Bosques canadienses"
+ 
+ state_trait_jingdezhen_lead_deposits: "Depósitos de plomo de Jingdezhen"
+ state_trait_daye_iron_mine: "Depósitos de hierro de Daye"
+ state_trait_Khingan_Mountains: "Montañas de Khingan"
+ state_trait_tian_shan_foothills: "Colinas del Tian"
+ state_trait_Altai_Mountains: "Montañas de Altai"
+ 
+ Chandragupta: "Chandragupta"
+ Misdhi: "Misdhi"
+ Pahli: "Pahli"
+ Eiravati: "Eivarati"
+ Pical: "Pical"
+ Amadhya: "Amadhya"
+ Isha: "Isha"
+ 
+ major_explosion_demografica: "Explosión demográfica"
+ ita_explosion_demografica: "Explosión demográfica de Italia"
+ 
+ building_palazzo_di_torino: "Palazzo Reale di Torino"
+ 
+ building_sar_i_sang: "Mina de Sar-i-Sang"
+ 
+ pm_default_building_improved_dutch_polders: "Producción Mejorada"
+ pm_default_building_elite_dutch_polders: "Producción Avanzada"
+ 
+ building_palazzo_reale_di_torino: "Palazzo Reale di Torino"
+ building_palais_royal_de_bruxelles: "Palais Royal de Bruxelles"
+ 
+ 
+ 
+ 
+ pm_default_building_palais_royal_de_bruxelles: "Basic Production"
+ pm_default_building_palazzo_reale_di_torino: "Basic Production"
+ pm_default_building_sar_i_sang: "Basic Production"
+ 
+ pmg_base_building_palais_royal_de_bruxelles: "Base"
+ pmg_base_building_palazzo_reale_di_torino: "Base"
+ pmg_base_building_sar_i_sang: "Base"
+ 
+ pm_homesteading_building_subsistence_rice_paddies: "Homesteading"
+ 
+ company_lanificio_paoletti: "Lanificio Paoletti"
+ 
+ carlist_war_legacy: "Consecuencia de la Primera Guerra Carlista"
+ fra_napoleonic_wars_legacy: "Legado de las Guerras Napoleónicas"
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

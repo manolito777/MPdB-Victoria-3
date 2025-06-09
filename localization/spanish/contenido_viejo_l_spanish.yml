@@ -1,0 +1,78 @@
+﻿l_spanish:
+
+ #Italy journal entries
+ je_lake_fucine_reason: "El drenaje producirá una de las áreas más fértiles de la península itálica"
+ lake_fucine.1.t: "Drenaje completado"
+ lake_fucine.1.d: "Tras cuatro árduos años, la cuenca resultante será hogar a los mejores cultivos en la costa del Adriático"
+ lake_fucine.1.f: "El lago Fucine fué un lago situado entre el las sierras Sirente y Velino en el Noreste, el monte Salviano al Oeste, Vallelonga al Sur y el Valle del Giovenco al Este."
+ lake_fucine.1.a: "Nos espera una abundante cosecha"
+ #Italy Decisions
+ drain_lake_fucine_decision: "Drenar el lago Fucine"
+ drain_lake_fucine_decision_desc: "Drenar el lago Fucine resultará en un área fértil donde se podrá plantar todo tipo de bienes."
+ je_lake_fucine: "Drenar el lago Fucine"
+ lake_fucine_draining_modifier: "Drenando el lago Fucine"
+ #Italy State Traits
+ state_trait_lake_fucine: "Lago Fucine"
+ state_trait_fucine_basin: "Cuénca del Fucine"
+ #Mexico IGs
+ ig_trait_pies_descalzos: "Pies descalzos"
+ ig_trait_pies_descalzos_desc: "Emigrantes de diversas y nada parecidas tierras, humildes de origen, que trajeron su deseo de trabajar y su ambición de hacer fortuna, como tantos otros."
+ ig_trait_aguila_del_norte: "Águila del Norte"
+ ig_trait_aguila_del_norte_desc: "Águila que simboliza tanto la victoria como el sol en la antigua cultura azteca."
+ #Ruhr Boom
+ ruhr_boom_demografico: "Boom Demográfico del Ruhr"
+ ruhr_boom.1.t: "Explosión Demográfica"
+ ruhr_boom.1.d: "Los frutos de la expansión industrial no serán en vano."
+ ruhr_boom.1.f: "La región del Ruhr fué una parte principalmente agraria de la actual Alemania hasta aproximadamente 1850. La creciente demanda de carbón tuvo como objetivo esta región por parte de los grupos mineros, haciéndo que el Ruhr experimentase una industrialización a un nivel no visto en cualquier otra región alemana."
+ ruhr_boom.1.a: "Nada puede frenar la maquinaria del progreso."
+ je_ruhr_boom_main: "El boom del Ruhr"
+ je_ruhr_boom_main_reason: "Expandir la producción de carbón asegurará la creación de incontables puestos de trabajo."
+ je_ruhr_boom_main_status: "La rápida industrialización del siglo XIX trae consigo una mayor demanda de mano de obra."
+ #AC current
+ pm_ac_current_disabled: "Corriente Alterna Desactivada"
+ pm_ac_current: "Corriente Alterna"
+ pmg_alternate_building_power_plant: "Corriente"
+ ac_power: "Corriente Alterna"
+ ac_power_desc: "Corriénte eléctrica en la que la magnitud y el sentido varían cíclicamente."
+ #Otoman Culture
+ otomanosphere: "Otomanoesfera"
+ #Military Technology additions
+ unit_combat_unit_type_line_infantry_offense_add: "Ataque de Infantería de Línea"
+ unit_combat_unit_type_line_infantry_offense_add_desc: "Capacidad Ofensiva de la Infantería de Línea"
+ unit_combat_unit_type_skirmish_infantry_offense_add: "Ataque de Infantería de Escaramuza"
+ unit_combat_unit_type_skirmish_infantry_offense_add_desc: "Capacidad ofensiva de la Infantería de Escaramuza"
+ mobilization_option_close_air_support: "Apoyo Aéreo Cercano"
+ mobilization_option_close_air_support_desc: "Haz que llueva fuego y destrucción sobre tus enemigos"
+ mobilization_option_field_works: "Trabajos de Campaña"
+ mobilization_option_field_works_desc: "Modifica el terreno para otorgar una mayor protección a los soldados"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

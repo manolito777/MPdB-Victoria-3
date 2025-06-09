@@ -1,0 +1,30 @@
+﻿towards_to_modernity1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_tax_capacity_add	= 40
+	country_tech_spread_mult = 0.01
+}
+towards_to_modernity2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_tax_capacity_add	= 60
+	country_tech_spread_mult = 0.02
+}
+towards_to_modernity3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_tax_capacity_add	= 80
+	country_tech_spread_mult = 0.04
+}
+towards_to_modernity4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_tax_capacity_add	= 100
+	country_tech_spread_mult = 0.06
+}
+towards_to_modernity5 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_tax_capacity_add	= 120
+	country_tech_spread_mult = 0.08
+}
+towards_to_modernity6 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	state_tax_capacity_add	= 140
+	country_tech_spread_mult = 0.1
+}

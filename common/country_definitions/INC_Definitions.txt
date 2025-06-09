@@ -1,0 +1,15 @@
+INC = {
+	#Indochina
+	color = { 64 224 208 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = {
+		vietnamese
+		khmer
+		lao
+	}
+	capital = STATE_TONKIN
+}

@@ -1,0 +1,20 @@
+DIPLOMACY = {
+	c:GBR ?= {
+		create_diplomatic_pact = {
+			country = c:EIC
+			type = foreign_investment_rights
+		}	
+	}
+	c:FRA ?= {
+		create_diplomatic_pact = {
+			country = c:EIC
+			type = foreign_investment_rights
+		}	
+	}
+	c:NET ?= {
+		create_diplomatic_pact = {
+			country = c:EIC
+			type = foreign_investment_rights
+		}	
+	}
+}

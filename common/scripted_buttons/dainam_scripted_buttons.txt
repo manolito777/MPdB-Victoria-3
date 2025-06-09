@@ -1,0 +1,63 @@
+abrazar_catolicismo_dainam_scripted_button = {
+	visible = {
+		C:DAI ?= this
+		ROOT = c:DAI
+
+		not = { has_variable = dainam_catolicismo_var }
+	}
+
+	possible = {
+		NOT = { has_variable = dainam_catolicismo_var }
+	}
+
+	name = "abrazar_catolicismo_dainam_scripted_button"
+	desc = "abrazar_catolicismo_dainam_scripted_button_desc"
+
+	effect = {
+		set_variable = dainam_catolicismo_var
+
+		set_state_religion = rel:catholic
+		
+	}
+
+
+
+
+	ai_chance = {
+		base = 80
+	}
+}
+
+sponsor_conversions_scripted_button = {
+	visible = {
+		C:DAI ?= this
+		ROOT = c:DAI
+
+		not = { has_variable = dainam_sponsor_var }
+	}
+
+	possible = {
+		NOT = { has_variable = dainam_sponsor_var }
+	}
+
+	name = "dainam_sponsor_scripted_button"
+	desc = "dainam_sponsor_scripted_button_desc"
+
+	effect = {
+
+		every_scope_state = {
+			convert_population = {
+				target = rel:catholic
+				value = 0.1
+			}
+		}
+		
+
+		
+	}
+
+
+	ai_chance = {
+		base = 80
+	}
+}

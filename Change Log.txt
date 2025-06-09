@@ -1,0 +1,28 @@
+07/06/2025
+CHINA: Ajustar tierra arable, para que tenga hueco de crecimiento. La idea es que cada provincia no este tan ocupada (plantaciones)
+	Fujian: 80 --> 85
+	Eastern Guandong (SHAOZHOU): 110 --> 116 
+	Hunan 81 --> 87
+	Jiangxi 90 --> 99
+	Chongqing 93 --> 103
+	Ningxia 60 --> 73 
+	Xian 60 --> 72
+	Eastern Hubei 98 --> 101
+	Southern Anhui 124 --> 131
+	Suzhou 64 --> 76
+	Nanjing 60 --> 63
+	Northern Anhui 47 --> 53
+	Henan 90 --> 95
+	Beijing 55 --> 58
+	
+	Se agrego modificador estatal del Mar de Bohai/ Bohai Sea esto da:
+		10% throughput al pescado. 
+		Lista de estados donde se agrego:
+			Yangseo
+			Shengjing
+			Beijing
+			Hebei
+			Shandong
+			
+		Wealth and knowledge drive progress: the work that is done by a hundred today will be done well by one tomorrow. Our population gives us the advantage in the long term, but only if we teach them that capital is progress.
+		To have a powerful industry, we must promote our education: a bad worker is a worker who does not read

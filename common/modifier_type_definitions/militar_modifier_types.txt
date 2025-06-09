@@ -1,0 +1,26 @@
+﻿unit_combat_unit_type_line_infantry_offense_add = {
+
+}
+
+unit_combat_unit_type_mobile_artillery_offense_add = {
+
+}
+
+unit_combat_unit_type_skirmish_infantry_offense_add = {
+
+}
+
+unit_combat_unit_type_trench_infantry_offense_add = {
+
+}
+
+country_institution_size_change_speed_institution_military_mult = {
+
+	percent = yes
+
+}
+
+country_institution_cost_institution_military_mult = {
+
+	percent = yes
+}

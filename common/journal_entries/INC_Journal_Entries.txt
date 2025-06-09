@@ -1,0 +1,43 @@
+﻿INC-unification-journal = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_formable_nations_plus
+
+	should_be_pinned_by_default = yes
+
+	is_shown_when_inactive = {
+		OR = {
+			country_has_primary_culture = cu:lao
+			country_has_primary_culture = cu:vietnamese
+			country_has_primary_culture = cu:khmer
+		}
+	}
+
+	possible = {
+		country_rank >= rank_value:unrecognized_regional_power  
+		is_subject = no
+	}
+	
+	immediate = {
+
+	}
+	
+	complete = {
+		custom_tooltip = {
+			text = INC-unification-journal-complete
+			exists = c:INC
+		}
+	}
+
+	on_complete = {
+		trigger_event = {
+			id = INC_unification.1
+			popup = yes
+		}
+	}
+
+	
+	fail = {
+			exists = c:INC
+	}
+}
