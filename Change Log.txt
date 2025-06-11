@@ -23,6 +23,10 @@ CHINA: Ajustar tierra arable, para que tenga hueco de crecimiento. La idea es qu
 			Beijing
 			Hebei
 			Shandong
+Se agregaron dos journals juevos, FIVE YEAR PLANS.
+Se restauraron las misiones de China
+Se agrego un diario de literacy
+Se le dio una tech adicional, ideologia a la iglesia.
 			
-		Wealth and knowledge drive progress: the work that is done by a hundred today will be done well by one tomorrow. Our population gives us the advantage in the long term, but only if we teach them that capital is progress.
-		To have a powerful industry, we must promote our education: a bad worker is a worker who does not read
+Japon:
+Se agrego, fabricas de armas, ropa y hierro en Kanto.
