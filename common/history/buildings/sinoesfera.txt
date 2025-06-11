@@ -1161,7 +1161,7 @@
 					building={
 						type="building_iron_mine"
 						country="c:JAP"
-						levels=1
+						levels=4
 						region="STATE_KANTO"
 					}
 				}
