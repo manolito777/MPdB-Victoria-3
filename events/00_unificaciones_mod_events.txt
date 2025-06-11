@@ -197,7 +197,7 @@ formation.19 = {
 			months = very_long_modifier_time
 		}
 		add_modifier = {
-				name = major_explosion_demografica
+				name = unt_explosion_demografica
 				months = 240
 				is_decaying = yes
 		}
