@@ -1,3 +1,39 @@
+FRS = { # 台灣民主國
+	pattern = "pattern_solid.tga"
+	color1 = { 30 65 107 }
+
+	textured_emblem = {
+		texture = "te_taiwan_republic_1895.png"
+        instance = { position = { 0.5 0.5 } scale = { 1 1 } }
+	}	
+}
+EIC = {
+	
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	
+	colored_emblem = {
+		texture = "ce_stripes_09.dds"
+		color1 = "red"		
+	}
+	
+			
+	textured_emblem = {
+		texture = "te_star_india.dds"
+		instance = { scale = { 0.7 0.7 } position = { 0.63 0.45 } }
+	}
+	
+	colored_emblem = {
+		texture = "ce_tricolor_horizontalo.dds"
+		color3 = "blue"
+		color1 = "green"
+		color2 = "saffron"	
+		
+		instance = { scale = { 0.46 1 } position = { 0.05 0.5 }}
+	
+	}
+
+}
 FND_andes_federation = { # Federation of the Andes
 	pattern = "pattern_border_outlined_thin.dds"
 	color1 = "white"
