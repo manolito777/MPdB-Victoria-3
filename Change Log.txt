@@ -29,4 +29,15 @@ Se agrego un diario de literacy
 Se le dio una tech adicional, ideologia a la iglesia.
 			
 Japon:
-Se agrego, fabricas de armas, ropa y hierro en Kanto.
+Se agrego, fabricas de armas, ropa y hierro en Kanto para que pueda sostener la infanteria de linea que se le agrego.
+13/6/25
+Se agregaron los journals de balanceo militar y los modificadores militares apropiados
+Se agrego el metodo de carbon vegetal
+Se fusiono la tecnologia de malaria prevention y antibioticos, y pasteurizacion con corriente alterna
+Se asignaron los metodos de pasteurizacion para que se activaran con corriente alterna, aunque el de pescado y ballenas no se pudieron asignar correctamente
+Se rebalancearon los decretos
+Se cambiaron los eventos de: Vampiro, nursing tech, event 03 y silk para reemplazar las techs que fueron borradas
+se agregaron mas localizaciones en el mismo archivo que antes updategatoasia
+
+
+
