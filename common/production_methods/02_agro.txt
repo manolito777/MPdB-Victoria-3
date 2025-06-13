@@ -554,7 +554,7 @@ pm_refrigerated_storage_building_livestock_ranch = {
 	texture = "gfx/interface/icons/production_method_icons/refrigerated_storage.dds"
 
 	unlocking_technologies = {
-		pasteurization
+		ac_power
 	}
 
 	building_modifiers = {
