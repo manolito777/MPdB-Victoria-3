@@ -1294,11 +1294,13 @@ zeppelins = {
 malaria_prevention = {
 	# Should permit for colonization of state regions with severe malaria
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/malaria_prevention.dds"
+	texture = "gfx/interface/icons/invention_icons/antibiotics.dds"
 	category = society
 
 	modifier = {
 		country_institution_colonial_affairs_max_investment_add = 1
+		country_institution_health_system_max_investment_add = 1
+		state_harvest_condition_disease_outbreak_impact_mult = -0.15
 	}
 	
 	unlocking_technologies = {
@@ -1509,25 +1511,6 @@ mass_surveillance = {
 	
 	unlocking_technologies = {
 		central_planning
-	}
-	
-	ai_weight = {
-		value = 1
-	}
-}
-
-antibiotics = {
-	era = era_5
-	texture = "gfx/interface/icons/invention_icons/antibiotics.dds"
-	category = society
-	
-	modifier = {
-		country_institution_health_system_max_investment_add = 1
-		state_harvest_condition_disease_outbreak_impact_mult = -0.15
-	}
-	
-	unlocking_technologies = {
-		malaria_prevention
 	}
 	
 	ai_weight = {
