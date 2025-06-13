@@ -1,3 +1,57 @@
+USA_theocracy = {
+	pattern = "pattern_border_outlined_thin.dds"
+	color1 = "white"
+    color2 = "white"
+    textured_emblem = {
+		texture = "usateocoa.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.50 } }
+	}	
+}
+USA_dictatorship = {
+	pattern = "pattern_border_outlined_thin.dds"
+	color1 = "white"
+    color2 = "white"
+    textured_emblem = {
+		texture = "usadiccoa.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.50 } }
+	}	
+}
+USA_communist = {
+	pattern = "pattern_border_outlined_thin.dds"
+	color1 = "white"
+    color2 = "white"
+    textured_emblem = {
+		texture = "usacomcoa.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.50 } }
+	}
+}
+USA_fascist = {	
+	pattern = "pattern_border_outlined_thin.dds"
+	color1 = "white"
+    color2 = "white"
+    textured_emblem = {
+		texture = "usafascoa.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.50 } }
+    }			
+}
+USA_technocracy = { 
+pattern = "pattern_border_outlined_thin.dds"
+	color1 = "white"
+    color2 = "white"
+    textured_emblem = {
+		texture = "usateccoa.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.50 } }
+	}
+}
+USA_coa = {
+	pattern = "pattern_border_outlined_thin.dds"
+	color1 = "white"
+    color2 = "white"
+    textured_emblem = {
+		texture = "usakincoa.dds"
+		instance = { scale = { 1 1 } position = { 0.5 0.50 } }
+	}
+}
 FRS = { # 台灣民主國
 	pattern = "pattern_solid.tga"
 	color1 = { 30 65 107 }
