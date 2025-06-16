@@ -725,20 +725,21 @@
 				reserves = 1
 				activate_production_methods = { "default_building_opium_plantation" "pm_road_carts" }
 			}
-			create_building={
-				building="building_banana_plantation"
+			create_building= {
+				building= "building_banana_plantation"
 				add_ownership = {
 					building = {
 						type = "building_manor_house"
 						country = "c:GBR"
 						levels = 3
 						region = "STATE_HOME_COUNTIES"
-					}														
+					}
+				}	
 				reserves=1
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_banana_plantation"
+				building= "building_banana_plantation"
 				add_ownership= {
 					building = {
 						type = "building_manor_house"
