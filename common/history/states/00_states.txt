@@ -2602,7 +2602,7 @@ STATES = {
 		}
 		create_state = {
 			country = c:SPA
-			owned_provinces = { xCA9F75 }
+			owned_provinces = { xCA9F75 xA0B0C0 }
 			state_type = unincorporated
 		}
 		

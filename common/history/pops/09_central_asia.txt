@@ -466,7 +466,7 @@
 			}
 		}
 	}
-	s:STATE_JETISY = { #DONE
+	s:STATE_JETISY = { 
 		region_state:CHI = {
 			create_pop = {
 				culture = kazak
