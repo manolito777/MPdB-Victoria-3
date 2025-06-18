@@ -1,20 +1,21 @@
 ﻿# This play is only used as a 'default diplomatic play' for certain triggers etc, and potentially for scripted content
 # It can never actually be launched in the normal way
-dp_war_reparations = {
-	war_goal = war_reparations
-	
-	texture = "gfx/interface/icons/war_goals/war_reparations.dds"
+dp_default_treaty_article = {
+	# This defaults to a standard money transfer article
+	war_goal = enforce_treaty_article
+
+	texture = "gfx/interface/icons/war_goals/enforce_treaty_article.dds"
 
 	selectable_in_lens = {
 		always = no
-	}	
+	}
 
 	possible = {
 		always = no
 	}
 
 	ai_acceptance_max = 100
-	
+
 	on_weekly_pulse = {}
 
 	on_war_begins = {}
@@ -76,24 +77,23 @@ dp_regime_change = {
 
 	on_war_end = {}
 }
-
 dp_ban_slavery = {
 	war_goal = ban_slavery
-	
+
 	texture = "gfx/interface/icons/war_goals/ban_slavery.dds"
 
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
-		NOT = { is_subject_of = scope:target_country }	
+		NOT = { is_subject_of = scope:target_country }
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
-		}	
+		}
 	}
 
 	ai_acceptance_max = 90
-	
+
 	on_weekly_pulse = {}
 
 	on_war_begins = {}
@@ -307,11 +307,11 @@ dp_reduce_autonomy = {
 }
 
 dp_take_treaty_port = {
-	
+
 	war_goal = take_treaty_port
-	
+
 	texture = "gfx/interface/icons/war_goals/take_treaty_port.dds"
-	
+
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
@@ -320,13 +320,13 @@ dp_take_treaty_port = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
 		}
-		diplomatic_play_has_no_relations_blockers = yes	
+		diplomatic_play_has_no_relations_blockers = yes
 	}
-	
+
 	ai_acceptance_max = 100
-	
+
 	on_weekly_pulse = {}
-	
+
 	on_war_begins = {}
 
 	on_war_end = {}
@@ -757,25 +757,25 @@ dp_force_nationalization = {
 
 dp_give_foreign_investment_rights = {
 	war_goal = foreign_investment_rights
-	
+
 	requires_interest_marker = yes
-	
+
 	texture = "gfx/interface/icons/war_goals/foreign_investment_rights.dds"
-	
+
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
 		diplomatic_play_has_no_relations_blockers = yes
 	}
-	
+
 	selectable_in_lens = {
 		has_dlc_feature = foreign_investment
 	}
-	
+
 	ai_acceptance_max = 100
-	
+
 	on_weekly_pulse = {}
-	
+
 	on_war_begins = {}
 
 	on_war_end = {}

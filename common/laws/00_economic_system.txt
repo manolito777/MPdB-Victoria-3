@@ -75,7 +75,7 @@ law_interventionism = {
 	modifier = {
 		country_disable_nationalization_without_compensation_bool = yes
 		country_private_construction_allocation_mult = 0.5
-		country_max_companies_add = 1
+		country_free_charters_add = 1
 		building_nationalization_investment_return_add = 0.5
 		country_government_dividends_reinvestment_add = 0.5
 		country_government_dividends_efficiency_add = 0.3
@@ -152,6 +152,7 @@ law_agrarianism = {
 		building_nationalization_investment_return_add = 0.5
 		country_government_dividends_reinvestment_add = 0.5
 		country_government_dividends_efficiency_add = 0.35
+		country_free_charters_add = 1
 		
 		country_disable_nationalization_without_compensation_bool = yes
 	}
@@ -438,7 +439,7 @@ law_laissez_faire = {
 		state_capitalists_investment_pool_efficiency_mult = 0.25
 		country_private_construction_allocation_mult = 0.75
 		country_government_dividends_reinvestment_add = 1.0		
-		country_max_companies_add = 2
+		country_free_charters_add = 2
 		country_disable_nationalization_bool = yes
 		country_force_privatization_bool = yes
 		country_company_pay_to_establish_bool = yes

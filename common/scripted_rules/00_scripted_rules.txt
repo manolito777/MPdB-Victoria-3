@@ -30,6 +30,11 @@ is_weak_power_bloc = {
 can_start_diplomatic_plays_against = {
 	# Might be disallowed by power bloc
 	NOT = {
+		scope:target_country.top_overlord ?= {
+			is_diplomatic_play_involved_with = root
+		}
+	}
+	NOT = {
 		custom_tooltip = {
 			text = "power_bloc_disallow_war_bool"
 			is_in_same_power_bloc = scope:target_country
