@@ -26,7 +26,7 @@ urbanization = {
 		state_infrastructure_from_population_max_add = 40	
 		state_building_construction_sector_max_level_add = 10
 		country_max_weekly_construction_progress_add = 10
-		market_land_trade_capacity_add = 50
+		
 	}
 	
 	ai_weight = {
@@ -44,7 +44,7 @@ urban_planning = {
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
 		country_max_weekly_construction_progress_add = 5
-		market_land_trade_capacity_add = 10
+		
 	}
 	
 	unlocking_technologies = {
@@ -317,7 +317,7 @@ stock_exchange = {
 	category = society	
 	
 	modifier = {
-		country_trade_route_cost_mult = -0.25
+		
 		state_market_access_price_impact = 0.1
 	}
 	
@@ -463,7 +463,7 @@ modern_sewerage = {
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
 		country_max_weekly_construction_progress_add = 5
-		market_land_trade_capacity_add = 10
+		
 		state_pollution_reduction_health_mult = -0.1
 		state_harvest_condition_flood_impact_mult = -0.1
 
@@ -927,7 +927,7 @@ steel_frame_buildings = {
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
 		country_max_weekly_construction_progress_add = 5
-		market_land_trade_capacity_add = 10
+		
 		state_harvest_condition_flood_impact_mult = -0.05
 	}
 	
@@ -1261,7 +1261,7 @@ elevator = {
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
 		country_max_weekly_construction_progress_add = 5
-		market_land_trade_capacity_add = 10
+		
 	}	
 	
 	unlocking_technologies = {
@@ -1621,7 +1621,7 @@ paved_roads = {
 	
 	modifier = {
 		state_infrastructure_from_automobiles_consumption_add = 0.25
-		market_land_trade_capacity_add = 20
+		
 	}
 	
 	unlocking_technologies = {	

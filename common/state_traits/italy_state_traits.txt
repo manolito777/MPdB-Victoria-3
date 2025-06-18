@@ -24,7 +24,7 @@ state_trait_golfo_di_cagliari = {
 	modifier = {
 		building_shipyards_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
-		state_building_port_max_level_add = 2
+		
 		state_building_naval_base_max_level_add = 10
 	}
 }
@@ -35,7 +35,7 @@ state_trait_golfo_di_genoa = {
 	modifier = {
 		building_shipyards_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
-		state_building_port_max_level_add = 2
+		
 		state_building_naval_base_max_level_add = 10
 	}
 }
@@ -46,7 +46,7 @@ state_trait_golfo_di_napoli = {
 	modifier = {
 		building_shipyards_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
-		state_building_port_max_level_add = 2
+		
 		state_building_naval_base_max_level_add = 10
 	}
 }
@@ -57,7 +57,7 @@ state_trait_golfo_di_tarento = {
 	modifier = {
 		building_shipyards_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
-		state_building_port_max_level_add = 2
+		
 		state_building_naval_base_max_level_add = 10
 	}
 }
@@ -68,7 +68,7 @@ state_trait_laguna_veneta = {
 	modifier = {
 		building_shipyards_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
-		state_building_port_max_level_add = 2
+		
 		state_building_naval_base_max_level_add = 10
 	}
 }
