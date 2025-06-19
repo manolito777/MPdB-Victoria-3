@@ -1002,6 +1002,19 @@
 	s:STATE_GUANGDONG={
 		region_state:CHI={
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:DAI"
+						levels=1
+						region="STATE_MEKONG"
+					}
+				}
+				reserves=1
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={

@@ -494,6 +494,19 @@
 	s:STATE_MEKONG={
 		region_state:DAI={
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_trade_center"
+						country="c:DAI"
+						levels=1
+						region="STATE_MEKONG"
+					}
+				}
+				reserves=1
+			}
+			create_building={
 				building="building_rice_farm"
 				add_ownership={
 					building={
