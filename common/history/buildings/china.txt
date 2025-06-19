@@ -1113,6 +1113,25 @@
 		}
 		region_state:POR={
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:POR"
+						levels=5
+						region="STATE_GUANGDONG"
+					}
+					building={
+						type="building_financial_district"
+						country="c:POR"
+						levels=5
+						region="STATE_ESTREMADURA"
+					}
+				}
+				reserves=1
+			}
+			create_building={
 				building="building_rice_farm"
 				add_ownership={
 					building={
