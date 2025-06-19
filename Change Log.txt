@@ -29,4 +29,120 @@ Se agrego un diario de literacy
 Se le dio una tech adicional, ideologia a la iglesia.
 			
 Japon:
-Se agrego, fabricas de armas, ropa y hierro en Kanto.
+Se agrego, fabricas de armas, ropa y hierro en Kanto para que pueda sostener la infanteria de linea que se le agrego.
+13/6/25
+Se agregaron los journals de balanceo militar y los modificadores militares apropiados
+Se agregó el metodo de carbon vegetal para los aserraderos.
+Se fusiono la tecnologia de malaria prevention y antibioticos, y pasteurizacion con corriente alterna
+Se asignaron los metodos de pasteurizacion para que se activaran con corriente alterna, aunque el de pescado y ballenas no se pudieron asignar correctamente
+Se rebalancearon los decretos
+Se cambiaron los eventos de: Vampiro, nursing tech, event 03 y silk para reemplazar las techs que fueron borradas
+se agregaron mas localizaciones en el mismo archivo que antes updategatoasia
+
+
+------------------------------------------------------------------
+
+# 15-06-25 Erring
+
+Anotaciones generales:
+	Desacuerdo sobre la sobredosis de recursos (por ahora en Otomano).
+	Cambiar la localización de los "South_Slavic"
+
+Métodos de Producción:
+	Carbón Vegetal: 10 -> 5.
+
+Mapa:
+	Otomanos: 
+		Reajuste de sus recursos naturales, que suplían el MAPI al agregar carbón vegetal, y en preparativa a la Entrada de Diario de la Guerra de Crimea. Si no se nombra el bien, es carbón.
+		"otomanos_state_region":
+			Ankara: 2 -> 0
+			Trabzon: 2 -> 0 
+			Mosul: 6 -> 0
+			Konya: 8 -> 0
+			Hudavedingar: 6 -> 0
+			Diyarbakir: 0 hierro -> 32. Agregado Malatya Iron Deposits para un +10% throughput.
+			Kars: 0 hierro -> 12 hierro; 9 madera -> 10 madera
+			Cyprus: 0 hierro; 0 oro -> 12 hierro; 1 oro.
+			Kastamonu: 14 madera -> 22 madera
+			Aydin: 18 pescado -> 10 pescado.
+		"01_south_europe":
+			Eastern_Thrace: Eliminado carbón y plomo, reducido el hierro (sigue siendo más que en vanilla). Tierra Arable: 100 -> 80.
+			Bosnia: 4 -> 0
+			Northern_Thrace: 12 -> 0
+			Bulgaria: 12 -> 0
+			Northern Serbia: 6 -> 0
+			Egean Islands: 2 -> 0
+			Attica: 2 -> 0
+			Thessalia: 4 -> 0
+			Macedonia: 6 -> 0
+			Peloponnese: 2 -> 0
+			Western Thrace: 8 -> 0
+		"caucaso_state_regions":
+			Greater_Caucasus: 40 carbón; 24 hierro; 20 plomo -> 72 carbón; 28 hierro; 28 plomo.
+			Armenia: 27 hierro; 21 plomo; 2 madera -> 42 hierro; 31 plomo; 4 madera; 1 oro.
+	Escandinavia: 
+		Reajuste de sus recursos naturales con la adición del carbón vegetal.
+		El rasgo estatal de "Scandianvian Forests" aumenta el bono al throughput: 20% -> 25%.
+		"00_west_europe":
+			Minas de carbón:
+				Svealand: 19 -> 0
+				Scania: 12 -> 8
+				Eastern_Norway: 36 -> 0
+			Madera:
+				Svealand: 32 -> 58
+				Gotaland: 24 -> 28
+				Norrland: 26 -> 56
+				Northern_Norway: 12 -> 14
+				Western_Norway: 18 -> 22
+	España:
+		Agregado el modificador de la Meseta Ibérica a los estados de Castilla, Badajoz y Toledo, que otorga 10% al throughput de los ranchos.
+
+
+-------------------------------------------------
+
+# 19-06-25 Erring
+
+Métodos de Producción:
+	Carbón Vegetal: 5 -> 10
+
+Defines:
+	Recomiendo reducir el % del commit a las leyes por tratado de 0.25 a 0.05. (Cambio no incorporado).
+	Aumentado el mínimo de días para checkpoint de ley de 1 a 30.
+	Recomiendo reajustar el sistema de infamia, particularmente el escalado según la población, para que sea más barato conquistar territorios no incorporados y que el gradiente de población relativo y máximo del a infamia sea mayor.
+	Manpower perdido por desgaste máximo: 0.12 -> 0.16
+	Manpower multiplicador por desgaste a los ejércitos exiliados: 0.2 -> 0.25
+	Actualizados los defines.
+
+	Pop_Needs:
+		Experimental: Aumentado el peso del grano a 0.75 (1 en la 1.9); reducido el consumo máximo de 0.9 a 0.75.
+
+On_Actions:
+	Actualizados los dos archivos. Si queremos la unificacion de indonesia hay que meterlo.
+
+Static_Modifiers:
+	Aumentada la ganancia/pérdida de popularidad de los generales con las batallas a +-5.
+	Revertida la tax capacity de la capital de +100% a +25%.
+	Revisar el debuff de los salarios gubernamentales.
+	Nerfeado el bono por bienes de prestigio militares.
+
+Map Data:
+	Por hacer:
+		Agregar los recursos nuevos de UK a sus colonias.
+		Reducir la madera de la mainland de UK.
+		Considerar nerf a los edificios iniciales de GB.
+		Regresar los bufos de madera y pescado a Francia (salvo pescado en picardía).
+
+		Las Compañías Iniciales de día año 1 (y las techs respectivas).
+		La Compañía ruso americana de Alaska.
+
+		Agregar sectores de construcción y sectores de comercio a los países medios y pequeños (para los sectores de comercio, consultar la demanda inicial de los sectores; 100 de demanda = 1 sector).
+
+		Revisar el spawn de los formables nuevos en 00_code_on_actions (falta el de indochina).
+
+
+
+
+
+
+
+
