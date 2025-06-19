@@ -469,13 +469,13 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:XIN={
+		region_state:CHI={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:XIN"
+						country="c:CHI"
 						levels=1
 						region="STATE_KIRGHIZIA"
 					}
@@ -486,13 +486,13 @@
 		}
 	}
 	s:STATE_JETISY={
-		region_state:XIN={
+		region_state:CHI={
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:XIN"
+						country="c:CHI"
 						levels=1
 						region="STATE_JETISY"
 					}
@@ -505,7 +505,7 @@
 				add_ownership={
 					building={
 						type="building_logging_camp"
-						country="c:XIN"
+						country="c:CHI"
 						levels=1
 						region="STATE_JETISY"
 					}
@@ -595,6 +595,47 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
+			region_state:PAN={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:PAN"
+						levels=3
+						region="STATE_PASHTUNISTAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
+			}
+			create_building={
+				building="building_opium_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:PAN"
+						levels=1
+						region="STATE_PASHTUNISTAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:PAN"
+						levels=1
+						region="STATE_PASHTUNISTAN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+		}
 	}
 	s:STATE_KANDAHAR={
 		region_state:KAN={
@@ -1014,11 +1055,7 @@
 			}
 		}
 	}
-	s:STATE_WESTERN_HIMALAYAS={
-		region_state:SIK={
-		}
-		region_state:BHU={
-		}
+	s:STATE_HIMALAYAS={	
 		region_state:NEP={
 			create_building={
 				building="building_tobacco_plantation"
@@ -1059,4 +1096,33 @@
 			}
 		}
 	}
+	s:STATE_EASTERN_HIMALAYAS={
+		region_state:SIK={
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:SIK"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+		}
+		region_state:BHU={
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:BHU"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+		}
+	}
 }
+
