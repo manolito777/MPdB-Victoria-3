@@ -6,7 +6,7 @@
 	}
 
 	leader_modifier = {
-		country_trade_route_quantity_mult = 0.1
+		state_trade_capacity_mult = 0.25
 	}
 	
 	non_leader_modifier = {
@@ -398,6 +398,12 @@ identity_ideological_union = {
 				desc = POWER_BLOC_COHESION_WORST_PROGRESSIVENESS_DIFFERENCE
 			}
 		}
+		else = {
+			add = {
+				add = 0
+				desc = POWER_BLOC_COHESION_WORST_PROGRESSIVENESS_ZERO
+			}
+		}
 	}
 	
 	ai_weight = {
@@ -624,7 +630,7 @@ identity_religious = {
 	member_modifier = {
 		state_conversion_mult = 0.33
 		interest_group_ig_devout_pol_str_mult = 0.25
-		state_clergymen_investment_pool_efficiency_mult = 0.5
+		state_birth_rate_mult = 0.05
 	}
 
 	can_leave = {
