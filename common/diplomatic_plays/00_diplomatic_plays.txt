@@ -29,11 +29,6 @@ dp_open_market = {
 	
 	texture = "gfx/interface/icons/war_goals/open_market.dds"
 	
-	selectable_in_lens = {
-		# Replaced by foreign investment rights
-		NOT = { has_dlc_feature = foreign_investment }
-	}
-
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
@@ -77,6 +72,7 @@ dp_regime_change = {
 
 	on_war_end = {}
 }
+
 dp_ban_slavery = {
 	war_goal = ban_slavery
 
@@ -783,6 +779,7 @@ dp_give_foreign_investment_rights = {
 
 dp_native_uprising = {
 	war_goal = colonization_rights
+	target_can_add_war_goals = no
 	
 	requires_interest_marker = no
 	add_infamy_for_starting_initiator_wargoals = no
@@ -804,17 +801,26 @@ dp_native_uprising = {
 	on_war_end = {}
 }
 
-
 dp_annex_war = {
 	war_goal = annex_country
 	
 	texture = "gfx/interface/icons/war_goals/annex_country.dds"
 	
 	selectable_in_lens = {
-		always = no
+		aggressive_diplomatic_plays_permitted = yes
 	}
 	
-	possible = {}
+	possible = {
+		NOT = { is_country_type = decentralized }
+		aggressive_diplomatic_plays_permitted = yes
+		NOT = { is_subject_of = scope:target_country }
+		scope:target_country = {
+			NOT = { is_country_type = decentralized }
+			NOT = { is_subject_of = root }
+			country_rank <= rank_value:insignificant_power
+		}
+		diplomatic_play_has_no_relations_blockers = yes
+	}
 	
 	ai_acceptance_max = 75
 	
@@ -1298,6 +1304,29 @@ dp_leadership_platinean = {
 	
 	on_weekly_pulse = {}
 	
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_sepoy_mutiny = {
+	war_goal = annex_country
+
+	allow_negotiated_peace = no
+	add_infamy_for_starting_initiator_wargoals = no
+
+	texture = "gfx/interface/icons/war_goals/annex_country.dds"
+
+	selectable_in_lens = {
+		always = no
+	}
+
+	possible = {}
+
+	ai_acceptance_max = 75
+
+	on_weekly_pulse = {}
+
 	on_war_begins = {}
 
 	on_war_end = {}
