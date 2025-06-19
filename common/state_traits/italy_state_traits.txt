@@ -24,7 +24,6 @@ state_trait_golfo_di_cagliari = {
 	modifier = {
 		building_shipyards_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
-		
 		state_building_naval_base_max_level_add = 10
 	}
 }
@@ -35,7 +34,6 @@ state_trait_golfo_di_genoa = {
 	modifier = {
 		building_shipyards_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
-		
 		state_building_naval_base_max_level_add = 10
 	}
 }
@@ -44,10 +42,12 @@ state_trait_golfo_di_napoli = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		building_shipyards_throughput_add = 0.1
-		building_military_shipyards_throughput_add = 0.1
-		
-		state_building_naval_base_max_level_add = 10
+		building_shipyards_throughput_add = 0.15
+		building_military_shipyards_throughput_add = 0.15
+		building_port_throughput_add = 0.15
+		state_trade_capacity_mult = 0.25
+		state_building_naval_base_max_level_add = 15
+		state_market_access_price_impact = 0.05
 	}
 }
 
@@ -57,7 +57,6 @@ state_trait_golfo_di_tarento = {
 	modifier = {
 		building_shipyards_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
-		
 		state_building_naval_base_max_level_add = 10
 	}
 }
@@ -66,9 +65,11 @@ state_trait_laguna_veneta = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		building_shipyards_throughput_add = 0.1
-		building_military_shipyards_throughput_add = 0.1
-		
-		state_building_naval_base_max_level_add = 10
+		building_shipyards_throughput_add = 0.15
+		building_military_shipyards_throughput_add = 0.15
+		building_port_throughput_add = 0.15
+		state_trade_capacity_mult = 0.25
+		state_building_naval_base_max_level_add = 15
+		state_market_access_price_impact = 0.05
 	}
 }
