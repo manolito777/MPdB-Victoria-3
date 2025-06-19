@@ -64,7 +64,7 @@
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_pious_fiction
-				set_ig_trait = ig_trait:ig_trait_khalsa
+				set_ig_trait = ig_trait:ig_trait_rehat
 				set_ig_trait = ig_trait:ig_trait_kar_seva
 			}
 			else_if = {
@@ -214,6 +214,16 @@
 			}
 			ig:ig_devout = {
 				set_interest_group_name = ig_church_of_norway
+			}
+		}
+		# Church of Finland
+		else_if = {
+			limit = {
+				country_has_state_religion = rel:protestant
+				country_has_primary_culture = cu:finnish
+			}
+			ig:ig_devout = {
+				set_interest_group_name = ig_church_of_finland
 			}
 		}
 		# Church of Sweden
@@ -683,11 +693,19 @@
 		value = 1.0
 	}
 
+	executive_weight = {
+		value = 1.0
+	}
+
 	noble_chance = {
 		value = 0.5
 	}
 
 	female_commander_chance = {
+		value = 0.0
+	}
+
+	female_executive_chance = {
 		value = 0.0
 	}
 
@@ -752,5 +770,11 @@
 	commander_leader_chance = {
 		value = 0.25
 		multiply = ig_commander_leader_chance_mult
+	}
+	
+	# The chance that a executive belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular executive in the IG
+	executive_leader_chance = {
+		value = 0.25
 	}
 }

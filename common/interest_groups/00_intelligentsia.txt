@@ -163,7 +163,6 @@
 		}
 	}
 	on_disable = {}
-	on_disable = {}
 	priority_cultures = { #Country scope
 		rule = {
 			trigger = {
@@ -461,11 +460,19 @@
 		value = 1.0
 	}
 
+	executive_weight = {
+		value = 2.0
+	}
+
 	noble_chance = {
 		value = 0.5
 	}
 
 	female_commander_chance = {
+		value = 0.0
+	}
+
+	female_executive_chance = {
 		value = 0.0
 	}
 
@@ -530,5 +537,11 @@
 	commander_leader_chance = {
 		value = 0.25
 		multiply = ig_commander_leader_chance_mult
+	}
+	
+	# The chance that a executive belonging to this IG takes over leadership when it changes
+	# scope:character is the most popular executive in the IG
+	executive_leader_chance = {
+		value = 0.5
 	}
 }
