@@ -167,6 +167,9 @@ Tareas por hacer:
 
 	Rework a las compañías: 10% de throughput a todas las compañías y 1 charter adicional para suez. Panamá solo tiene el charter adicional.
 
+Tareas Hechas:
+	Creada la primera iteracion de compañías para la 1.9.0
+
 
 
 
