@@ -160,6 +160,7 @@ STATE_DIYARBAKIR = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_coal_mining = 32
+        bg_iron_mining = 32
     }
 }
 
@@ -173,7 +174,7 @@ STATE_ADANA = {
     farm = "xE8DCC5"
     mine = "xA4523A"
     wood = "xF657D8"
-    arable_land = 24
+    arable_land = 28
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_coal_mining = 44
@@ -266,7 +267,9 @@ STATE_CYPRUS = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_banana_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 3
-        bg_fishing = 6
+        bg_fishing = 8
+        bg_iron_mining = 12
+        bg_gold_mining = 1
     }
     naval_exit_id = 3034
 }

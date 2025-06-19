@@ -52,7 +52,7 @@ STATE_GUAYANA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 20
     }
     naval_exit_id = 3062
 }
@@ -61,7 +61,7 @@ STATE_ZULIA = {
     id = 353
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x0B05AC" "x0CDC94" "x0DB8C7" "x112339" "x1D9B6B" "x251032" "x2F2B52" "x3B3F04" "x507041" "x5847DC" "x695B1C" "x703080" "x73C5F1" "x75D6A1" "x89104B" "x91A5A3" "x922DCE" "x9EB190" "xAF5192" "xB03080" "xD92C8F" "xDBDB3C" "xEA1264" "xEF3001" "xF0B001" }
-    traits = { "state_trait_andes" "state_trait_lake_maracaibo"    }
+    traits = { "state_trait_andes" "state_trait_lake_maracaibo" }
     city = "xEA1264"
     port = "x9EB190"
     farm = "x507041"
@@ -81,7 +81,7 @@ STATE_ZULIA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 60
+        undiscovered_amount = 100
     }
     naval_exit_id = 3025
 }
@@ -90,7 +90,6 @@ STATE_MIRANDA = {
     id = 354
     subsistence_building = "building_subsistence_farms"
     provinces = { "x01BFD0" "x022930" "x08C971" "x099669" "x0D53B4" "x10DF4E" "x11AC63" "x18DFEA" "x1D5141" "x24CD7D" "x265803" "x2EEF96" "x316874" "x371070" "x3E7DF4" "x41D147" "x48FFFF" "x4A0CB0" "x4A49B3" "x4B48A8" "x4BFF4F" "x52E445" "x5A88D4" "x66F9D3" "x6AD5E2" "x6DA0B1" "x777B24" "x8040D0" "x838543" "x8BB742" "x9204DB" "x9A2756" "x9D84F7" "xA3020D" "xAD68CA" "xAD84B8" "xAED0EC" "xB0F080" "xB80E5A" "xC04011" "xC040D0" "xC8A4B8" "xD2B4D5" "xD4656D" "xDE1F39" "xED7983" "xF085F7" "xF64230" "xFE9918" }
-    traits = {    }
 	city = "xB0F080"
     port = "x4B48A8"
     farm = "x18DFEA"
@@ -109,7 +108,7 @@ STATE_MIRANDA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 60
+        undiscovered_amount = 100
     }
     naval_exit_id = 3025
 }
@@ -138,7 +137,7 @@ STATE_BOLIVAR = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 30
+        undiscovered_amount = 50
     }
     naval_exit_id = 3025
 }
@@ -163,7 +162,7 @@ STATE_ANTIOQUIA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 20
     }
     naval_exit_id = 3025
 }
@@ -253,7 +252,7 @@ STATE_PASTAZA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 20
     }
 }
 
@@ -327,7 +326,7 @@ STATE_SANTA_CRUZ = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 30
+        undiscovered_amount = 50
     }
 }
 
@@ -352,7 +351,7 @@ STATE_LA_PAZ = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 30
+        undiscovered_amount = 50
     }
 }
 
@@ -399,7 +398,7 @@ STATE_CAJAMARCA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 20
     }
     naval_exit_id = 3024
 }
@@ -492,7 +491,7 @@ STATE_URUGUAY = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 20
     }
     naval_exit_id = 3065
 }
@@ -532,7 +531,7 @@ STATE_ALTO_PARAGUAY = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 8
+        undiscovered_amount = 24
     }
 }
 
@@ -553,7 +552,7 @@ STATE_BAJO_PARAGUAY = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 20
     }
 }
 
@@ -595,7 +594,7 @@ STATE_PATAGONIA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 8
+        undiscovered_amount = 24
     }
     naval_exit_id = 3066
 }
@@ -653,7 +652,7 @@ STATE_SANTA_FE = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 20
     }
     naval_exit_id = 3065
 }
@@ -674,7 +673,7 @@ STATE_CORRIENTES = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 20
     }
 }
 
@@ -786,7 +785,7 @@ STATE_ARAUCANIA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 10
+        undiscovered_amount = 20
     }
     naval_exit_id = 3151
 }
@@ -835,7 +834,7 @@ STATE_PARA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 8
+        undiscovered_amount = 28
     }
     naval_exit_id = 3062
 }
@@ -955,7 +954,7 @@ STATE_MATO_GROSSO = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 8
+        undiscovered_amount = 20
     }
 }
 
@@ -1083,7 +1082,7 @@ STATE_MINAS_GERAIS = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 20
     }
 }
 
