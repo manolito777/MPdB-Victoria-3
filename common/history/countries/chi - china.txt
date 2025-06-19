@@ -19,6 +19,7 @@
 		activate_law = law_type:law_censorship	
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_canton_system
 	
         add_journal_entry = { type = je_investigacion_peruana }
 		add_journal_entry = { type = towards_to_modernity }
