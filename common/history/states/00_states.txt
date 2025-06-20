@@ -3478,7 +3478,7 @@ STATES = {
 			owned_provinces = { xBB9552  xFFBC41 x38A6E6 xD031A0 xA2EF24 }
 		}
 		create_state = {
-			country = c:NED
+			country = c:NET
 			owned_provinces = { x597E99 }
 			state_type = unincorporated
 		}
