@@ -14,8 +14,6 @@
  send_money_big: "Enviar mucho Dinero"
  send_money_big_desc: "Transfiere #g 1.000.000#!@money!"
 
- je_north_german_status: "Los estados norgermánicos menores no podrán oponerse a la idea de unificarse ante buenas relaciones"
-
  ideology_fiscal_conservative: "Conservadurismo Fiscal"
  ideology_fiscal_conservative_desc: "Teoría económica bajo la cual el campesino es el centro fiscal del estado."
 
@@ -68,17 +66,9 @@
  mobilization_option_field_works_desc: "Modifica el terreno para otorgar una mayor protección a los soldados"
   
  state_trait_gulf_of_paria: "Golfo de Paria"
-  
  state_trait_bay_of_candelaria: "Bahía de la Candelaria"
-  
- state_trait_rio_de_janeiro_harbor: "Puerto de Río de Janeiro"
-  
- state_trait_savage_river: "Savage River"
-  
- major_explosion_demografica: "Explosión Demográfica Mayor"
-  
+ state_trait_rio_de_janeiro_harbor: "Puerto de Río de Janeiro" 
  state_trait_sierra_madre_watershed: "Cuenca de la Sierra Madre"
-  
  state_trait_sierra_madre: "Sierra Madre"
   
  building_golestan_palace: "Palacio de Golestán"
