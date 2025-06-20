@@ -146,18 +146,6 @@
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
-				building="building_railway"
-				add_ownership={
-					country={
-						country="c:FRA"
-						levels=3
-						region = "STATE_ILE_DE_FRANCE"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_early_trains" "pm_wooden_passenger_carriages"  }
-			}
-			create_building={
 				building="building_trade_center"
 				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
 				add_ownership={
@@ -412,7 +400,7 @@
 				add_ownership = {
 					country= {
 						country = "c:EIC"
-						levels = 3
+						levels = 5
 					}
 				}
 				reserves = 1
@@ -466,7 +454,7 @@
 						type = "building_logging_camp"
 						country = "c:EIC"
 						levels = 2
-						region = "STATE_EAST_BENGAL"
+						region = "STATE_WEST_BENGAL"
 					}
 				}
 				reserves = 1
@@ -1501,9 +1489,10 @@
 						levels=40
 					}
 				}
-				reserves=1
+				reserves=1	
 				activate_production_methods={ "pm_no_organization" }
 			}
+		}
 	}
 	s:STATE_HILL_PUNJAB= {
 		region_state:EIC= {
