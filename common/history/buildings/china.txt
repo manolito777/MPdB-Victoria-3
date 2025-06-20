@@ -40,11 +40,11 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=2
+						levels=6
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_religious_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_filing_cabinets" "pm_religious_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -109,7 +109,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -172,7 +172,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=2
+						levels=10
 					}
 				}
 				reserves=1
@@ -292,7 +292,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=2
+						levels=12
 					}
 				}
 				reserves=1
@@ -398,7 +398,19 @@
 		}
 	}
 	s:STATE_GUANGXI={
+		
 		region_state:CHI={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:CHI"
+						levels=8
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
 			create_building={
 				building="building_logging_camp"
 				add_ownership={
@@ -512,7 +524,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=2
+						levels=11
 					}
 				}
 				reserves=1
@@ -782,7 +794,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=2
+						levels=13
 					}
 				}
 				reserves=1
@@ -823,7 +835,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=2
+						levels=9
 					}
 				}
 				reserves=1
@@ -860,6 +872,17 @@
 	s:STATE_GANSU={
 		region_state:CHI={
 			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:CHI"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
 				building="building_livestock_ranch"
 				add_ownership={
 					building={
@@ -881,7 +904,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=3
+						levels=8
 					}
 				}
 				reserves=1
@@ -952,7 +975,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=2
+						levels=10
 					}
 				}
 				reserves=1
@@ -1205,7 +1228,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=3
+						levels=9
 					}
 				}
 				reserves=1
@@ -1283,7 +1306,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=4
+						levels=8
 					}
 				}
 				reserves=1
@@ -1361,7 +1384,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=6
+						levels=13
 					}
 				}
 				reserves=1
@@ -1426,7 +1449,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=3
+						levels=8
 					}
 				}
 				reserves=1
@@ -1491,7 +1514,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=6
+						levels=12
 					}
 				}
 				reserves=1
@@ -1556,7 +1579,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=6
+						levels=15
 					}
 				}
 				reserves=1
@@ -1636,7 +1659,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=4
+						levels=13
 					}
 				}
 				reserves=1
@@ -1703,7 +1726,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=6
+						levels=14
 					}
 				}
 				reserves=1
@@ -1770,7 +1793,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=5
+						levels=15
 					}
 				}
 				reserves=1
@@ -1824,7 +1847,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=6
+						levels=14
 					}
 				}
 				reserves=1
@@ -1891,7 +1914,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=3
+						levels=13
 					}
 				}
 				reserves=1
@@ -1959,7 +1982,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=3
+						levels=14
 					}
 				}
 				reserves=1
@@ -2093,7 +2116,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=3
+						levels=14
 					}
 				}
 				reserves=1
@@ -2197,7 +2220,7 @@
 				add_ownership={
 					country={
 						country="c:CHI"
-						levels=3
+						levels=11
 					}
 				}
 				reserves=1

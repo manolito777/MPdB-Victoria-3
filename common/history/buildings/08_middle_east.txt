@@ -468,7 +468,7 @@
 				add_ownership={
 					building={
 						type="building_trade_center"
-						country="c:EGY"
+						country="c:SYR"
 						levels=1
 						region="STATE_SYRIA"
 					}
@@ -984,7 +984,7 @@
 				add_ownership={
 					country={
 						country="c:PER"
-						levels=1
+						levels=7
 					}
 				}
 				reserves=1
@@ -1094,7 +1094,7 @@
 				add_ownership={
 					country={
 						country="c:PER"
-						levels=8
+						levels=10
 					}
 				}
 				reserves=1
@@ -1283,7 +1283,7 @@
 				add_ownership={
 					country={
 						country="c:PER"
-						levels=6
+						levels=9
 					}
 				}
 				reserves=1
