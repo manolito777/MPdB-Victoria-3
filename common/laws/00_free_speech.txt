@@ -10,8 +10,8 @@ law_outlawed_dissent = {
 	
 	modifier = {
 		country_authority_add = 400
-		country_bolster_attraction_mult = 0.6
-		country_suppression_attraction_mult = -0.6
+		country_bolster_attraction_factor = 0.6
+		country_suppression_attraction_factor = -0.6
 		country_tech_spread_mult = -0.1
 		country_leverage_resistance_mult = 0.5
 	}
@@ -38,8 +38,8 @@ law_censorship = {
 	
 	modifier = {
 		country_authority_add = 150
-		country_bolster_attraction_mult = 0.4
-		country_suppression_attraction_mult = -0.4
+		country_bolster_attraction_factor = 0.4
+		country_suppression_attraction_factor = -0.4
 		country_tech_spread_mult = -0.05
 		country_leverage_resistance_mult = 0.25
 	}
@@ -66,8 +66,8 @@ law_right_of_assembly = {
 	
 	modifier = {
 		country_authority_add = 50
-		country_bolster_attraction_mult = 0.25
-		country_suppression_attraction_mult = -0.25
+		country_bolster_attraction_factor = 0.25
+		country_suppression_attraction_factor = -0.25
 	}
 	
 	ai_enact_weight_modifier = { #Petitions
