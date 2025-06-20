@@ -102,7 +102,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:BIC"
+						country="c:GBR"
 						levels=2
 						region="STATE_MALAYA"
 					}
