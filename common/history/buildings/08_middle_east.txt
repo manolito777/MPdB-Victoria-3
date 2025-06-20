@@ -1094,7 +1094,7 @@
 				add_ownership={
 					country={
 						country="c:PER"
-						levels=2
+						levels=8
 					}
 				}
 				reserves=1
@@ -1129,6 +1129,17 @@
 	}
 	s:STATE_MAZANDARAN={
 		region_state:PER={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:PER"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
 			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
@@ -1435,6 +1446,17 @@
 	}
 	s:STATE_LURISTAN={
 		region_state:PER={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:PER"
+						levels=8
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
 			create_building={
 				building="building_wheat_farm"
 				add_ownership={
