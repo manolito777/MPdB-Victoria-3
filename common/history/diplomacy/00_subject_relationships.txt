@@ -7,11 +7,7 @@
 		create_diplomatic_pact = {
 			country = c:PHI
 			type = colony
-		}
-        create_diplomatic_pact = {
-			country = c:POR
-			type = puppet
-		}			
+		}		
 	}
 	c:NET ?= {
 		create_diplomatic_pact = {
@@ -25,10 +21,6 @@
 		create_diplomatic_pact = {
 			country = c:DEI
 			type = dominion
-		}
-		create_diplomatic_pact = {
-			country = c:BEL
-			type = puppet
 		}
 	}
 	c:SWE ?= {
@@ -45,6 +37,10 @@
 		create_diplomatic_pact = {
 			country = c:UBD
 			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ALK
+			type = chartered_company
 		}
 		create_diplomatic_pact = {
 			country = c:KZH
@@ -108,7 +104,7 @@
 		}
 		create_diplomatic_pact = {
 			country = c:PEC
-			type = dominion
+			type = chartered_company
 		}
 		create_diplomatic_pact = {
 			country = c:SIL
@@ -151,7 +147,7 @@
 		# Hudson Bay Company has a weird autonomous charter
 		create_diplomatic_pact = {
 			country = c:HBC
-			type = colony
+			type = chartered_company
 		}
 
 		### AUSTRALIA ###
