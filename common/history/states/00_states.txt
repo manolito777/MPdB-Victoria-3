@@ -3475,7 +3475,12 @@ STATES = {
 	s:STATE_ORISSA = {
 		create_state = {
 			country = c:EIC
-			owned_provinces = { xBB9552 x597E99 xFFBC41 x38A6E6 xD031A0 xA2EF24 }
+			owned_provinces = { xBB9552  xFFBC41 x38A6E6 xD031A0 xA2EF24 }
+		}
+		create_state = {
+			country = c:NED
+			owned_provinces = { x597E99 }
+			state_type = unincorporated
 		}
 		create_state = {
 			country = c:MYB
@@ -3596,7 +3601,7 @@ STATES = {
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:DEN
+			country = c:SWE
 			owned_provinces = { x10B060 }
 			state_type = unincorporated
 		}
@@ -3649,6 +3654,7 @@ STATES = {
 		create_state = {
 			country = c:POR
 			owned_provinces = { xF01160 x0C6CB1 }
+			state_type = unincorporated
 		}
 
 		add_homeland = cu:gujarati
