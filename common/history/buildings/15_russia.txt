@@ -1769,7 +1769,7 @@
 		}
 	}
 	s:STATE_JETISY={
-		region_state:CHI={
+		region_state:XIN={
 		}
 	}
 	s:STATE_AKMOLINSK={
@@ -2212,7 +2212,7 @@
 		}
 	}
 	s:STATE_ALTAI={
-		region_state:CHI={
+		region_state:MGL={
 		}
 	}
 	s:STATE_BURYATIA={
@@ -2224,7 +2224,7 @@
 		}
 	}
 	s:STATE_AMUR={
-		region_state:CHI={
+		region_state:MCH={
 		}
 	}
 	s:STATE_CHELYABINSK={
