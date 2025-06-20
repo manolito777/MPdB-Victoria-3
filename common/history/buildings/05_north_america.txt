@@ -37,7 +37,7 @@
 						type="building_financial_district"
 						country="c:USA"
 						levels=2
-						region="STATE_MARYLAND"
+						region="STATE_GREATER_MARYLAND"
 					}
 				}
 				reserves=1
