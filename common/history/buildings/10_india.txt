@@ -596,7 +596,7 @@
 				add_ownership = {
 					country= {
 						country = "c:EIC"
-						levels = 1
+						levels = 8
 					}
 				}
 				reserves = 1
@@ -842,7 +842,7 @@
 				add_ownership = {
 					country= {
 						country = "c:EIC"
-						levels = 3
+						levels = 22
 					}
 				}
 				reserves = 1
@@ -978,6 +978,19 @@
 		}
 	}
 	s:STATE_GUJARAT= {
+		region_state:POR = {
+			crreate_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:POR"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
 		region_state:BER = {
 			create_building = {
 				building = "building_government_administration"
@@ -1794,26 +1807,13 @@
 		}
 	}
 	s:STATE_RAJPUTANA= {		
-		region_state:BIK {
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:JAI"
-						levels = 4
-						region = "STATE_RAJPUTANA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "default_building_opium_plantation" "pm_road_carts" }
-			}
+		region_state:BIK = {
 			create_building = {
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
 						type = "building_textile_mills"
-						country = "c:JAI"
+						country = "c:BIK"
 						levels = 1
 						region = "STATE_RAJPUTANA"
 					}
@@ -1821,19 +1821,10 @@
 				reserves = 1
 				activate_production_methods = { "pm_handsewn_clothes"  "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:JAI"
-						levels = 2
-						region = "STATE_RAJPUTANA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "default_building_opium_plantation" "pm_road_carts" }
-			}
+		}
+		region_state:PEC = {
+		}
+		region_state:JAI = {
 		}
 	}
 	s:STATE_CEYLON= {
@@ -1990,6 +1981,58 @@
 		}
 	}
 	s:STATE_ORISSA= {
+		region_state:NET= {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country= {
+						country = "c:NET"
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_tea_plantation"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 2
+						region = "STATE_FRIESLAND"
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "default_building_tea_plantation" "pm_road_carts" }
+			}
+			create_building = {
+				building = "building_banana_plantation"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:NET"
+						levels = 1
+						region = "STATE_FRIESLAND"
+					}
+				}	
+				reserves = 1
+				activate_production_methods = { "default_building_banana_plantation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:NET"
+						levels=1
+						region="STATE_GELRE"
+					}
+				}
+				reserves=1
+			}
+		}
 		region_state:MYB= {
 			create_building = {
 				building = "building_sugar_plantation"
@@ -2320,6 +2363,32 @@
 		}
 	}
 	s:STATE_MADRAS= {
+		region_state:SWE= {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country= {
+						country = "c:SWE"
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_banana_plantation"
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:SWE"
+						levels = 1
+						region = "STATE_MADRAS"
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "default_building_banana_plantation" "pm_road_carts" }
+			}
+		}
 		region_state:FRA= {
 			create_building = {
 				building = "building_dye_plantation"
