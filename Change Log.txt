@@ -171,6 +171,41 @@ Tareas Hechas:
 	Creada la primera iteracion de compañías para la 1.9.0
 
 
+-------------------------------------------
+# 20/6/2025 Erring
+
+Compañías:
+	Actualizadas UK; RUS; USA para que las compañías empiecen con edificios y puedan ser rentables día 1. La de USA es medio pocha.
+	Quedan pendientes Francia, Prusia y los posibles minors que las tengan.
+	Queda pendiente actualizar las compañías austríacas para que no se pierdan con la formación de la SGF.
+
+Rasgos estatales:
+	Queda pendiente renovar los rasgos estatales costeros.
+	Quizá quede alguna localización pendiente.
+
+India:
+	Agregado un doble evento introductorio para la situación/lore de la compañía. Primera iteración.
+	Agregados tratados y puertos según el plan original de la Compañía Patwar. Queda pendiente agregar el tratado con UK. Términos y números a discutir para todos, por ahora orientativos narrativamente.
+
+China:
+	Revisar recursos, journal entries, modificadores.
+	Reajustar el puerto de Macao, que actualmente es una trampa por falta de tierra arable.
+	
+
+Localización:
+	Compactada la mayoría de la localización española para facilidad de edición y por redundancias. Todavía quedan algunos textos en inglés.
+	Localización inglesa pendiente de renovar para eliminar redundancias.
+
+Sugerencias/brainstorming:
+	Ahora que tenemos el sistema mundial de recursos podemos limitar mucho más la autarquía o escasez de los países.
+	Rusia: eliminar sulfuro en Viatka y Samara; que su sulfuro esté limitrado a la periferia.
+	Austria, Francia: Sin cambios, están bien como están, salvo quizás tema madera.
+	Prusia: También sin mayores cambios, yo diría.
+	UK: Petróleo a cuentagotas; quizá reducir su sulfuro (si nos ponemos técnico-históricos, lo sé, lo sé, UK se quedó atras con la 2da industrial pq no usaron industria quimica, explosivos y fertilizantes al mismo nivel que otros países como Alemania o USA.
+	USA: Yo le dejaría los recursos que tiene, USA debería ser el perfecto caso de aislación espléndida. Movería quizá un poco sus recursos para que no estén tan concentrados, pero el cambio más importante me parece su población. Es el nerfeo que más le puede doler comparativamente, imho.
+
+
+
 
 
 
