@@ -1616,8 +1616,8 @@ NBattle = {
 
 NWar = {
 	DEVASTATION_MAX = 100.0
-	DEVASTATION_INCREASE_RATE = 0.1 # Per day, scales with level of occupation
-	DEVASTATION_DECAY_RATE = -0.025 # Per day, when there are no occupations
+	DEVASTATION_INCREASE_RATE = 0.08 # Per day, scales with level of occupation
+	DEVASTATION_DECAY_RATE = -0.035 # Per day, when there are no occupations
 	DEVASTATION_FROM_BATTLES = 0.1 # For each battle
 
 	AUTO_CAPITULATE_WAR_SUPPORT = -100 # When war support is this low, the country will auto capitulate
