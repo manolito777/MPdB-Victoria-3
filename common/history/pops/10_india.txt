@@ -1543,6 +1543,12 @@ POPS = {
 				size = 45557
 			}
 		}
+		region_state:NET = {
+			create_pop = {
+				culture = oriya
+				size = 190092
+			}
+		}
 		region_state:MYB = {
 			create_pop = {
 				culture = oriya
@@ -1822,7 +1828,7 @@ POPS = {
 				size = 27773
 			}
 		}
-		region_state:DEN = {
+		region_state:SWE = {
 			create_pop = {
 				culture = tamil
 				size = 30102
@@ -1833,7 +1839,7 @@ POPS = {
 				size = 4010
 			}
 			create_pop = {
-				culture = danish
+				culture = swedish
 				size = 201
 			}
 		}
