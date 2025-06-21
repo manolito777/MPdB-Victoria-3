@@ -21,7 +21,7 @@ gran_colombia.1 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	trigger = {
 		# Triggered by JE
@@ -71,7 +71,7 @@ gran_colombia.1 = {
 		}
 		add_modifier = {
 			name = modifier_seeking_gran_colombia
-			months = long_modifier_time
+			days = long_modifier_time
 		}
 		if = {
 			limit = {
@@ -155,7 +155,7 @@ gran_colombia.2 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	trigger = {
 		# Triggered by JE
@@ -175,7 +175,7 @@ gran_colombia.2 = {
 		default_option = yes
 		add_modifier = {
 			name = modifier_founded_gran_colombia
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 		every_country = {
 			limit = {
@@ -215,7 +215,7 @@ gran_colombia.2 = {
 		}
 		add_modifier = {
 			name = modifier_founded_gran_colombia
-			months = normal_modifier_time
+			days = normal_modifier_time
 			multiplier = 0.5
 		}
 		every_country = {
@@ -253,7 +253,7 @@ andean_federation.1 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	trigger = {
 		# Triggered by JE
@@ -382,7 +382,7 @@ andean_federation.2 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	trigger = {
 		# Triggered by JE
@@ -415,7 +415,7 @@ andean_federation.2 = {
 		}
 		add_modifier = {
 			name = modifier_andean_federation_prestige
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 		add_modifier = {
 			name = major_explosion_demografica
@@ -716,7 +716,7 @@ andean_federation.2 = {
 		}
 		add_modifier = {
 			name = modifier_andean_federation_military
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 
 		add_modifier = {
@@ -1029,7 +1029,7 @@ la_plata.1 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	trigger = {
 		# Triggered by JE
@@ -1085,7 +1085,7 @@ la_plata.1 = {
 		}
 		add_modifier = {
 			name = modifier_seeking_la_plata
-			months = long_modifier_time
+			days = long_modifier_time
 		}
 		if = {
 			limit = {
@@ -1169,7 +1169,7 @@ la_plata.2 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	trigger = {
 		# Triggered by JE
@@ -1186,7 +1186,7 @@ la_plata.2 = {
 		default_option = yes
 		add_modifier = {
 			name = modifier_founded_la_plata
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 		every_country = {
 			limit = {
