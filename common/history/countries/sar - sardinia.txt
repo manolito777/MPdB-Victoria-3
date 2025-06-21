@@ -13,9 +13,6 @@
 		effect_starting_politics_reactionary = yes
 		
 		set_tax_level = medium
-		
-		set_tariffs_import_priority = g:artillery
-		set_tariffs_import_priority = g:small_arms
 
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_religious_schools
