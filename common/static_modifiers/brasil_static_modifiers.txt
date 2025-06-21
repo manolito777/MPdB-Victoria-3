@@ -7,7 +7,7 @@
 
 modifier_agricultural_development_trade = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
-	country_trade_route_competitiveness_mult = 0.35
+	state_trade_advantage_mult = 0.35
 	building_group_bg_plantations_throughput_add = 0.1
 }
 
