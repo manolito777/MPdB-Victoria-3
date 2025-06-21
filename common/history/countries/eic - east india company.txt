@@ -31,7 +31,7 @@
 		add_taxed_goods = g:opium
 		add_taxed_goods = g:tobacco
 
-		change_infamy = 75
+		change_infamy = 50
 
 		trigger_event = {
 			id = patwarahi.1
