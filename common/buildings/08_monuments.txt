@@ -726,7 +726,6 @@ building_power_bloc_statue = {
 	expandable = no
 	
 	statue = yes
-	centerpiece_mesh_weight = 1
 
 	production_method_groups = {
 		pmg_base_building_power_bloc_statue
