@@ -1,8 +1,0 @@
-[10:45:24][lexer.cpp:285]: File 'common/static_modifiers/Balanceo_militar_modifiers.txt' should be in utf8-bom encoding (will try to use it anyways)
-[10:45:24][lexer.cpp:285]: File 'common/static_modifiers/dai_static_modifiers.txt' should be in utf8-bom encoding (will try to use it anyways)
-[10:45:24][lexer.cpp:285]: File 'common/static_modifiers/five_year_plans_modifiers.txt' should be in utf8-bom encoding (will try to use it anyways)
-[10:45:24][lexer.cpp:285]: File 'common/cultures/african_joint_cultures.txt' should be in utf8-bom encoding (will try to use it anyways)
-[10:45:24][lexer.cpp:285]: File 'common/cultures/american_joint_cultures.txt' should be in utf8-bom encoding (will try to use it anyways)
-[10:45:24][lexer.cpp:285]: File 'common/cultures/euro_joint_cultures.txt' should be in utf8-bom encoding (will try to use it anyways)
-[10:45:25][lexer.cpp:285]: File 'common/state_traits/belgium_traits.txt' should be in utf8-bom encoding (will try to use it anyways)
-[10:45:25][lexer.cpp:285]: File 'common/state_traits/japan_state_traits.txt' should be in utf8-bom encoding (will try to use it anyways)
