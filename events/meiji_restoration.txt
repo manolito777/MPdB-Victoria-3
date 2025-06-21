@@ -36,134 +36,82 @@ meiji.1 = {
 		}
 		if = {
 			limit = {
-				year < 1852
+				year < 1846
 			}
 			create_character = {
-				# Emperor Ninko
-				first_name = "Ninko"
-				last_name = "Yamato"
-				historical = yes
-				ruler = yes
-				birth_date = 1800.1.1
-				dna = dna_ninko
-				interest_group = ig_landowners # beholden to the Shogun
-				ideology = ideology_traditionalist
-				traits = {
-					reserved # not very active in affairs of state
-				}
+				template = JAP_ninko_yamato
 			}
 			create_character = {
-				first_name = "Komei"
-				last_name = Yamato
-				historical = yes
-				heir = yes
-				birth_date = 1831.1.1
-				dna = dna_emperor_komei
-				interest_group = ig_armed_forces
-				traits = {
-					reserved # ditto
-				}
+				template = JAP_komei_yamato
 			}
 		}
 		else_if = {
 			limit = {
-				year >= 1852
-				year < 1879
+				year >= 1846
+				year < 1867
 			}
 			create_character = {
-				first_name = "Komei"
-				last_name = "Yamato"
-				historical = yes
-				ruler = yes
-				birth_date = 1831.1.1
-				dna = dna_emperor_komei
-				interest_group = ig_armed_forces
-				traits = {
-					reserved # ditto
+				template = JAP_komei_yamato
+				on_created = {
+					set_character_as_ruler = yes
 				}
 			}
-			create_character = {
-				first_name = "Meiji"
-				last_name = "Yamato"
-				historical = yes
-				heir = yes
-				birth_date = 1852.1.1
-				dna = dna_emperor_meiji
-				interest_group = ig_industrialists
-				traits = {
-					innovative
-					charismatic
+			if = {
+				limit = {
+					year >= 1852
 				}
+				create_character = {
+					template = JAP_meiji_yamato
+				}
+				set_variable = heir_meiji_spawned
 			}
 		}
 		else_if = {
 			limit = {
-				year >= 1879
+				year >= 1867
 				year < 1912
 			}
 			create_character = {
-				first_name = "Meiji"
-				last_name = "Yamato"
-				historical = yes
-				ruler = yes
-				birth_date = 1852.1.1
-				dna = dna_emperor_meiji
-				interest_group = ig_industrialists
-				traits = {
-					innovative
-					charismatic
+				template = JAP_meiji_yamato
+				on_created = {
+					set_character_as_ruler = yes
 				}
 			}
-			create_character = {
-				first_name = "Taisho"
-				last_name = "Yamato"
-				historical = yes
-				heir = yes
-				birth_date = 1879.1.1
-				interest_group = ig_industrialists
-				traits = {
+			if = {
+				limit = {
+					year >= 1879
 				}
+				create_character = {
+					template = JAP_taisho_yamato
+				}
+				set_variable = heir_taisho_spawned
 			}
 		}
 		else_if = {
 			limit = {
 				year >= 1912
-				year < 1928
+				year < 1927
 			}
 			create_character = {
-				first_name = "Taisho"
-				last_name = "Yamato"
-				historical = yes
-				ruler = yes
-				birth_date = 1879.1.1
-				interest_group = ig_industrialists
-				traits = {
+				template = JAP_taisho_yamato
+				on_created = {
+					set_character_as_ruler = yes
 				}
 			}
 			create_character = {
-				first_name = "Showa" # Hirohito
-				last_name = "Yamato"
-				historical = yes
-				heir = yes
-				birth_date = 1901.1.1
-				interest_group = ig_armed_forces
-				traits = {
-				}
+				template = JAP_showa_yamato
 			}
+			set_variable = heir_showa_spawned
 		}
 		else_if = {
 			limit = {
-				year >= 1928
+				year >= 1927
 				year < 1989
 			}
 			create_character = {
-				first_name = "Showa" # Hirohito
-				last_name = "Yamato"
-				historical = yes
-				heir = yes
-				birth_date = 1901.1.1
-				interest_group = ig_armed_forces
-				traits = {
+				template = JAP_showa_yamato
+				on_created = {
+					set_character_as_ruler = yes
 				}
 			}
 		}
@@ -181,10 +129,26 @@ meiji.1 = {
 		ig:ig_industrialists = {
 			add_modifier = {
 				name = meiji_favored_ig
-				months = normal_modifier_time
+				days = very_long_modifier_time
 			}
 		}
-		set_capital = STATE_KANTO
+		if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_KANTO
+				}
+			}
+			set_capital = STATE_KANTO
+
+			s:STATE_KANTO = {
+				random_scope_state = {
+			        set_hub_name = {
+			            type = city
+			            name = HUB_NAME_STATE_KANTO_city_meiji
+			        }
+		        }
+			}
+        }		
 		custom_tooltip = shogunate_rename.tt
 		hidden_effect = {
 			scope:shogunate_ig = {
@@ -196,6 +160,17 @@ meiji.1 = {
 		}
 		if = {
 			limit = {
+				NOT = {
+					any_political_movement = {
+						is_political_movement_type = movement_modernizer
+					}
+				}
+			}
+			create_political_movement = { type = movement_modernizer }
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = completed_je_meiji_economy }
 				in_default = no
 				any_scope_state = {
 					filter = {
@@ -213,6 +188,7 @@ meiji.1 = {
 				name = meiji_var
 				add = 1
 			}
+			set_variable = completed_je_meiji_economy # If the player manages to skip je_meiji_economy we still need to set the variable
 		}
 		else = {
 			add_journal_entry = {
@@ -253,6 +229,7 @@ meiji.1 = {
 		}
 		if = {
 			limit = {
+				NOT = { has_variable = completed_je_meiji_diplomacy }
 				NOT = { is_country_type = unrecognized }
 				NOT = { has_law = law_type:law_isolationism }
 			}
@@ -260,6 +237,7 @@ meiji.1 = {
 				name = meiji_var
 				add = 1
 			}
+			set_variable = completed_je_meiji_diplomacy # If the player manages to skip je_meiji_diplomacy we still need to set the variable
 		}
 		else = {
 			add_journal_entry = {
@@ -272,10 +250,24 @@ meiji.1 = {
 		ig:ig_intelligentsia = {
 			add_modifier = {
 				name = meiji_favored_ig
-				months = normal_modifier_time
+				days = very_long_modifier_time
 			}
 		}
-		set_capital = STATE_KANTO
+		if = {
+			limit = {
+				any_scope_state = {
+					state_region = s:STATE_KANTO
+				}
+			}
+			set_capital = STATE_KANTO
+			random_scope_state = {
+				limit = { state_region = s:STATE_KANTO }
+				set_hub_name = {
+		            type = city
+		            name = HUB_NAME_STATE_KANTO_city_meiji
+		        }
+		    }
+        }
 		custom_tooltip = shogunate_rename.tt
 		hidden_effect = {
 			scope:shogunate_ig = {
@@ -287,6 +279,17 @@ meiji.1 = {
 		}
 		if = {
 			limit = {
+				NOT = {
+					any_political_movement = {
+						is_political_movement_type = movement_modernizer
+					}
+				}
+			}
+			create_political_movement = { type = movement_modernizer }
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = completed_je_meiji_economy }
 				in_default = no
 				any_scope_state = {
 					filter = {
@@ -304,6 +307,7 @@ meiji.1 = {
 				name = meiji_var
 				add = 1
 			}
+			set_variable = completed_je_meiji_economy # If the player manages to skip je_meiji_economy we still need to set the variable
 		}
 		else = {
 			add_journal_entry = {
@@ -344,6 +348,7 @@ meiji.1 = {
 		}
 		if = {
 			limit = {
+				NOT = { has_variable = completed_je_meiji_diplomacy }
 				NOT = { is_country_type = unrecognized }
 				NOT = { has_law = law_type:law_isolationism }
 			}
@@ -351,6 +356,7 @@ meiji.1 = {
 				name = meiji_var
 				add = 1
 			}
+			set_variable = completed_je_meiji_diplomacy # If the player manages to skip je_meiji_diplomacy we still need to set the variable
 		}
 		else = {
 			add_journal_entry = {
@@ -393,7 +399,7 @@ meiji.2 = {
 		default_option = yes
 		add_modifier = {
 			name = japan_military_reward
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 		if = {
 			limit = {
@@ -444,11 +450,11 @@ meiji.2 = {
 		name = meiji.2.b
 		add_modifier = {
 			name = japan_diplomatic_reward
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 		add_modifier = {
 				name = ger_explosion_demografica
-				months = 60
+				months = 96
 				is_decaying = yes
 		}
 	}
@@ -456,11 +462,11 @@ meiji.2 = {
 		name = meiji.2.c
 		add_modifier = {
 			name = japan_production_reward
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 		add_modifier = {
 				name = ger_explosion_demografica
-				months = 60
+				months = 96
 				is_decaying = yes
 		}
 	}
@@ -495,6 +501,12 @@ meiji.3 = {
 				save_scope_as = samurai_ig_leader
 			}
 		}
+		if = { # If the player manages to skip the JE we still need to set the variable or else the Meiji Restoration cant be finished
+			limit = {
+				NOT = { has_variable = completed_je_meiji_army }
+			}
+			set_variable = completed_je_meiji_army
+		}
 	}
 
 	option = { # give former samurai officer positions in the new army
@@ -512,7 +524,7 @@ meiji.3 = {
 		# reduce mil tech spread
 		add_modifier = {
 			name = samurai_officers
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 	}
 	option = { # expel the samurai from the army
@@ -628,7 +640,7 @@ meiji.4 = {
 		}
 		add_modifier = {
 			name = western_military_consultant
-			months = short_modifier_time
+			days = normal_modifier_time
 		}
 		if = {
 			limit = {
@@ -683,7 +695,7 @@ meiji.5 = {
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	cooldown = { months = short_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	trigger = {
 		NOT = { has_modifier = japan_society_tech_modifier }
@@ -769,7 +781,7 @@ meiji.5 = {
 		}
 		add_modifier = {
 			name = japan_society_tech_modifier
-			months = short_modifier_time
+			days = normal_modifier_time
 		}
 		if = {
 			limit = {
@@ -888,7 +900,7 @@ meiji.6 = {
 		}
 		add_modifier = {
 			name = japan_production_tech_modifier
-			months = short_modifier_time
+			days = normal_modifier_time
 		}
 		if = {
 			limit = {
@@ -1064,7 +1076,7 @@ meiji.7 = {
 
 		add_modifier = {
 			name = railway_our_way
-			months = long_modifier_time
+			days = long_modifier_time
 		}
 	}
 }
@@ -1120,7 +1132,7 @@ meiji.8 = {
 		ig:ig_armed_forces = {
 			add_modifier = {
 				name = railway_priority
-				months = long_modifier_time
+				days = long_modifier_time
 			}
 		}
 	}
@@ -1131,13 +1143,13 @@ meiji.8 = {
 
 		add_modifier = {
 			name = retained_railway_control
-			months = long_modifier_time
+			days = long_modifier_time
 		}
 
 		ig:ig_armed_forces = {
 			add_modifier = {
 				name = refused_railway_priority
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 	}
@@ -1184,7 +1196,7 @@ meiji.9 = {
 		ig:ig_armed_forces = {
 			add_modifier = {
 				name = revoked_sword_rights
-				months = long_modifier_time
+				days = long_modifier_time
 			}
 		}
 	}
@@ -1202,7 +1214,7 @@ meiji.9 = {
 			value = large_radicals
 		}
 		add_loyalists = {
-			strata = rich
+			strata = upper
 			value = medium_radicals
 		}
 	}
@@ -1214,7 +1226,7 @@ meiji.9 = {
 		ig:ig_armed_forces = {
 			add_modifier = {
 				name = retained_sword_rights
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 	}
@@ -1264,7 +1276,7 @@ meiji.10 = {
 		s:STATE_KYUSHU.region_state:JAP = {
 			add_modifier = {
 				name = shi_gakko
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 			add_radicals_in_state = {
 				pop_type = soldiers
@@ -1280,12 +1292,12 @@ meiji.10 = {
 		ig:ig_armed_forces = {
 			add_modifier = {
 				name = shut_down_military_academies
-				months = long_modifier_time
+				days = long_modifier_time
 			}
 			leader = {
 				add_modifier = {
 					name = suspected_insurrectionist
-					months = long_modifier_time
+					days = long_modifier_time
 				}
 			}
 		}
@@ -1387,7 +1399,7 @@ meiji.11 = {
 
 		add_modifier = {
 			name = sakoku_violated
-			months = long_modifier_time
+			days = long_modifier_time
 		}
 	}
 
@@ -1491,7 +1503,7 @@ meiji.12 = {
 
 		add_modifier = {
 			name = diplomatic_flexibility
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 
 	}
@@ -1532,25 +1544,27 @@ meiji.13 = {
 		}
 		hidden_effect = { 
 			set_strategy = ai_strategy_industrial_expansion
-			set_strategy = ai_strategy_progressive_agenda 
+			set_strategy = ai_strategy_meiji_restoration 
 			set_strategy = ai_strategy_maintain_power_balance
 		}
-		set_variable = { name = japan_forced_to_open_market years = 30 } # affects AI strategy
+		set_variable = { name = japan_forced_to_open_market }
 	}
 
 	option = {
 		name = meiji.13.a
-		scope:shogunate_ig = {
-			add_modifier = {
-				name = shogun_ig_forced_to_open_market
-				months = very_long_modifier_time
-			}
-		}
+		add_modifier = shogun_ig_forced_to_open_market
 		scope:shogun_scope = {
-			add_modifier = {
-				name = shogun_forced_to_open_market
-				months = very_long_modifier_time
+			add_modifier = shogun_forced_to_open_market
+		}
+		if = {
+			limit = {
+				NOT = {
+					any_political_movement = {
+						is_political_movement_type = movement_modernizer
+					}
+				}
 			}
+			create_political_movement = { type = movement_modernizer }
 		}
 	}
 }
