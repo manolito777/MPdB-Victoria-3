@@ -39,7 +39,7 @@
 	}
 
 	accept_effect = {
-		set_variable = { name = doctrine_of_lapse_cooldown years = 2 }
+		set_variable = { name = doctrine_of_lapse_cooldown years = 3 }
 		create_incident = {
 			country = scope:target_country
 			value = 20
