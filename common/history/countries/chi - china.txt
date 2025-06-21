@@ -29,7 +29,8 @@
 		add_journal_entry = { type = towards_to_modernity_5 }
 		add_journal_entry = { type = towards_to_modernity_6 }
 
-		
+		add_journal_entry = { type = je_imperial_examination_system }
+
 		set_institution_investment_level = {
 			institution = institution_police
 			level = 1
