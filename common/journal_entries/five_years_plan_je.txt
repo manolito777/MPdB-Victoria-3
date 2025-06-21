@@ -88,8 +88,8 @@ je_five_year_plan_1 = {
 			state_region = s:STATE_SHANDONG
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_coal_mine building_iron_mine
-				level >= 5
+				is_building_type = building_coal_mine
+				level >= 10
 			}
 		}
 		any_scope_state = {
@@ -198,7 +198,7 @@ je_five_year_plan_2 = {
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_tooling_workshops
-				level >= 10
+				level >= 20
 			}
 		}
 		any_scope_state = {
@@ -214,7 +214,7 @@ je_five_year_plan_2 = {
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_glassworks
-				level >= 5
+				level >= 15
 			}
 		}
 		any_scope_state = {
@@ -238,7 +238,7 @@ je_five_year_plan_2 = {
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_tooling_workshops
-				level >= 10
+				level >= 15
 			}
 		}	
 		any_scope_state = {
