@@ -16,10 +16,7 @@
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_no_schools
 		activate_law = law_type:law_no_police
-		
-		set_tariffs_import_priority = g:artillery
-		set_tariffs_import_priority = g:small_arms
-		
+				
 		add_journal_entry = { type = je_investigacion_peruana }
 		
 		ig:ig_petty_bourgeoisie = {
