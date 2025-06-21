@@ -17,13 +17,6 @@ unit_combat_unit_type_skirmish_infantry_defense_mult = {
 
 }
 
-unit_defense_elevated_mult = {
-
-	percent = yes
-
-
-}
-
 unit_combat_unit_type_light_tanks_offense_mult = {
 
 	percent = yes
