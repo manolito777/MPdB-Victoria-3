@@ -529,7 +529,7 @@ POPS = {
 		region_state:URU = {
 			create_pop = {
 				culture = platinean
-				size = 125192
+				size = 225192
 			}
 			create_pop = {
 				culture = afro_caribeno
@@ -606,7 +606,7 @@ POPS = {
 		region_state:PRG = {
 			create_pop = { # Creoles + Mixed (~3/4)
 				culture = platinean
-				size = 125764
+				size = 425764
 			}
 			create_pop = {
 				culture = spanish
