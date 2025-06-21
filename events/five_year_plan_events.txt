@@ -38,7 +38,7 @@ five_year_plan.1 = {
 			}
 			add_modifier = {
 				name = yellow_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes
 			}
 		}
@@ -49,7 +49,7 @@ five_year_plan.1 = {
 			}
 			add_modifier = {
 				name = yellow_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes
 			}
 		}
@@ -60,7 +60,7 @@ five_year_plan.1 = {
 			}
 			add_modifier = {
 				name = yellow_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes
 			}
 		}
@@ -71,7 +71,7 @@ five_year_plan.1 = {
 			}
 			add_modifier = {
 				name = yellow_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes
 			}
 		}
@@ -82,7 +82,7 @@ five_year_plan.1 = {
 			}
 			add_modifier = {
 				name = yellow_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes
 			}
 		}
@@ -93,7 +93,7 @@ five_year_plan.1 = {
 			}
 			add_modifier = {
 				name = yellow_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes
 			}
 		}
@@ -104,7 +104,7 @@ five_year_plan.1 = {
 			}
 			add_modifier = {
 				name = yellow_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes
 			}
 		}
@@ -146,7 +146,7 @@ five_year_plan.2 = {
 			}
 			add_modifier = {
 				name = blue_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes 
 			}
 		}
@@ -157,7 +157,7 @@ five_year_plan.2 = {
 			}
 			add_modifier = {
 				name = blue_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes 
 			}
 		}
@@ -168,7 +168,7 @@ five_year_plan.2 = {
 			}
 			add_modifier = {
 				name = blue_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes 
 			}
 		}
@@ -179,7 +179,7 @@ five_year_plan.2 = {
 			}
 			add_modifier = {
 				name = blue_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes 
 			}
 		}
@@ -190,7 +190,7 @@ five_year_plan.2 = {
 			}
 			add_modifier = {
 				name = blue_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes 
 			}
 		}
@@ -201,7 +201,7 @@ five_year_plan.2 = {
 			}
 			add_modifier = {
 				name = blue_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes 
 			}
 		}
@@ -212,7 +212,7 @@ five_year_plan.2 = {
 			}
 			add_modifier = {
 				name = blue_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes 
 			}
 		}
@@ -223,7 +223,7 @@ five_year_plan.2 = {
 			}
 			add_modifier = {
 				name = blue_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes 
 			}
 		}
@@ -234,7 +234,7 @@ five_year_plan.2 = {
 			}
 			add_modifier = {
 				name = blue_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes 
 			}
 		}
@@ -245,7 +245,7 @@ five_year_plan.2 = {
 			}
 			add_modifier = {
 				name = blue_river_boom_demografico
-				months = 240
+				months = 300
 				is_decaying = yes 
 			}
 		}
