@@ -467,7 +467,7 @@
 		}
 	}
 	s:STATE_JETISY = { 
-		region_state:CHI = {
+		region_state:XIN = {
 			create_pop = {
 				culture = kazak
 				size = 50642
@@ -681,7 +681,7 @@
 				size = 8000
 			}
 		}
-		region_state:CHI = {
+		region_state:XIN = {
 			create_pop = {
 				culture = kirgiz
 				size = 30150
@@ -1478,7 +1478,7 @@
 			}
 		}
 	}
-	s:STATE_HIMALAYAS = {
+	s:STATE_EASTERN_HIMALAYAS = {
 		region_state:SIK = {
 			create_pop = {
 				culture = tibetan
