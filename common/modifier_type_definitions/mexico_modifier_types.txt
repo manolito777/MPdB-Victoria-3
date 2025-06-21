@@ -3,9 +3,3 @@
 	percent = yes
 
 }
-
-unit_offense_elevated_mult = {
-
-	percent = yes
-
-}
