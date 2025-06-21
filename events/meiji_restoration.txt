@@ -1548,11 +1548,15 @@ meiji.13 = {
 			set_strategy = ai_strategy_maintain_power_balance
 		}
 		set_variable = { name = japan_forced_to_open_market }
+		add_modifier = shogun_ig_forced_to_open_market
 	}
 
 	option = {
 		name = meiji.13.a
-		add_modifier = shogun_ig_forced_to_open_market
+		add_modifier = {
+			name = shogun_ig_forced_to_open_market
+			months = 120
+		}
 		scope:shogun_scope = {
 			add_modifier = shogun_forced_to_open_market
 		}
