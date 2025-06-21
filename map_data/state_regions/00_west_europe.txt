@@ -515,8 +515,8 @@ STATE_CONNAUGHT = {
     arable_land = 75
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_sulfur_mining = 48
-        bg_logging = 7
+        bg_sulfur_mining = 16
+        bg_logging = 5
         bg_fishing = 4
     }
     naval_exit_id = 3030
