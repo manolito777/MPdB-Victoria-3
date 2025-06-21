@@ -292,7 +292,7 @@ je_north_german_unification = {
 			save_scope_as = target_country
 			count = all
 			variable = north_German_Minors
-			this.relations:root >= 80
+			this.relations:root >= 50
 		}
 
 	}
