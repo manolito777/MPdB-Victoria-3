@@ -54,7 +54,7 @@ formation.5 = {
 		default_option = yes
 		add_modifier = {
 			name = unification_prestige
-			months = very_long_modifier_time
+			days = long_modifier_time
 		}
 		add_modifier = {
 				name = major_explosion_demografica
@@ -123,7 +123,7 @@ formation.10 = {
 		default_option = yes
 		add_modifier = {
 			name = unification_prestige
-			months = very_long_modifier_time
+			days = long_modifier_time
 		}
 		add_modifier = {
 			name = sca_explosion_demografica
@@ -194,7 +194,7 @@ formation.19 = {
 		default_option = yes
 		add_modifier = {
 			name = unification_prestige
-			months = very_long_modifier_time
+			days = long_modifier_time
 		}
 		add_modifier = {
 				name = unt_explosion_demografica
@@ -257,7 +257,7 @@ formation.4 = {
 		default_option = yes
 		add_modifier = {
 			name = unification_prestige
-			months = very_long_modifier_time
+			days = long_modifier_time
 		}
 		unification_claims_effect = yes
 		ai_chance = {
@@ -352,7 +352,7 @@ formation.69 = {
 		default_option = yes
 		add_modifier = {
 			name = unification_prestige
-			months = very_long_modifier_time
+			days = long_modifier_time
 		}
 		add_modifier = {
 			name = plt_explosion_demografica
