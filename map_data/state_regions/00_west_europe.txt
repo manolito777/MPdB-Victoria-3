@@ -286,7 +286,7 @@ STATE_LANCASHIRE = {
         bg_iron_mining = 60
         bg_lead_mining = 45
         bg_logging = 9
-        bg_fishing = 15
+        bg_fishing = 11
     }
     resource = {
         type = "bg_oil_extraction"
@@ -332,7 +332,7 @@ STATE_YORKSHIRE = {
         bg_iron_mining = 75
         bg_lead_mining = 27
         bg_logging = 6
-        bg_fishing = 7
+        bg_fishing = 5
     }
     naval_exit_id = 3027
 }
@@ -351,8 +351,8 @@ STATE_HIGHLANDS = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 14
-        bg_whaling = 6
-        bg_fishing = 14
+        bg_whaling = 4
+        bg_fishing = 12
     }
     naval_exit_id = 3027
 }
@@ -372,7 +372,7 @@ STATE_MIDLANDS = {
     capped_resources = {
         bg_coal_mining = 80
         bg_iron_mining = 60
-        bg_sulfur_mining = 40
+        bg_sulfur_mining = 38
         bg_logging = 6
         bg_fishing = 2
     }
@@ -394,8 +394,8 @@ STATE_EAST_ANGLIA = {
     capped_resources = {
         bg_coal_mining = 40
         bg_iron_mining = 30
-        bg_logging = 4
-        bg_fishing = 12
+        bg_logging = 3
+        bg_fishing = 11
     }
     resource = {
         type = "bg_oil_extraction"
