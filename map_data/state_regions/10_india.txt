@@ -237,9 +237,9 @@ STATE_PUNJAB = {
     arable_land = 505
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
     capped_resources = {
-        bg_coal_mining = 16
-        bg_iron_mining = 26
-        bg_logging = 16
+        bg_coal_mining = 12
+        bg_iron_mining = 22
+        bg_logging = 12
     }
     resource = {
         type = "bg_oil_extraction"
@@ -295,12 +295,12 @@ STATE_SINDH = {
     farm = "xAE1ED1"
     mine = "x882A58"
     wood = "x02BBA0"
-    arable_land = 85
+    arable_land = 82
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_opium_plantations" "bg_sugar_plantations" "bg_tobacco_plantations" "bg_tea_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_sulfur_mining = 18
-        bg_fishing = 6
-        bg_logging = 3
+        bg_sulfur_mining = 14
+        bg_fishing = 3
+        bg_logging = 2
     }
     naval_exit_id = 3048
 }
