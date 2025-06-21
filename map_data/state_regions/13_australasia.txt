@@ -132,7 +132,7 @@ STATE_SOUTH_AUSTRALIA = {
     capped_resources = {
         bg_iron_mining = 64
         bg_lead_mining = 36
-        bg_sulfur_mining = 60
+        bg_sulfur_mining = 82
         bg_whaling = 2
         bg_fishing = 6
     }
