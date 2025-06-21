@@ -17,7 +17,7 @@ je_imperial_examination_system = {
 	on_complete = {
 		add_modifier = {
 			name = modifier_legacy_imperial_examinations
-			months = long_modifier_time
+			months = 120
 			is_decaying = yes
 		}
 	}
