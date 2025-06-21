@@ -1,0 +1,1044 @@
+[17:39:38][pdx_mod_metadata.cpp:194]: Mod metadata read error. File: C:\Users\ricar\Documents\Paradox Interactive\Victoria 3\mod\MPdB-Victoria-3-main/.metadata/metadata.json Error: Failed to open file for reading: C:\Users\ricar\Documents\Paradox Interactive\Victoria 3\mod\MPdB-Victoria-3-main/.metadata/metadata.json
+[17:39:40][localization_reader.cpp:581]: Unexpected localization token 'decree' at line 228 and column 99 in localization/english/0_HMPS_events_l_english.yml
+[17:39:40][pdx_localize.cpp:199]: Duplicate localization key. Key 'je_north_german_status' is defined in both 'localization/english/1.8_l_english.yml' and 'localization/english/content_1_l_english.yml'.
+[17:39:41][pdx_localize.cpp:199]: Duplicate localization key. Key 'malaria_prevention' is defined in both 'localization/english/Asiaupdategato_l_english.yml' and 'localization/english/inventions_l_english.yml'.
+[17:40:26][jomini_scripted_rule.cpp:114]: No script rule defined for 'can_sign_treaty_with'. If you want 'always true', just define an empty script rule by that name.
+[17:40:26][jomini_custom_text.cpp:172]: Missing loc key 'je_conference_of_london_acceptance_timer_tt' for custom localization 'treaty_of_london_acceptance_timer' (or variant), at 'common/customizable_localization/04_treaty_of_london_custom_loc.txt:41'
+
+[17:40:35][culture_type.cpp:129]: Missing localization key for name Leonard_2 in culture yankee
+[17:40:35][culture_type.cpp:129]: Missing localization key for name Avard in culture patwarahi
+[17:40:35][culture_type.cpp:129]: Missing localization key for name Theodore_2 in culture yankee
+[17:40:35][culture_type.cpp:129]: Missing localization key for name Masur in culture patwarahi
+[17:40:35][culture_type.cpp:129]: Missing localization key for name Indrene in culture patwarahi
+[17:40:35][culture_type.cpp:129]: Missing localization key for name de_Farc in culture patwarahi
+[17:40:35][culture_type.cpp:129]: Missing localization key for name Leonard_2 in culture british
+[17:40:35][culture_type.cpp:129]: Missing localization key for name Theodore_2 in culture british
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Etiope_standard_of_living_modifier_positive
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Etiope_standard_of_living_modifier_negative
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier West_Afro_standard_of_living_modifier_positive
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier West_Afro_standard_of_living_modifier_negative
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier East_Afro_standard_of_living_modifier_positive
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier East_Afro_standard_of_living_modifier_negative
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Center_Afro_standard_of_living_modifier_positive
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Center_Afro_standard_of_living_modifier_negative
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier South_Afro_standard_of_living_modifier_positive
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier South_Afro_standard_of_living_modifier_negative
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Native_Noramerican_standard_of_living_modifier_positive
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Native_Noramerican_standard_of_living_modifier_negative
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Native_Mesoamerican_standard_of_living_modifier_positive
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Native_Mesoamerican_standard_of_living_modifier_negative
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Baltic_standard_of_living_modifier_positive
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Baltic_standard_of_living_modifier_negative
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Finno-Ugric_standard_of_living_modifier_positive
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier Finno-Ugric_standard_of_living_modifier_negative
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier South_Slavic_standard_of_living_modifier_positive
+[17:40:35][culture_type.cpp:275]: Missing culture sol static modifier South_Slavic_standard_of_living_modifier_negative
+[17:40:35][state_region_template.cpp:237]: Invalid trait in state region! Trait: state_trait_malatya_iron_deposits, Region: STATE_DIYARBAKIR
+[17:40:35][technology_type.cpp:114]: Technology is missing loc key! Technology: Swedish_efficiency
+[17:40:35][production_method.cpp:143]: Production method references nonexistent technology type! Method: pm_refrigerated_storage_building_fishing_wharf, Technology: pasteurization
+[17:40:35][production_method.cpp:143]: Production method references nonexistent technology type! Method: pm_refrigerated_storage_building_whaling_station, Technology: pasteurization
+[17:40:35][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_automobile_production, PM: pm_mass_automobile_production
+[17:40:35][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_aeroplanes, PM: pm_no_aeroplane_production
+[17:40:35][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_automation_building_automotive_industry, PM: pm_assembly_lines_building_automotive_industry
+[17:40:35][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_base_building_power_plant, PM: pm_hydroelectric_plant
+[17:40:35][building_type.cpp:1746]: Production Method is missing loc key! Production Method: pm_charcoal
+[17:40:35][jomini_mapobject_database.cpp:915]: could not find pdxmesh object with key [bottom_extension_mesh]. gfx/map/map_object_data/papermap_items.txt:7
+[17:40:35][jomini_mapobject_database.cpp:915]: could not find pdxmesh object with key [top_extension_mesh]. gfx/map/map_object_data/papermap_items.txt:37
+[17:40:35][jomini_mapobject_database.cpp:383]: Could not add object with key [edgeofworld_papermap]. Key is already used. gfx/map/map_object_data/papermap_items.txt:51
+[17:40:35][jomini_mapobject_database.cpp:383]: Could not add object with key [papermap_endofworld]. Key is already used. gfx/map/map_object_data/papermap_items.txt:64
+[17:40:35][jomini_mapobject_database.cpp:383]: Could not add object with key [paper_map_french_coin]. Key is already used. gfx/map/map_object_data/papermap_items.txt:124
+[17:40:35][pdx_persistent_reader.cpp:463]: unknown variable [third]. common/coat_of_arms/coat_of_arms/banderas.txt:1513
+[17:40:35][pdx_persistent_reader.cpp:480]: Failed to parse advanced statement at common/coat_of_arms/coat_of_arms/banderas.txt:1513
+[17:40:35][pdx_persistent_reader.cpp:463]: unknown variable [third]. common/coat_of_arms/coat_of_arms/banderas.txt:1513
+[17:40:35][pdx_persistent_reader.cpp:480]: Failed to parse advanced statement at common/coat_of_arms/coat_of_arms/banderas.txt:1513
+[17:40:35][pdx_persistent_reader.cpp:463]: unknown variable [third]. common/coat_of_arms/coat_of_arms/banderas.txt:1514
+[17:40:35][pdx_persistent_reader.cpp:480]: Failed to parse advanced statement at common/coat_of_arms/coat_of_arms/banderas.txt:1514
+[17:40:35][pdx_persistent_reader.cpp:463]: unknown variable [third]. common/coat_of_arms/coat_of_arms/banderas.txt:1514
+[17:40:35][pdx_persistent_reader.cpp:480]: Failed to parse advanced statement at common/coat_of_arms/coat_of_arms/banderas.txt:1514
+[17:40:35][pdx_persistent_reader.cpp:268]: Error: "Malformed token: @canton_scale_cross_x, near line: 2593
+Malformed token: @canton_scale_cross_y, near line: 2593" in file: "common/coat_of_arms/coat_of_arms/banderas.txt" near line: 2593
+[17:40:35][pdx_persistent_reader.cpp:268]: Error: "Malformed token: @canton_scale_cross_x, near line: 2609
+Malformed token: @canton_scale_cross_y, near line: 2609" in file: "common/coat_of_arms/coat_of_arms/banderas.txt" near line: 2609
+
+[17:40:37][jomini_dynamicdescription.cpp:67]: Unrecognized loc key formation.69.t. events/00_unificaciones_mod_events.txt:329
+[17:40:37][jomini_dynamicdescription.cpp:67]: Unrecognized loc key formation.69.d. events/00_unificaciones_mod_events.txt:330
+
+[17:40:37][lexer.cpp:285]: File 'events/five_year_plan_events.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:37][jomini_dynamicdescription.cpp:67]: Unrecognized loc key five_year_plan.1.t. events/five_year_plan_events.txt:12
+[17:40:37][jomini_dynamicdescription.cpp:67]: Unrecognized loc key five_year_plan.1.d. events/five_year_plan_events.txt:13
+[17:40:37][jomini_dynamicdescription.cpp:67]: Unrecognized loc key five_year_plan.1.f. events/five_year_plan_events.txt:14
+[17:40:37][jomini_dynamicdescription.cpp:67]: Unrecognized loc key five_year_plan.1.a. CEventOptionDesc:139
+[17:40:37][jomini_dynamicdescription.cpp:67]: Unrecognized loc key five_year_plan.2.t. events/five_year_plan_events.txt:120
+[17:40:37][jomini_dynamicdescription.cpp:67]: Unrecognized loc key five_year_plan.2.d. events/five_year_plan_events.txt:121
+[17:40:37][jomini_dynamicdescription.cpp:67]: Unrecognized loc key five_year_plan.2.f. events/five_year_plan_events.txt:122
+[17:40:37][jomini_dynamicdescription.cpp:67]: Unrecognized loc key five_year_plan.2.a. CEventOptionDesc:139
+[17:40:37][lexer.cpp:285]: File 'events/golden_crescent_events.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:37][gfx_dds_loader.cpp:442]: Block compressed texture 'gfx/interface/icons/event_icons/morrion.dds' does not have a height and width that are a multiple of 4, which will cause edge pixels to be incorrect. Either re-export the texture, or, for very small textures, change the format to uncompressed.
+[17:40:37][character_templates_utils.cpp:1561]: Missing localization key for character first name Sandor_2, reverting to random name
+[17:40:38][lexer.cpp:285]: File 'common/journal_entry_groups/New_JE_Groups.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:38][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 30" in file: "common/decisions/00_decisions.txt" near line: 30
+[17:40:38][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/decisions/00_decisions.txt:31
+
+[17:40:38][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 31" in file: "common/decisions/00_decisions.txt" near line: 34
+[17:40:38][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/decisions/00_decisions.txt:35
+
+[17:40:38][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 35" in file: "common/decisions/00_decisions.txt" near line: 41
+[17:40:38][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 93" in file: "common/decisions/00_decisions.txt" near line: 93
+[17:40:38][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/decisions/00_decisions.txt:94
+
+[17:40:38][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 94" in file: "common/decisions/00_decisions.txt" near line: 100
+[17:40:38][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 130" in file: "common/decisions/00_decisions.txt" near line: 130
+[17:40:38][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 47" in file: "common/decisions/bol_decisions.txt" near line: 47
+[17:40:38][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 34" in file: "common/decisions/ita_decisions.txt" near line: 34
+[17:40:38][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 248" in file: "common/decisions/manifest_destiny.txt" near line: 248
+[17:40:38][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 53" in file: "common/decisions/ottoman_decisions.txt" near line: 53
+[17:40:38][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 122" in file: "common/decisions/ottoman_decisions.txt" near line: 122
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 239" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 239
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 341" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 341
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/00_scripted_buttons.txt:342
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 342" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 347
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/00_scripted_buttons.txt:348
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 348" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 353
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/00_scripted_buttons.txt:354
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 354" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 364
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/00_scripted_buttons.txt:365
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 365" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 375
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 439" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 439
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 532" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 532
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/00_scripted_buttons.txt:533
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 533" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 538
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/00_scripted_buttons.txt:539
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 539" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 558
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 677" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 677
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/00_scripted_buttons.txt:678
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 678" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 683
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/00_scripted_buttons.txt:684
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 684" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 698
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/00_scripted_buttons.txt:699
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 699" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 713
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: ai_will_do, near line: 777" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 777
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 824" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 824
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: ai_will_do, near line: 840" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 840
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 909" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 909
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 1039" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 1039
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 1124" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 1124
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 1209" in file: "common/scripted_buttons/00_scripted_buttons.txt" near line: 1209
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 31" in file: "common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt" near line: 31
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt:32
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 32" in file: "common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt" near line: 40
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 158" in file: "common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt" near line: 158
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt:159
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 159" in file: "common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt" near line: 167
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 305" in file: "common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt" near line: 305
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt:306
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 306" in file: "common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt" near line: 314
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 372" in file: "common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt" near line: 372
+[17:40:39][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt:373
+
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 373" in file: "common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt" near line: 381
+[17:40:39][lexer.cpp:285]: File 'common/scripted_buttons/dainam_scripted_buttons.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:39][jomini_dynamicdescription.cpp:67]: Unrecognized loc key abrazar_catolicismo_dainam_scripted_button. common/scripted_buttons/dainam_scripted_buttons.txt:13
+[17:40:39][jomini_dynamicdescription.cpp:67]: Unrecognized loc key abrazar_catolicismo_dainam_scripted_button_desc. common/scripted_buttons/dainam_scripted_buttons.txt:14
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 27" in file: "common/scripted_buttons/dainam_scripted_buttons.txt" near line: 27
+[17:40:39][jomini_dynamicdescription.cpp:67]: Unrecognized loc key dainam_sponsor_scripted_button. common/scripted_buttons/dainam_scripted_buttons.txt:43
+[17:40:39][jomini_dynamicdescription.cpp:67]: Unrecognized loc key dainam_sponsor_scripted_button_desc. common/scripted_buttons/dainam_scripted_buttons.txt:44
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 61" in file: "common/scripted_buttons/dainam_scripted_buttons.txt" near line: 61
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 144" in file: "common/scripted_buttons/guerra_carlista_scripted_buttons.txt" near line: 144
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 240" in file: "common/scripted_buttons/guerra_carlista_scripted_buttons.txt" near line: 240
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 316" in file: "common/scripted_buttons/guerra_carlista_scripted_buttons.txt" near line: 316
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: save_scope_as, near line: 292" in file: "common/journal_entries/00_german_unification.txt" near line: 296
+[17:40:39][jomini_eventmanager.cpp:118]: 'CHI_missionaries.1' does not have a valid namespace
+[17:40:39][jomini_eventmanager.cpp:118]: 'CHI_missionaries.2' does not have a valid namespace
+[17:40:39][jomini_eventmanager.cpp:118]: 'CHI_missionaries.3' does not have a valid namespace
+[17:40:39][jomini_eventmanager.cpp:118]: 'CHI_missionaries.4' does not have a valid namespace
+[17:40:39][jomini_eventmanager.cpp:118]: 'CHI_missionaries.5' does not have a valid namespace
+[17:40:39][jomini_eventmanager.cpp:118]: 'heavenly.3' does not have a valid namespace
+[17:40:39][lexer.cpp:285]: File 'common/journal_entries/Military_balance_je.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 42" in file: "common/journal_entries/Military_balance_je.txt" near line: 44
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: Posi, near line: 55" in file: "common/journal_entries/Military_balance_je.txt" near line: 55
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: =, near line: 55" in file: "common/journal_entries/Military_balance_je.txt" near line: 55
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 97" in file: "common/journal_entries/Military_balance_je.txt" near line: 99
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 150" in file: "common/journal_entries/Military_balance_je.txt" near line: 152
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 196" in file: "common/journal_entries/Military_balance_je.txt" near line: 198
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 244" in file: "common/journal_entries/Military_balance_je.txt" near line: 246
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 297" in file: "common/journal_entries/Military_balance_je.txt" near line: 299
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: visible, near line: 6" in file: "common/journal_entries/conquista_americas_je.txt" near line: 9
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: visible, near line: 174" in file: "common/journal_entries/conquista_americas_je.txt" near line: 177
+[17:40:39][lexer.cpp:285]: File 'common/journal_entries/dainam_catolicismo_je.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:39][lexer.cpp:285]: File 'common/journal_entries/eic_je.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:39][lexer.cpp:285]: File 'common/journal_entries/five_years_plan_je.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: building_iron_mine, near line: 92
+Unknown trigger type: >=, near line: 92" in file: "common/journal_entries/five_years_plan_je.txt" near line: 93
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 132" in file: "common/journal_entries/five_years_plan_je.txt" near line: 177
+[17:40:39][lexer.cpp:285]: File 'common/journal_entries/golden_crescent_je.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:39][gfx_dds_loader.cpp:442]: Block compressed texture 'gfx/interface/icons/event_icons/carlismo.dds' does not have a height and width that are a multiple of 4, which will cause edge pixels to be incorrect. Either re-export the texture, or, for very small textures, change the format to uncompressed.
+[17:40:39][lexer.cpp:285]: File 'common/journal_entries/imperial_examination_je.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:39][lexer.cpp:285]: File 'common/journal_entries/teriyaki_je.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_max_charters_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_max_charters_add, near line: 172" in file: "common/company_types/00_companies_africa.txt" near line: 172
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_max_charters_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_max_charters_add, near line: 810" in file: "common/company_types/00_companies_americas.txt" near line: 810
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: country_navy_defense_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: country_navy_defense_mult, near line: 136" in file: "common/company_types/00_companies_cots.txt" near line: 136
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_colony_growth_creation_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_colony_growth_creation_mult, near line: 1112" in file: "common/company_types/00_companies_europe.txt" near line: 1112
+[17:40:39][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: bbuilding_railway_throughput_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: bbuilding_railway_throughput_add, near line: 48" in file: "common/company_types/00_companies_italy.txt" near line: 48
+[17:40:40][building_type.cpp:1746]: Production Method is missing loc key! Production Method: pm_charcoal
+[17:40:40][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: power_bloc_religion_trade_route_competitiveness_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: power_bloc_religion_trade_route_competitiveness_mult, near line: 1376" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1376
+[17:40:40][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: requirement_to_maintain, near line: 55" in file: "common/treaty_articles/02_guarantee_independence.txt" near line: 59
+[17:40:40][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: requirement_to_maintain, near line: 61" in file: "common/treaty_articles/02_guarantee_independence.txt" near line: 67
+[17:40:40][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: requirement_to_maintain, near line: 69" in file: "common/treaty_articles/02_guarantee_independence.txt" near line: 75
+[17:40:40][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: requirement_to_maintain, near line: 41" in file: "common/treaty_articles/03_support_independence.txt" near line: 47
+[17:40:40][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: requirement_to_maintain, near line: 49" in file: "common/treaty_articles/03_support_independence.txt" near line: 53
+[17:40:40][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: requirement_to_maintain, near line: 55" in file: "common/treaty_articles/03_support_independence.txt" near line: 59
+[17:40:40][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: requirement_to_maintain, near line: 61" in file: "common/treaty_articles/03_support_independence.txt" near line: 71
+[17:40:40][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: maintenance_paid_by, near line: 18" in file: "common/treaty_articles/14_treaty_port.txt" near line: 18
+[17:40:40][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: maintenance_paid_by, near line: 19" in file: "common/treaty_articles/16_non_colonization_agreement.txt" near line: 19
+[17:40:40][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: maintenance_paid_by, near line: 19" in file: "common/treaty_articles/17_prohibit_trade_with_global_market.txt" near line: 19
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: maintenance_paid_by, near line: 16" in file: "common/treaty_articles/18_acquire_monopoly_for_company.txt" near line: 16
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: maintenance_paid_by, near line: 19" in file: "common/treaty_articles/20_law_commitment.txt" near line: 19
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: maintenance_paid_by, near line: 19" in file: "common/treaty_articles/21_no_tariffs.txt" near line: 19
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: maintenance_paid_by, near line: 18" in file: "common/treaty_articles/26_no_subventions.txt" near line: 18
+[17:40:41][country_definition.cpp:231]: Country definition NEN has invalid capital STATE_MASSACHUSETTS
+[17:40:41][ideology.cpp:76]: Invalid law group possible in ideology law scoring
+[17:40:41][ideology.cpp:90]: Invalid law owner in ideology law scoring
+[17:40:41][ideology.cpp:90]: Invalid law AND in ideology law scoring
+[17:40:41][ideology.cpp:90]: Invalid law c:TUR in ideology law scoring
+[17:40:41][ideology.cpp:90]: Invalid law has_law in ideology law scoring
+[17:40:41][ideology.cpp:76]: Invalid law group = in ideology law scoring
+[17:40:41][ideology.cpp:90]: Invalid law value in ideology law scoring
+[17:40:41][country_formation.cpp:68]: Invalid leadership play dp_leadership_Iberia in country_formation
+[17:40:41][country_creation.cpp:67]: Invalid state region STATE_MASSACHUSETTS in country_creation NEN
+[17:40:41][country_creation.cpp:67]: Invalid state region STATE_NEW_HAMPSHIRE in country_creation NEN
+[17:40:41][country_creation.cpp:67]: Invalid state region STATE_MAINE in country_creation NEN
+[17:40:41][country_creation.cpp:67]: Invalid state region STATE_CONNECTICUT in country_creation NEN
+[17:40:41][country_creation.cpp:67]: Invalid state region STATE_RHODE_ISLAND in country_creation NEN
+[17:40:41][country_creation.cpp:67]: Invalid state region STATE_VERMONT in country_creation NEN
+[17:40:41][decree_type.cpp:132]: Decree is missing loc key! Decree: decree_host_scope
+[17:40:41][event.cpp:357]: No default option in event gm_actions.14.
+[17:40:41][event.cpp:357]: No default option in event gm_actions.15.
+[17:40:41][event.cpp:357]: No default option in event gm_actions.16.
+[17:40:41][event.cpp:357]: No default option in event gm_actions.17.
+[17:40:41][jomini_onaction.cpp:29]: No on_action scripted with tag HMPS_Check_for_GM cannot link
+[17:40:41][player_message_type.cpp:177]: Acción diplomática Group has mixed Notification Types
+[17:40:41][journalentry_type.cpp:280]: Journal entry has redundant loc for je_sick_man_education_goal
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for INC-unification-journal
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for INC-unification-journal_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era3
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era3_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era3_2
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era3_2_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era3_5
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era3_5_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era3_5_2
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era3_5_2_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era4
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era4_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era4_2
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era4_2_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era4_5
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era4_5_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era4_5_2
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era4_5_2_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era5
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era5_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era5_2
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era5_2_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era5_5
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era5_5_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_military_balance_era5_5_2
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_military_balance_era5_5_2_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_investigacion_peruana
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_investigacion_peruana_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_misiones_vietnamitas
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_misiones_vietnamitas_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_eic_ideology
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_eic_ideology_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_eic_india
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_eic_india_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_five_year_plan_1
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_five_year_plan_1_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_five_year_plan_2
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_five_year_plan_2_reason!
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_golden_crescent_reason!
+[17:40:41][journalentry_type.cpp:289]: Journal entry is missing loc for je_imperial_examination_system
+[17:40:41][journalentry_type.cpp:294]: Journal entry is missing loc for je_imperial_examination_system_reason!
+[17:40:41][jomini_eventtarget.cpp:299]: Invalid scope types for event target link, link: region_state at common/history/buildings/09_central_asia.txt:598
+[17:40:41][jomini_effect.cpp:541]: Unknown effect crreate_building at common/history/buildings/10_india.txt:982
+[17:40:41][jomini_script_system.cpp:247]: Script system error!
+  Error: untyped effect [ Expected opening bracket ]
+  Script location: common/history/countries/Patwarahi_events.txt:1
+
+[17:40:41][jomini_effect.cpp:541]: Unknown effect type at common/history/countries/Patwarahi_events.txt:5
+[17:40:41][jomini_effect.cpp:541]: Unknown effect placement at common/history/countries/Patwarahi_events.txt:6
+[17:40:41][jomini_effect.cpp:541]: Unknown effect title at common/history/countries/Patwarahi_events.txt:7
+[17:40:41][jomini_effect.cpp:541]: Unknown effect desc at common/history/countries/Patwarahi_events.txt:8
+[17:40:41][jomini_effect.cpp:541]: Unknown effect flavor at common/history/countries/Patwarahi_events.txt:9
+[17:40:41][jomini_effect.cpp:541]: Unknown effect duration at common/history/countries/Patwarahi_events.txt:11
+[17:40:41][jomini_effect.cpp:541]: Unknown effect event_image at common/history/countries/Patwarahi_events.txt:13
+[17:40:41][jomini_effect.cpp:541]: Unknown effect on_created_soundeffect at common/history/countries/Patwarahi_events.txt:17
+[17:40:41][jomini_effect.cpp:541]: Unknown effect icon at common/history/countries/Patwarahi_events.txt:19
+[17:40:41][jomini_effect.cpp:541]: Unknown effect trigger at common/history/countries/Patwarahi_events.txt:21
+[17:40:41][jomini_effect.cpp:541]: Unknown effect immediate at common/history/countries/Patwarahi_events.txt:24
+[17:40:41][jomini_effect.cpp:541]: Unknown effect option at common/history/countries/Patwarahi_events.txt:39
+[17:40:41][jomini_effect.cpp:541]: Unknown effect type at common/history/countries/Patwarahi_events.txt:50
+[17:40:41][jomini_effect.cpp:541]: Unknown effect placement at common/history/countries/Patwarahi_events.txt:51
+[17:40:41][jomini_effect.cpp:541]: Unknown effect title at common/history/countries/Patwarahi_events.txt:52
+[17:40:41][jomini_effect.cpp:541]: Unknown effect desc at common/history/countries/Patwarahi_events.txt:53
+[17:40:41][jomini_effect.cpp:541]: Unknown effect flavor at common/history/countries/Patwarahi_events.txt:54
+[17:40:41][jomini_effect.cpp:541]: Unknown effect duration at common/history/countries/Patwarahi_events.txt:56
+[17:40:41][jomini_effect.cpp:541]: Unknown effect event_image at common/history/countries/Patwarahi_events.txt:58
+[17:40:41][jomini_effect.cpp:541]: Unknown effect on_created_soundeffect at common/history/countries/Patwarahi_events.txt:62
+[17:40:41][jomini_effect.cpp:541]: Unknown effect icon at common/history/countries/Patwarahi_events.txt:64
+[17:40:41][jomini_effect.cpp:541]: Unknown effect trigger at common/history/countries/Patwarahi_events.txt:66
+[17:40:41][jomini_effect.cpp:541]: Unknown effect option at common/history/countries/Patwarahi_events.txt:69
+[17:40:41][lexer.cpp:285]: File 'common/history/countries/syr - syria.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:41][lexer.cpp:285]: File 'common/history/global/guerra_indias.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:41][lexer.cpp:285]: File 'common/history/military_formations/eic_military_formations.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:41][character_templates_utils.cpp:1580]: Missing localization key for character last name Giorgis, reverting to random name
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: finno-ugric: finno-ugric, near line: 25" in file: "common/history/pops/02_east_europe.txt" near line: 28
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: finno-ugric: finno-ugric, near line: 90" in file: "common/history/pops/02_east_europe.txt" near line: 92
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: finno-ugric: finno-ugric, near line: 118" in file: "common/history/pops/02_east_europe.txt" near line: 120
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: finno-ugric: finno-ugric, near line: 122" in file: "common/history/pops/02_east_europe.txt" near line: 125
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: finno-ugric: finno-ugric, near line: 163" in file: "common/history/pops/02_east_europe.txt" near line: 165
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: finno-ugric: finno-ugric, near line: 175" in file: "common/history/pops/02_east_europe.txt" near line: 178
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: We: We, near line: 349" in file: "common/history/pops/04_subsaharan_africa.txt" near line: 351
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: clergy: clergy, near line: 987" in file: "common/history/pops/05_north_america.txt" near line: 991
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: finno-ugric: finno-ugric, near line: 222" in file: "common/history/pops/09_central_asia.txt" near line: 224
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: finno-ugric: finno-ugric, near line: 286" in file: "common/history/pops/09_central_asia.txt" near line: 288
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: finno-ugric: finno-ugric, near line: 290" in file: "common/history/pops/09_central_asia.txt" near line: 292
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: finno-ugric: finno-ugric, near line: 310" in file: "common/history/pops/09_central_asia.txt" near line: 312
+[17:40:41][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: finno-ugric: finno-ugric, near line: 456" in file: "common/history/pops/09_central_asia.txt" near line: 458
+[17:40:42][lexer.cpp:285]: File 'common/history/treaties/patwarahi_treaties.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: owns_entire_state_region trigger [ Invalid database object 'STATE_DISTRICT_OF_COLUMBIA' ]
+  Script location: common/customizable_localization/02_events.txt:384
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'owns_entire_state_region' returned false at common/customizable_localization/02_events.txt:384
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: is_building_type trigger [ Invalid database object 'building_victoria_terminus' ]
+  Script location: common/customizable_localization/99_ru_custom_loc.txt:91849
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'is_building_type' returned false at common/customizable_localization/99_ru_custom_loc.txt:91849
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: is_building_type trigger [ Invalid database object 'building_victoria_terminus' ]
+  Script location: common/customizable_localization/99_ru_custom_loc.txt:92368
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'is_building_type' returned false at common/customizable_localization/99_ru_custom_loc.txt:92368
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: is_building_type trigger [ Invalid database object 'building_victoria_terminus' ]
+  Script location: common/customizable_localization/99_ru_custom_loc.txt:92887
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'is_building_type' returned false at common/customizable_localization/99_ru_custom_loc.txt:92887
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: is_building_type trigger [ Invalid database object 'building_victoria_terminus' ]
+  Script location: common/customizable_localization/99_ru_custom_loc.txt:93406
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'is_building_type' returned false at common/customizable_localization/99_ru_custom_loc.txt:93406
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: is_building_type trigger [ Invalid database object 'building_victoria_terminus' ]
+  Script location: common/customizable_localization/99_ru_custom_loc.txt:93925
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'is_building_type' returned false at common/customizable_localization/99_ru_custom_loc.txt:93925
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_template trigger [ Invalid database object 'ada_lovelace_template' ]
+  Script location: gfx/portraits/portrait_modifiers/01_clothes.txt:2838
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_template' returned false at gfx/portraits/portrait_modifiers/01_clothes.txt:2838
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_template trigger [ Invalid database object 'albert_einstein_template' ]
+  Script location: gfx/portraits/portrait_modifiers/01_clothes.txt:2906
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_template' returned false at gfx/portraits/portrait_modifiers/01_clothes.txt:2906
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: any_country trigger [ Filter should only be used if a percent or count = all is specified ]
+  Script location: common/country_formation/00_major_formables.txt:40
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'any_country' returned false at common/country_formation/00_major_formables.txt:40
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip trigger [ Unknown loc key GM_Action.t ]
+  Script location: common/diplomatic_actions/HMPS_GM_Action.txt:15
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'custom_tooltip' returned false at common/diplomatic_actions/HMPS_GM_Action.txt:15
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_diplomatic_pact trigger [ type: Not found in database class CDiplomaticActionTypeDataBase ]
+  Script location: events/british_raj_events.txt:238
+
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_diplomatic_pact trigger [ Invalid diplomatic action type! ]
+  Script location: events/british_raj_events.txt:238
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_diplomatic_pact' returned false at events/british_raj_events.txt:238
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_diplomatic_pact trigger [ type: Not found in database class CDiplomaticActionTypeDataBase ]
+  Script location: events/italian_unification.txt:765
+
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_diplomatic_pact trigger [ Invalid diplomatic action type! ]
+  Script location: events/italian_unification.txt:765
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_diplomatic_pact' returned false at events/italian_unification.txt:765
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_diplomatic_pact trigger [ type: Not found in database class CDiplomaticActionTypeDataBase ]
+  Script location: events/italian_unification.txt:777
+
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_diplomatic_pact trigger [ Invalid diplomatic action type! ]
+  Script location: events/italian_unification.txt:777
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_diplomatic_pact' returned false at events/italian_unification.txt:777
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_technology_researched trigger [ Invalid Technology: 'antibiotics' ]
+  Script location: events/russia_events.txt:490
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_technology_researched' returned false at events/russia_events.txt:490
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: can_research trigger [ Invalid database object 'malara_prevention' ]
+  Script location: events/tech_events/nursing_events.txt:224
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'can_research' returned false at events/tech_events/nursing_events.txt:224
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: can_research trigger [ Invalid database object 'malara_prevention' ]
+  Script location: events/tech_events/nursing_events.txt:247
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'can_research' returned false at events/tech_events/nursing_events.txt:247
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_technology_researched trigger [ Invalid Technology: 'antibiotics' ]
+  Script location: common/character_templates/country_jap.txt:60
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_technology_researched' returned false at common/character_templates/country_jap.txt:60
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
+  Script location: common/on_actions/00_code_on_actions.txt:3729
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/on_actions/00_code_on_actions.txt:3729
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
+  Script location: common/on_actions/00_code_on_actions.txt:4171
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/on_actions/00_code_on_actions.txt:4171
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_obsession' ]
+  Script location: common/decisions/goods_ban_decisions.txt:67
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/decisions/goods_ban_decisions.txt:67
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
+  Script location: common/scripted_buttons/04_russia_buttons.txt:57
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_buttons/04_russia_buttons.txt:57
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
+  Script location: common/scripted_buttons/04_russia_buttons.txt:224
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_buttons/04_russia_buttons.txt:224
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
+  Script location: common/scripted_buttons/04_russia_buttons.txt:396
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_buttons/04_russia_buttons.txt:396
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_obsession' ]
+  Script location: common/scripted_buttons/china_buttons.txt:55
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_buttons/china_buttons.txt:55
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_obsession' ]
+  Script location: common/scripted_buttons/china_buttons.txt:62
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_buttons/china_buttons.txt:62
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_obsession' ]
+  Script location: common/scripted_buttons/china_buttons.txt:99
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_buttons/china_buttons.txt:99
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
+  Script location: common/journal_entries/00_abolish_monarchy.txt:70
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/journal_entries/00_abolish_monarchy.txt:70
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
+  Script location: common/journal_entries/00_taiping.txt:272
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/journal_entries/00_taiping.txt:272
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_building trigger [ Invalid database object 'building_victoria_terminus' ]
+  Script location: common/journal_entries/04_victoria_terminus.txt:50
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_building' returned false at common/journal_entries/04_victoria_terminus.txt:50
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: is_building_type trigger [ Invalid database object 'building_victoria_terminus' ]
+  Script location: common/journal_entries/04_victoria_terminus.txt:62
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'is_building_type' returned false at common/journal_entries/04_victoria_terminus.txt:62
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip trigger [ Unknown loc key INC-unification-journal-complete ]
+  Script location: common/journal_entries/INC_Journal_Entries.txt:26
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'custom_tooltip' returned false at common/journal_entries/INC_Journal_Entries.txt:26
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
+  Script location: common/scripted_triggers/00_ai_triggers.txt:126
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_triggers/00_ai_triggers.txt:126
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_boxer_rebellion' ]
+  Script location: common/scripted_triggers/00_ai_triggers.txt:132
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_triggers/00_ai_triggers.txt:132
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_boxer_rebellion' ]
+  Script location: common/ai_strategies/00_default_strategy.txt:1194
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:1194
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
+  Script location: common/ai_strategies/00_default_strategy.txt:1520
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:1520
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
+  Script location: common/ai_strategies/00_default_strategy.txt:1545
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:1545
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
+  Script location: common/ai_strategies/00_default_strategy.txt:1718
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:1718
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
+  Script location: common/ai_strategies/00_default_strategy.txt:2329
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:2329
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
+  Script location: common/ai_strategies/00_default_strategy.txt:2343
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:2343
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
+  Script location: common/ai_strategies/00_default_strategy.txt:2623
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:2623
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
+  Script location: common/ai_strategies/00_default_strategy.txt:4377
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:4377
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
+  Script location: common/ai_strategies/00_default_strategy.txt:6418
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:6418
+[17:40:42][jomini_script_system.cpp:247]: Script system error!
+  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
+  Script location: common/treaty_articles/14_treaty_port.txt:305
+
+[17:40:42][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/treaty_articles/14_treaty_port.txt:305
+[17:40:44][state_region_template.cpp:1440]: No Port / Treaty Port province designated for coastal State Region: STATE_NEW_ENGLAND
+[17:40:44][state_region_template.cpp:1440]: No Port / Treaty Port province designated for coastal State Region: STATE_GREATER_MASSACHUSETTS
+[17:40:44][state_region_template.cpp:1440]: No Port / Treaty Port province designated for coastal State Region: STATE_GREATER_MARYLAND
+[17:40:44][state_region_template.cpp:1440]: No Port / Treaty Port province designated for coastal State Region: STATE_HAINAN
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_LIMA, hub mine is located at province xF333CF which is located in state region STATE_ICA
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_ICA, hub port is located at province x32863F which is located in state region STATE_LIMA
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_ICA, hub farm is located at province x25CF2A which is located in state region STATE_LIMA
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_JUJUY, hub wood is located at province x9319AA which is located in state region STATE_SANTA_CRUZ
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_OUTER_MANCHURIA, hub mine is located at province x5BD04E which is located in state region STATE_AMUR
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_OUTER_MANCHURIA, hub wood is located at province xB7CA59 which is located in state region STATE_AMUR
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_URAL, hub farm is located at province x2FE367 which is located in state region STATE_CHELYABINSK
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_URAL, hub wood is located at province x09B346 which is located in state region STATE_TOBOLSK
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_TOBOLSK, hub farm is located at province xBA2BBE which is located in state region STATE_TOMSK
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_NOVGOROD, hub city is located at province x40FEDE which is located in state region STATE_YAROSLAVL
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_NOVGOROD, hub farm is located at province x9AA8A6 which is located in state region STATE_TVER
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_NOVGOROD, hub wood is located at province x6DD07A which is located in state region STATE_YAROSLAVL
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_MINSK, hub farm is located at province xCB21FD which is located in state region STATE_BREST
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_MINSK, hub wood is located at province x016161 which is located in state region STATE_VITEBSK
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_URALSK, hub city is located at province x86A90A which is located in state region STATE_AKTOBE
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_URALSK, hub farm is located at province x56279A which is located in state region STATE_AKTOBE
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_SEMIRECHE, hub city is located at province xDC6CAE which is located in state region STATE_AKMOLINSK
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_AKMOLINSK, hub mine is located at province x5929A2 which is located in state region STATE_SYRDARYA
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_AKMOLINSK, hub wood is located at province x0CCA19 which is located in state region STATE_SEMIRECHE
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_PSKOV, hub farm is located at province x0153E3 which is located in state region STATE_VITEBSK
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_PSKOV, hub wood is located at province xEF4591 which is located in state region STATE_VITEBSK
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_KABUL, hub mine is located at province x3ACBE0 which is located in state region STATE_KANDAHAR
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_KABUL, hub wood is located at province xB1300D which is located in state region STATE_BALKH
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_KANDAHAR, hub city is located at province x99A835 which is located in state region STATE_CENTRAL_HIGHLANDS
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_KANDAHAR, hub farm is located at province x99A835 which is located in state region STATE_CENTRAL_HIGHLANDS
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_KANDAHAR, hub mine is located at province x99A835 which is located in state region STATE_CENTRAL_HIGHLANDS
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_KANDAHAR, hub wood is located at province x99A835 which is located in state region STATE_CENTRAL_HIGHLANDS
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_CENTRAL_HIGHLANDS, hub city is located at province x58040A which is located in state region STATE_HERAT
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_CENTRAL_HIGHLANDS, hub farm is located at province x8C7935 which is located in state region STATE_BALKH
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_CENTRAL_HIGHLANDS, hub mine is located at province x138C13 which is located in state region STATE_HERAT
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_CENTRAL_HIGHLANDS, hub wood is located at province x138C13 which is located in state region STATE_HERAT
+[17:40:44][state_region_template.cpp:1705]: State Region STATE_KUBAN, hub mine is located at province x1ED727 which is located in state region STATE_STAVROPOL
+[17:40:44][modifier_type_definition_database.cpp:43]: Modifier type definition state_radicals_from_sol_change_mult is not a valid static or dynamic modifier type.
+[17:40:44][modifier_type_definition_database.cpp:43]: Modifier type definition state_loyalists_from_sol_change_mult is not a valid static or dynamic modifier type.
+[17:40:44][eventtargetlinks.cpp:3748]: Failed to find culture! Culture: Central_Afor, File Location: common/history/states/00_states.txt:1607
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.1 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2632
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.2 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2646
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.3 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2652
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.6 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2674
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.7 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2680
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.8 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2686
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.9 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2692
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.11 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2704
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.12 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2710
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.13 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2716
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.14 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2722
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.15 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2728
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.16 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2734
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.18 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2740
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.20 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2752
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.21 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2758
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.17 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2805
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: warlord_china_events.101 ]
+  Script location: common/journal_entries/00_reunify_china.txt:119
+
+[17:40:44][jomini_eventmanager.cpp:118]: 'heavenly.1' does not have a valid namespace
+[17:40:44][jomini_eventmanager.cpp:118]: 'heavenly.2' does not have a valid namespace
+[17:40:44][jomini_eventmanager.cpp:118]: 'heavenly.4' does not have a valid namespace
+[17:40:44][jomini_eventmanager.cpp:118]: 'heavenly.5' does not have a valid namespace
+[17:40:44][jomini_eventmanager.cpp:118]: 'heavenly.6' does not have a valid namespace
+[17:40:44][jomini_eventmanager.cpp:118]: 'INC_unification.1' does not have a valid namespace
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_automobiles_disabled ]
+  Script location: common/history/buildings/00_west_europe.txt:1546
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_filing_cabinets ]
+  Script location: common/history/buildings/china.txt:38
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_filing_cabinets ]
+  Script location: common/history/buildings/china.txt:103
+
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: add_modifier effect [ name: Not found in database class NJominiModifier::CStaticModifierDatabase ]
+  Script location: events/INC_EVENT.txt:23
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'add_modifier' returned false at events/INC_EVENT.txt:23
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: add_journal_entry effect [ Invalid journal entry type 'je_south_german_unification' ]
+  Script location: events/german_unification.txt:310
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'add_journal_entry' returned false at events/german_unification.txt:310
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: remove_diplomatic_pact effect [ type: Not found in database class CDiplomaticActionTypeDataBase ]
+  Script location: events/italian_unification.txt:770
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'remove_diplomatic_pact' returned false at events/italian_unification.txt:770
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: remove_diplomatic_pact effect [ type: Not found in database class CDiplomaticActionTypeDataBase ]
+  Script location: events/italian_unification.txt:782
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'remove_diplomatic_pact' returned false at events/italian_unification.txt:782
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid building ]
+  Script location: events/spooky_halloween_events.txt:63
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_building' returned false at events/spooky_halloween_events.txt:63
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip effect [ Unknown loc key dracula_passive_tt ]
+  Script location: events/spooky_halloween_events.txt:369
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'custom_tooltip' returned false at events/spooky_halloween_events.txt:369
+[17:40:44][character_templates_utils.cpp:33]: Invalid Ideology ideology_atheist in events/agitators_events/historic_agitator_events.txt:1506
+[17:40:44][character_templates_utils.cpp:33]: Trying to initiatlize non-character ideology  to character GeorgesSorel in events/agitators_events/historic_agitator_events.txt:1506
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_character' returned false at events/agitators_events/historic_agitator_events.txt:1506
+[17:40:44][character_templates_utils.cpp:33]: Invalid Ideology ideology_atheist in events/agitators_events/historic_agitator_events.txt:1535
+[17:40:44][character_templates_utils.cpp:33]: Trying to initiatlize non-character ideology  to character GeorgesSorel in events/agitators_events/historic_agitator_events.txt:1535
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_character' returned false at events/agitators_events/historic_agitator_events.txt:1535
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_progress effect [ technology: Not found in database class CTechnologyDatabase ]
+  Script location: events/tech_events/nursing_events.txt:249
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'add_technology_progress' returned false at events/tech_events/nursing_events.txt:249
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip effect [ Unknown loc key improve_relations_with_german_confederation_tt ]
+  Script location: common/scripted_buttons/london_conference_buttons.txt:183
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'custom_tooltip' returned false at common/scripted_buttons/london_conference_buttons.txt:183
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid building ]
+  Script location: common/history/buildings/08_middle_east.txt:1124
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_building' returned false at common/history/buildings/08_middle_east.txt:1124
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Asking to activate several production methods from the same group ]
+  Script location: common/history/buildings/china.txt:38
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_building' returned false at common/history/buildings/china.txt:38
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:24
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:24
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:89
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:89
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:117
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:117
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:121
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:121
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:162
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:162
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:174
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:174
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/04_subsaharan_africa.txt:348
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/04_subsaharan_africa.txt:348
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/09_central_asia.txt:221
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/09_central_asia.txt:221
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/09_central_asia.txt:285
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/09_central_asia.txt:285
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/09_central_asia.txt:289
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/09_central_asia.txt:289
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/09_central_asia.txt:309
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/09_central_asia.txt:309
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/09_central_asia.txt:455
+
+[17:40:44][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/09_central_asia.txt:455
+[17:40:44][jomini_script_system.cpp:247]: Script system error!
+  Error: create_state effect [ Province 'x30B0E0' crossing multiple state regions ]
+  Script location: common/history/states/00_states.txt:7719
+
+[17:40:44][jomini_effect.cpp:1133]: Variable 'five_year_plan_done_2' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[17:40:44][jomini_effect.cpp:1133]: Variable 'recapturado_brasil' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[17:40:44][jomini_effect.cpp:1137]: Variable 'dainam_sponsor_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[17:40:44][jomini_effect.cpp:1137]: Variable 'italian_states_radicals_total_bar' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[17:40:44][jomini_effect.cpp:1133]: Variable 'truce_funny' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[17:40:44][jomini_effect.cpp:1137]: Variable 'lost_opium_wars' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[17:40:44][jomini_effect.cpp:1137]: Variable 'opium_wars_target' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[17:40:44][jomini_effect.cpp:1133]: Variable 'china_warlord_abolished_monarchy' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[17:40:44][jomini_effect.cpp:1137]: Variable 'china_shatters' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[17:40:44][jomini_effect.cpp:1137]: Variable 'usa_state_flag_block' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[17:40:44][jomini_effect.cpp:1137]: Variable 'cult_center' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[17:40:44][jomini_effect.cpp:1137]: Variable 'district_of_columbia' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[17:40:44][jomini_effect.cpp:1137]: Variable 'missionary_works_counter' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[17:40:44][jomini_effect.cpp:1137]: Variable 'failed_tanzimat' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[17:40:44][jomini_effect.cpp:1137]: Event target 'heavenly_kingdom_spawn' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[17:40:44][jomini_eventmanager.cpp:371]: Event german_unification.2 is orphaned
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_homeland effect [ Unknown culture in homeland effect ]
+  Script location: common/history/states/00_states.txt:1607
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_owned_country effect [ Invalid Country in scope ]
+  Script location: common/history/countries/gbr - great britain.txt:104
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'c' returned an unset scope
+  Script location: common/history/countries/kaf - kafiristan.txt:2
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:78
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:79
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:80
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:81
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:82
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:83
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:84
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:85
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:86
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:87
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:88
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:89
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:90
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:91
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:92
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:93
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:94
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:95
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:96
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_researched effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_starting_inventions.txt:97
+common/history/countries/kaf - kafiristan.txt:3
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:58
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:59
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:60
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:61
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:62
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:63
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:64
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:65
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: is_country_type trigger [ Wrong scope for trigger: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:68
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:80
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:81
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:82
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:83
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:84
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:85
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:86
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/scripted_effects/00_political_setup.txt:87
+common/history/countries/kaf - kafiristan.txt:4
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: activate_law effect [ Wrong scope for effect: none, expected country ]
+  Script location: common/history/countries/kaf - kafiristan.txt:5
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: ig:ig_landowners effect [ Wrong scope for effect: none, expected country, political_movement ]
+  Script location: common/history/countries/kaf - kafiristan.txt:7
+
+[17:42:02][country_law_manager.cpp:431]: Country DAI is not permitted to retain law Separación total, fix this or consider Religión del Estado instead
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: Event target link 'region_state' returned an invalid object
+  Script location: common/history/pops/09_central_asia.txt:1502
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Scoped object is not valid. Type: Estado NULL_STATE (x000000) ]
+  Script location: common/history/pops/09_central_asia.txt:1503
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Scoped object is not valid. Type: Estado NULL_STATE (x000000) ]
+  Script location: common/history/pops/09_central_asia.txt:1507
+
+[17:42:02][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Scoped object is not valid. Type: Estado NULL_STATE (x000000) ]
+  Script location: common/history/pops/09_central_asia.txt:1512
+
+[17:42:07][jomini_script_system.cpp:247]: Script system error!
+  Error: fully_mobilize_army effect [ Scope formation cannot be mobilized ]
+  Script location: common/history/military_deployments/00_military_deployments.txt:75
+
+[17:42:07][pdx_assert.cpp:628]: Assertion failed: NGameState::GameStateAccess._Value == EGameStateAccess::Interface || NGameState::HiddenGameStateAccess._Value == EHiddenGameStateAccess::Allowed
+[17:42:07][jomini_script_system.cpp:247]: Script system error!
+  Error: teleport_to_front effect [ Cannot teleport scope formation 1. Ejército cachemir (283) to target front Frente  (0) due to: red_cross! tooltippable_name tooltip:dw_1505913435,GwEAAA==,DATA_MILITARY_FORMATION,MilitaryFormationTooltip 1. Ejército cachemir!! b no! se puede desplegar en tooltippable_name tooltip:dw_1024131813,AAAAAA==,DATA_FRONT_NAME_TOOLTIP,FrontTooltip Frente !! porque no está tooltippable_concept tooltip:dw_1813705710,8DhPrYgEAAA=,DATA_GAME_CONCEPT_TYPE_NAME_TOOLTIP,GameConcep
+  Script location: common/history/military_deployments/00_military_deployments.txt:76
+
