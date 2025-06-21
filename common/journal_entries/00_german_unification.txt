@@ -1,4 +1,4 @@
-﻿je_schleswig_holstein_question = {
+je_schleswig_holstein_question = {
 	icon = "gfx/interface/icons/achievements/three_hurrahs.dds"
 	
 	group = je_group_historical_content
@@ -123,7 +123,7 @@ je_german_unification_idea = {
 				}
 			}
 			has_technology_researched = nationalism	
-			percent >= 0.45
+			percent >= 0.85
 		}
 	}
 
@@ -292,7 +292,7 @@ je_north_german_unification = {
 			save_scope_as = target_country
 			count = all
 			variable = north_German_Minors
-			this.relations:root >= 50
+			this.relations:root >= 80
 		}
 
 	}
