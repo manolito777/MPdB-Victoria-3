@@ -36,5 +36,9 @@
 			set_company_establishment_date = 1825.1.1
 			set_company_state_region = s:STATE_WALLONIA
 		}
+		add_modifier = {
+			name = modifier_dei
+			months = -1
+		}
 	}
 }
