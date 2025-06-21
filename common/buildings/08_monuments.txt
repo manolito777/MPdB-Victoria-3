@@ -733,7 +733,7 @@ building_power_bloc_statue = {
 
 	icon = "gfx/interface/icons/building_icons/building_powerblock_statue.dds"
 
-	required_construction = construction_cost_monument
+	required_construction = 2000
 
 	can_build_government = {
 		always = yes
