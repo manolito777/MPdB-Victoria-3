@@ -779,13 +779,13 @@ STATE_ONTARIO = {
     arable_land = 200
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_vineyard_plantations" }
     capped_resources = {
-        bg_sulfur_mining = 48
+        bg_sulfur_mining = 58
         bg_logging = 33
         bg_fishing = 10
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 40
+        undiscovered_amount = 60
     }
 }
 
