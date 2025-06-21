@@ -88,7 +88,7 @@
 
     quantity_max_value = {
         value = income
-		divide = 2
+		divide = 10
     }
 
 	ai = {
