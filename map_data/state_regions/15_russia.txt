@@ -496,7 +496,7 @@ STATE_KURSK = {
     capped_resources = {
         bg_logging = 31
         bg_iron_mining = 93
-        bg_sulfur_mining = 12
+        bg_sulfur_mining = 4
     }
     resource = {
         type = "bg_gold_fields"
@@ -981,7 +981,6 @@ STATE_VYATKA = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 15
-        bg_sulfur_mining = 10
         bg_logging = 36
     }
     resource = {
@@ -1258,7 +1257,7 @@ STATE_SAMARA = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 30
-        bg_sulfur_mining = 15
+        bg_sulfur_mining = 12
         bg_logging = 9
         bg_iron_mining = 5
     }
