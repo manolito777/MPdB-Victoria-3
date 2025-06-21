@@ -12,7 +12,7 @@ silkworm_diseases.1 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	#only fires once
 
 	title = silkworm_diseases.1.t
 	desc = silkworm_diseases.1.d
@@ -73,7 +73,7 @@ silkworm_diseases.1 = {
 		scope:pebrine_state = {
 			add_modifier = {
 				name = modifier_pebrine_state_modifier
-				months = long_modifier_time
+				days = long_modifier_time
 			}
 		}
 	}
@@ -92,7 +92,7 @@ silkworm_diseases.2 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	title = silkworm_diseases.2.t
 
@@ -152,14 +152,14 @@ silkworm_diseases.2 = {
 		}
 		add_modifier = {
 			name = modifier_pebrine_research_funds
-			months = short_modifier_time
+			days = short_modifier_time
 			multiplier = money_amount_multiplier_medium
 		}
 		add_technology_progress = { progress = 4000 technology = ac_power }
 		scope:pebrine_state = {
 			add_modifier = {
 				name = modifier_pebrine_state_modifier
-				months = long_modifier_time
+				days = long_modifier_time
 			}
 			set_variable = var_has_had_pebrine
 		}
@@ -170,7 +170,7 @@ silkworm_diseases.2 = {
 		scope:pebrine_state = {
 			add_modifier = {
 				name = modifier_pebrine_state_modifier
-				months = long_modifier_time
+				days = long_modifier_time
 			}
 			set_variable = var_has_had_pebrine
 		}
@@ -189,7 +189,7 @@ silkworm_diseases.3 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	title = silkworm_diseases.3.t
 
@@ -291,7 +291,7 @@ silkworm_diseases.3 = {
 		scope:pebrine_state = {
 			add_modifier = {
 				name = modifier_pebrine_state_modifier
-				months = long_modifier_time
+				days = long_modifier_time
 			}
 		}
 	}
@@ -307,7 +307,7 @@ silkworm_diseases.3 = {
 		scope:pebrine_state = {
 			add_modifier = {
 				name = modifier_pebrine_state_modifier
-				months = long_modifier_time
+				days = long_modifier_time
 			}
 		}
 	}
@@ -325,7 +325,7 @@ silkworm_diseases.4 = {
 
 	icon = "gfx/interface/icons/event_icons/event_protest.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	title = silkworm_diseases.4.t
 
@@ -374,12 +374,12 @@ silkworm_diseases.4 = {
 		default_option = yes
 		add_modifier = {
 			name = modifier_landowner_bailout_funds
-			months = short_modifier_time
+			days = short_modifier_time
 			multiplier = money_amount_multiplier_small
 		}
 		add_modifier = {
 			name = modifier_landowner_bailout_funds_country
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 		scope:pebrine_state = {
 			add_loyalists_in_state = {
@@ -397,7 +397,7 @@ silkworm_diseases.4 = {
 			}
 			add_modifier = {
 				name = modifier_landowners_not_bailed_out
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 		}
 	}
@@ -415,7 +415,7 @@ silkworm_diseases.5 = {
 
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	title = silkworm_diseases.5.t
 
@@ -454,12 +454,12 @@ silkworm_diseases.5 = {
 		default_option = yes
 		add_modifier = {
 			name = modifier_art_silk_research_funds
-			months = short_modifier_time
+			days = short_modifier_time
 			multiplier = money_amount_multiplier_small
 		}
 		add_modifier = {
 			name = modifier_art_silk_research
-			months = short_modifier_time
+			days = short_modifier_time
 		}
 		add_technology_progress = { progress = 4000 technology = art_silk }
 	}
@@ -468,7 +468,7 @@ silkworm_diseases.5 = {
 		ig:ig_industrialists = {
 			add_modifier = {
 				name = modifier_art_silk_refused
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 		}
 	}
@@ -486,7 +486,7 @@ silkworm_diseases.6 = {
 
 	icon = "gfx/interface/icons/event_icons/event_protest.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	title = silkworm_diseases.6.t
 
@@ -532,7 +532,7 @@ silkworm_diseases.6 = {
 		scope:pebrine_state = {
 			add_modifier = {
 				name = modifier_worker_bailout
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 			add_loyalists_in_state = {
 				value = small_radicals
@@ -557,7 +557,7 @@ silkworm_diseases.6 = {
 			}
 			add_modifier = {
 				name = modifier_workers_not_bailed_out
-				months = short_modifier_time
+				days = short_modifier_time
 			}
 		}
 	}
@@ -575,7 +575,7 @@ silkworm_diseases.7 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	title = silkworm_diseases.7.t
 
@@ -607,7 +607,7 @@ silkworm_diseases.7 = {
 		}
 		add_modifier = {
 			name = modifier_pioneered_pebrine_cure
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 	}
 	option = {
@@ -664,7 +664,7 @@ silkworm_diseases.8 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	title = silkworm_diseases.8.t
 
@@ -742,7 +742,7 @@ silkworm_diseases.9 = {
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
-	cooldown = { months = normal_modifier_time }
+	cooldown = { days = normal_modifier_time }
 
 	title = silkworm_diseases.9.t
 
@@ -768,7 +768,7 @@ silkworm_diseases.9 = {
 		ig:ig_intelligentsia = {
 			add_modifier = {
 				name = modifier_intelligentsia_pebrine_credit
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		every_scope_state = {
@@ -787,7 +787,7 @@ silkworm_diseases.9 = {
 			remove_modifier = modifier_pebrine_state_modifier
 			add_modifier = {
 				name = modifier_silk_grand_reopening
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 	}
