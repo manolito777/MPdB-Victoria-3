@@ -99,7 +99,7 @@ ig_trait_old_lady_of_threadneedle_street = {
 	min_approval = loyal
 
 	modifier = {
-		country_loan_interest_rate_mult = -0.15
+		country_loan_interest_rate_mult = -0.1
 	}
 }
 
@@ -127,6 +127,6 @@ ig_trait_cooperative_agencies = {
 	min_approval = loyal
 
 	modifier = {
-		building_group_bg_manufacturing_throughput_add = 0.10
+		building_group_bg_manufacturing_throughput_add = 0.05
 	}
 }
