@@ -618,12 +618,12 @@ NEconomy = {
 	COUNTRY_MONOPOLY_MAX_COUNT = 5						# Maximum number of country monopolies a country can have
 	COUNTRY_MONOPOLY_AUTHORITY_COST = 100				# Cost of establishing a country monopoly
 
-	WORLD_MARKET_MONOPOLY_MIN_SHARE	= 0.5				# For a market to be considered to have a world market monopoly, it has to control a greater share of exports than this
-	MONOPOLY_PRICE_IMPACT = 0.2							# The price of a good is increased by this multiplier based on how much of its supply is considered to be under a monopoly
+	WORLD_MARKET_MONOPOLY_MIN_SHARE	= 0.1				# For a market to be considered to have a world market monopoly, it has to control a greater share of exports than this
+	MONOPOLY_PRICE_IMPACT = 0.05							# The price of a good is increased by this multiplier based on how much of its supply is considered to be under a monopoly
 
 	PRIVATIZATION_DISCOUNT_MONOPOLY = 0.2				# The cost of privatizing a building is multiplied by this for companies with a monopoly on that building type
 
-	PRESTIGE_GOODS_INPUT_THROUGHPUT_BONUS = 0.2			# Bonus to throughput, scaled against proportion of input goods base value that is prestige goods
+	PRESTIGE_GOODS_INPUT_THROUGHPUT_BONUS = 0.05 		# Bonus to throughput, scaled against proportion of input goods base value that is prestige goods
 }
 
 NMilitary = {
@@ -1186,12 +1186,12 @@ NPops = {
 	ALLOW_ASSIMILATION_IN_HOMELANDS = no		# Can pops assimilate when living in their homelands?
 	ALLOW_ASSIMILATION_ACROSS_HERITAGES = yes 	# Can pops assimilate into pops of a different heritage?
 
-	ASSIMILATION_RATE = 0.01					# Percentage of pops who will Assimilate into a different Culture each month, if eligible
+	ASSIMILATION_RATE = 0.005					# Percentage of pops who will Assimilate into a different Culture each month, if eligible
 	MIN_ASSIMILATION = 1						# If there is any assmiliation at least this many people will assimilate
 
-	CONVERSION_RATE = 0.005						# Percentage of pops who will Convert into a different Religion each month, if eligible
+	CONVERSION_RATE = 0.003						# Percentage of pops who will Convert into a different Religion each month, if eligible
 	CONVERSION_UNINCORPORATED_MULT = 0.25 		# CONVERSION_RATE is multiplied by this in unincorporated states
-	MIN_CONVERSION = 5							# If there is any conversion at least this many people will convert
+	MIN_CONVERSION = 3							# If there is any conversion at least this many people will convert
 
 	OBSESSION_DEMAND_MIN = 1.0					# The minimum relative demand of an obsession (overrides min demand in buy package goods categories)
 	OBSESSION_DEMAND_MULT = 2.0					# Demand of an obsession is multiplied by this
@@ -1199,7 +1199,7 @@ NPops = {
 	MIN_SUPPLY_LEVEL_FOR_NEW_OBSESSION = 0.5	# Supply needs to be at least this times the demand
 	MIN_DEMAND_VALUE_FOR_NEW_OBSESSION = 500	# At this amount of (number of units * goods base price) needs to be demanded in a market to create a new obsession
 	MAX_NUM_OBSESSIONS = 3						# A culture can only have this number of obsessions at the same time
-	OBSESSION_SPAWN_CHANCE = 1.5				# Per year (1.0 = 1%), multiplied by goods supply and market size mult
+	OBSESSION_SPAWN_CHANCE = 2					# Per year (1.0 = 1%), multiplied by goods supply and market size mult
 	OBSESSION_SPAWN_CHANCE_MAX_SUPPLY_MULT = 3.0		# Supply relative to demand above this isn't factored into spawn chance
 	OBSESSION_SPAWN_CHANCE_PRESTIGE_GOODS_MULT = 4.0	# Chance for a new obsession to spawn is multiplied by 1 + this, scaled by fraction of the goods supply that is prestige goods
 	TABOO_DEMAND_MULT = 0.5						# Demand of a taboo is multiplied by this
@@ -1234,7 +1234,7 @@ NPops = {
 ## General ##
 	MIGRATION_MIN_STATE_POPS = 20000											# A state with less population than this will not get emigration
 	MIGRATION_STATE_POPULATION_THRESHOLD = 100000								# States with less pops than this have reduced market emigration numbers to avoid total depopulation
-	MIGRATION_MAX_PER_STATE_BASE = 500											# No more than this amount of people can move from or to a state in a single week (base)
+	MIGRATION_MAX_PER_STATE_BASE = 650											# No more than this amount of people can move from or to a state in a single week (base)
 	MIGRATION_MAX_PER_STATE_INFRASTRUCTURE = 5									# No more than this amount of people can move from or to a state in a single week (scales with infrastructure)
 	MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION = 0.005						# Max emigration per week is clamped to this fraction of a state's population
 	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_ORIGIN_FRACTION = 0.05					# The amount of unemployed workers in a state * this value is added to how many people can move from it (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
@@ -1248,7 +1248,7 @@ NPops = {
 	MAX_ACCEPTANCE_VALUE = 100													# It is both the maximum acceptance value a pop can have as well as the (implied) upper bound of the last acceptance status [> MIN_ACCEPTANCE_VALUE]
 	ACCEPTANCE_FROM_HOMELAND_COMMUNITY = 10										# The amount of acceptance a pop gets from living in their homeland, applied statically on their Cultural Community
 	MIN_REQUIRED_ACCEPTANCE_FOR_MIGRATION = 30		 							# If a pop would have less than this much acceptance in a target state, they won't mass migrate there
-	EXPECTED_ACCEPTANCE_INCREASE_TO_MIGRATE = 10                                # A pop will look to increase their acceptance by this much when mass migrating, but might accept less if mass migration attraction difference is high enough
+	EXPECTED_ACCEPTANCE_INCREASE_TO_MIGRATE = 0                                # A pop will look to increase their acceptance by this much when mass migrating, but might accept less if mass migration attraction difference is high enough
 	MAX_ACCEPTANCE_RATIO_MULT_MIGRATION = 5										# A difference in acceptance between source and target in mass migrations will result in at most this much increased migration
 
 	# Cultural Communities #
@@ -1288,18 +1288,18 @@ NPops = {
 ## Mass Migrations ##
 	# Mass Migration Setup #
 	MASS_MIGRATION_MIN_TRADE_VALUE_BETWEEN_MARKETS = 1							# At least this much monetary value of trade must be happening between two markets for mass migration to occur between them. This counts both world market trade and treaty trade.
-	MASS_MIGRATION_ORIGIN_MIN_TURMOIL = 0.15									# Must have at least this much turmoil in cultural homelands to create a migration target
+	MASS_MIGRATION_ORIGIN_MIN_TURMOIL = 0.125									# Must have at least this much turmoil in cultural homelands to create a migration target
 	MASS_MIGRATION_ORIGIN_MIN_EMIGRANTS = 100000								# A country must have at least this many possible migrants to trigger a mass migration
 	MASS_MIGRATION_TARGET_MAX_TURMOIL = 0.30									# Must have this or less turmoil among the culture for a country to be picked as a mass migration target
 	MASS_MIGRATION_TARGET_MIN_ARABLE_LAND = 20									# A state must have at least this much arable land to be a mass migration target
 	MASS_MIGRATION_STATE_MIN_MARKET_ACCESS = 0.7								# A state must have at least this much market access to their market to be a mass migration target or origin state
-	MASS_MIGRATION_SPAWN_CHANCE = 2 											# Per week for each potential mass migration, scales with turmoil (1 = 1%)
+	MASS_MIGRATION_SPAWN_CHANCE = 2.5 											# Per week for each potential mass migration, scales with turmoil (1 = 1%)
 	MASS_MIGRATION_SPAWN_CHANCE_STRUGGLING_FACTOR = 0.2 						# Chance increases by this for each point of SoL below 10 for a culture in a country
 	MASS_MIGRATION_SPAWN_CHANCE_STARVING_FACTOR = 1 							# Chance increases by this for each point of SoL below 5 for a culture in a country (added on top of struggling factor)
 	MASS_MIGRATION_TARGET_COUNTRY_RANDOM_FACTOR = 0.5							# The higher this is, the more random the selection of mass migration country targets will be
 	MASS_MIGRATION_TARGET_STATE_RANDOM_FACTOR = 0.5								# The higher this is, the more random the selection of mass migration state targets in the target country will be
 	MASS_MIGRATION_DURATION_MONTHS = 12											# How long does a mass migration last in months
-	MASS_MIGRATION_COOLDOWN_MONTHS = 60											# How many months before the same culture can mass migrate from a country again
+	MASS_MIGRATION_COOLDOWN_MONTHS = 48											# How many months before the same culture can mass migrate from a country again
 	MASS_MIGRATION_NUM_TARGET_STATES_FOR_NO_PENALTY = 4							# Countries with at least this number of possible target states do not receive any penalty to their mass migration target score
 	MASS_MIGRATION_FEW_TARGET_STATES_PENALTY = 0.2								# Mass migration target score is reduced by a fraction of itself equal to this times number of possible target states less than MASS_MIGRATION_NUM_TARGET_STATES_FOR_NO_PENALTY. Or Score = Score - Score * this * PossibleStatesDiff
 
@@ -1308,11 +1308,11 @@ NPops = {
 	MASS_MIGRATION_PER_WEEK_PER_TOTAL_POPULATION = 100000						#
 	MASS_MIGRATION_MIN_DIFFERENCE_IN_MIGRATION_ATTRACTION_TO_MOVE = 10			#
 	# The below factors are applied *after* migration pull threshold checks, so they only impact how large a share of migration a state gets
-	MIGRATION_PULL_MULT_FROM_MASS_MIGRATION_TARGET = 1						# Migration pull multiplied by this from target state being a mass migration target
-	MIGRATION_PULL_MULT_FROM_MASS_MIGRATION_TARGET_ADJACENCY = 1				# Migration pull multiplied by this from target state being next to a mass migration target
+	MIGRATION_PULL_MULT_FROM_MASS_MIGRATION_TARGET = 1.5						# Migration pull multiplied by this from target state being a mass migration target
+	MIGRATION_PULL_MULT_FROM_MASS_MIGRATION_TARGET_ADJACENCY = 1.1				# Migration pull multiplied by this from target state being next to a mass migration target
 	MIGRATION_MAX_PER_STATE_MASS_EMIGRATION_MULT = 3.0							# Weekly emigration caps are multiplied by this amount by this for mass migrations (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
 	MIGRATION_MAX_PER_STATE_MASS_IMMIGRATION_MULT = 5.0						# Weekly immigration caps are multiplied by this amount by this for mass migrations (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
-	MASS_MIGRATION_NEIGHBORING_TARGET_STATE_LIMIT_FRACTION = 0.25				# Fraction of the limit a neighboring state gets compared to the main target state in a mass migration
+	MASS_MIGRATION_NEIGHBORING_TARGET_STATE_LIMIT_FRACTION = 0.5				# Fraction of the limit a neighboring state gets compared to the main target state in a mass migration
 
 ##### End Migration #####
 
