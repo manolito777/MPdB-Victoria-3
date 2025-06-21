@@ -1578,6 +1578,10 @@
 				size = 763486
 			}
 			create_pop = {
+				culture = mexican
+				size = 163486
+			}
+			create_pop = {
 				culture = Native_Mesoamerican
 				religion = catholic
 				size = 39996
