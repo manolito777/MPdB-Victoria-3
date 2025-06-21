@@ -237,7 +237,7 @@ state_trait_gulf_of_paria = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		state_building_port_max_level_add = 2
+		building_port_throughput_add = 0.15
 		state_building_naval_base_max_level_add = 10
 		building_group_bg_fishing_throughput_add = 0.1
 	}
@@ -247,9 +247,9 @@ state_trait_bay_of_candelaria = {
 	icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
 	
 	modifier = {
-		building_shipyards_throughput_add = 0.1
-		building_military_shipyards_throughput_add = 0.1
-		state_building_port_max_level_add = 2
+		building_shipyards_throughput_add = 0.15
+		building_military_shipyards_throughput_add = 0.15
+		building_port_throughput_add = 0.15
 		state_building_naval_base_max_level_add = 10
 	}
 }
@@ -260,7 +260,7 @@ state_trait_rio_de_janeiro_harbor = {
 	modifier = {
 		building_shipyards_throughput_add = 0.15
 		building_military_shipyards_throughput_add = 0.15
-		state_building_port_max_level_add = 3
+		building_port_throughput_add = 0.15
 		state_building_naval_base_max_level_add = 15
 	}
 }
