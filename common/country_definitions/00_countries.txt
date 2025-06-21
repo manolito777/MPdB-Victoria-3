@@ -179,7 +179,7 @@ GRI = {
 }
 
 JAP = {
-	color = { 215 175 255 }
+	color = { 205 175 255 }
 	country_type = unrecognized
 	
 	tier = empire
