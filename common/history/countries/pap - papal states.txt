@@ -21,9 +21,5 @@
 			institution = institution_schools
 			level = 1
 		}
-
-		ig:ig_devout = {
-			set_interest_group_bolstering = yes
-		}
 	}
 }
