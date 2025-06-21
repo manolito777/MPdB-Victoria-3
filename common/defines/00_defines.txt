@@ -1188,8 +1188,8 @@ NPops = {
 	ASSIMILATION_RATE = 0.005					# Percentage of pops who will Assimilate into a different Culture each month, if eligible
 	MIN_ASSIMILATION = 1						# If there is any assmiliation at least this many people will assimilate
 
-	CONVERSION_RATE = 0.003						# Percentage of pops who will Convert into a different Religion each month, if eligible
-	CONVERSION_UNINCORPORATED_MULT = 0.25 		# CONVERSION_RATE is multiplied by this in unincorporated states
+	CONVERSION_RATE = 0.0025				# Percentage of pops who will Convert into a different Religion each month, if eligible
+	CONVERSION_UNINCORPORATED_MULT = 0.15 		# CONVERSION_RATE is multiplied by this in unincorporated states
 	MIN_CONVERSION = 3							# If there is any conversion at least this many people will convert
 
 	OBSESSION_DEMAND_MIN = 1.0					# The minimum relative demand of an obsession (overrides min demand in buy package goods categories)
