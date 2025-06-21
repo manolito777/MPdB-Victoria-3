@@ -252,7 +252,7 @@ STATE_KOLA = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 85
-        bg_sulfur_mining = 10
+        bg_sulfur_mining = 14
         bg_logging = 25
         bg_fishing = 10
     }
