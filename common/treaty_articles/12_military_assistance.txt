@@ -31,7 +31,7 @@
 		unit_experience_gain_mult = 0.25
 		building_training_rate_mult = 0.2
 		country_military_goods_cost_mult = -0.1
-		country_military_tech_spread_mult = 0.1
+		
 	}
 
 	visible = {
