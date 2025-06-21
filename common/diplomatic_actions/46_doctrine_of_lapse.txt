@@ -12,7 +12,11 @@
 
 	selectable = {
 		NOT = { has_variable = doctrine_of_lapse_ended }
-		c:EIC ?= this
+		OR = {
+			c:EIC ?= this
+			c:BHT ?= this
+		
+		}
 	}
 
 	possible = {
@@ -25,7 +29,7 @@
 			is_subject_of = ROOT
 			custom_tooltip = {
 				text = is_princely_state_tt
-				has_variable = princely_state
+				
 			}
 			NOT = {
 				country_tier = empire
