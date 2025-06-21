@@ -70,7 +70,7 @@ land_reclamation.1 = {
 			}
 			add_modifier = { # prestige
 				name = land_reclamation_complete
-				months = long_modifier_time
+				days = long_modifier_time
 			}
 		}
 		change_global_variable = {
@@ -97,7 +97,7 @@ land_reclamation.1 = {
 			}
 			add_modifier = { # prestige
 				name = land_reclamation_complete
-				months = long_modifier_time
+				days = long_modifier_time
 			}
 		}
 		if = {

@@ -292,7 +292,7 @@ raj.4 = {
 		ig:ig_armed_forces = {
 			add_modifier = {
 				name = hindu_overseas_exemption
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 		if = {
@@ -356,17 +356,17 @@ raj.4 = {
 			set_variable = { 
 				name = bengal_progress_from_events_var_add_5 
 				value = -1
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 			set_variable = { 
 				name = bombay_progress_from_events_var_add_5
 				value = -1
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 			set_variable = { 
 				name = madras_progress_from_events_var_add_5
 				value = -1
-				months = normal_modifier_time
+				days = normal_modifier_time
 			}
 		}
 
@@ -485,7 +485,7 @@ raj.5 = {
 			# state_conversion_mult
 			add_modifier = {
 				name = promised_no_proselytization
-				months = long_modifier_time
+				days = long_modifier_time
 			}
 		}	
 		if = {
@@ -502,7 +502,7 @@ raj.5 = {
 			ig:ig_devout = {
 				add_modifier = {
 					name = promised_no_missionaries
-					months = normal_modifier_time
+					days = normal_modifier_time
 				}
 			}
 		}
@@ -566,17 +566,17 @@ raj.5 = {
 				set_variable = { 
 					name = bengal_progress_from_events_var_add_6
 					value = -1
-					months = normal_modifier_time
+					days = normal_modifier_time
 				}
 				set_variable = { 
 					name = bombay_progress_from_events_var_add_6
 					value = -1
-					months = normal_modifier_time
+					days = normal_modifier_time
 				}
 				set_variable = { 
 					name = madras_progress_from_events_var_add_6
 					value = -1
-					months = normal_modifier_time
+					days = normal_modifier_time
 				}
 			}
 		}

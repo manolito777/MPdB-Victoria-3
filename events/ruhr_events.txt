@@ -21,7 +21,7 @@ ruhr_boom.1 = {
 
 		icon = "gfx/interface/icons/event_icons/event_map.dds"
 
-		cooldown = { months = normal_modifier_time }
+		cooldown = { days = normal_modifier_time }
 
 	immediate = {
 		every_scope_state = {
