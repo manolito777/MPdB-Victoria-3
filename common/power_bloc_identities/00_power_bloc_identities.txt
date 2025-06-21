@@ -668,7 +668,7 @@ identity_religious = {
 			value = define:NPowerBlocs|COHESION_TARGET_MAX
 			multiply = ig:ig_devout.ig_clout
 			add = -10
-			multiply = 4
+			multiply = 5
 			desc = POWER_BLOC_COHESION_DEVOUT_IG_CLOUT
 		}
 
