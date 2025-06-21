@@ -66,7 +66,7 @@ STATE_SICHUAN = {
     capped_resources = {
         bg_coal_mining = 34
         bg_iron_mining = 54
-        bg_sulfur_mining = 55
+        bg_sulfur_mining = 35
         bg_logging = 32
     }
 }
