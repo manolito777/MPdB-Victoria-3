@@ -340,7 +340,7 @@ law_multicultural = {
 	}
 	
 	unlocking_technologies = {
-		human_rights
+		political_agitation
 	}
 	
 	on_enact = {
