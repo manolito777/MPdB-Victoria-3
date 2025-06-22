@@ -101,7 +101,7 @@
 		company:company_east_india_company = {
 			set_company_establishment_date = 1600.12.31
 			set_company_state_region = s:STATE_HOME_COUNTIES
-			add_owned_country = c:BIC #links the country to this company
+			add_owned_country = c:PEC #links the country to this company
 		}
 
 	}
