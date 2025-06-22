@@ -581,23 +581,6 @@ ai_strategy_default = {
 				desc = "recognised_kenesary"
 			}
 		}
-
-		if = { # Chinese unification warlord coalitions
-			limit = {
-				has_journal_entry = je_reunify_china
-				scope:country = {
-						has_journal_entry = je_reunify_china
-				}
-				scope:enemy_country = {
-					has_journal_entry = je_reunify_china
-					this.country_rank >= scope:country.country_rank
-			 	}
-			}
-			add = {
-				value = 25
-				desc = "alignment_politics"
-			}
-		}
 	}
 
 	# Added to base neutrality in diplomatic plays
@@ -1537,70 +1520,6 @@ ai_strategy_default = {
 				}
 				multiply = 0
 			}
-
-			if = { #Do Not Take Chinese States In Full, unless another power has already done so
-				limit = {
-					country_rank >= rank_value:major_power
-					scope:target_state = {
-						owner = { has_journal_entry = je_warlord_china }
-						OR = {
-							region = sr:region_north_china
-							region = sr:region_south_china
-							region = sr:region_manchuria
-						}
-					}
-					OR = {
-						country_is_in_north_america = yes
-						country_is_in_europe = yes
-						country_is_in_south_america = yes
-					}
-					NOR = {
-						sr:region_north_china = {
-							any_scope_state = {
-								NOT = { is_treaty_port = yes }
-								owner = {
-									NOT = { THIS = ROOT }
-									country_rank >= rank_value:major_power
-									OR = {
-										country_is_in_north_america = yes
-										country_is_in_europe = yes
-										country_is_in_south_america = yes
-									}
-								}
-							}
-						}
-						sr:region_south_china = {
-							any_scope_state = {
-								NOT = { is_treaty_port = yes }
-								owner = {
-									NOT = { THIS = ROOT }
-									country_rank >= rank_value:major_power
-									OR = {
-										country_is_in_north_america = yes
-										country_is_in_europe = yes
-										country_is_in_south_america = yes
-									}
-								}
-							}
-						}
-						sr:region_manchuria = {
-							any_scope_state = {
-								NOT = { is_treaty_port = yes }
-								owner = {
-									NOT = { THIS = ROOT }
-									country_rank >= rank_value:major_power
-									OR = {
-										country_is_in_north_america = yes
-										country_is_in_europe = yes
-										country_is_in_south_america = yes
-									}
-								}
-							}
-						}
-					}
-				}
-				multiply = 0
-			}
 		}
 
 		min = 0
@@ -1726,19 +1645,6 @@ ai_strategy_default = {
 			add = 100
 		}
 
-		if = { #Carving up China
-			limit = {
-				should_carve_up_china = yes
-				scope:target_state = {
-					OR = {
-						region = sr:region_north_china
-						region = sr:region_south_china
-						region = sr:region_manchuria
-					}
-				}
-			}
-			add = 100
-		}
 
 		if = {
 			limit = {
@@ -2654,22 +2560,7 @@ ai_strategy_default = {
 			add = 5
 		}
 
-		if = { #Carving up China
-			limit = {
-				should_carve_up_china = yes
-				scope:target_country = {
-					is_country_type = unrecognized
-					any_scope_state = {
-						OR = {
-							region = sr:region_north_china
-							region = sr:region_south_china
-							region = sr:region_manchuria
-						}
-					}
-				}
-			}
-			add = 5
-		}
+		
 
 		# Ottomans should be very aggressive against owners of Syria and Egypt when they have the relevant JE's
 		if = {
@@ -3244,39 +3135,7 @@ ai_strategy_default = {
 			add = 5
 		}
 
-		# Japanese aggression against China for the Sino-Japanese War
-		if = {
-			limit = {
-				has_global_variable = sino_japanese_war
-				c:JAP ?= this
-				scope:target_country = {
-					country_has_primary_culture = cu:korean
-					overlord = {
-						OR = {
-							country_has_primary_culture = cu:han
-							country_has_primary_culture = cu:manchu
-						}
-					}
-				}
-			}
-			add = 25
-		}
-		if = {
-			limit = {
-				has_global_variable = sino_japanese_war
-				c:JAP ?= this
-				scope:target_country = {
-					OR = {
-						country_has_primary_culture = cu:han
-						country_has_primary_culture = cu:manchu
-					}
-					any_subject_or_below = {
-						country_has_primary_culture = cu:korean
-					}
-				}
-			}
-			add = 25
-		}
+		
 
 		# Afghan Consolidation
 		if = {
