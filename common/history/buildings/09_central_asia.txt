@@ -551,25 +551,12 @@
 					building={
 						type="building_manor_house"
 						country="c:PEC"
-						levels=11
+						levels=3
 						region="STATE_PASHTUNISTAN"
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
-			}
-			create_building={
-				building="building_opium_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:PEC"
-						levels=4
-						region="STATE_PASHTUNISTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
