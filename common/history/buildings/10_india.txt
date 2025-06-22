@@ -1360,7 +1360,7 @@
 				add_ownership={
 					country={
 						country="c:PEC"
-						levels=2
+						levels=1
 					}
 				}
 				reserves=1
@@ -1398,7 +1398,7 @@
 					building={
 						type="building_manor_house"
 						country="c:PEC"
-						levels=14
+						levels=8
 						region="STATE_PUNJAB"
 					}
 				}
@@ -1411,7 +1411,7 @@
 					building={
 						type="building_logging_camp"
 						country="c:PEC"
-						levels=6
+						levels=3
 						region="STATE_PUNJAB"
 					}
 				}
@@ -1424,7 +1424,7 @@
 					building={
 						type="building_manor_house"
 						country="c:PEC"
-						levels=7
+						levels=4
 						region="STATE_PUNJAB"
 					}
 				}
@@ -1476,7 +1476,7 @@
 					building={
 						type="building_manor_house"
 						country="c:PEC"
-						levels=16
+						levels=12
 						region="STATE_PUNJAB"
 					}
 				}
@@ -1775,13 +1775,13 @@
 					building={
 						type="building_manor_house"
 						country="c:GBR"
-						levels=5
+						levels=2
 						region="STATE_HOME_COUNTIES"
 					}
 					building={
 						type="building_manor_house"
 						country="c:PEC"
-						levels=6
+						levels=5
 						region="STATE_SINDH"
 					}
 					company = {
