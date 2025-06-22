@@ -156,7 +156,7 @@ NPolitics = {
 	LAW_ENACTMENT_COOLDOWN_DAYS = 730		# When an enactment fails, or is manually stopped after at least one checkpoint, that law can't be tried to be enacted for this many days [>=0]
 	LAW_ENACTMENT_ADVANCE_FACTOR = 2		# The _base_ advance chance is the success chance multiplied by this factor [>=1]
 	LAW_ENACTMENT_RULER_IDEOLOGY_EFFECT = 0.05 # Ruler ideology has this impact on a law's chance to pass or stall depending on relative approval
-	LAW_ENACTMENT_LAW_COMMITMENT_EFFECT = 0.25 # Committing to enacting a law via treaty adds this much to pass chance
+	LAW_ENACTMENT_LAW_COMMITMENT_EFFECT = 0.05 # Committing to enacting a law via treaty adds this much to pass chance
 	LAW_ENACTMENT_MOVEMENT_SUPPORT_PASS_EFFECT = 1.0 # Movement support has this impact on a law's chance to pass
 	LAW_ENACTMENT_MOVEMENT_SUPPORT_STALL_EFFECT = 1.0 # Movement support has this impact on a law's chance to stall
 	LAW_ENACTMENT_IG_CLOUT_STALL_EFFECT = 1.0 # Opposing IG clout has this base impact on a law's chance to stall
