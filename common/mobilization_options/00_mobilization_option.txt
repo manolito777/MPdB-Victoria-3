@@ -579,9 +579,9 @@ mobilization_option_chemical_weapons = {
 	}
 	unit_modifier = {
 		unit_offense_add = 12
-		unit_kill_rate_add = 0.25
-		unit_recovery_rate_add = -0.25
-		unit_devastation_mult = 0.25
+		unit_kill_rate_add = 0.5
+		unit_recovery_rate_add = -0.2
+		unit_devastation_mult = 0.1
 	}
 	ai_weight = {
 		value = 1
@@ -914,11 +914,11 @@ mobilization_option_first_aid = {
 	}
 	
 	upkeep_modifier = {
-		goods_input_fabric_add = 0.8
-		goods_input_liquor_add = 1.6
+		goods_input_fabric_add = 0.5
+		goods_input_liquor_add = 1
 	}
 	unit_modifier = {
-		unit_recovery_rate_add = 0.30
+		unit_recovery_rate_add = 0.15
 	}
 	ai_weight = {
 		value = 1
@@ -970,11 +970,11 @@ mobilization_option_field_hospitals = {
 		}
 	}
 	upkeep_modifier = {
-		goods_input_opium_add = 1.6
+		goods_input_opium_add = 1
 		goods_input_tools_add = 1
 	}
 	unit_modifier = {
-		unit_recovery_rate_add = 0.60	
+		unit_recovery_rate_add = 0.35	
 	}
 	ai_weight = {
 		value = 1
