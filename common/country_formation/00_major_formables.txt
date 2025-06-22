@@ -171,7 +171,6 @@ IBE = {
 			OR = {
 				country_has_primary_culture = cu:spanish
 				country_has_primary_culture = cu:catalan
-				country_has_primary_culture = cu:portuguese
 				country_has_primary_culture = cu:basque
 				country_has_primary_culture = cu:galician
 			}
