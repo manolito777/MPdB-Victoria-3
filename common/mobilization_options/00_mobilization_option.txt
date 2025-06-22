@@ -12,7 +12,7 @@
 	upkeep_modifier_unscaled = {
         goods_input_small_arms_mult = 0.2
         goods_input_artillery_mult = 0.2
-		goods_input_ammunition_mult = 0.2
+	goods_input_ammunition_mult = 0.2
         goods_input_oil_mult = 0.2
         goods_input_radios_mult = 0.2
         goods_input_tanks_mult = 0.2
@@ -625,7 +625,7 @@ mobilization_option_flamethrowers = {
 		flamethrowers
 	}
 	upkeep_modifier = {
-		goods_input_oil_add = 0.6
+		goods_input_oil_add = 0.5
 	}
 	unit_modifier = {
 		unit_offense_add = 12
@@ -854,8 +854,8 @@ mobilization_option_aerial_recon = {
 		military_aviation
 	}
 	upkeep_modifier = {
-		goods_input_aeroplanes_add = 1
-		goods_input_oil_add = 0.4
+		goods_input_aeroplanes_add = 0.5
+		goods_input_oil_add = 0.25
 	}
 	unit_modifier = {
 		unit_occupation_mult = 1
