@@ -34,7 +34,7 @@ great_power = {
 	
 	modifier = {
 		country_influence_add = 1000
-		country_diplomatic_play_maneuvers_add = 25
+		country_diplomatic_play_maneuvers_add = 35
 		country_max_declared_interests_add = 6
 		country_loan_interest_rate_mult = -0.35
 		country_agitator_slots_add = 2
@@ -68,7 +68,7 @@ major_power = {
 	
 	modifier = {
 		country_influence_add = 750
-		country_diplomatic_play_maneuvers_add = 25
+		country_diplomatic_play_maneuvers_add = 35
 		country_tech_spread_mult = 0.05
 		country_max_declared_interests_add = 3
 		country_loan_interest_rate_mult = -0.2
@@ -96,7 +96,7 @@ minor_power = {
 	
 	modifier = {
 		country_influence_add = 600
-		country_diplomatic_play_maneuvers_add = 25
+		country_diplomatic_play_maneuvers_add = 35
 		country_tech_spread_mult = 0.1
 		country_max_declared_interests_add = 1
 		country_agitator_slots_add = 1
@@ -120,7 +120,7 @@ insignificant_power = {
 	
 	modifier = {
 		country_influence_add = 500
-		country_diplomatic_play_maneuvers_add = 25
+		country_diplomatic_play_maneuvers_add = 35
 		country_loan_interest_rate_mult = 0.25
 		country_tech_spread_mult = 0.25
 		state_migration_pull_mult = -0.25
@@ -151,7 +151,7 @@ unrecognized_major_power = {
 	
 	modifier = {
 		country_influence_add = 750
-		country_diplomatic_play_maneuvers_add = 25
+		country_diplomatic_play_maneuvers_add = 35
 		country_max_declared_interests_add = 2
 		country_tech_spread_mult = -0.1
 		country_loan_interest_rate_mult = 0.5
@@ -180,7 +180,7 @@ unrecognized_regional_power = {
 	
 	modifier = {
 		country_influence_add = 600
-		country_diplomatic_play_maneuvers_add = 25
+		country_diplomatic_play_maneuvers_add = 35
 		country_max_declared_interests_add = 1
 		country_tech_spread_mult = -0.15
 		country_loan_interest_rate_mult = 0.75
@@ -206,7 +206,7 @@ unrecognized_power = {
 	
 	modifier = {
 		country_influence_add = 500	
-		country_diplomatic_play_maneuvers_add = 25
+		country_diplomatic_play_maneuvers_add = 35
 		country_tech_spread_mult = -0.2
 		country_loan_interest_rate_mult = 1.0
 		country_agitator_slots_add = 1
