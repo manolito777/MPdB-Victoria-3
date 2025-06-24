@@ -207,6 +207,16 @@ Sugerencias/brainstorming:
 
 
 
+-----------------------------------------------------------
+
+# 24-06-25 Erring
+
+Nota: Por la prisa requerida el domingo, han quedado numerosos pequeños cambios sin registrar; puede que haya inconsistencia con los registros anteriores.
+
+Tratados:
+	Ajustada la Asistencia Militar para que no sea tan fuerte.
+	Ajustado el pago de dinero para que no cueste maniobras ni infamia.
+
 
 
 
