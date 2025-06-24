@@ -217,6 +217,9 @@ Tratados:
 	Ajustada la Asistencia Militar para que no sea tan fuerte.
 	Ajustado el pago de dinero para que no cueste maniobras ni infamia.
 
+Modificadores:
+	Rebalanceado el modificador del Etíope para que no tenga una investigación tan desproporcionada.
+
 
 
 
