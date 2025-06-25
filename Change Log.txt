@@ -221,6 +221,15 @@ Modificadores:
 	Rebalanceado el modificador del Etíope para que no tenga una investigación tan desproporcionada.
 
 
+-------------------------------------------------------------
+
+# 25-06-25 Erring
+
+Actualizado hasta "diplomatic plays", inclusive, para el hotfix de la 1.9.3. Queda revisar el resto.
+
+PD: Comparando el consumo de los bienes de prestigio del vanilla al mod, me alegro mucho, mucho, de haberlos bajado a 0.1 de cuota mínima.
+
+
 
 
 
