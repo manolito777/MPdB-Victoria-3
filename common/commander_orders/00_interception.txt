@@ -14,7 +14,7 @@
     }
 
 	modifier = {
-		character_interception_add = 1000
+		character_interception_add = 50
 	}
 
 	clicksound = "event:/SFX/UI/Military/order_admiral_intercept"
@@ -47,7 +47,7 @@ interception_coast_agressive = {
     }
 
 	modifier = {
-		character_interception_add = 5
+		character_interception_add = 100
 		unit_navy_offense_mult = -0.1
 	}
 
@@ -90,7 +90,7 @@ interception_carrier_assualt = {
 	}
 
 	modifier = {
-		character_interception_add = 4
+		character_interception_add = 80
 		unit_supply_consumption_mult = 0.5
 		unit_navy_offense_mult = 0.15
 	}
@@ -127,7 +127,7 @@ interception_coordinated_attack = {
     }
 
 	modifier = {
-		character_interception_add = 1
+		character_interception_add = 100
 		battle_casualties_mult = 0.1
 		unit_navy_offense_mult = 0.2
 	}
