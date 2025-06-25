@@ -17,8 +17,7 @@ NJominiMap = {
 NCountry = {
 	DEFAULT_COUNTRY_TYPE = "recognized"
 	COMPANY_COUNTRY_TYPE = "company"
-	MAX_NUM_COUNTRY_FORMATION_CANDIDATES = 3
-	COUNTRY_FORMATION_CANDIDATE_MIN_RANK = 6				# countries with a lower rank value than this cannot be formation candidates
+	DEFAULT_MAX_NUM_COUNTRY_FORMATION_CANDIDATES = 3		# If nothing is specified in the country formation, this is used
 	MOVE_CAPITAL_COOLDOWN_YEARS = 5
 	MOVE_MARKET_CAPITAL_COOLDOWN_YEARS = 5
 	MAX_POWER_EFFECT = 1.0 # The max by which a power excess/deficiency modifier can scale
@@ -274,7 +273,7 @@ NPolitics = {
 	SUPPORT_UNIVERSAL_THRESHOLD = 0.75
 	
 	INCOHERENCE_FACTOR = 5								# The amount to multiply the approval value with to get an incoherence score for legitimacy
-	INCOHERENCE_FROM_SECONDARY_PARTY_MEMBERS = 0.5		# The amount to multiply the approval value with if the interest group is in a party but is not the party whip
+	INCOHERENCE_FROM_SECONDARY_PARTY_MEMBERS = 0.25		# The amount to multiply the approval value with if the interest group is in a party but is not the party whip
 	LEGITIMACY_PENALTY_FOR_EACH_EXCESS_ENTITY = 20		# How much Legitimacy is lost for each group in government above the allowance determined by country_legitimacy_govt_size_add
 
 	SHOW_CONFIRMATION_BELOW_LEGITIMACY = 25
@@ -344,8 +343,10 @@ NEconomy = {
 	NATIONALIZE_BUILDING_OTHER_COUNTRY_POP_OWNED_RELATIONS_IMPACT = -1	# Nationalizing a building that is owned by the pops of another country results in this relations impact per building level nationalized		
 	NATIONALIZE_BUILDING_NO_COMPENSATION_IMPACT_MULT = 3.0				# Multiplier to number of radicals & relations hits from nationalization if done without monetary compensation
 
-	AUTO_DOWNSIZE_BUILDING_MIN_EMPTY_PRIVATE_LEVELS = 1.0							# A building must be missing at least this many privately held levels of employment to start considering auto-downsizing (both this and the below requirement are applied)
-	AUTO_DOWNSIZE_BUILDING_MIN_EMPTY_FRACTION = 0.1						# A building must be missing at least this many levels of employment (in relative numbers) to start considering auto-downsizing (both this and the above requirement are applied)
+	AUTO_DOWNSIZE_BUILDING_MIN_EMPTY_PRIVATE_LEVELS = 1.0							# A (non Trade Center) building must be missing at least this many privately held levels of employment to start considering auto-downsizing (both this and the below requirement are applied)
+	AUTO_DOWNSIZE_BUILDING_MIN_EMPTY_FRACTION = 0.1						# A (non Trade Center) building must be missing at least this many levels of employment (in relative numbers) to start considering auto-downsizing (both this and the above requirement are applied)
+	AUTO_DOWNSIZE_BUILDING_MIN_UNUSED_TRADE_CAPACITY_FRACTION = 0.1				# A Trade Center must have at least this much unused Trade Capacity (as a fraction of the whole) to consider auto downsizing
+	AUTO_DOWNSIZE_BUILDING_MIN_UNUSED_TRADE_CAPACITY = 20						# A Trade Center must have at least this much unused Trade Capacity (in absolute numbers) to consider auto downsizing
 	AUTO_DOWNSIZE_BUILDING_MONTHS_TO_WAIT = 6							# After a building decides to start auto-downsizing, wait this many months before actually starting to downsize, in case conditions change
 
 	# Pollution Impact = (GeneratedPollution (StateRegion) / (DIVISOR_BASE + DIVISOR_ARABLE_LAND_MULT * SQRT(ArableLand (State Region)))/POLLUTION_MAX
@@ -524,6 +525,7 @@ NEconomy = {
 	BUILDING_FAILED_HIRE_COOLDOWN_WEEKS_WITHOUT_WAGE_RAISE = 4		# If a building fails to hire, it waits this many weeks before trying again *unless* it has since raised wages or adjusted its hiring rate
 
 	BUILDING_LAYOFFS_DECREASE_BY = 0.05				# The ratio that layoffs will reduce employment by (e.g. 0.15 means if you're currently 57% employed, reduce that to 48.45%)
+	BUILDING_LAYOFF_HIRING_COOLDOWN_WEEKS = 4		# If a building does layoffs, don't hire anymore workers for at least this amount of weeks
 	BUILDING_MINIMUM_HIRING_ADJUSTMENT_FRACTION = 0.001		# If a hiring or firing wouldn't result in at least this amount of the wanted employees being transfered, don't bother
 
 	BUILDING_CASH_RESERVES_HIGH_ROI = 0.25			# A ROI (return on investment) at or above this value is considered "high". In this context ROI means how much more money a building makes compared to how much it spends. Must be >= BUILDING_CASH_RESERVES_MED_ROI.
@@ -873,6 +875,7 @@ NDiplomacy = {
 	INCREASE_AUTONOMY_OF_SUBJECT_ACTION_NAME = "da_increase_autonomy_of_subject"
 	DECREASE_AUTONOMY_OF_SUBJECT_ACTION_NAME = "da_decrease_autonomy"
 
+	WAR_GOAL_REPARATIONS_MONTHS = 60	# [>= 0]
 	WAR_GOAL_COLONIZATION_RIGHTS_PACT_TYPE = "colonization_rights"	
 	WAR_GOAL_COLONIZATION_RIGHTS_MONTHS = 60	# [>= 0]
 	WAR_GOAL_OPEN_MARKET_MONTHS = 60	# [>= 0]
@@ -1316,6 +1319,7 @@ NPops = {
 ##### End Migration #####
 
 	COLONIZATION_RIGHTS_GROWTH_MULTIPLIER = 2.0			# Colonial growth AND max colonial growth are multiplied by this if you have colonization rights
+	COMPANY_COLONIZATION_GROWTH_MULTIPLIER = 1.2		# Colonial growth AND max colonial growth are multiplied by this if you have company colonization rights
 	COLONIAL_GROWTH_BASE_FACTOR = 0.00001				# Colonial growth generated by a state is this amount per 1000 population, multiplied by the Colonial Growth modifier in the state
 	MIN_BASE_COLONIAL_GROWTH = 0.005					# Country base colonial growth from population cannot be lower than this
 	MAX_BASE_COLONIAL_GROWTH = 0.15						# Country base colonial growth from population cannot be higher than this
@@ -1398,7 +1402,7 @@ NPops = {
 ## SoL Thresholds
 @pop_growth_equilibrium_sol = 5		# Equilibrium is pops stop starving and where growth first becomes positive
 @pop_growth_transition_sol = 10     # Transition determines how long birthrate "lags" behind mortality before starting to drop. Setting to same as equilibrium leads to no "lag" (only matters for birthrate)
-@pop_growth_max_sol = 19		# Growth Max is where net growth generally is at it's highest (only matters for mortality)
+@pop_growth_max_sol = 19			# Growth Max is where net growth generally is at it's highest (only matters for mortality)
 @pop_growth_stable_sol = 25 		# Stable is where birthrate and mortality stop changing and hit their minimum values
 
 ## Others
