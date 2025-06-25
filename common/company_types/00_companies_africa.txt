@@ -139,7 +139,14 @@ company_suez_company = {
 	
 	flavored_company = yes
 	
+	preferred_headquarters = { STATE_SINAI }
+
 	building_types = {
+		building_trade_center
+		building_port
+	}
+
+	extension_building_types = {
 		building_shipyards
 	}
 	
