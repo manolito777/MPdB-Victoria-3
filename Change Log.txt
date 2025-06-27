@@ -230,6 +230,14 @@ Actualizado hasta "diplomatic plays", inclusive, para el hotfix de la 1.9.3. Que
 PD: Comparando el consumo de los bienes de prestigio del vanilla al mod, me alegro mucho, mucho, de haberlos bajado a 0.1 de cuota mínima.
 
 
+------------------------------------------------------------
+
+# 27-06-25 Erring
+
+Actualizados dos eventos militares de avión/zeppelin (content 02; : 30 bono plano al Ataque -> 5 bono plano al Ataque.
+
+
+
 
 
 
