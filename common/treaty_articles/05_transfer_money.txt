@@ -389,35 +389,11 @@
 		contestion_type = control_any_target_country_state
 
 		maneuvers = {
-			value = 2.5
-
-			if = {
-				limit = {
-					exists = scope:quantity
-				}
-				add = {
-					value = scope:quantity
-					divide = 1000
-					min = 0
-					max = 50
-				}
-			}
+			value = 0
 		}
 
 		infamy = {
 			value = 0
-
-			if = {
-				limit = {
-					exists = scope:quantity
-				}
-				add = {
-					value = scope:quantity
-					divide = 1000
-					min = 5
-					max = 50
-				}
-			}
 
 			if = {
 				limit = {
@@ -447,7 +423,7 @@
 							divide = 2000
 						}
 					}
-					max = 50
+					max = 0
 				}
 			}
 

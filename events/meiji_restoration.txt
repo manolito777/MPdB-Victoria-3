@@ -129,7 +129,7 @@ meiji.1 = {
 		ig:ig_industrialists = {
 			add_modifier = {
 				name = meiji_favored_ig
-				days = very_long_modifier_time
+				years = 20
 			}
 		}
 		if = {
@@ -250,7 +250,7 @@ meiji.1 = {
 		ig:ig_intelligentsia = {
 			add_modifier = {
 				name = meiji_favored_ig
-				days = very_long_modifier_time
+				years = 20
 			}
 		}
 		if = {
@@ -399,7 +399,7 @@ meiji.2 = {
 		default_option = yes
 		add_modifier = {
 			name = japan_military_reward
-			days = normal_modifier_time
+			years = 5
 		}
 		if = {
 			limit = {
@@ -443,14 +443,14 @@ meiji.2 = {
 		}
 		add_modifier = {
 			name = japan_military_imperialism
-			months = 60
+			years = 5
 		}
 	}
 	option = {
 		name = meiji.2.b
 		add_modifier = {
 			name = japan_diplomatic_reward
-			days = normal_modifier_time
+			years = 5
 		}
 		add_modifier = {
 				name = ger_explosion_demografica
@@ -524,7 +524,7 @@ meiji.3 = {
 		# reduce mil tech spread
 		add_modifier = {
 			name = samurai_officers
-			days = normal_modifier_time
+			years = 5
 		}
 	}
 	option = { # expel the samurai from the army
