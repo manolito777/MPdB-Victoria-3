@@ -1105,7 +1105,7 @@ dp_unify_andes = {
 	possible = {
 		NOT = { exists = c:FND }
 		NOT = { is_country_type = decentralized }
-		has_technology_researched = pan-nationalism
+		has_technology_researched = nationalism
 		is_subject = no 
 		custom_tooltip = {
 			text = FND_tt
