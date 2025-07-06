@@ -698,7 +698,7 @@
 			}
 			add = {
 				desc = "earning_recognition_progress_voting_tt"
-				value = 1
+				value = 2
 			}
 		}
 		if = {
@@ -708,7 +708,7 @@
 			}
 			add = {
 				desc = "earning_recognition_literacy_tt"
-				value = 1
+				value = 2
 			}
 		}
 		if = {
@@ -786,7 +786,7 @@
 	}
 	start_value = 10
 	min_value = 0
-	max_value = 150
+	max_value = 100
 }
 
 fascism_progress_bar = {
