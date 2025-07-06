@@ -42,7 +42,7 @@
 
 	start_value = 10
 	min_value = 0
-	max_value = 480
+	max_value = 480 # divided_monarchists_upper_bound
 
  }
 
@@ -88,7 +88,7 @@
 
 	start_value = 25
 	min_value = 0
-	max_value = 480
+	max_value = 480 # divided_monarchists_upper_bound
 
  }
 
@@ -134,7 +134,7 @@
 
 	start_value = 10
 	min_value = 0
-	max_value = 480
+	max_value = 480 # divided_monarchists_upper_bound
 
  }
 
@@ -156,9 +156,9 @@
 					}
 				}
 			}
+			owner = {
 			subtract = {
 				desc = "communism_progress_from_loyalists_tt"
-				owner = {
 					every_scope_state = {
 						limit = {
 							is_incorporated = yes
@@ -166,6 +166,8 @@
 						}
 						add = this.loyalty
 					}
+					divide = num_incorporated_states
+					multiply = 3 # Maxes out at -3
 				}
 			}
 		}
@@ -176,6 +178,7 @@
 						is_political_movement_type = movement_socialist
 						is_political_movement_type = movement_communist
 						is_political_movement_type = movement_anarchist
+						is_political_movement_type = movement_nihilist
 					}
 				}
 			}
@@ -187,12 +190,15 @@
 							is_political_movement_type = movement_socialist
 							is_political_movement_type = movement_communist
 							is_political_movement_type = movement_anarchist
+							is_political_movement_type = movement_nihilist
 						}
 					}
-					add = this.political_movement_support
+					add = {
+						value = this.political_movement_support
 					multiply = 10
 				}
 			}
+		}
 		}
 		if = {
 			limit = {
@@ -201,6 +207,7 @@
 						is_political_movement_type = movement_socialist
 						is_political_movement_type = movement_communist
 						is_political_movement_type = movement_anarchist
+						is_political_movement_type = movement_nihilist
 					}
 				}
 			}
@@ -212,12 +219,15 @@
 							is_political_movement_type = movement_socialist
 							is_political_movement_type = movement_communist
 							is_political_movement_type = movement_anarchist
+							is_political_movement_type = movement_nihilist
 						}
 					}
-					add = this.political_movement_radicalism
+					add = {
+						value = this.political_movement_radicalism
 					multiply = 5
 				}
 			}
+		}
 		}
 		if = {
 			limit = {
@@ -227,6 +237,8 @@
 							has_ideology = ideology:ideology_communist
 							has_ideology = ideology:ideology_vanguardist
 							has_ideology = ideology:ideology_anarchist
+							has_ideology = ideology:ideology_nihilist
+							has_ideology = ideology:ideology_utopian
 						}
 					}
 				}
@@ -240,6 +252,8 @@
 								has_ideology = ideology:ideology_communist
 								has_ideology = ideology:ideology_vanguardist
 								has_ideology = ideology:ideology_anarchist
+								has_ideology = ideology:ideology_nihilist
+								has_ideology = ideology:ideology_utopian
 							}
 						}
 						add = this.popularity
@@ -339,7 +353,6 @@
 			}
 			subtract = {
 				desc = "populism_progress_from_loyalists_tt"
-				owner = {
 					every_scope_state = {
 						limit = {
 							is_incorporated = yes
@@ -347,7 +360,8 @@
 						}
 						add = this.loyalty
 					}
-				}
+				divide = num_incorporated_states
+				multiply = 3 # Maxes out at -3
 			}
 		}
 		if = {
@@ -698,7 +712,7 @@
 			}
 			add = {
 				desc = "earning_recognition_progress_voting_tt"
-				value = 2
+				value = 1
 			}
 		}
 		if = {
@@ -708,7 +722,41 @@
 			}
 			add = {
 				desc = "earning_recognition_literacy_tt"
-				value = 2
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				# Your Standard of Living is relatively high
+				sol_ranking <= 20
+			}
+			add = {
+				desc = "AVG_STANDARD_OF_LIVING"
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				any_scope_treaty = {
+					any_scope_article = {
+						has_type = offer_embassy
+						target_country = root
+					}
+				}
+			}
+			add = {
+				desc = "offer_embassy"
+				value = {
+					every_scope_treaty = {
+						limit = {
+							any_scope_article = {
+								has_type = offer_embassy
+								target_country = root
+							}
+						}
+						add = 1
+					}
+				}
 			}
 		}
 		if = {
@@ -786,7 +834,7 @@
 	}
 	start_value = 10
 	min_value = 0
-	max_value = 100
+	max_value = 150
 }
 
 fascism_progress_bar = {
@@ -1197,6 +1245,7 @@ sikh_empire_intrigue_bar = {
 	desc = "sikh_empire_intrigue_bar_desc"
 
 	default_bad = yes
+	is_inverted = yes
 
 	monthly_progress = { # To advance progress bar
 		if = {
