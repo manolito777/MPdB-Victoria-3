@@ -1226,10 +1226,10 @@ NPops = {
 	SOL_CHANGE_POP_IMPACT_FACTOR = 0.05			# How large part of a pop become more loyalist or radical as a result of a change in standard of living
 
 	SOL_STARVING_THRESHOLD = 5
-	SOL_STRUGGLING_THRESHOLD = 10
+	SOL_STRUGGLING_THRESHOLD = 9
 
 	LOW_POP_THRESHOLD = 5000					# If a state has less than this amount of pops per arable land, apply the low pop modifier
-	HIGH_POP_THRESHOLD = 100000					# If a state has more than this amount of pops per arable land, apply the high pop modifier
+	HIGH_POP_THRESHOLD = 90000					# If a state has more than this amount of pops per arable land, apply the high pop modifier
 
 ##### MIGRATION #####
 
@@ -1394,15 +1394,15 @@ NPops = {
 
 ### Pop Growth Constants
 ## Base Values per month
-@min_birthrate = 0.00060			# Minimum base birthrate per month (at POP_GROWTH_STABLE_SOL)
-@max_birthrate = 0.00450			# Maximum base birthrate per month (at SOL = 0)
+@min_birthrate = 0.00065			# Minimum base birthrate per month (at POP_GROWTH_STABLE_SOL)
+@max_birthrate = 0.00485			# Maximum base birthrate per month (at SOL = 0)
 @min_mortality = 0.00045			# Minimum base mortality per month (at POP_GROWTH_STABLE_SOL)
 @max_mortality = 0.00550			# Maximum base mortality per month (at SOL = 0)
 
 ## SoL Thresholds
 @pop_growth_equilibrium_sol = 5		# Equilibrium is pops stop starving and where growth first becomes positive
 @pop_growth_transition_sol = 10     # Transition determines how long birthrate "lags" behind mortality before starting to drop. Setting to same as equilibrium leads to no "lag" (only matters for birthrate)
-@pop_growth_max_sol = 17			# Growth Max is where net growth generally is at it's highest (only matters for mortality)
+@pop_growth_max_sol = 16			# Growth Max is where net growth generally is at it's highest (only matters for mortality)
 @pop_growth_stable_sol = 25 		# Stable is where birthrate and mortality stop changing and hit their minimum values
 
 ## Others
@@ -1614,7 +1614,7 @@ NBattle = {
 	POPULARITY_GAIN_NARROW_LOSS	= -3				# Multiple of commander_battle_end_loss modifier the loser should get for a narrow victory for the other side if the random chance roll is true
 	POPULARITY_GAIN_NORMAL_LOSS	= -2				# Multiple of commander_battle_end_loss modifier the loser should get for a normal victory for the other side if the random chance roll is true
 	POPULARITY_GAIN_HEROIC_LOSS = -5				# Multiple of commander_battle_end_loss modifier the loser should get for a heroic victory for the other side if the random chance roll is true
-	POPULARITY_DECAY_MONTHS = 60					# The number of months battle popularity modifiers decay over
+	POPULARITY_DECAY_MONTHS = 120					# The number of months battle popularity modifiers decay over
 }
 
 NWar = {

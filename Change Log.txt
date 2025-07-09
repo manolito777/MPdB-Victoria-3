@@ -334,7 +334,7 @@ Map Data:
 	Actualizado el petróleo a nivel mundial en base a los valores vanilla (teniendo en cuenta también las anteriores incorporaciones del mod).
 	Creado mapa de recursos gracias a Vic3MapCSharp. Actualizar y subirlo públicamente una vez esté finalizado el mod. Actualizar el mapa político tras la partida semanal.
 	
-	
+Hotfixes: Bajadas las warreps a 5% de ingresos hasta que Paradox arregle su mierda.
 	
 Anotación: Angola, Congo Brazzaville, Cameroon, Côte d’Ivoire, Guinea and Ghana. Ukwazi. Hierro.
 	https://gmesgeoportal.rcmrd.org/maps/e1f8c7cfc20d47ca906fdbdd0d8c761b/explore?location=-29.065676%2C19.822075%2C5.89

@@ -67,7 +67,7 @@ pm_homesteading_building_subsistence = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = 0.15
+			goods_output_grain_add = 0.05
 		}	
 	
 		unscaled = {
@@ -359,7 +359,7 @@ pm_homesteading_building_subsistence_rice_paddies = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_grain_add = 0.3
+			goods_output_grain_add = 0.2
 		}	
 	
 		unscaled = {
