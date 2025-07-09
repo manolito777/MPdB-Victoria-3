@@ -50,8 +50,9 @@ tur_mahmut_osmanoglu_template = {
     ideology = ideology_ottomanism
     traits = {
         ambitious
+		direct
+		cancer
         meticulous
-        direct
     }
 }
 tur_abdulmecid_osmanoglu_template = {

@@ -23,6 +23,7 @@ building_government_administration = {
 		pmg_base_building_government_administration
 		pmg_government_administration_bureaucrat_professionalism
 		pmg_government_administration_religious_administration
+		pmg_efficient_bureaucracy_principle
 	}
 
 	icon = "gfx/interface/icons/building_icons/building_government_administration.dds"

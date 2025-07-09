@@ -1478,6 +1478,23 @@
 			}
 		}
 	}
+	s:STATE_HIMALAYAS = {
+		region_state:NEP = {
+			create_pop = {
+				culture = nepali
+				size = 619204
+			}
+			create_pop = {
+				culture = bihari
+				religion = animist
+				size = 172000
+			}
+			create_pop = {
+				culture = tibetan
+				size = 192008
+			}
+		}
+	}
 	s:STATE_EASTERN_HIMALAYAS = {
 		region_state:SIK = {
 			create_pop = {

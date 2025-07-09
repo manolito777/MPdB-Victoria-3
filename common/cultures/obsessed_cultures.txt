@@ -511,7 +511,7 @@ byelorussian={
 	traits = { east_slavic european_heritage }
 
 	obsessions = {
-		liquor
+		tea
 	}
 
 	male_common_first_names={
