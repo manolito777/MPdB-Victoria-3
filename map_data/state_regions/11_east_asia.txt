@@ -1010,7 +1010,7 @@ STATE_SAKHALIN = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 20
     }
     naval_exit_id = 3059
 }
@@ -1060,7 +1060,6 @@ STATE_TOHOKU = {
     capped_resources = {
         bg_iron_mining = 60
         bg_lead_mining = 45
-		bg_coal_mining = 36
         bg_logging = 15
         bg_whaling = 6
         bg_fishing = 15
@@ -1083,7 +1082,6 @@ STATE_KANTO = {
     capped_resources = {
         bg_iron_mining = 36
         bg_lead_mining = 30
-		bg_coal_mining = 28
         bg_logging = 9
         bg_whaling = 7
         bg_fishing = 10

@@ -81,7 +81,7 @@ STATE_ZULIA = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 100
+        undiscovered_amount = 120
     }
     naval_exit_id = 3025
 }
@@ -883,7 +883,7 @@ STATE_AMAZONAS = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 8
+        undiscovered_amount = 20
     }
     resource = {
         type = "bg_gold_fields"
