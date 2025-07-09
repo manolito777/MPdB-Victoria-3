@@ -927,7 +927,7 @@ combat_unit_type_revolver_cavalry = {
     }
 
     battle_modifier = {
-        unit_offense_add = 40
+        unit_offense_add = 35
         unit_defense_add = 20
         unit_morale_loss_add = 8
         unit_morale_damage_mult = 0.15
