@@ -261,7 +261,7 @@ Defines:
 
 Principios:
 	Reworkeados los siguientes principios: Coordinación Ofensiva y Defensiva; Cívica Sagrada; Inversión extranjera.
-	Oficinas Coloniales: Otorga 4% de throughput a edificios en territorios no incorporados (hasta máximo de +20% a nivel 5).
+	Oficinas Coloniales: Otorga 2/4% de throughput a edificios en territorios no incorporados (hasta máximo de +10/20% a nivel 5).
 	Nuevo Principio: Enfoque Sanitario (estándar de vida; mortalidad; polución); Enfoque Agricultural; Enfoque Minería; Enfoque Burocracia.
 	#Posible principio de plantaciones, que te otorgue ventaja comercial en las exportaciones (pero habría que crear las definiciones).
 	#Inversión extranjera, bono al throughput de las sedes regionales? Hay que crear las definiciones.
