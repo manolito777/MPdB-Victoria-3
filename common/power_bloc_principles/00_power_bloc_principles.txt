@@ -407,6 +407,7 @@ principle_defensive_cooperation_1 = {
 	power_bloc_modifier = {
 		# Members cannot start wars amongst each other
 		power_bloc_disallow_war_bool = yes
+		
 	}
 	
 	ai_weight = {
@@ -442,6 +443,11 @@ principle_defensive_cooperation_2 = {
 	icon = "gfx/interface/icons/principles_icons/defensive_coorperation.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
+	member_modifier = {
+		# Countries forced to join defensive plays against members
+		state_conscription_rate_add = 0.01
+	}
+
 	power_bloc_modifier = {
 		# Modifiers from previous level(s)
 		power_bloc_disallow_war_bool = yes
@@ -467,6 +473,9 @@ principle_defensive_cooperation_3 = {
 	member_modifier = {
 		# Countries forced to join defensive plays against members
 		country_join_power_bloc_member_in_defensive_plays_bool = yes
+		state_conscription_rate_add = 0.01
+		unit_defense_mult = 0.05
+		country_military_tech_spread_mult = 0.1
 	}
 
 	power_bloc_modifier = {
@@ -553,7 +562,9 @@ principle_aggressive_coordination_3 = {
 	member_modifier = {
 		# Modifiers from previous level(s)
 		country_initiator_war_goal_maneuver_cost_mult = -0.25
-		country_war_exhaustion_casualties_mult = -0.15
+		country_war_exhaustion_casualties_mult = -0.25
+		country_military_tech_spread_mult = 0.15
+		unit_offense_mult = 0.05
 	
 		# Countries forced to join diplomatic plays of members, other countries are not happy about this threat
 		country_join_power_bloc_member_in_plays_bool = yes
@@ -1042,6 +1053,9 @@ principle_colonial_offices_2 = {
 	institution_modifier = {
 		# Members get higher colony growth for each level of institution
 		state_colony_growth_creation_factor = 0.05
+		building_group_bg_mining_unincorporated_throughput_add = 0.01
+		building_group_bg_plantations_unincorporated_throughput_add = 0.02
+		building_group_bg_rubber_unincorporated_throughput_add = 0.02
 	}	
 	
 	ai_weight = {
@@ -1069,6 +1083,9 @@ principle_colonial_offices_3 = {
 		# Modifiers from previous level(s)	
 		state_colony_growth_creation_factor = 0.05
 		country_infamy_generation_against_unrecognized_mult = -0.05
+		building_group_bg_mining_unincorporated_throughput_add = 0.02
+		building_group_bg_plantations_unincorporated_throughput_add = 0.04
+		building_group_bg_rubber_unincorporated_throughput_add = 0.04
 	}				
 
 	ai_weight = {
@@ -1089,6 +1106,7 @@ principle_foreign_investment_1 = {
 	member_modifier = {
 		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
 		country_higher_leverage_from_economic_dependence_bool = yes
+		state_shopkeepers_investment_pool_efficiency_mult = 0.05
 	}
 	
 	ai_weight = {
@@ -1116,11 +1134,11 @@ principle_foreign_investment_2 = {
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
-		# Members get reduced nationalization cost for assets of non-members
-		country_nationalization_cost_non_members_mult = -0.5
 
 		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
 		country_higher_leverage_from_economic_dependence_bool = yes
+		state_shopkeepers_investment_pool_efficiency_mult = 0.1
+		state_capitalists_investment_pool_contribution_mult = 0.05
 	}
 	
 	ai_weight = {
@@ -1142,6 +1160,10 @@ principle_foreign_investment_3 = {
 
 		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
 		country_higher_leverage_from_economic_dependence_bool = yes
+		state_shopkeepers_investment_pool_efficiency_mult = 0.10
+		state_capitalists_investment_pool_efficiency_mult = 0.05
+		country_company_construction_efficiency_bonus_add = 0.2
+		country_capitalists_pol_str_mult = 0.15
 	}
 	
 	power_bloc_modifier = {
@@ -1531,6 +1553,7 @@ principle_sacred_civics_1 = {
 		# Higher diplomatic acceptance from countries with same state religion
 		# This modifier actually has no effect and is just here to generate a tooltip, the effects are scripted in diplomactic_actions
 		country_higher_diplomatic_acceptance_same_religion_bool = yes
+		state_conversion_mult = 0.15
 	}
 	
 	ai_weight = {
@@ -1564,6 +1587,7 @@ principle_sacred_civics_2 = {
 	member_modifier = {
 		# Modifiers from previous level(s)		
 		country_higher_diplomatic_acceptance_same_religion_bool = yes
+		state_lower_strata_standard_of_living_add = 0.5
 		
 		# Lower liberty desire for subjects with the same religion
 		# This modifier actually has no effect and is just here to generate a tooltip, the effects are scripted in scripted_values
@@ -1583,6 +1607,9 @@ principle_sacred_civics_3 = {
 		# Modifiers from previous level(s)		
 		country_higher_diplomatic_acceptance_same_religion_bool = yes
 		country_reduced_liberty_desire_same_religion_bool = yes
+		country_acceptance_state_religion_add = 10
+		state_lower_strata_standard_of_living_add = 0.5
+		state_conversion_mult = 0.25
 	}
 
 	leader_modifier = {
@@ -1716,7 +1743,7 @@ principle_companies_2 = {
 		country_company_throughput_bonus_add = 0.1
 
 		# Adds one free company charter
-		country_free_charters_add = 1
+		country_free_charters_add = 2
 	}
 
 	ai_weight = {
@@ -1737,6 +1764,344 @@ principle_companies_3 = {
 		country_max_companies_add = 1
 	}
 
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+
+
+### HEALTHCARE FOCUS - MOD
+
+principle_healthcare_focus_1 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+	
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	member_modifier = {
+		state_standard_of_living_add = 0.5
+	}
+	
+	ai_weight = {
+		value = 100
+		
+		if = {
+			limit = {
+				OR = {
+					ig:ig_trade_unions ?= { is_in_government = yes }
+				}			
+			}
+			add = 100
+		}
+	}		
+}
+
+principle_healthcare_focus_2 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+		state_standard_of_living_add = 1
+		state_mortality_mult = -0.05
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+principle_healthcare_focus_3 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+		state_standard_of_living_add = 1
+		state_mortality_mult = -0.05
+		state_pollution_reduction_health_mult = -0.1
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+
+### BUREAUCRACY FOCUS - MOD
+
+principle_bureaucracy_focus_1 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+	
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	member_modifier = {
+
+	}
+	
+	ai_weight = {
+		value = 100
+		
+		if = {
+			limit = {
+				OR = {
+					ig:ig_trade_unions ?= { is_in_government = yes }
+				}			
+			}
+			add = 100
+		}
+	}		
+}
+
+principle_bureaucracy_focus_2 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+principle_bureaucracy_focus_3 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+
+		# PM Burocracia Eficiente.
+
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+### MINING FOCUS - MOD
+
+
+principle_mining_focus_1 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+	
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	member_modifier = {
+		building_group_bg_mining_throughput_add = 0.05
+	}
+	
+	ai_weight = {
+		value = 100
+		
+		if = {
+			limit = {
+					ig:ig_industrialists ?= { is_in_government = yes }
+				}			
+			}
+			add = 100
+		}
+
+		if = {
+			limit = {
+				has_strategy = ai_strategy_agricultural_expansion
+			}
+			multiply = 1.5
+	}	
+}
+
+principle_mining_focus_2 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+		# Modifiers from previous level(s)
+		building_group_bg_mining_throughput_add = 0.05
+		building_gold_mine_throughput_add = 0.1
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+principle_mining_focus_3 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+		# Modifiers from previous level(s)
+		building_group_bg_mining_throughput_add = 0.05
+		building_gold_mine_throughput_add = 0.2
+
+		# PM Dinamita (asignada en el PM específico, esta línea solo indica que existe).
+		
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+### AGRICULTURAL FOCUS - MOD
+
+principle_agricultural_focus_1 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+	
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	member_modifier = {
+		building_group_bg_ranching_throughput_add = 0.1
+		building_millet_farm_throughput_add = 0.1
+		building_maize_farm_throughput_add = 0.1
+		building_wheat_farm_throughput_add = 0.1
+		building_rice_farm_throughput_add = 0.1
+		building_rye_farm_throughput_add = 0.1
+
+	}
+	
+	ai_weight = {
+		value = 100
+		
+		if = {
+			limit = {
+					ig:ig_rural_folk ?= { is_in_government = yes }
+				}			
+			}
+			add = 100
+		}
+
+		if = {
+			limit = {
+				has_strategy = ai_strategy_agricultural_expansion
+			}
+			multiply = 1.5
+	}	
+}
+
+principle_agricultural_focus_2 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+
+		state_farmers_investment_pool_contribution_add = 0.05
+		state_farmers_investment_pool_efficiency_mult = 0.1
+		# Modifiers from previous level(s)
+		building_millet_farm_throughput_add = 0.1
+		building_maize_farm_throughput_add = 0.1
+		building_wheat_farm_throughput_add = 0.1
+		building_rice_farm_throughput_add = 0.1
+		building_rye_farm_throughput_add = 0.1
+		building_group_bg_ranching_throughput_add = 0.1
+
+		
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+principle_agricultural_focus_3 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+		# Modifiers from previous level(s)
+		state_farmers_investment_pool_contribution_add = 0.05
+		state_farmers_investment_pool_efficiency_mult = 0.25
+		state_aristocrats_investment_pool_efficiency_mult = 0.05
+		building_millet_farm_throughput_add = 0.1
+		building_maize_farm_throughput_add = 0.1
+		building_wheat_farm_throughput_add = 0.1
+		building_rice_farm_throughput_add = 0.1
+		building_rye_farm_throughput_add = 0.1
+		building_group_bg_ranching_throughput_add = 0.1
+		
+		#Métodos nuevos para los PM secundarios de granjas y ranchos.
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+
+### MANUFACTORIES FOCUS - MOD
+
+principle_manufacturing_focus_1 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+	
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	member_modifier = {
+		building_group_bg_light_industry_throughput_add = 0.05
+	}
+	
+	ai_weight = {
+		value = 100
+		
+		if = {
+			limit = {
+					ig:ig_industrialists ?= { is_in_government = yes }
+				}			
+			}
+			add = 100
+		}
+
+		if = {
+			limit = {
+				has_strategy = ai_strategy_agricultural_expansion
+			}
+			multiply = 1.5
+	}	
+}
+
+principle_manufacturing_focus_2 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+
+		building_group_bg_light_industry_throughput_add = 0.05
+		# Modifiers from previous level(s)
+		
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}
+}
+
+principle_manufacturing_focus_3 = {
+	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+
+		building_group_bg_light_industry_throughput_add = 0.05
+		# Modifiers from previous level(s)
+
+		#Advanced PMs: Vacuum Canning; Electrical Workshops; 
+
+		
+	}
+	
 	ai_weight = {
 		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
 	}

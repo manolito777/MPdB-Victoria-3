@@ -461,7 +461,7 @@ identity_military_treaty_organization = {
 	}
 
 	member_modifier = {
-		building_training_rate_mult = 0.2
+		building_training_rate_mult = 0.25
 	}
 	
 	possible = {
