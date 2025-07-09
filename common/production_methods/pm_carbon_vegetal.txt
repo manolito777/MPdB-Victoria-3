@@ -1,6 +1,6 @@
 ﻿
 pm_charcoal = {
-	texture = "gfx/interface/icons/production_method_icons/increased_hardwood.dds"
+	texture = "gfx/interface/icons/production_method_icons/charcoal.dds"
 
 	unlocking_production_methods = {
 		pm_saw_mills

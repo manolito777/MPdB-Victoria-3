@@ -19,8 +19,6 @@ navigation = {
 	texture = "gfx/interface/icons/invention_icons/navigation.dds"
 	category = military    
 	
-
-	
 	ai_weight = {
 		value = 2 # Important tech in general
 	}
@@ -31,8 +29,6 @@ drydocks = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/drydock.dds"
 	category = military
-	
-
 	
 	unlocking_technologies = {	
 		navigation
@@ -56,7 +52,7 @@ mandatory_service = {
 	category = military
 	
 	modifier = {
-		state_conscription_rate_mult = 0.25
+		state_conscription_rate_mult = 0.2
 	}
 	
 	unlocking_technologies = {
@@ -84,6 +80,25 @@ gunsmithing = {
 	}
 }
 
+needle_gun = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/needle_gun_icon.dds"
+	category = military
+
+	modifier = {
+		unit_kill_rate_add = 0.05
+		unit_combat_unit_type_line_infantry_offense_add = 2
+	}
+	
+	unlocking_technologies = {
+		gunsmithing
+	}
+	
+	ai_weight = {
+		value = 2 # Important tech in general
+	}
+}
+
 artillery = {
 	# Unlocks Artillery Production PM in Arms Industries
 	# Unlocks Cannon Artillery PM in Barracks
@@ -101,12 +116,12 @@ artillery = {
 }
 
 military_drill = {
-	# Does nothing yet; should enable/increase combat unit Experience gain
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/military_drill.dds"
 	category = military
 	
 	modifier = {
+		unit_experience_gain_mult = 0.05
 	}
 	
 	unlocking_technologies = {
@@ -134,7 +149,7 @@ napoleonic_warfare = {
 		
 		if = {
 			limit = { has_journal_entry = je_sick_man_army }
-			add = 5
+			add = 100
 		}
 	}
 }
@@ -164,8 +179,7 @@ army_reserves = {
 	category = military
 	
 	modifier = {
-		state_conscription_rate_mult = 0.25
-		unit_morale_loss_mult = -0.05
+		state_conscription_rate_mult = 0.2
 	}
 	
 	unlocking_technologies = {	
@@ -220,6 +234,25 @@ paddle_steamer = {
 
 ### ERA 2
 
+dynamic_field_fortifications = {
+	# Increases defense
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/field_works.dds"
+	category = military
+	
+	modifier = {
+		unit_army_defense_mult = 0.05
+	}
+	
+	unlocking_technologies = {
+		napoleonic_warfare
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
 field_works = {
 	# Increases defense
 	era = era_2
@@ -227,13 +260,10 @@ field_works = {
 	category = military
 	
 	modifier = {
-		# defensive bonus, either directly to army or (ideally) a fortifications bonus, if we get forts
-		# Lower kill rate?
-		unit_army_defense_mult = 0.1
 	}
 	
 	unlocking_technologies = {
-		napoleonic_warfare
+		dynamic_field_fortifications
 	}
 	
 	ai_weight = {
@@ -248,8 +278,8 @@ logistics = {
 	category = military
 	
 	modifier = {
-		state_conscription_rate_mult = 0.25
-		unit_morale_loss_mult = -0.05
+		state_conscription_rate_mult = 0.2
+		military_formation_attrition_risk_mult = -0.05
 	}
 	
 	unlocking_technologies = {	
@@ -284,7 +314,7 @@ shell_gun = {
 	category = military
 	
 	modifier = {
-		unit_combat_unit_type_mobile_artillery_offense_add = 3
+		unit_combat_unit_type_mobile_artillery_offense_add = 5
 	}
 
 	unlocking_technologies = {	
@@ -308,7 +338,7 @@ percussion_cap = {
 	}
 	
 	unlocking_technologies = {	
-		gunsmithing
+		needle_gun
 	}
 	
 	ai_weight = {
@@ -324,6 +354,21 @@ rifling = {
 	
 	unlocking_technologies = {	
 		percussion_cap
+	}
+	
+	ai_weight = {
+		value = 2 # Important tech in general
+	}
+}
+
+revolver = {
+	# Unlocks Rifles PM in Arms Industry
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/revolver_icon.dds"
+	category = military
+	
+	unlocking_technologies = {	
+		rifling
 	}
 	
 	ai_weight = {
@@ -354,6 +399,31 @@ screw_frigate = {
 	
 	modifier = {
 		# ship go faster
+	}
+	
+	unlocking_technologies = {	
+		paddle_steamer
+	}
+	
+	ai_weight = {
+		value = 1
+		
+		# Important for naval powers
+		if = {
+			limit = { navy_size >= 20 }
+			add = 0.5
+		}	
+	}
+}
+
+explosive_shells = {
+	# Unlocks Complex Shipbuilding PM in Shipyards
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/self_propelled_torpedoes.dds"
+	category = military
+	
+	modifier = {
+		unit_navy_offense_mult = 0.1
 	}
 	
 	unlocking_technologies = {	
@@ -436,8 +506,7 @@ enlistment_offices = {
 	category = military
 	
 	modifier = {
-		state_conscription_rate_mult = 0.25
-		unit_morale_loss_mult = -0.05
+		state_conscription_rate_mult = 0.2
 		country_institution_military_max_investment_add = 1
 	}
 	
@@ -456,7 +525,7 @@ electric_telegraph = {
 	category = military
 	
 	modifier = {
-		country_war_exhaustion_casualties_mult = -0.25
+		country_war_exhaustion_casualties_mult = -0.15
 		country_institution_military_max_investment_add = 1
 	}
 	
@@ -535,6 +604,7 @@ breech_loading_artillery = {
 	}
 }
 
+
 handcranked_machine_gun = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/handcranked_machine_gun.dds"
@@ -606,6 +676,7 @@ ironclad_tech = {
 	
 	unlocking_technologies = {	
 		screw_frigate
+		explosive_shells
 	}
 	
 	ai_weight = {
@@ -645,8 +716,6 @@ floating_harbor = {
 	texture = "gfx/interface/icons/invention_icons/floating_harbor.dds"
 	category = military
 	
-
-	
 	unlocking_technologies = {	
 		gantry_cranes
 	}
@@ -668,8 +737,6 @@ gantry_cranes = {
 	texture = "gfx/interface/icons/invention_icons/gantry_crane.dds"
 	category = military
 	
-
-	
 	unlocking_technologies = {	
 		hydraulic_cranes
 		screw_frigate
@@ -688,6 +755,26 @@ gantry_cranes = {
 
 ### ERA 4
 
+modern_uniform = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/military_statistics.dds"
+	category = military
+	
+	
+	modifier = {
+	}
+	
+	unlocking_technologies = {	
+		military_statistics
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+
+
 trench_works = {
 	# Unlocks Officer Training PM in Barracks
 	# Unlocks Barbed Wire Fences in Livestock Ranches
@@ -697,7 +784,7 @@ trench_works = {
 	category = military
 	
 	unlocking_technologies = {
-		general_staff
+		military_statistics
 		electric_telegraph
 	}
 	
@@ -713,8 +800,8 @@ war_propaganda = {
 
 	modifier = {
 		unit_morale_loss_mult = -0.05
-		country_war_exhaustion_casualties_mult = -0.05
-		state_conscription_rate_mult = 0.25
+		country_war_exhaustion_casualties_mult = -0.25
+		state_conscription_rate_mult = 0.2
 	}
 	
 	unlocking_technologies = {	
@@ -747,6 +834,25 @@ wargaming = {
 	}
 }
 
+battlefield_rotation = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/battlefield_rotation.dds"
+	category = military
+
+	modifier = {
+		unit_morale_loss_mult = -0.15
+		unit_experience_gain_mult = 0.15
+	}
+	
+	unlocking_technologies = {	
+		wargaming
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
 defense_in_depth = {
 	# Increases defense
 	# Unlock Delay Order?
@@ -757,6 +863,27 @@ defense_in_depth = {
 	modifier = {
 		# defensive bonus, either to the army or ideally to fortifications
 		unit_army_defense_mult = 0.15
+	}
+	
+	unlocking_technologies = {	
+		trench_works
+		handcranked_machine_gun
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+siege_artillery = {
+	# Increases defense
+	# Unlock Delay Order?
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/defense_in_depth.dds"
+	category = military
+	
+	modifier = {
+		# defensive bonus, either to the army or ideally to fortifications
 	}
 	
 	unlocking_technologies = {	
@@ -789,6 +916,25 @@ bolt_action_rifles = {
 	}
 }
 
+
+hand_grenades = {
+
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/grenade_icon.dds"
+	category = military
+	
+	modifier = {
+	}
+	
+	unlocking_technologies = {	
+		wargaming
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
 automatic_machine_guns = {
 	# Unlocks Recoil Mechaniscm PM in Arms Factory
 	# Unlocks Machine Gunners PMs in Barracks and Conscription Centers
@@ -803,6 +949,27 @@ automatic_machine_guns = {
 	
 	ai_weight = {
 		value = 1.5 # important for everyone
+	}
+}
+
+combined_arms_tactics = {
+
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/combined_arms.dds"
+	category = military
+	
+	modifier = {
+		unit_army_offense_mult = 0.05
+		unit_morale_damage_mult = 0.1
+	}
+	
+	unlocking_technologies = {	
+		siege_artillery
+		trench_works
+	}
+	
+	ai_weight = {
+		value = 1
 	}
 }
 
@@ -869,6 +1036,30 @@ dreadnought = {
 	}
 }
 
+steel_frame_armor = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/ironclad_tech.dds"
+	category = military
+	
+	unlocking_technologies = {	
+		ironclad_tech
+	}
+
+	modifier = {
+		unit_navy_defense_mult = 0.15
+	}
+	
+	ai_weight = {
+		value = 1
+		
+		# Very Important for naval powers
+		if = {
+			limit = { navy_size >= 20 }
+			add = 2
+		}		
+	}
+}
+
 sea_lane_strategies = {
 	# Unlocks Sea Lane Strategies PM in Naval Bases
 	era = era_4
@@ -881,6 +1072,24 @@ sea_lane_strategies = {
 	
 	unlocking_technologies = {	
 		jeune_ecole
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+rotating_turrets = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/battleship_tech.dds"
+	category = military
+	
+	modifier = {
+		unit_navy_offense_mult = 0.15
+	}
+	
+	unlocking_technologies = {	
+		sea_lane_strategies
 	}
 	
 	ai_weight = {
@@ -920,8 +1129,6 @@ concrete_dockyards = {
 	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
 	category = military
 	
-
-	
 	unlocking_technologies = {	
 		floating_harbor
 	}
@@ -955,6 +1162,26 @@ nco_training = {
 	}
 }
 
+spearhead_tactics = {
+
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/defense_in_depth.dds"
+	category = military
+	
+	modifier = {
+		unit_army_offense_mult = 0.15
+		unit_morale_damage_mult = 0.15
+	}
+	
+	unlocking_technologies = {	
+		nco_training
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
 chemical_warfare = {
 	# Unlocks Chemical Artillery PM in Barracks
 	era = era_5
@@ -977,7 +1204,7 @@ stormtroopers = {
 	category = military
 	
 	modifier = {
-		unit_kill_rate_add = 0.05
+		unit_kill_rate_add = 0.1
 		unit_combat_unit_type_trench_infantry_offense_add = 5
 		unit_combat_unit_type_squad_infantry_offense_add = 5
 		unit_combat_unit_type_mechanized_infantry_offense_add = 5
@@ -1063,7 +1290,7 @@ flamethrowers = {
 		automatic_machine_guns
 	}
 	modifier = {
-		unit_kill_rate_add = 0.05
+		unit_kill_rate_add = 0.1
 	}
 	
 	ai_weight = {

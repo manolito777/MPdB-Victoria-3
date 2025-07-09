@@ -594,7 +594,7 @@ combat_unit_type_siege_artillery = {
         military_formation_movement_speed_mult = -0.2
     }
 
-	unlocking_technologies = { defense_in_depth }
+	unlocking_technologies = { siege_artillery }
 
     combat_unit_image = {
         trigger = {
@@ -725,6 +725,8 @@ combat_unit_type_hussars = {
         combat_unit_type_dragoons
         combat_unit_type_cuirassiers
         combat_unit_type_lancers
+        combat_unit_type_revolver_cavalry
+        combat_unit_type_carabineer
     }
 }
 
@@ -784,6 +786,8 @@ combat_unit_type_dragoons = {
     upgrades = {
         combat_unit_type_cuirassiers
         combat_unit_type_lancers
+        combat_unit_type_revolver_cavalry
+        combat_unit_type_carabineer
     }
 }
 
@@ -842,6 +846,8 @@ combat_unit_type_cuirassiers = {
     upgrades = {
         combat_unit_type_dragoons
         combat_unit_type_lancers
+        combat_unit_type_revolver_cavalry
+        combat_unit_type_carabineer
     }
 }
 
@@ -903,6 +909,80 @@ combat_unit_type_lancers = {
     upgrades = {
         combat_unit_type_dragoons
         combat_unit_type_cuirassiers
+        combat_unit_type_revolver_cavalry
+        combat_unit_type_carabineer
+    }
+}
+
+combat_unit_type_revolver_cavalry = {
+    group = combat_unit_group_cavalry
+	max_manpower = 1000
+
+    upkeep_modifier = {
+        goods_input_small_arms_add = 1.5
+		goods_input_iron_add = 1
+        goods_input_grain_add = 3
+        goods_input_ammunition_add = 2
+        goods_input_clothes_add = 1
+    }
+
+    battle_modifier = {
+        unit_offense_add = 40
+        unit_defense_add = 20
+        unit_morale_loss_add = 8
+        unit_morale_damage_mult = 0.15
+        unit_morale_loss_mult = 0.05
+        unit_occupation_mult = 0.5
+    }
+
+	unlocking_technologies = { revolver }
+
+    combat_unit_image = {
+        # fallback
+        texture = "gfx/unit_illustrations/revolver_cavalry.dds"
+    }
+
+    upgrades = {
+        combat_unit_type_dragoons
+        combat_unit_type_cuirassiers
+        combat_unit_type_lancers
+        combat_unit_type_carabineer
+    }
+}
+
+combat_unit_type_carabineer = {
+    group = combat_unit_group_cavalry
+	max_manpower = 1000
+
+    upkeep_modifier = {
+        goods_input_small_arms_add = 2
+		goods_input_iron_add = 1
+        goods_input_grain_add = 3
+        goods_input_groceries_add = 0.5
+        goods_input_ammunition_add = 2
+        goods_input_clothes_add = 1
+    }
+
+    battle_modifier = {
+        unit_offense_add = 25
+        unit_defense_add = 35
+        unit_morale_loss_add = 8
+        unit_morale_loss_mult = 0.05
+        unit_occupation_mult = 0.5
+    }
+
+	unlocking_technologies = { repeaters }
+
+    combat_unit_image = {
+        # fallback
+        texture = "gfx/unit_illustrations/carabineers.dds"
+    }
+
+    upgrades = {
+        combat_unit_type_dragoons
+        combat_unit_type_cuirassiers
+        combat_unit_type_revolver_cavalry
+        combat_unit_type_lancers
     }
 }
 

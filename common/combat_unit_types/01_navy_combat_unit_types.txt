@@ -33,6 +33,38 @@ combat_unit_type_frigate = {
 	}
 }
 
+combat_unit_type_screw_frigate = {
+    group = combat_unit_group_light_ship
+    max_manpower = 1000
+
+    upkeep_modifier = {
+        goods_input_manowars_add = 1
+        goods_input_engines_add = 0.5
+        goods_input_coal_add = 0.5
+        goods_input_grain_add = 1
+    }
+
+    battle_modifier = {
+        unit_offense_add = 15
+        unit_defense_add = 20
+        unit_blockade_add = 10
+        unit_morale_loss_add = 10
+    }
+
+	unlocking_technologies = { screw_frigate }
+	
+    combat_unit_image = {
+        texture = "gfx/unit_illustrations/light_ships_frigate.dds"
+    }
+	
+	upgrades = {
+		combat_unit_type_monitor
+        combat_unit_type_destroyer
+		combat_unit_type_torpedo_boat
+        combat_unit_type_scout_cruiser
+	}
+}
+
 combat_unit_type_monitor = {
     group = combat_unit_group_light_ship
     max_manpower = 1000
@@ -41,6 +73,7 @@ combat_unit_type_monitor = {
         goods_input_ironclads_add = 4
         goods_input_artillery_add = 3
         goods_input_ammunition_add = 3
+        goods_input_coal_add = 1
         goods_input_groceries_add = 2
     }
 
@@ -77,7 +110,8 @@ combat_unit_type_destroyer = {
         goods_input_ironclads_add = 6
         goods_input_artillery_add = 6
         goods_input_ammunition_add = 6
-       goods_input_groceries_add = 2
+        goods_input_coal_add = 2
+        goods_input_groceries_add = 2
     }
 
     battle_modifier = {
@@ -111,6 +145,7 @@ combat_unit_type_torpedo_boat = {
         goods_input_ironclads_add = 6
         goods_input_explosives_add = 14
         goods_input_groceries_add = 2
+        goods_input_coal_add = 4
     }
 
     battle_modifier = {
@@ -147,6 +182,7 @@ combat_unit_type_scout_cruiser = {
         goods_input_artillery_add = 8
         goods_input_radios_add = 2
         goods_input_groceries_add = 2
+        goods_input_oil_add = 2
     }
 
     battle_modifier = {
@@ -200,6 +236,38 @@ combat_unit_type_man_o_war = {
 	}
 }
 
+combat_unit_type_screw_manowar = {
+    group = combat_unit_group_capital_ship
+    max_manpower = 1000
+
+    upkeep_modifier = {
+        goods_input_manowars_add = 4
+        goods_input_engines_add = 1
+        goods_input_coal_add = 1
+        goods_input_grain_add = 3
+    }
+
+    battle_modifier = {
+        unit_offense_add = 35
+        unit_defense_add = 35
+        unit_blockade_add = 100
+        unit_morale_loss_add = 10
+        unit_convoy_raiding_mult = -0.9
+    }
+
+	unlocking_technologies = { screw_frigate }
+
+    combat_unit_image = {
+        texture = "gfx/unit_illustrations/capital_ships_manowar.dds"
+    }
+	
+	upgrades = {
+		combat_unit_type_ironclad
+        combat_unit_type_dreadnought
+        combat_unit_type_battleship
+	}
+}
+
 combat_unit_type_ironclad = {
     group = combat_unit_group_capital_ship
     max_manpower = 1000
@@ -209,6 +277,7 @@ combat_unit_type_ironclad = {
         goods_input_artillery_add = 9
         goods_input_ammunition_add = 9
         goods_input_groceries_add = 4
+        goods_input_coal_add = 4
     }
 
     battle_modifier = {
@@ -244,7 +313,8 @@ combat_unit_type_dreadnought = {
 		goods_input_artillery_add = 12
         goods_input_ammunition_add = 12
         goods_input_radios_add = 4
-       goods_input_groceries_add = 4
+        goods_input_groceries_add = 4
+        goods_input_oil_add = 6
     }
 
     battle_modifier = {
@@ -280,6 +350,7 @@ combat_unit_type_battleship = {
         goods_input_ammunition_add = 16
         goods_input_radios_add = 8
         goods_input_groceries_add = 4
+        goods_input_oil_add = 10
     }
 
     battle_modifier = {
@@ -313,6 +384,7 @@ combat_unit_type_submarine = {
         goods_input_ammunition_add = 8
 		goods_input_radios_add = 2
         goods_input_groceries_add = 2
+        goods_input_oil_add = 2
     }
 
     battle_modifier = {
@@ -344,6 +416,7 @@ combat_unit_type_carrier = {
         goods_input_radios_add = 12
         goods_input_aeroplanes_add = 12
         goods_input_groceries_add = 4
+        goods_input_oil_add = 12
     }
 
     battle_modifier = {

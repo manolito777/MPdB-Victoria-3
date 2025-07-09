@@ -770,6 +770,7 @@ low_organization = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
 	unit_offense_mult = -0.75
 	unit_defense_mult = -0.75
+	military_formation_attrition_risk_mult = 1
 	unit_morale_recovery_mult = -1
 	unit_recovery_rate_add = -0.5
 	unit_blockade_mult = -0.75
@@ -799,7 +800,7 @@ repudiated_obligation = {
 }
 
 base_army_attrition = {
-	military_formation_attrition_risk_add = 0.1
+	military_formation_attrition_risk_add = 0.25
 }
 
 base_navy_attrition = {
@@ -807,7 +808,7 @@ base_navy_attrition = {
 }
 
 formation_attrition_at_home_hq = {
-	military_formation_attrition_risk_mult = -0.5
+	military_formation_attrition_risk_mult = -0.75
 }
 
 # This is multiplied with country_authority_per_subject_add and the number of direct subjects of the country
