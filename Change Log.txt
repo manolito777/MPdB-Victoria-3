@@ -238,6 +238,103 @@ Actualizados dos eventos militares de avión/zeppelin (content 02; : 30 bono pla
 
 
 
+-----------------------------------------------------------
+
+#03-07-25 Erring
+
+Segundo reajuste general a la comida y agricultura.
+
+Subsistencia:
+	Grano: 0.8 -> 0.7
+	Servicios: 0.5 -> 0.45
+
+Demandas:
+	Aumentada en torno a un 10% la demanda de alimentos básicas.
+	Mínimo de consumo de 0.25 sobre 1 para el grano bajo la demanda de alimentos básicos.
+	El vino constituye un % menor de la demanda de bebidas de lujo, pero mayor como intoxicante.
+	La demanda de bebidas de lujo (té, café, vino) comienza antes: 15 SOL mínimo -> 8 SOL mínimo (idea tomada de Poorer Pops Drink Tea and Coffee - Luxury Drinks Reworked, por Ploofy. Link: https://steamcommunity.com/sharedfiles/filedetails/?id=3502118742 Visto el: 03/07/2025).
+	Esta nueva demanda se ve compensada por la cantidad nimia que piden y por una reducción equivalente en costo a su necesidad de intoxicantes.
+
+Defines:
+	Reajustada la curva del crecimiento máximo por estándar de vida: 19 -> 17. Para subsanar la ligera mayor pobreza que hay de early game. Recomiendo usar de marco referencial a Francia de día 1, cuyo pop growth debería ser entre 0,2 y 0,3% anual.
 
 
+Principios:
+	Reworkeados los siguientes principios: Coordinación Ofensiva y Defensiva; Cívica Sagrada; Inversión extranjera.
+	Oficinas Coloniales: Otorga 4% de throughput a edificios en territorios no incorporados (hasta máximo de +20% a nivel 5).
+	Nuevo Principio: Enfoque Sanitario (estándar de vida; mortalidad; polución); Enfoque Agricultural; Enfoque Minería; Enfoque Burocracia.
+	#Posible principio de plantaciones, que te otorgue ventaja comercial en las exportaciones (pero habría que crear las definiciones).
+	#Inversión extranjera, bono al throughput de las sedes regionales? Hay que crear las definiciones.
 
+
+Map data:
+	Corregida la población de Nepal y aumentada su tierra arable para sostenerla.
+	#Para ti, 2000 años en el futuro: Separar Zanzíbar de Omán.
+
+	#PAra Erring: reajustar el tema de las tecnologias
+		tier 3 más caro
+		dividir tecnologías militares
+		bufar la rama de influencia en sociedad
+		mover filosofía analítica a tier 4 temprano.
+
+
+-------------------------------------------------------
+
+#04-07-25 Erring
+
+Demandas:
+	Introducida demanda mínima al azúcar para la comida de lujo e introducida la posibilidad de consumo de azúcar como alimento básico (cantidad muy pequeña, útil como aporte calórico, en torno a un 0,25% de los gastos alimentarios de una pop con 17 SOL va al azúcar).
+
+Principios:
+	Finalizado el esqueleto del Principio Agricultural.
+
+
+--------------------------------------------------------
+
+# 07-07-2025 Erring
+
+Arte:
+	Agregados iconos para los nuevos métodos.
+	
+Tecnologías:
+	Ligeramente encarecida la Era 3: 11750 -> 12000 (500pts más barato que vanilla).
+	Reestructuración del árbol de tecnologías militar: agregadas varias tecnologías nuevas y divididas otras tantas.
+	Alterado el orden de Filosofía Analítica; Behavorism; Psicoanálisis. Movidas a tier 4. Posible tier 5: Psicología Gestalt.
+	Behavorism otorga reducción de exhaustion y reducción a la pérdida de moral.
+	Pendiente: Scientific Management. Tier 5, tras Corporate Management.
+	
+	
+
+Militar:
+	Logística:
+		Aumentado el tiempo necesario para mobilizar y demobilizar el ejército.
+		Mayor importancia del transporte para la mobilización y velocidad de movimiento de las tropas.
+		Aumentadas las bajas por desgaste entre un 33% y un 50%.
+		Las bajas por desgaste causan menos mortalidad: 30% -> 20%.
+		Ahora métodos de mobilización y tecnologías reducen las bajas por desgaste.
+		Coste de convoyes por batallón: 10 -> 15.
+		(Pendiente: Mover coste de la mobilización de ferrocarriles al bien de Transporte y no solo a motores).
+
+		Base de datos para las unidades militares. Enlace: https://docs.google.com/spreadsheets/d/1f9nYKnBmY1LeLgLFVBrBxSeXpzPA1AIELPOVIYcdhf0/edit?usp=sharing
+
+	Batalla:
+		Reducida la ganancia de moral en el ejército: 0.03 -> 0.015
+		Dos nuevas unidades de caballería: con revolver y con carabina.
+		Rebalanceados los métodos de mobilización.
+		Aumentados los bonos por experiencia de las unidades.
+		Agregado un quinto nivel de veteranía.
+	
+	Naval:
+		Aumentada la velocidad de presencia naval en un nodo.
+		Aumentado el convoy raiding.
+		Dos nuevas unidades navales pre acorazados.
+		Agregado coste de carbón y petróleo a las unidades navales.
+
+Map Data:
+	Actualizado el petróleo a nivel mundial en base a los valores vanilla (teniendo en cuenta también las anteriores incorporaciones del mod).
+	Creado mapa de recursos gracias a Vic3MapCSharp. Actualizar y subirlo públicamente una vez esté finalizado el mod. Actualizar el mapa político tras la partida semanal.
+	
+	
+	
+Anotación: Angola, Congo Brazzaville, Cameroon, Côte d’Ivoire, Guinea and Ghana. Ukwazi. Hierro.
+	https://gmesgeoportal.rcmrd.org/maps/e1f8c7cfc20d47ca906fdbdd0d8c761b/explore?location=-29.065676%2C19.822075%2C5.89
