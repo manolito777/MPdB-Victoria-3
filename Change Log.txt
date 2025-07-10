@@ -349,3 +349,10 @@ Anotación: Angola, Congo Brazzaville, Cameroon, Côte d’Ivoire, Guinea and Gh
 Países:
 	Estados Unidos:
 		Aumentado el penalizador del Compromiso de Missouri.
+	Gran Bretaña:
+		Movido el líder de la PB a agitador. Sustituido por el líder histórico del gobierno británico de ese momento, de ideología proteccionista.
+		Sustituida Libertad de Conciencia por Religión de Estado.
+
+Leyes:
+	Económicas:
+		Reducido el % mínimo de propiedad para granjeros bajo Homesteading: 50% -> 25%
