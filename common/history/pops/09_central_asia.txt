@@ -1482,7 +1482,7 @@
 		region_state:NEP = {
 			create_pop = {
 				culture = nepali
-				size = 619204
+				size = 3519204
 			}
 			create_pop = {
 				culture = bihari
