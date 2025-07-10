@@ -1,0 +1,800 @@
+[01:27:45][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_light_tank_defense_mult is not a valid static or dynamic modifier type.
+[01:27:45][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_canon_artillery_offense_add is not a valid static or dynamic modifier type.
+[01:27:45][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_heavy_tanks_offense_add is not a valid static or dynamic modifier type.
+[01:27:45][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_canon_artillery_offense_mult is not a valid static or dynamic modifier type.
+[01:27:45][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_heavy_tanks_offense_mult is not a valid static or dynamic modifier type.
+[01:27:45][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_canon_artillery_defense_add is not a valid static or dynamic modifier type.
+[01:27:45][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_heavy_tanks_defense_add is not a valid static or dynamic modifier type.
+[01:27:45][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_canon_artillery_defense_mult is not a valid static or dynamic modifier type.
+[01:27:45][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_heavy_tanks_defense_mult is not a valid static or dynamic modifier type.
+[01:27:45][modifier_type_definition_database.cpp:43]: Modifier type definition state_radicals_from_sol_change_mult is not a valid static or dynamic modifier type.
+[01:27:45][modifier_type_definition_database.cpp:43]: Modifier type definition state_loyalists_from_sol_change_mult is not a valid static or dynamic modifier type.
+[01:27:45][eventtargetlinks.cpp:3830]: Failed to find culture! Culture: Central_Afor, File Location: common/history/states/00_states.txt:1607
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.1 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2632
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.2 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2646
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.3 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2652
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.6 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2674
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.7 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2680
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.8 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2686
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.9 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2692
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.11 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2704
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.12 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2710
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.13 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2716
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.14 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2722
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.15 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2728
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.16 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2734
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.18 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2740
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.20 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2752
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.21 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2758
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: formation.17 ]
+  Script location: common/on_actions/00_code_on_actions.txt:2805
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: trigger_event effect [ Event not found! EventID: warlord_china_events.101 ]
+  Script location: common/journal_entries/00_reunify_china.txt:119
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_automobiles_disabled ]
+  Script location: common/history/buildings/00_west_europe.txt:1546
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_filing_cabinets ]
+  Script location: common/history/buildings/china.txt:38
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid production method: pm_filing_cabinets ]
+  Script location: common/history/buildings/china.txt:103
+
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: add_journal_entry effect [ Invalid journal entry type 'je_south_german_unification' ]
+  Script location: events/german_unification.txt:310
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'add_journal_entry' returned false at events/german_unification.txt:310
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: remove_diplomatic_pact effect [ type: Not found in database class CDiplomaticActionTypeDataBase ]
+  Script location: events/italian_unification.txt:770
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'remove_diplomatic_pact' returned false at events/italian_unification.txt:770
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: remove_diplomatic_pact effect [ type: Not found in database class CDiplomaticActionTypeDataBase ]
+  Script location: events/italian_unification.txt:782
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'remove_diplomatic_pact' returned false at events/italian_unification.txt:782
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid building ]
+  Script location: events/spooky_halloween_events.txt:63
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_building' returned false at events/spooky_halloween_events.txt:63
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip effect [ Unknown loc key dracula_passive_tt ]
+  Script location: events/spooky_halloween_events.txt:369
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'custom_tooltip' returned false at events/spooky_halloween_events.txt:369
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: add_technology_progress effect [ technology: Not found in database class CTechnologyDatabase ]
+  Script location: events/tech_events/nursing_events.txt:249
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'add_technology_progress' returned false at events/tech_events/nursing_events.txt:249
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: custom_tooltip effect [ Unknown loc key improve_relations_with_german_confederation_tt ]
+  Script location: common/scripted_buttons/london_conference_buttons.txt:183
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'custom_tooltip' returned false at common/scripted_buttons/london_conference_buttons.txt:183
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Invalid building ]
+  Script location: common/history/buildings/08_middle_east.txt:1124
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_building' returned false at common/history/buildings/08_middle_east.txt:1124
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_building effect [ Asking to activate several production methods from the same group ]
+  Script location: common/history/buildings/china.txt:38
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_building' returned false at common/history/buildings/china.txt:38
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:24
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:24
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:89
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:89
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:117
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:117
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:121
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:121
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:162
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:162
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/02_east_europe.txt:174
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/02_east_europe.txt:174
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/04_subsaharan_africa.txt:348
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/04_subsaharan_africa.txt:348
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/09_central_asia.txt:221
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/09_central_asia.txt:221
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/09_central_asia.txt:285
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/09_central_asia.txt:285
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/09_central_asia.txt:289
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/09_central_asia.txt:289
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/09_central_asia.txt:309
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/09_central_asia.txt:309
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_pop effect [ Missing culture ]
+  Script location: common/history/pops/09_central_asia.txt:455
+
+[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_pop' returned false at common/history/pops/09_central_asia.txt:455
+[01:27:45][jomini_script_system.cpp:247]: Script system error!
+  Error: create_state effect [ Province 'x30B0E0' crossing multiple state regions ]
+  Script location: common/history/states/00_states.txt:7719
+
+[01:27:45][jomini_effect.cpp:1137]: Variable 'usa_state_flag_block' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[01:27:45][jomini_effect.cpp:1133]: Variable 'five_year_plan_done_2' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[01:27:45][jomini_effect.cpp:1133]: Variable 'recapturado_brasil' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[01:27:45][jomini_effect.cpp:1137]: Variable 'opium_wars_target' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[01:27:45][jomini_effect.cpp:1133]: Variable 'truce_funny' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[01:27:45][jomini_effect.cpp:1133]: Variable 'china_warlord_abolished_monarchy' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[01:27:45][jomini_effect.cpp:1137]: Variable 'lost_opium_wars' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[01:27:45][jomini_effect.cpp:1137]: Variable 'district_of_columbia' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[01:27:45][jomini_effect.cpp:1137]: Variable 'failed_tanzimat' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[01:27:45][jomini_effect.cpp:1137]: Variable 'italian_states_radicals_total_bar' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[01:27:45][jomini_effect.cpp:1137]: Variable 'dainam_sponsor_var' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[01:27:45][jomini_effect.cpp:1137]: Variable 'cult_center' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[01:27:45][jomini_effect.cpp:1137]: Variable 'china_shatters' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[01:27:45][jomini_effect.cpp:1137]: Variable 'open_to_missionaries_state' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[01:27:45][jomini_effect.cpp:1133]: Variable 'sino_japanese_war' is set but is never used. Note that use in localization doesn't count due to technical limitations. Use in unused scripted triggers and effects also does not count
+[01:27:45][jomini_effect.cpp:1137]: Event target 'heavenly_kingdom_spawn' is used but is never set. Setting it in an unused scripted trigger or effect does not count
+[01:27:45][jomini_eventmanager.cpp:371]: Event german_unification.2 is orphaned
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:347]: Failed getting Effect [tree_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_01_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:47][pdxmeshobject.cpp:372]: Failed getting Effect [treeShadow_mapobject] in file [gfx/FX/tree.shader] for mesh batch type JominiMapObjectMeshBatch (requested by pdxmesh french_farm_farmhouse_02_mesh)
+[01:27:48][game_object_locators.cpp:428]: map object locator "city" is incomplete. A new file with locator data has been generated ( C:/Users/ricar/Documents/Paradox Interactive/Victoria 3//generated/generated_map_object_locators_city.txt ).
+Copy that file (or its contents) to game/gfx/map_object_data to fix the error logs.
+[01:27:48][game_object_locators.cpp:428]: map object locator "farm" is incomplete. A new file with locator data has been generated ( C:/Users/ricar/Documents/Paradox Interactive/Victoria 3//generated/generated_map_object_locators_farm.txt ).
+Copy that file (or its contents) to game/gfx/map_object_data to fix the error logs.
+[01:27:48][game_object_locators.cpp:428]: map object locator "mine" is incomplete. A new file with locator data has been generated ( C:/Users/ricar/Documents/Paradox Interactive/Victoria 3//generated/generated_map_object_locators_mine.txt ).
+Copy that file (or its contents) to game/gfx/map_object_data to fix the error logs.
+[01:27:48][game_object_locators.cpp:428]: map object locator "port" is incomplete. A new file with locator data has been generated ( C:/Users/ricar/Documents/Paradox Interactive/Victoria 3//generated/generated_map_object_locators_port.txt ).
+Copy that file (or its contents) to game/gfx/map_object_data to fix the error logs.
+[01:27:48][game_object_locators.cpp:428]: map object locator "wood" is incomplete. A new file with locator data has been generated ( C:/Users/ricar/Documents/Paradox Interactive/Victoria 3//generated/generated_map_object_locators_wood.txt ).
+Copy that file (or its contents) to game/gfx/map_object_data to fix the error logs.
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:49][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: autonomous_investment_pool: autonomous_investment_pool, near line: 1
+Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:50][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:51][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: ec_construction_points_100: ec_construction_points_100, near line: 1
+Failed to read key reference: ec_subject_construction_same: ec_subject_construction_same, near line: 1
+Failed to read key reference: ec_building_priorities_roleplay: ec_building_priorities_roleplay, near line: 1
+Failed to read key reference: rs_default: rs_default, near line: 1
+Failed to read key reference: ec_allow_autobuild: ec_allow_autobuild, near line: 1
+Failed to read key reference: si_economic_system_automation: si_economic_system_automation, near line: 1
+Failed to read key reference: si_medium_time_prefrence: si_medium_time_prefrence, near line: 1" in file: "" near line: 1
+[01:27:57][jomini_script_system.cpp:247]: Script system error!
+  Error: add_homeland effect [ Unknown culture in homeland effect ]
+  Script location: common/history/states/00_states.txt:1607
+
+[01:27:57][country_law_manager.cpp:441]: Country DAI is not permitted to retain law Total Separation, fix this or consider State Religion instead
+[01:28:02][jomini_script_system.cpp:247]: Script system error!
+  Error: fully_mobilize_army effect [ Scope formation cannot be mobilized ]
+  Script location: common/history/military_deployments/00_military_deployments.txt:75
+
+[01:28:02][pdx_assert.cpp:628]: Assertion failed: NGameState::GameStateAccess._Value == EGameStateAccess::Interface || NGameState::HiddenGameStateAccess._Value == EHiddenGameStateAccess::Allowed
+[01:28:02][jomini_script_system.cpp:247]: Script system error!
+  Error: teleport_to_front effect [ Cannot teleport scope formation 1st Kashmiri Army (283) to target front  Front (0) due to: red_cross! tooltippable_name tooltip:dw_1505913435,GwEAAA==,DATA_MILITARY_FORMATION,MilitaryFormationTooltip 1st Kashmiri Army!! b cannot! be deployed to tooltippable_name tooltip:dw_1024131813,AAAAAA==,DATA_FRONT_NAME_TOOLTIP,FrontTooltip  Front!! because it is not tooltippable_concept tooltip:dw_1813705710,8Djxo2wEAAA=,DATA_GAME_CONCEPT_TYPE_NAME_TOOLTIP,GameConceptTypeToolti
+  Script location: common/history/military_deployments/00_military_deployments.txt:76
+
