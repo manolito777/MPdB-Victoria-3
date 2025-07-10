@@ -595,7 +595,7 @@ mobilization_option_chemical_weapons = {
 		goods_input_fertilizer_add = 2
 	}
 	unit_modifier = {
-		unit_offense_add = 5
+		unit_offense_add = 8
 		unit_morale_damage_mult = 0.35
 		unit_kill_rate_add = 0.25
 		unit_recovery_rate_add = -0.1
