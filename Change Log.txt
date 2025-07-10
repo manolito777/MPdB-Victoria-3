@@ -338,3 +338,14 @@ Hotfixes: Bajadas las warreps a 5% de ingresos hasta que Paradox arregle su mier
 	
 Anotación: Angola, Congo Brazzaville, Cameroon, Côte d’Ivoire, Guinea and Ghana. Ukwazi. Hierro.
 	https://gmesgeoportal.rcmrd.org/maps/e1f8c7cfc20d47ca906fdbdd0d8c761b/explore?location=-29.065676%2C19.822075%2C5.89
+
+
+
+
+----------------
+
+#10-7-25 Erring
+
+Países:
+	Estados Unidos:
+		Aumentado el penalizador del Compromiso de Missouri.
