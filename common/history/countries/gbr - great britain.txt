@@ -38,16 +38,15 @@
 		# Laws 
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_wealth_voting
-		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_women_own_property
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_protectionism # Corn Laws, babyyy
+		activate_law = law_type:law_mercantilism # Corn Laws, babyyy
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_religious_schools
-		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_poor_laws
 		activate_law = law_type:law_charitable_health_system
