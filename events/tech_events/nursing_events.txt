@@ -221,8 +221,7 @@
  				can_research = medical_degrees
  				can_research = quinine
  				can_research = malaria_prevention
- 				can_research = malara_prevention
- 			}
+  			}
  		}
  		if = {
  			limit = {
@@ -244,9 +243,9 @@
  		}
  		else_if = {
  			limit = {
- 				can_research = malara_prevention
+ 				can_research = malaria_prevention
  			}
- 			add_technology_progress = { progress = 5850 technology = malara_prevention }
+ 			add_technology_progress = { progress = 5850 technology = malaria_prevention }
  		}
  	}
  }

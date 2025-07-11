@@ -44,7 +44,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_filing_cabinets" "pm_religious_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -109,7 +109,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_logging_camp"

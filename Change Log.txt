@@ -333,6 +333,7 @@ Militar:
 Map Data:
 	Actualizado el petróleo a nivel mundial en base a los valores vanilla (teniendo en cuenta también las anteriores incorporaciones del mod).
 	Creado mapa de recursos gracias a Vic3MapCSharp. Actualizar y subirlo públicamente una vez esté finalizado el mod. Actualizar el mapa político tras la partida semanal.
+	Enlace: https://forum.paradoxplaza.com/forum/threads/tool-vic3-mapper.1550357/
 	
 Hotfixes: Bajadas las warreps a 5% de ingresos hasta que Paradox arregle su mierda.
 	

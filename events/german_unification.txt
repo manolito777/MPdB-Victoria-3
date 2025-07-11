@@ -114,19 +114,7 @@ german_unification.3 = {
 	immediate = {
 		set_global_variable = bismarck_variable
 		create_character = {
-			first_name = Otto
-			last_name = von_Bismarck
-			historical = yes
-			ig_leader = yes
-			interest_group = ig_landowners
-			female = no
-			birth_date = 1815.4.1
-			dna = dna_otto_von_bismarck
-			ideology = ideology_royalist
-			traits = {
-				direct
-				cautious
-			}
+			template = PRU_otto_von_bismarck
 		}
 		ig:ig_landowners = {
 			save_scope_as = junkers
@@ -141,18 +129,7 @@ german_unification.3 = {
 		default_option = yes
 		show_as_tooltip = {
 			create_character = {
-				first_name = Otto
-				last_name = von_Bismarck
-				historical = yes
-				ig_leader = yes
-				interest_group = ig_landowners
-				female = no
-				birth_date = 1815.4.1
-				ideology = ideology_royalist
-				traits = {
-					direct
-					cautious
-				}
+				template = PRU_otto_von_bismarck
 			}
 		}
 		scope:bismarck_scope = {
@@ -162,7 +139,7 @@ german_unification.3 = {
 		}
 		add_modifier = {
 			name = realpolitik
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 	}
 	option = {
@@ -170,18 +147,7 @@ german_unification.3 = {
 		default_option = yes
 		show_as_tooltip = {
 			create_character = {
-				first_name = Otto
-				last_name = von_Bismarck
-				historical = yes
-				ig_leader = yes
-				interest_group = ig_landowners
-				female = no
-				birth_date = 1815.4.1
-				ideology = ideology_royalist
-				traits = {
-					direct
-					cautious
-				}
+				template = PRU_otto_von_bismarck
 			}
 		}
 		scope:bismarck_scope = {
@@ -191,7 +157,7 @@ german_unification.3 = {
 		}
 		add_modifier = {
 			name = germany_aggressive_expansion
-			months = normal_modifier_time
+			days = normal_modifier_time
 		}
 	}
 }
@@ -236,7 +202,7 @@ german_unification.4 = {
 	}
 	option = {
 		name = german_unification.4.b
-		
+		give_claims_on_germany = yes
 		add_loyalists = {
 			value = 0.1
 			culture = cu:north_german
