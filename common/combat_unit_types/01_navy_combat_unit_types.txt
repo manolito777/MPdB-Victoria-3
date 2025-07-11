@@ -54,7 +54,7 @@ combat_unit_type_screw_frigate = {
 	unlocking_technologies = { screw_frigate }
 	
     combat_unit_image = {
-        texture = "gfx/unit_illustrations/light_ships_frigate.dds"
+        texture = "gfx/unit_illustrations/sigmabarco.dds"
     }
 	
 	upgrades = {
@@ -258,7 +258,7 @@ combat_unit_type_screw_manowar = {
 	unlocking_technologies = { screw_frigate }
 
     combat_unit_image = {
-        texture = "gfx/unit_illustrations/capital_ships_manowar.dds"
+        texture = "gfx/unit_illustrations/puciobarco.dds"
     }
 	
 	upgrades = {
