@@ -357,3 +357,6 @@ Países:
 Leyes:
 	Económicas:
 		Reducido el % mínimo de propiedad para granjeros bajo Homesteading: 50% -> 25%
+
+Militar:
+	Aumentado el penalizador por bloqueo: 75% -> 90%
