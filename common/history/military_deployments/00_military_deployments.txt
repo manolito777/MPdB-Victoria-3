@@ -62,18 +62,4 @@
 			teleport_to_front = p:x529B8E.front
 		}
 	}
-
-	c:LAD ?= {
-		every_military_formation = {
-			fully_mobilize_army = yes
-			teleport_to_front = p:xF469BC.front
-		}
-	}
-
-	c:KAS ?= {
-		every_military_formation = {
-			fully_mobilize_army = yes
-			teleport_to_front = p:xF469BC.front
-		}
-	}
 }

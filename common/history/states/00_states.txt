@@ -1604,7 +1604,7 @@ STATES = {
 			}
 		}
 		add_homeland = cu:South_Afro
-		add_homeland = cu:Central_Afor
+		add_homeland = cu:Central_Afro
 	}
 	s:STATE_CAMBODIA = {
 		create_state = {

@@ -2666,12 +2666,6 @@ on_country_formed = {
 		}
 		else_if = {
 			limit = {
-				c:CLI ?= ROOT
-			}
-			trigger_event = { id = formation.21 popup = yes }
-		}
-		else_if = {
-			limit = {
 				c:GER ?= ROOT
 			}
 			trigger_event = { id = german_unification.4 popup = yes }
