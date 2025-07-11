@@ -174,7 +174,7 @@ dark_khmer = {
 }
 
 austria_hungary = {
-	color = "austria_hungary_color"
+	color = { 124 40 30 }
 
 	possible = {
 		exists = c:AUS
@@ -308,7 +308,7 @@ communist_britain = {
 }
 
 unpleasant_germany = {
-	color = "feldgrau"
+	color = german_fascist
 
 	possible = {
 		exists = c:GER

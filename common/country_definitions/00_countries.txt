@@ -1,7 +1,7 @@
 ﻿# Important note: Only use capital letters and numbers for tags, or else you may get weird bugs in civil wars
 
 GER = {
-	color = { 147 130 110 }
+	color = german_gray
 	
 	country_type = recognized
 
@@ -3387,7 +3387,7 @@ BLH = {
 }
 
 NGF = {
-	color = {41 37 37}
+	color = northgermanfederation
 	
 	country_type = recognized
 
@@ -3398,7 +3398,7 @@ NGF = {
 }
 
 SGF = {
-	color = { 176 18 7}
+	color = southgermanfederation
 	
 	country_type = recognized
 
