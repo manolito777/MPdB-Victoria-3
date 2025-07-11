@@ -1774,7 +1774,7 @@ principle_companies_3 = {
 ### HEALTHCARE FOCUS - MOD
 
 principle_healthcare_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/alms_for_the_poor.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
 	visible = {
@@ -1800,7 +1800,7 @@ principle_healthcare_focus_1 = {
 }
 
 principle_healthcare_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/alms_for_the_poor.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
@@ -1814,7 +1814,7 @@ principle_healthcare_focus_2 = {
 }
 
 principle_healthcare_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/alms_for_the_poor.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
@@ -1832,7 +1832,7 @@ principle_healthcare_focus_3 = {
 ### BUREAUCRACY FOCUS - MOD
 
 principle_bureaucracy_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/organised_religion.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
 	visible = {
@@ -1858,7 +1858,7 @@ principle_bureaucracy_focus_1 = {
 }
 
 principle_bureaucracy_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/organised_religion.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
@@ -1870,7 +1870,7 @@ principle_bureaucracy_focus_2 = {
 }
 
 principle_bureaucracy_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/organised_religion.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
@@ -1888,7 +1888,7 @@ principle_bureaucracy_focus_3 = {
 
 
 principle_mining_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/sovereign_wealth_fund.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
 	visible = {
@@ -1919,7 +1919,7 @@ principle_mining_focus_1 = {
 }
 
 principle_mining_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/sovereign_wealth_fund.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
@@ -1934,7 +1934,7 @@ principle_mining_focus_2 = {
 }
 
 principle_mining_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/sovereign_wealth_fund.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
@@ -1954,7 +1954,7 @@ principle_mining_focus_3 = {
 ### AGRICULTURAL FOCUS - MOD
 
 principle_agricultural_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/logistics_network.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
 	visible = {
@@ -1991,7 +1991,7 @@ principle_agricultural_focus_1 = {
 }
 
 principle_agricultural_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/logistics_network.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
@@ -2015,7 +2015,7 @@ principle_agricultural_focus_2 = {
 }
 
 principle_agricultural_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/logistics_network.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
@@ -2042,7 +2042,7 @@ principle_agricultural_focus_3 = {
 ### MANUFACTORIES FOCUS - MOD
 
 principle_manufacturing_focus_1 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/economic_consensus.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
 	visible = {
@@ -2073,7 +2073,7 @@ principle_manufacturing_focus_1 = {
 }
 
 principle_manufacturing_focus_2 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/economic_consensus.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
@@ -2089,7 +2089,7 @@ principle_manufacturing_focus_2 = {
 }
 
 principle_manufacturing_focus_3 = {
-	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
+	icon = "gfx/interface/icons/principles_icons/economic_consensus.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
