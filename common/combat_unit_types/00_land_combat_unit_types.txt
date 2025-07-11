@@ -748,6 +748,11 @@ combat_unit_type_dragoons = {
         #should get modifiers to mobile/surprise battle conditions appearing
     }
 
+    formation_modifier = {
+        military_formation_mobilization_speed_mult = 0.25
+        military_formation_movement_speed_mult = 0.25
+    }
+
 	unlocking_technologies = { line_infantry }
 
     combat_unit_image = {
@@ -807,6 +812,11 @@ combat_unit_type_cuirassiers = {
         unit_defense_add = 20
         unit_morale_loss_add = 12
         unit_occupation_mult = 0.35
+    }
+    
+    formation_modifier = {
+        military_formation_mobilization_speed_mult = 0.1
+        military_formation_movement_speed_mult = 0.1
     }
 
 	unlocking_technologies = { line_infantry }
@@ -873,6 +883,11 @@ combat_unit_type_lancers = {
         unit_occupation_mult = 0.5
     }
 
+    formation_modifier = {
+        military_formation_mobilization_speed_mult = 0.25
+        military_formation_movement_speed_mult = 0.25
+    }
+
 	unlocking_technologies = { napoleonic_warfare }
 
     combat_unit_image = {
@@ -937,6 +952,11 @@ combat_unit_type_revolver_cavalry = {
         unit_occupation_mult = 0.35
     }
 
+    formation_modifier = {
+        military_formation_mobilization_speed_mult = 0.25
+        military_formation_movement_speed_mult = 0.25
+    }
+
 	unlocking_technologies = { revolver }
 
     combat_unit_image = {
@@ -971,6 +991,11 @@ combat_unit_type_carabineer = {
         unit_morale_loss_add = 8
         unit_morale_loss_mult = -0.15
         unit_occupation_mult = 0.35
+    }
+
+    formation_modifier = {
+        military_formation_mobilization_speed_mult = 0.25
+        military_formation_movement_speed_mult = 0.25
     }
 
 	unlocking_technologies = { repeaters }
