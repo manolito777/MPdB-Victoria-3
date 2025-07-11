@@ -2916,15 +2916,15 @@ FRA_dictatorship = {
 		instance = { scale = { 1 1 } position = { 0.5 0.50 } }
 	}
 }
-#FRA_dictatorship_emperor = {
-#					pattern = "pattern_border_outlined_thin.dds"
+FRA_dictatorship_emperor = {
+					pattern = "pattern_border_outlined_thin.dds"
 	color1 = "white"
     color2 = "white"
     textured_emblem = {
 		texture = "fradiccoa.dds"
 		instance = { scale = { 1 1 } position = { 0.5 0.50 } }
-#	}
-#}
+	}
+}
 FRA_communist = {
 					pattern = "pattern_border_outlined_thin.dds"
 	color1 = "white"
