@@ -28,7 +28,7 @@ unit_combat_unit_type_lancers_offense_add={
 	}
 }
 
-unit_combat_unit_type_carabineers_offense_add={
+unit_combat_unit_type_carabineer_offense_add={
 	decimals=0
 	color=good
 	game_data={
@@ -100,7 +100,7 @@ unit_combat_unit_type_revolver_cavalry_defense_add ={
 	}
 }
 
-unit_combat_unit_type_carabineers_defense_add ={
+unit_combat_unit_type_carabineer_defense_add ={
 	decimals=0
 	color=good
 	game_data={
@@ -207,7 +207,7 @@ unit_combat_unit_type_revolver_cavalry_defense_mult ={
 	}
 }
 
-unit_combat_unit_type_carabineers_defense_mult ={
+unit_combat_unit_type_carabineer_defense_mult ={
 	decimals=0
 	color=good
 	percent=yes

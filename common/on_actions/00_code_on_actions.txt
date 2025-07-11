@@ -2632,7 +2632,7 @@ on_country_released_as_overlord_subject = {
 # Root = Country
 on_country_formed = {
 	effect = {
-        else_if = {
+        if = {
 			limit = {
 				c:PLT ?= THIS
 				was_formed_from = PRG
@@ -2713,14 +2713,6 @@ on_country_formed = {
 				c:FSA ?= ROOT
 			}
 			trigger_event = { id = fsa_events.1 popup = yes }
-		}
-
-		if = {
-			limit = {
-				c:CHI ?= this
-				has_journal_entry = je_reunify_china
-			}
-			set_global_variable = { name = chinese_central_government value = ROOT }
 		}
 	}
 }
