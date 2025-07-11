@@ -342,11 +342,11 @@
 	s:STATE_HAUSALAND = {
 		region_state:SOK = {
 			create_pop = {
-				culture =West_Afro
+				culture = West_Afro
 				size = 538523
 			}
 			create_pop = {
-				culture = We	
+				culture = West_Afro	
 				size = 24000
 			}
 			create_pop = {
@@ -358,7 +358,7 @@
 				size = 180400
 			}
 			create_pop = {
-				culture =West_Afro
+				culture = West_Afro
 				religion = animist
 				size = 144400
 			}
@@ -368,7 +368,7 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture =West_Afro
+				culture = West_Afro
 				size = 63169
 			}
 			create_pop = {

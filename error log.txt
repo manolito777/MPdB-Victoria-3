@@ -16,16 +16,7 @@
   Script location: common/scripted_buttons/london_conference_buttons.txt:183
 
 [01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'custom_tooltip' returned false at common/scripted_buttons/london_conference_buttons.txt:183
-[01:27:45][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Invalid building ]
-  Script location: common/history/buildings/08_middle_east.txt:1124
 
-[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_building' returned false at common/history/buildings/08_middle_east.txt:1124
-[01:27:45][jomini_script_system.cpp:247]: Script system error!
-  Error: create_building effect [ Asking to activate several production methods from the same group ]
-  Script location: common/history/buildings/china.txt:38
-
-[01:27:45][jomini_effect.cpp:140]: PostValidate of effect 'create_building' returned false at common/history/buildings/china.txt:38
 [01:27:45][jomini_script_system.cpp:247]: Script system error!
   Error: create_pop effect [ Missing culture ]
   Script location: common/history/pops/02_east_europe.txt:24
