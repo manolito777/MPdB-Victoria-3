@@ -29,7 +29,7 @@
 }
 
 interception_coast_agressive = {
-    texture = "gfx/interface/icons/commander_order_icons/patrol_coast.dds"
+    texture = "gfx/interface/icons/commander_order_icons/zw_interceiption_aggressive_interception.dds"
 
 	military_type = navy
 	behavior = intercept
@@ -63,7 +63,7 @@ interception_coast_agressive = {
 }
 
 interception_carrier_assualt = {
-	texture = "gfx/interface/icons/commander_order_icons/patrol_coast.dds"
+	texture = "gfx/interface/icons/commander_order_icons/zw_interceiption_carrier_sorties.dds"
 
 	military_type = navy
 	behavior = intercept
@@ -106,7 +106,7 @@ interception_carrier_assualt = {
 }
 
 interception_coordinated_attack = {
-    texture = "gfx/interface/icons/commander_order_icons/patrol_coast.dds"
+    texture = "gfx/interface/icons/commander_order_icons/zw_interceiption_coordination_interception.dds"
 
 	military_type = navy
 	behavior = intercept

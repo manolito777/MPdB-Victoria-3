@@ -1,5 +1,5 @@
 ﻿escort_convoys = {
-    texture = "gfx/interface/icons/commander_order_icons/escort_convoys.dds"
+    texture = "gfx/interface/icons/commander_order_icons/zw_escort_organized_merchant_convoys.dds"
 
 	military_type = navy
 	behavior = escort_convoys

@@ -28,7 +28,7 @@
 }
 
 advance_reckless = {
-    texture = "gfx/interface/icons/commander_order_icons/advance.dds"
+    texture = "gfx/interface/icons/commander_order_icons/zw_advance_reckless_advance.dds"
 
     military_type = army
 	behavior = advance
@@ -61,7 +61,7 @@ advance_reckless = {
 }
 
 advance_pillager = {
-    texture = "gfx/interface/icons/commander_order_icons/advance.dds"
+    texture = "gfx/interface/icons/commander_order_icons/zw_advance_pillage.dds"
 
     military_type = army
 	behavior = advance
@@ -98,7 +98,7 @@ advance_pillager = {
 }
 
 advance_cautious = {
-    texture = "gfx/interface/icons/commander_order_icons/advance.dds"
+    texture = "gfx/interface/icons/commander_order_icons/zw_advance_cautious_advance.dds"
 
     military_type = army
 	behavior = advance
@@ -129,7 +129,7 @@ advance_cautious = {
 }
 
 advance_heavy_barrage = {
-    texture = "gfx/interface/icons/commander_order_icons/advance.dds"
+    texture = "gfx/interface/icons/commander_order_icons/zw_advance_heavy_barrage.dds"
 
     military_type = army
     behavior = advance
@@ -202,7 +202,7 @@ advance_heavy_barrage = {
 }
 
 advance_cavalry_assualt = {
-    texture = "gfx/interface/icons/commander_order_icons/advance.dds"
+    texture = "gfx/interface/icons/commander_order_icons/zw_advance_rapid_advance.dds"
 
     military_type = army
     behavior = advance
@@ -282,7 +282,7 @@ advance_cavalry_assualt = {
 }
 
 advance_tank_assualt = {
-    texture = "gfx/interface/icons/commander_order_icons/advance.dds"
+    texture = "gfx/interface/icons/commander_order_icons/zw_advance_heavy_advance.dds"
 
     military_type = army
     behavior = advance

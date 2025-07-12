@@ -26,7 +26,7 @@
 }
 
 raid_unrestricted_sub = {
-    texture = "gfx/interface/icons/commander_order_icons/raid_convoys.dds"
+   texture = "gfx/interface/icons/commander_order_icons/zw_raid_wolf_pack.dds"
 
 	military_type = navy
 	behavior = raid_convoys
