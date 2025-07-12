@@ -24,7 +24,7 @@ basic_cavalry_commander = {
  	}
 
  	weight = {
- 		value = 4
+ 		value = 3
 		if = {
 			limit = {
 				owner = {
@@ -35,7 +35,7 @@ basic_cavalry_commander = {
 						}
 						formation_army_unit_type_fraction = {
 							target = unit_type:combat_unit_type_hussars
-							value >= 0.20
+							value >= 0.25
 						}
 					}
 				}
@@ -52,7 +52,7 @@ basic_cavalry_commander = {
 						}
 						formation_army_unit_type_fraction = {
 							target = unit_type:combat_unit_type_dragoons
-							value >= 0.20
+							value >= 0.25
 						}
 					}
 				}
@@ -69,7 +69,7 @@ basic_cavalry_commander = {
 						}
 						formation_army_unit_type_fraction = {
 							target = unit_type:combat_unit_type_cuirassiers
-							value >= 0.20
+							value >= 0.25
 						}
 					}
 				}
@@ -86,7 +86,7 @@ basic_cavalry_commander = {
 						}
 						formation_army_unit_type_fraction = {
 							target = unit_type:combat_unit_type_lancers
-							value >= 0.20
+							value >= 0.25
 						}
 					}
 				}
@@ -103,7 +103,7 @@ basic_cavalry_commander = {
 						}
 						formation_army_unit_type_fraction = {
 							target = unit_type:combat_unit_type_revolver_cavalry
-							value >= 0.20
+							value >= 0.25
 						}
 					}
 				}
@@ -120,7 +120,7 @@ basic_cavalry_commander = {
 						}
 						formation_army_unit_type_fraction = {
 							target = unit_type:combat_unit_type_carabineer
-							value >= 0.20
+							value >= 0.25
 						}
 					}
 				}
@@ -155,7 +155,7 @@ experienced_cavalry_commander = {
 	}
 
  	weight = {
- 		value = 4
+ 		value = 3
 		if = {
 			limit = {
 				owner = {
@@ -423,7 +423,7 @@ basic_infantry_commander = {
  	}
 
  	weight = {
- 		value = 4
+ 		value = 3
 		if = {
 			limit = {
 				owner = {
@@ -434,7 +434,7 @@ basic_infantry_commander = {
 						}
 						formation_army_unit_type_fraction = {
 							target = unit_type:combat_unit_type_line_infantry
-							value >= 0.50
+							value >= 0.75
 						}
 					}
 				}
@@ -451,7 +451,7 @@ basic_infantry_commander = {
 						}
 						formation_army_unit_type_fraction = {
 							target = unit_type:combat_unit_type_trench_infantry
-							value >= 0.50
+							value >= 0.75
 						}
 					}
 				}
@@ -468,7 +468,7 @@ basic_infantry_commander = {
 						}
 						formation_army_unit_type_fraction = {
 							target = unit_type:combat_unit_type_skirmish_infantry
-							value >= 0.50
+							value >= 0.75
 						}
 					}
 				}
@@ -485,7 +485,7 @@ basic_infantry_commander = {
 						}
 						formation_army_unit_type_fraction = {
 							target = unit_type:combat_unit_type_squad_infantry
-							value >= 0.50
+							value >= 0.75
 						}
 					}
 				}
@@ -502,7 +502,7 @@ basic_infantry_commander = {
 						}
 						formation_army_unit_type_fraction = {
 							target = unit_type:combat_unit_type_mechanized_infantry
-							value >= 0.50
+							value >= 0.75
 						}
 					}
 				}
