@@ -52,6 +52,10 @@ combat_unit_type_screw_frigate = {
         unit_morale_loss_add = 10
     }
 
+    formation_modifier = {
+        military_formation_movement_speed_mult = 0.1
+    }
+
 	unlocking_technologies = { screw_frigate }
 	
     combat_unit_image = {
@@ -246,7 +250,7 @@ combat_unit_type_screw_manowar = {
         goods_input_manowars_add = 4
         goods_input_engines_add = 1
         goods_input_coal_add = 1
-        goods_input_grain_add = 3
+        goods_input_grain_add = 4
     }
 
     battle_modifier = {
