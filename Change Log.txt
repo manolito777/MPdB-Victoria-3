@@ -372,3 +372,4 @@ Mapa:
 	Alemania: Rebalanceo de los recursos para favorecer al Ruhr; reducido su petróleo.
 		Elba; Hanover: 60 petróleo -> 20
 		Aumentado el carbón y hierro del ruhr; +10 plomo en el rin.
+	Buff a Alsacia-Lorena.
