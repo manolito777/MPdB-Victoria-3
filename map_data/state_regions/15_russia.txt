@@ -496,7 +496,6 @@ STATE_KURSK = {
     capped_resources = {
         bg_logging = 31
         bg_iron_mining = 93
-        bg_sulfur_mining = 4
     }
     resource = {
         type = "bg_gold_fields"
@@ -1189,7 +1188,6 @@ STATE_CHUVASHIA = {
     traits = { "state_trait_volga_river" }
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_sulfur_mining = 15
         bg_logging = 25
     }
     resource = {

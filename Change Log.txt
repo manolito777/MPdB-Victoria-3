@@ -373,3 +373,4 @@ Mapa:
 		Elba; Hanover: 60 petróleo -> 20
 		Aumentado el carbón y hierro del ruhr; +10 plomo en el rin.
 	Buff a Alsacia-Lorena.
+	Reducido el sulfuro en el territorio core ruso.
