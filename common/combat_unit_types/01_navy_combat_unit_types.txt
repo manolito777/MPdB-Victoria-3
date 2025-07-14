@@ -254,8 +254,8 @@ combat_unit_type_screw_manowar = {
     }
 
     battle_modifier = {
-        unit_offense_add = 35
-        unit_defense_add = 35
+        unit_offense_add = 30
+        unit_defense_add = 30
         unit_blockade_add = 100
         unit_morale_loss_add = 10
         unit_convoy_raiding_mult = -0.9
@@ -279,16 +279,16 @@ combat_unit_type_ironclad = {
     max_manpower = 1000
 
     upkeep_modifier = {
-        goods_input_ironclads_add = 9
-        goods_input_artillery_add = 9
-        goods_input_ammunition_add = 9
+        goods_input_ironclads_add = 8
+        goods_input_artillery_add = 8
+        goods_input_ammunition_add = 8
         goods_input_groceries_add = 4
         goods_input_coal_add = 4
     }
 
     battle_modifier = {
-        unit_offense_add = 50
-        unit_defense_add = 50
+        unit_offense_add = 55
+        unit_defense_add = 55
         unit_blockade_add = 200
         unit_morale_loss_add = 8
 		unit_convoy_raiding_mult = -0.9
@@ -426,7 +426,7 @@ combat_unit_type_carrier = {
     }
 
     battle_modifier = {
-        unit_offense_add = 120
+        unit_offense_add = 140
         unit_defense_add = 60
         unit_blockade_add = 500
         unit_morale_loss_add = 6
