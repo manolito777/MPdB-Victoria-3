@@ -1085,7 +1085,7 @@ STATE_ELBE = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 60
+        undiscovered_amount = 20
     }
     naval_exit_id = 3027
 }
@@ -1140,8 +1140,8 @@ STATE_WESTPHALIA = {
     arable_land = 60
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 80
-        bg_iron_mining = 36
+        bg_coal_mining = 88
+        bg_iron_mining = 42
         bg_sulfur_mining = 32
         bg_logging = 24
     }
@@ -1177,8 +1177,8 @@ STATE_RHINELAND = {
     arable_land = 55
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
-        bg_coal_mining = 60
-        bg_lead_mining = 30
+        bg_coal_mining = 80
+        bg_lead_mining = 40
         bg_logging = 11
     }
 }
@@ -1195,8 +1195,8 @@ STATE_NORTH_RHINE = {
     arable_land = 77
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
-        bg_coal_mining = 25
-        bg_iron_mining = 20
+        bg_coal_mining = 55
+        bg_iron_mining = 30
         bg_logging = 7
     }
 }
@@ -1289,7 +1289,7 @@ STATE_HANNOVER = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 60
+        undiscovered_amount = 20
     }
     naval_exit_id = 3027
 }
@@ -1418,8 +1418,8 @@ STATE_RUHR = {
     arable_land = 39
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 55
-        bg_iron_mining = 10
+        bg_coal_mining = 85
+        bg_iron_mining = 30
         bg_logging = 4
     }
 }

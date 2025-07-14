@@ -362,3 +362,13 @@ Militar:
 	Aumentado el penalizador por bloqueo: 75% -> 90%
 
 Revisar Alemania (cambiar petroleo por recursos en el ruhr). Revisar bono del Ruhr.
+
+
+---------------
+
+#14-07-25 Erring
+
+Mapa:
+	Alemania: Rebalanceo de los recursos para favorecer al Ruhr; reducido su petróleo.
+		Elba; Hanover: 60 petróleo -> 20
+		Aumentado el carbón y hierro del ruhr; +10 plomo en el rin.
