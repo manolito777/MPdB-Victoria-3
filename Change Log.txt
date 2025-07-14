@@ -374,3 +374,7 @@ Mapa:
 		Aumentado el carbón y hierro del ruhr; +10 plomo en el rin.
 	Buff a Alsacia-Lorena.
 	Reducido el sulfuro en el territorio core ruso.
+
+Compañías:
+	Buff a la compañía del mandato de construcción.
+	

@@ -342,7 +342,7 @@ company_bunge_born = {
 	prosperity_modifier = {
 		interest_group_ig_rural_folk_pop_attraction_mult = 0.2
 		interest_group_ig_rural_folk_approval_add = 3
-		building_tooling_workshops_throughput_add = 0.1
+		building_tooling_workshops_throughput_add = 0.15
 	}
 
 	ai_will_do = {
@@ -423,7 +423,7 @@ company_la_rosada = {
 
 	prosperity_modifier = {
 		unit_defense_mult = 0.1
-		building_iron_mine_throughput_add = 0.1
+		building_iron_mine_throughput_add = 0.15
 	}
 
 	ai_will_do = {
@@ -494,6 +494,10 @@ company_famae = {
 	prosperity_modifier = {
 		unit_offense_mult = 0.15
 		building_steel_mills_throughput_add = 0.15
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_small_arms
 	}
 
 	ai_will_do = {
