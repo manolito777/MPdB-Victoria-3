@@ -360,3 +360,5 @@ Leyes:
 
 Militar:
 	Aumentado el penalizador por bloqueo: 75% -> 90%
+
+Revisar Alemania (cambiar petroleo por recursos en el ruhr).
