@@ -777,7 +777,7 @@ STATE_ONTARIO = {
     mine = "x313BB2"
     wood = "x1E31A0"
     arable_land = 200
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_vineyard_plantations" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_sulfur_mining = 58
         bg_logging = 33
@@ -822,7 +822,7 @@ STATE_QUEBEC = {
     mine = "x39E87E"
     wood = "x61804D"
     arable_land = 200
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches"}
     capped_resources = {
         bg_iron_mining = 60
         bg_logging = 43
@@ -1271,7 +1271,7 @@ STATE_YUCATAN = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 16
+        undiscovered_amount = 12
     }
     naval_exit_id = 3060
 }
@@ -1294,7 +1294,7 @@ STATE_MEXICO = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 12
+        undiscovered_amount = 10
     }
 }
 
@@ -1406,7 +1406,7 @@ STATE_JALISCO = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 16
+        undiscovered_amount = 12
     }
     naval_exit_id = 3155
 }
@@ -1451,7 +1451,7 @@ STATE_CHIAPAS = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 24
+        undiscovered_amount = 18
     }
     naval_exit_id = 3155
 }
@@ -1483,7 +1483,6 @@ STATE_NEW_ENGLAND = {
     arable_land = 60
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_vineyard_plantations" "bg_silk_plantations" }
     capped_resources = {
-        bg_coal_mining = 56
         bg_iron_mining = 36
         bg_logging = 14
         bg_whaling = 8

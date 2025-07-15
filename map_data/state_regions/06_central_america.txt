@@ -16,7 +16,7 @@
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 15
+        undiscovered_amount = 5
     }
     naval_exit_id = 3155
 }
@@ -40,7 +40,7 @@ STATE_GUATEMALA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 25
+        undiscovered_amount = 8
     }
     naval_exit_id = 3026
 }
@@ -63,7 +63,7 @@ STATE_HONDURAS = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 16
+        undiscovered_amount = 10
     }
     naval_exit_id = 3026
 }
@@ -86,7 +86,7 @@ STATE_NICARAGUA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 14
+        undiscovered_amount = 8
     }
     naval_exit_id = 3026
 }
@@ -110,7 +110,7 @@ STATE_COSTA_RICA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 12
+        undiscovered_amount = 6
     }
     naval_exit_id = 3026
 }
@@ -259,7 +259,7 @@ STATE_JAMAICA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 14
+        undiscovered_amount = 6
     }
     naval_exit_id = 3061
 }

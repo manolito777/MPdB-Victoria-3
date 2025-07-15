@@ -1765,7 +1765,7 @@ principle_bureaucracy_focus_1 = {
 	}
 
 	member_modifier = {
-
+		state_bureaucracy_population_base_cost_factor_mult = -0.1
 	}
 	
 	ai_weight = {
@@ -1787,6 +1787,9 @@ principle_bureaucracy_focus_2 = {
 	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
 
 	member_modifier = {
+		state_bureaucracy_population_base_cost_factor_mult = -0.1
+		country_bureaucrats_pol_str_mult = 0.15
+		
 	}
 	
 	ai_weight = {
@@ -1799,9 +1802,11 @@ principle_bureaucracy_focus_3 = {
 	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
 
 	member_modifier = {
-
+		state_bureaucracy_population_base_cost_factor_mult = -0.1
+		country_bureaucrats_pol_str_mult = 0.15
+		country_government_dividends_efficiency_add = 0.05
 		# PM Burocracia Eficiente.
-
+		
 	}
 	
 	ai_weight = {

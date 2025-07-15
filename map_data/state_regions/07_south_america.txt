@@ -20,7 +20,7 @@
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 16
+        undiscovered_amount = 12
     }
     naval_exit_id = 3024
 }
@@ -48,7 +48,7 @@ STATE_GUAYANA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 16
+        undiscovered_amount = 12
     }
     resource = {
         type = "bg_oil_extraction"
@@ -77,7 +77,7 @@ STATE_ZULIA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 6
+        undiscovered_amount = 4
     }
     resource = {
         type = "bg_oil_extraction"
@@ -104,7 +104,7 @@ STATE_MIRANDA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 6
+        undiscovered_amount = 4
     }
     resource = {
         type = "bg_oil_extraction"
@@ -133,7 +133,7 @@ STATE_BOLIVAR = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 20
+        undiscovered_amount = 10
     }
     resource = {
         type = "bg_oil_extraction"
@@ -146,7 +146,7 @@ STATE_ANTIOQUIA = {
     id = 356
     subsistence_building = "building_subsistence_farms"
     provinces = { "x004090" "x008396" "x0589F6" "x070E0D" "x0910A0" "x10C9C0" "x13EF21" "x15E0DF" "x18EF89" "x213960" "x303844" "x381BD3" "x411E95" "x49C3E3" "x4E89E7" "x51DE36" "x52CED6" "x547FFD" "x5A7C3B" "x5F834B" "x685D84" "x6A4C0A" "x70B001" "x74A433" "x7AE883" "x7CFCA6" "x7D98B1" "x80C090" "x836854" "x87A5C6" "x8EE105" "x8FB1CC" "x8FBCCC" "x90A9AC" "x965A2E" "x9AD1C5" "x9B19D7" "x9B8691" "xA15905" "xA36731" "xA390B8" "xB93E39" "xB979D3" "xC564C3" "xCB17CD" "xD07040" "xD74F86" "xDBC5D5" "xE393EC" "xEAF021" "xF0735E" "xF16BCF" "xF2F0CC" "xF7A68F" "xFA208C" "xFCF1C1" "xFF4809" }
-    traits = { "state_trait_andes"    }
+    traits = { "state_trait_andes" }
     city = "xD07040"
     port = "x303844"
     farm = "x4E89E7"
@@ -183,7 +183,7 @@ STATE_GUAVIARE = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 26
+        undiscovered_amount = 18
     }
 }
 
@@ -205,7 +205,7 @@ STATE_CUNDINAMARCA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 14
+        undiscovered_amount = 10
     }
 }
 
@@ -247,7 +247,7 @@ STATE_PASTAZA = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 22
+        undiscovered_amount = 14
         discovered_amount = 1
     }
     resource = {
@@ -321,8 +321,8 @@ STATE_SANTA_CRUZ = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 10
-        discovered_amount = 14
+        undiscovered_amount = 14
+        discovered_amount = 8
     }
     resource = {
         type = "bg_oil_extraction"
@@ -728,7 +728,7 @@ STATE_SANTIAGO = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_gold_mining = 5
-        bg_iron_mining = 33
+        bg_iron_mining = 32
         bg_sulfur_mining = 36
         bg_logging = 6
         bg_whaling = 5
@@ -879,7 +879,7 @@ STATE_AMAZONAS = {
     }
     resource = {
         type = "bg_rubber"
-        discovered_amount = 35
+        discovered_amount = 28
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1068,7 +1068,6 @@ STATE_MINAS_GERAIS = {
         bg_gold_mining = 2
         bg_iron_mining = 88
         bg_lead_mining = 30
-        bg_sulfur_mining = 12
         bg_logging = 28
     }
     resource = {

@@ -78,14 +78,6 @@ principle_group_external_trade = {
 	}
 }
 
-principle_group_food_standardization = {
-	levels = {
-		principle_food_standardization_1
-		principle_food_standardization_2
-		principle_food_standardization_3
-	}
-}
-
 principle_group_police_coordination = {
 	levels = {
 		principle_police_coordination_1

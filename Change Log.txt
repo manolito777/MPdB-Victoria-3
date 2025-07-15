@@ -374,9 +374,20 @@ Mapa:
 		Aumentado el carbón y hierro del ruhr; +10 plomo en el rin.
 	Buff a Alsacia-Lorena.
 	Reducido el sulfuro en el territorio core ruso.
+	Motosierra de Milei a los recursos (no mires misy).
 
 Compañías:
 	Buff a la compañía del mandato de construcción.
+
+Principios:
+	Actualizados los principios.
 	
 Militar:
 	Añadidas nuevas battle conditions.
+
+TO-DO: Mortality y Access Edu por Riqueza. Prestigio de GDP de 3 a 4 (?). IA no puede salirse de bloques; IA no puede crear administraciones coloniales.
+		Subir el bono por bienes de prestigio militares; throughput de 5% -> 10%.
+		Dar más énfasis al bien de prestigio en vez de valores base de las compañías (throughput y construction bonus).
+		Revisar lógica de la IA para la compra de edificios por parte de las compañías; que prefieran construir nuevos antes que comprar.
+		Nerf a tintes.
+		

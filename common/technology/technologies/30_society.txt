@@ -442,6 +442,7 @@ pharmaceuticals = {
 	modifier = {
 		country_institution_health_system_max_investment_add = 1
 		state_harvest_condition_disease_outbreak_impact_mult = -0.2
+		state_mortality_wealth_mult = -0.001
 
 	}
 	
@@ -1306,6 +1307,7 @@ malaria_prevention = {
 		country_institution_colonial_affairs_max_investment_add = 1
 		country_institution_health_system_max_investment_add = 1
 		state_harvest_condition_disease_outbreak_impact_mult = -0.15
+		state_mortality_wealth_mult = -0.001
 	}
 	
 	unlocking_technologies = {
@@ -1457,9 +1459,9 @@ psychoanalysis = {
 	category = society
 	
 	modifier = {
-		country_influence_mult = 0.25
 		country_diplomatic_play_maneuvers_add = 10
-		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.15
+		state_education_access_wealth_add = 0.005
 	}
 	
 	unlocking_technologies = {
@@ -1477,11 +1479,10 @@ behaviorism = {
 	category = society
 	
 	modifier = {
-		country_influence_mult = 0.25
+		country_influence_mult = 0.35
 		country_diplomatic_play_maneuvers_add = 10
 		country_war_exhaustion_casualties_mult = -0.25
 		unit_morale_loss_mult = -0.1
-		state_bureaucracy_population_base_cost_factor_mult = -0.05
 	}
 	
 	unlocking_technologies = {
@@ -1549,6 +1550,7 @@ mass_surveillance = {
 	
 	modifier = {
 		state_tax_capacity_add = 25
+		state_tax_capacity_mult = 0.1
 	}
 	
 	unlocking_technologies = {

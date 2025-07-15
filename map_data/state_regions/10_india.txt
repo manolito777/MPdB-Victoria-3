@@ -220,6 +220,7 @@ STATE_KASHMIR = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_vineyard_plantations" "bg_silk_plantations" }
     capped_resources = {
         bg_iron_mining = 18
+        bg_sulfur_mining = 12
         bg_logging = 24
     }
 }
@@ -278,7 +279,6 @@ STATE_CENTRAL_PROVINCES = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_silk_plantations" }
     capped_resources = {
         bg_iron_mining = 32
-        bg_sulfur_mining = 32
         bg_coal_mining = 32
         bg_lead_mining = 12
         bg_logging = 24
@@ -343,7 +343,7 @@ STATE_CEYLON = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 16
+        undiscovered_amount = 12
     }
     naval_exit_id = 3049
 }
@@ -403,7 +403,6 @@ STATE_CIRCARS = {
     capped_resources = {
         bg_coal_mining = 8
         bg_iron_mining = 8
-        bg_sulfur_mining = 18
         bg_lead_mining = 8
         bg_logging = 18
         bg_fishing = 18
@@ -457,7 +456,7 @@ STATE_TRAVANCORE = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 14
+        undiscovered_amount = 8
     }
     naval_exit_id = 3049
 }
@@ -481,7 +480,7 @@ STATE_MADRAS = {
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 13
+        undiscovered_amount = 7
     }
     naval_exit_id = 3049
 }
@@ -501,7 +500,6 @@ STATE_KURNOOL = {
     capped_resources = {
         bg_logging = 9
         bg_iron_mining = 15
-        bg_sulfur_mining = 8
     }
 }
 

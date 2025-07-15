@@ -1,5 +1,6 @@
 ﻿pm_synthetic_rubber_production = {
 	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
+	replacement_if_valid = pm_synthetic_rubber_production_principio_mod
 	
 	state_modifiers = {
 		workforce_scaled = {
@@ -29,6 +30,7 @@
 
 pm_synthetic_oil_production = {
 	texture = "gfx/interface/icons/production_method_icons/oil.dds"
+	replacement_if_valid = pm_synthetic_oil_production_principio_mod
 
 	state_modifiers = {
 		workforce_scaled = {
@@ -58,6 +60,8 @@ pm_synthetic_oil_production = {
 
 pm_dye_production = {
 	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
+	
+	replacement_if_valid = pm_dye_production_principio_industria
 	
 	state_modifiers = {
 		workforce_scaled = {
@@ -103,7 +107,7 @@ pm_rayon = {
 
 			# output goods
 			goods_output_dye_add = -10
-			goods_output_silk_add = 30
+			goods_output_silk_add = 40
 		}
 
 		level_scaled = {
