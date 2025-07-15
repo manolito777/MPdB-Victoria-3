@@ -574,8 +574,8 @@ NEconomy = {
 	REINVESTMENT_SUBSISTENCE_FRACTION_REDUCTION = 0.5	# Reinvestment from pops in ownership buildings is multiplied by ( 1 - this * the share of levels owned that are subsistence buildings )
 
 	COMPANY_OVER_LIMIT_BONUS_PENALTY_MIN = 0.33			# If the number of companies in the country exceeds the limit, all company bonuses get penalty. The penalty is scaled proportionally to the limit (exceeding the limit by 100% reduces bonuses by 100%) and the minimum value is this
-	COMPANY_PRODUCTIVITY_RATIO_HIGH_THRESHOLD = 1.25	# Companies whose productivity exceeds this factor of the global average will be considered high-productivity companies
-	COMPANY_PRODUCTIVITY_RATIO_LOW_THRESHOLD = 0.75		# Companies whose productivity is below this factor of the global average will be considered low-productivity companies
+	COMPANY_PRODUCTIVITY_RATIO_HIGH_THRESHOLD = 1.15	# Companies whose productivity exceeds this factor of the global average will be considered high-productivity companies
+	COMPANY_PRODUCTIVITY_RATIO_LOW_THRESHOLD = 0.65		# Companies whose productivity is below this factor of the global average will be considered low-productivity companies
 	COMPANY_PRODUCTIVITY_ABSOLUTE_HIGH_THRESHOLD = 25	# Companies whose productivity exceeds this amount will ALWAYS be considered high-productivity companies
 	COMPANY_PRODUCTIVITY_ABSOLUTE_LOW_THRESHOLD = 5		# Companies whose productivity is below this amount will ALWAYS be considered low-productivity companies
 	COMPANY_PROSPERITY_MAX = 100						# Company prosperity cannot be higher than this
@@ -588,13 +588,13 @@ NEconomy = {
 	COMPANY_PROSPERITY_POPULARITY_MULTIPLIER = 0.2				# Companies gain this much target prosperity, scaled by the popularity of its executive
 	COMPANY_PROSPERITY_POPULARITY_MAX = 20						# Max target prosperity from popularity
 	COMPANY_PROSPERITY_POPULARITY_MIN = -20						# Min target prosperity from popularity
-	COMPANY_PROSPERITY_WEEKLY_INCREASE_BASE = 0.2				# Base amount of prosperity increase towards target value each week
+	COMPANY_PROSPERITY_WEEKLY_INCREASE_BASE = 0.5				# Base amount of prosperity increase towards target value each week
 	COMPANY_PROSPERITY_WEEKLY_INCREASE_SCALED = 0.04			# Prosperity increase towards target value each week, for each fully employed building level the company has
-	COMPANY_PROSPERITY_WEEKLY_INCREASE_SCALED_MAX = 0.8			# Max value for weekly prosperity increase from employed levels
+	COMPANY_PROSPERITY_WEEKLY_INCREASE_SCALED_MAX = 1			# Max value for weekly prosperity increase from employed levels
 	COMPANY_PROSPERITY_WEEKLY_DECREASE_BASE = -1.0				# Base amount of prosperity decrease towards target value each week
 	COMPANY_PROSPERITY_WEEKLY_DECREASE_SCALED = 0.02			# Prosperity decrease towards target value each week, for each fully employed building level the company has
 	COMPANY_PROSPERITY_WEEKLY_DECREASE_SCALED_MAX = 0.8			# Min value for weekly prosperity decrease from employed levels
-	COMPANY_COUNTRY_CONSTRUCTION_BONUS_MULT = 0.2				# Multiplier for company countries
+	COMPANY_COUNTRY_CONSTRUCTION_BONUS_MULT = 0.33				# Multiplier for company countries
 	NATIONALIZATION_PER_LEVEL_COST = 500				# How much it costs to nationalize one level of a building per construction point
 	PRIVATIZATION_PER_LEVEL_COST = 250					# How much it costs to privatize one level of a building per construction point
 	MIN_FAKE_CONSTRUCTION_COST = 100					# Min construction cost for the matters of nationalization and privatization
@@ -626,7 +626,7 @@ NEconomy = {
 
 	PRIVATIZATION_DISCOUNT_MONOPOLY = 0.2				# The cost of privatizing a building is multiplied by this for companies with a monopoly on that building type
 
-	PRESTIGE_GOODS_INPUT_THROUGHPUT_BONUS = 0.05 		# Bonus to throughput, scaled against proportion of input goods base value that is prestige goods
+	PRESTIGE_GOODS_INPUT_THROUGHPUT_BONUS = 0.2 		# Bonus to throughput, scaled against proportion of input goods base value that is prestige goods
 }
 
 NMilitary = {
@@ -1056,7 +1056,7 @@ NDiplomacy = {
 	COUNTRY_TIER_HEGEMONY_PRESTIGE = 50
 
 	PRESTIGE_FROM_COUNTRY_GDP_DIVISOR = 1000000
-	PRESTIGE_FROM_COUNTRY_GDP = 3 # Per PRESTIGE_FROM_COUNTRY_GDP_DIVISOR GDP
+	PRESTIGE_FROM_COUNTRY_GDP = 4 # Per PRESTIGE_FROM_COUNTRY_GDP_DIVISOR GDP
 	PRESTIGE_FROM_SUBJECT_GDP = 1.5 # Per PRESTIGE_FROM_COUNTRY_GDP_DIVISOR GDP in subjects
 	PRESTIGE_FROM_ARMY_POWER_PROJECTION = 0.04 # Per point of power projection from army combat power
 	PRESTIGE_FROM_NAVY_POWER_PROJECTION = 0.065 # Per point of power projection from navy combat power
@@ -1667,13 +1667,13 @@ NWar = {
 	NAVAL_INVASION_MAX_LAND_BATTLE_DEFEATS_AT_ZERO_OCCUPATION = 3 		# At this number of land defeats with zero occupation you fail the naval invasion
 	NAVAL_INVASION_MIN_POWER_PROJECTION_RATIO_TO_BLOCK_LANDING = 0.25 	# How powerful a fleet must be to be considered as "blocking" a naval invading fleet
 
-	STATE_CONQUEST_HOMELAND_AND_CLAIM_RADICALIZATION = 0.1
+	STATE_CONQUEST_HOMELAND_AND_CLAIM_RADICALIZATION = 0.05
 	STATE_CONQUEST_HOMELAND_AND_CLAIM_DEMILITARIZATION = 0.25
-	STATE_CONQUEST_HOMELAND_OR_CLAIM_RADICALIZATION = 0.3
+	STATE_CONQUEST_HOMELAND_OR_CLAIM_RADICALIZATION = 0.15
 	STATE_CONQUEST_HOMELAND_OR_CLAIM_DEMILITARIZATION = 0.5
-	STATE_CONQUEST_DEFAULT_RADICALIZATION = 0.5
+	STATE_CONQUEST_DEFAULT_RADICALIZATION = 0.35
 	STATE_CONQUEST_DEFAULT_DEMILITARIZATION = 0.75
-	STATE_PEACEFUL_ANNEXATION_RADICALIZATION_FACTOR = 0.25	# If the state was annexed due to an accepted diplomatic demand by the overlord, multiply by this
+	STATE_PEACEFUL_ANNEXATION_RADICALIZATION_FACTOR = 0.15	# If the state was annexed due to an accepted diplomatic demand by the overlord, multiply by this
 	STATE_CONQUEST_KEEP_ALL = 0.0
 
 	NUM_PROVINCES_FOR_ADVANCEMENT_SELECTION = 5		# After having computed weights for possible advancement provinces using front_battle_province_weight, filter out all but the X top weighted provinces. This is done to prevent randomly selecting an element that had a low weight.

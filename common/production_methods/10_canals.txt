@@ -19,6 +19,9 @@
 			# input goods
 			goods_input_tools_add = 10
 			goods_input_coal_add = 15
+			# output goods
+			goods_output_gold_add = 10
+			country_minting_add = 5000
 		}
 
 		level_scaled = {

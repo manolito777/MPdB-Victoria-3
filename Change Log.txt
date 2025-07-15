@@ -376,6 +376,10 @@ Mapa:
 	Reducido el sulfuro en el territorio core ruso.
 	Motosierra de Milei a los recursos (no mires misy).
 
+Economía:
+	Aumentada la mortalidad para obreros y maquinistas en edificios de minería e industria pesada.
+	Trasferidos los bonos de las compañías de los valores base a relativo del ranking y, sobre todo, al bien de prestigio (5 -> 20%).
+
 Compañías:
 	Buff a la compañía del mandato de construcción.
 
@@ -384,10 +388,9 @@ Principios:
 	
 Militar:
 	Añadidas nuevas battle conditions.
+	Aumentado el bono de throughput por el bien de prestigio militar.
 
-TO-DO: Mortality y Access Edu por Riqueza. Prestigio de GDP de 3 a 4 (?). IA no puede salirse de bloques; IA no puede crear administraciones coloniales.
-		Subir el bono por bienes de prestigio militares; throughput de 5% -> 10%.
-		Dar más énfasis al bien de prestigio en vez de valores base de las compañías (throughput y construction bonus).
+TO-DO:
 		Revisar lógica de la IA para la compra de edificios por parte de las compañías; que prefieran construir nuevos antes que comprar.
-		Nerf a tintes.
+		Nerf a tintes (plantación).
 		
