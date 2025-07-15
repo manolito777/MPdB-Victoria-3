@@ -390,6 +390,10 @@ Militar:
 	Añadidas nuevas battle conditions.
 	Aumentado el bono de throughput por el bien de prestigio militar.
 
+Bloques:
+	La IA no debería abandonar el bloque nunca. 
+	La única "excepción" es si otro bloque tiene potestad sobre esta y decide saltar de bloque; posible solución sería poner condición de aceptación para la IA más alta.
+
 TO-DO:
 		Revisar lógica de la IA para la compra de edificios por parte de las compañías; que prefieran construir nuevos antes que comprar.
 		Nerf a tintes (plantación).
