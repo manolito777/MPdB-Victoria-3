@@ -76,28 +76,6 @@ pm_steam_trawlers = {
 	}
 }
 
-pm_refrigerated_storage_building_fishing_wharf = {
-	texture = "gfx/interface/icons/production_method_icons/refrigerated_storage.dds"
-	
-	unlocking_technologies = {
-		pasteurization
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			# input
-			goods_input_electricity_add = 4
-		}
-
-		level_scaled = {
-			# employment
-			building_employment_laborers_add = -1000
-		}
-	}
-
-	required_input_goods = electricity
-}
-
 pm_refrigerated_rail_cars_building_fishing_wharf = {
 	texture = "gfx/interface/icons/production_method_icons/refrigerated_rail_cars.dds"
 
@@ -222,28 +200,6 @@ pm_steam_whaling_ships = {
 			building_employment_engineers_add = 500
 		}
 	}
-}
-
-pm_refrigerated_storage_building_whaling_station = {
-	texture = "gfx/interface/icons/production_method_icons/refrigerated_storage.dds"
-	
-	unlocking_technologies = {
-		pasteurization
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			# input
-			goods_input_electricity_add = 4
-		}
-
-		level_scaled = {
-			# employment
-			building_employment_laborers_add = -1000
-		}
-	}
-
-	required_input_goods = electricity
 }
 
 pm_refrigerated_rail_cars_building_whaling_station = {
