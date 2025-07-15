@@ -108,7 +108,7 @@ ideology_orleanist = {
 					OR = {
 						has_law = law_type:law_agrarianism
 						has_law = law_type:law_traditionalism
-						has_law = law_type:law_isolationism
+						has_law_or_variant = law_type:law_isolationism
 						has_law = law_type:law_mercantilism
 					}
 				}

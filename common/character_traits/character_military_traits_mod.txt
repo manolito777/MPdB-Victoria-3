@@ -24,7 +24,7 @@ basic_cavalry_commander = {
  	}
 
  	weight = {
- 		value = 3
+ 		value = 5
 		if = {
 			limit = {
 				owner = {
@@ -423,7 +423,7 @@ basic_infantry_commander = {
  	}
 
  	weight = {
- 		value = 3
+ 		value = 5
 		if = {
 			limit = {
 				owner = {

@@ -378,3 +378,5 @@ Mapa:
 Compañías:
 	Buff a la compañía del mandato de construcción.
 	
+Militar:
+	Añadidas nuevas battle conditions.
