@@ -225,12 +225,12 @@
  gm_actions.15.a:0 "Yes, I wish to give [SCOPE.sCountry('recipient').GetName] GM powers!"
  gm_actions.15.b:0 "Nevermind, I'll keep the power for myself."
  gm_actions.16.t:0 "Create a Building"
- gm_actions.16.d:0 "Add one referenced building to the selected nation. States with the "GM Scope" decree will be prioritized. If no states have the decree, then a random state will be selected.
+ gm_actions.16.d:0 "Add one referenced building to the selected nation. States with the GM Scope decree will be prioritized. If no states have the decree, then a random state will be selected.
  gm_actions.16.f:0 "If multiple states have the GM Scope decree, they will be selected at random. Universities are often an issue because the AI will delete them. Admin buildings can be an issue because AI deletes them or certain colonies might need them upon formation."
  gm_actions.16.a:0 "Add 1 University (Max: 20)"
  gm_actions.16.b:0 "Add 1 Government Administration (Max: 20)"
  gm_actions.17.t:0 "(Un)Incorporate a State"
- gm_actions.17.d:0 "All states with the "GM Scope" decree targeting them will be incorporated if unincorporated and vice versa."
+ gm_actions.17.d:0 "All states with the GM Scope decree targeting them will be incorporated if unincorporated and vice versa."
  gm_actions.17.a:0 "(Un)Incorporate this state"
  
  

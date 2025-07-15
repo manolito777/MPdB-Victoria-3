@@ -563,7 +563,7 @@ pm_dye_production_principio_industria = {
 
 
 pm_synthetic_oil_production_principio_mod = {
-	texture = "gfx/interface/icons/production_method_icons/oil.dds"
+	texture = "gfx/interface/icons/production_method_icons/oil_fired_plant.dds"
 
 	unlocking_principles = {
 		principle_manufacturing_focus_3

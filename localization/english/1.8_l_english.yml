@@ -13,10 +13,6 @@
  send_money_desc: "Transfers #g 100.000#!@money!"
  send_money_big: "Send More Money"
  send_money_big_desc: "Transfers #g 1.000.000#!@money!"
-
- je_north_german_status: "The North German minor nations will unify with us if we can ease them into the idea first"
- 
- 
  
  otomanosphere:0 "Otomanosphere"
  ideology_fiscal_conservative: "Fiscal conservatism"
