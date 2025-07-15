@@ -2,8 +2,6 @@
 decree_promote_natality = {
 	texture = "gfx/interface/icons/decree/decree_promote_social_mobility.dds"
 
-	possible = { has_principle = principle:principle_healthcare_focus_3	}
-
 	state_trigger = {
 		NOT = {
 			AND = {
