@@ -485,7 +485,7 @@ je_sick_man_bread_basket = {
 		}
 		country_has_building_group_levels = {
 			type = bg_wheat_farms
-			value  >= 100
+			value  >= 200
 		}
 		market_capital.market = {
 			mg:grain = { 
