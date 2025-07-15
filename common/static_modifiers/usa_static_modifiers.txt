@@ -1,4 +1,4 @@
-missouri_compromise = {
+﻿missouri_compromise = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	interest_group_ig_landowners_pol_str_mult = 0.35
 	country_aristocrats_voting_power_add = 100

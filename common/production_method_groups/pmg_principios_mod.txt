@@ -1,4 +1,4 @@
-pmg_efficient_bureaucracy_principle = {
+﻿pmg_efficient_bureaucracy_principle = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	is_hidden_when_unavailable = yes
 	

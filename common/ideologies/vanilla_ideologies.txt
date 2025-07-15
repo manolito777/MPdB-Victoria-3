@@ -1,4 +1,4 @@
-ideology_individualist_mod = {
+﻿ideology_individualist_mod = {
 	icon = "gfx/interface/icons/ideology_icons/individualist.dds"
 	
 	lawgroup_welfare = {

@@ -1,4 +1,4 @@
-GLOBAL = {
+﻿GLOBAL = {
 	s:STATE_WEST_BENGAL = {
 		set_devastation = 5
 	}

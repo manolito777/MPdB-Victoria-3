@@ -1,4 +1,4 @@
-Native_Noramerican = {
+﻿Native_Noramerican = {
 	color= hsv{ 0.63 0.30 0.52 }
 	religion = animist
 	traits = { indigenous_american_heritage north_american_group }

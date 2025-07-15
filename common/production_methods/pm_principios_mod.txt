@@ -1,4 +1,4 @@
-pm_no_efficient_bureaucracy_principle = {
+﻿pm_no_efficient_bureaucracy_principle = {
 	texture = "gfx/interface/icons/production_method_icons/ownership_academics.dds"
 	replacement_if_valid = pm_efficient_bureaucracy_principle
 	is_hidden_when_unavailable = yes

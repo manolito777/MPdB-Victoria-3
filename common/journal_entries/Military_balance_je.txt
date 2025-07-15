@@ -1,4 +1,4 @@
-#Diarios hechos con el fin de nerfear la investigación militar
+﻿#Diarios hechos con el fin de nerfear la investigación militar
 #La version sin numero es la que aplica el debufo, la version con numero es la que aplica el bufo
 #Este primero diario esta hecho para que se active al investigar la primera tech militar de tier 3
 

@@ -1,4 +1,4 @@
-je_schleswig_holstein_question = {
+﻿je_schleswig_holstein_question = {
 	icon = "gfx/interface/icons/achievements/three_hurrahs.dds"
 	
 	group = je_group_historical_content

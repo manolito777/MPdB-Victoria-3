@@ -1,4 +1,4 @@
-Baltic= {
+﻿Baltic= {
 	color= hsv{ 0.96 0.59 0.63 }
 	religion = protestant
 	traits = { baltic_culture_group finnic european_heritage }

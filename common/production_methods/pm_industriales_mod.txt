@@ -1,4 +1,4 @@
-pm_cannery_fruit = {
+﻿pm_cannery_fruit = {
 	texture = "gfx/interface/icons/production_method_icons/fruit_canneries.dds"
 	
 	unlocking_technologies = {

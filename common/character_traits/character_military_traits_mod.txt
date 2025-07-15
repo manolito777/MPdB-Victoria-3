@@ -1,4 +1,4 @@
-basic_cavalry_commander = {
+﻿basic_cavalry_commander = {
  	type = skill
 	texture = gfx/interface/icons/character_trait_icons/basic_cavalry_commander.dds
 

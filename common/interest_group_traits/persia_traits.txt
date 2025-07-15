@@ -1,4 +1,4 @@
-ig_trait_famine_reserves_per = {
+﻿ig_trait_famine_reserves_per = {
 	icon = "gfx/interface/icons/ig_trait_icons/honest_work.dds"
 	min_approval = happy
 	

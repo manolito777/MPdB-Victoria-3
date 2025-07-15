@@ -1,4 +1,4 @@
-namespace = golden_crescent
+﻿namespace = golden_crescent
 
 golden_crescent.1 = {
 	type = country_event

@@ -1,4 +1,4 @@
-state_trait_northern_forests = {
+﻿state_trait_northern_forests = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
 
 	modifier = {

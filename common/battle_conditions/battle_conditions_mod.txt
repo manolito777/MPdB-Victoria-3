@@ -1,4 +1,4 @@
-#BATTLE CONDITIONS CABALLERÍA
+﻿#BATTLE CONDITIONS CABALLERÍA
 
 battle_condition_cavalry_charge = {
 	icon = "gfx/interface/icons/battle_conditions/battle_condition_death_from_below.dds"

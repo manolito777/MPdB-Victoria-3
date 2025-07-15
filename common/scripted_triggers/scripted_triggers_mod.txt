@@ -1,4 +1,4 @@
-character_has_advance_order = {
+﻿character_has_advance_order = {
 	OR = {
 		has_commander_order = advance
 		has_commander_order = advance_reckless

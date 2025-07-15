@@ -1,4 +1,4 @@
-Etiope = {
+﻿Etiope = {
 	color= rgb{ 56 153 122 }
 	religion = oriental_orthodox
 	traits = { ethiopian east_african_culture_group african_heritage }

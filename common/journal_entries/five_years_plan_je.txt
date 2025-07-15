@@ -1,4 +1,4 @@
-#Journals similares a la explosión del Ruhr, pero de los rios en China
+﻿#Journals similares a la explosión del Ruhr, pero de los rios en China
 #El numero uno hace referencia a el Rio amarillo, el numero 2  al rio yangtze tambien llamado rio azul
 #Aqui es donde se crea el journal.
 

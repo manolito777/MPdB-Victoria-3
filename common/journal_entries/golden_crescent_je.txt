@@ -1,4 +1,4 @@
-je_golden_crescent = {
+﻿je_golden_crescent = {
 
 	group = je_group_internal_affairs
 

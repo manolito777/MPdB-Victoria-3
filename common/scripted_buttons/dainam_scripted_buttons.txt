@@ -1,4 +1,4 @@
-abrazar_catolicismo_dainam_scripted_button = {
+﻿abrazar_catolicismo_dainam_scripted_button = {
 	visible = {
 		C:DAI ?= this
 		ROOT = c:DAI
