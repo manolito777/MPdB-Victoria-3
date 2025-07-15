@@ -41,7 +41,7 @@ state_trait_rias_gallegas = {
 	modifier = {
 		building_shipyards_throughput_add = 0.10
 		building_military_shipyards_throughput_add = 0.1
-		state_building_port_max_level_add = 3
+		building_port_throughput_add = 0.1
 		state_building_naval_base_max_level_add = 15
 	}
 }
@@ -61,7 +61,7 @@ state_trait_bahia_de_cadiz = {
 	modifier = {
 		building_shipyards_throughput_add = 0.1
 		building_military_shipyards_throughput_add = 0.1
-		state_building_port_max_level_add = 3
+		building_port_throughput_add = 0.1
 		state_building_naval_base_max_level_add = 15
 	}
 }
