@@ -7,8 +7,6 @@
 [22:12:00][virtualfilesystem.cpp:569]: Could not find texture due to 'VFSOpen Error: gfx/models/papermap/candle_flame_normal.dds not found'
 [22:12:02][jomini_scripted_rule.cpp:114]: No script rule defined for 'can_sign_treaty_with'. If you want 'always true', just define an empty script rule by that name.
 [22:12:02][jomini_custom_text.cpp:172]: Missing loc key 'je_conference_of_london_acceptance_timer_tt' for custom localization 'treaty_of_london_acceptance_timer' (or variant), at 'common/customizable_localization/04_treaty_of_london_custom_loc.txt:41'
-[22:12:03][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_port_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_port_max_level_add, near line: 44" in file: "common/state_traits/spain_traits.txt" near line: 44
-[22:12:03][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_building_port_max_level_add. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_building_port_max_level_add, near line: 64" in file: "common/state_traits/spain_traits.txt" near line: 64
 [22:12:04][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: : , near line: 3
 Failed to read key reference: : , near line: 3
 Failed to read key reference: : , near line: 3
