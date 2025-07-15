@@ -125,57 +125,6 @@ Failed to read key reference: : , near line: 7" in file: "" near line: 7
 [19:24:53][culture_type.cpp:275]: Missing culture sol static modifier Finno-Ugric_standard_of_living_modifier_negative
 [19:24:53][culture_type.cpp:275]: Missing culture sol static modifier South_Slavic_standard_of_living_modifier_positive
 [19:24:53][culture_type.cpp:275]: Missing culture sol static modifier South_Slavic_standard_of_living_modifier_negative
-[19:24:53][state_region_template.cpp:237]: Invalid trait in state region! Trait: state_trait_meseta_iberica, Region: STATE_BADAJOZ
-[19:24:53][state_region_template.cpp:237]: Invalid trait in state region! Trait: state_trait_meseta_iberica, Region: STATE_TOLEDO
-[19:24:53][state_region_template.cpp:237]: Invalid trait in state region! Trait: state_trait_malatya_iron_deposits, Region: STATE_DIYARBAKIR
-[19:24:53][state_region_template.cpp:237]: Invalid trait in state region! Trait: state_trait_meseta_iberica, Region: STATE_CASTILE
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: needle_gun
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: dynamic_field_fortifications
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: combined_arms_tactics
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: revolver
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: modern_uniform
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: steel_frame_armor
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: battlefield_rotation
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: explosive_shells
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: rotating_turrets
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: siege_artillery
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: spearhead_tactics
-[19:24:53][technology_type.cpp:114]: Technology is missing loc key! Technology: hand_grenades
-[19:24:53][production_method.cpp:143]: Production method references nonexistent technology type! Method: pm_refrigerated_storage_building_fishing_wharf, Technology: pasteurization
-[19:24:53][production_method.cpp:143]: Production method references nonexistent technology type! Method: pm_refrigerated_storage_building_whaling_station, Technology: pasteurization
-[19:24:53][production_method_group.cpp:43]: Production Method Group references nonexistent PM type! PMG: pmg_base_building_power_plant, PM: pm_hydroelectric_plant
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_cannery_fruit
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_electrical_workshops
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_electrical_workshops_principio_industria
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_dye_production_principio_industria
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_apple_orchards_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_sugar_beets_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_citrus_orchards_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_sugar_beets_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_fig_orchards_building_rice_farm_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_citrus_orchards_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_sugar_beets_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_fig_orchards_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_sheep_farms_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_intensive_grazing_ranch_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_poultry_farms_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_intensive_poultry_farms_principio_agricultura
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_dynamite_resource_extraction_principle_coal
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_dynamite_resource_extraction_principle_iron
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_dynamite_resource_extraction_principle_lead
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_dynamite_resource_extraction_principle_sulfur
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_dynamite_resource_extraction_principle_gold
-[19:24:53][building_type.cpp:1767]: Production Method Group is missing loc key! Production Method Group: pmg_efficient_bureaucracy_principle
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_no_efficient_bureaucracy_principle
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_efficient_bureaucracy_principle
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_charcoal
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_synthetic_rubber_production_principio_mod
-[19:24:53][building_type.cpp:1773]: Production Method is missing loc key! Production Method: pm_synthetic_oil_production_principio_mod
-[19:24:53][jomini_mapobject_database.cpp:915]: could not find pdxmesh object with key [bottom_extension_mesh]. gfx/map/map_object_data/papermap_items.txt:7
-[19:24:53][jomini_mapobject_database.cpp:915]: could not find pdxmesh object with key [top_extension_mesh]. gfx/map/map_object_data/papermap_items.txt:37
-[19:24:53][jomini_mapobject_database.cpp:383]: Could not add object with key [edgeofworld_papermap]. Key is already used. gfx/map/map_object_data/papermap_items.txt:51
-[19:24:53][jomini_mapobject_database.cpp:383]: Could not add object with key [papermap_endofworld]. Key is already used. gfx/map/map_object_data/papermap_items.txt:64
-[19:24:53][jomini_mapobject_database.cpp:383]: Could not add object with key [paper_map_french_coin]. Key is already used. gfx/map/map_object_data/papermap_items.txt:124
 [19:24:53][pdx_persistent_reader.cpp:463]: unknown variable [third]. common/coat_of_arms/coat_of_arms/banderas.txt:1513
 [19:24:53][pdx_persistent_reader.cpp:480]: Failed to parse advanced statement at common/coat_of_arms/coat_of_arms/banderas.txt:1513
 [19:24:53][pdx_persistent_reader.cpp:463]: unknown variable [third]. common/coat_of_arms/coat_of_arms/banderas.txt:1513
@@ -427,12 +376,7 @@ Malformed token: @canton_scale_cross_y, near line: 2609" in file: "common/coat_o
 [19:24:55][country_creation.cpp:67]: Invalid state region STATE_CONNECTICUT in country_creation NEN
 [19:24:55][country_creation.cpp:67]: Invalid state region STATE_RHODE_ISLAND in country_creation NEN
 [19:24:55][country_creation.cpp:67]: Invalid state region STATE_VERMONT in country_creation NEN
-[19:24:55][character_traits.cpp:219]: Character Trait is missing loc key! Trait: basic_cavalry_commander
-[19:24:55][character_traits.cpp:219]: Character Trait is missing loc key! Trait: experienced_cavalry_commander
-[19:24:55][character_traits.cpp:219]: Character Trait is missing loc key! Trait: expert_cavalry_commander
-[19:24:55][character_traits.cpp:219]: Character Trait is missing loc key! Trait: basic_infantry_commander
-[19:24:55][character_traits.cpp:219]: Character Trait is missing loc key! Trait: experienced_infantry_commander
-[19:24:55][character_traits.cpp:219]: Character Trait is missing loc key! Trait: expert_infantry_commander
+
 [19:24:55][decree_type.cpp:132]: Decree is missing loc key! Decree: decree_promote_natality
 [19:24:55][event.cpp:357]: No default option in event gm_actions.14.
 [19:24:55][event.cpp:357]: No default option in event gm_actions.15.
