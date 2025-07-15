@@ -93,26 +93,6 @@ Failed to read key reference: : , near line: 7
 Failed to read key reference: : , near line: 7
 Failed to read key reference: : , near line: 7
 Failed to read key reference: : , near line: 7" in file: "" near line: 7
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Etiope_standard_of_living_modifier_positive
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Etiope_standard_of_living_modifier_negative
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier West_Afro_standard_of_living_modifier_positive
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier West_Afro_standard_of_living_modifier_negative
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier East_Afro_standard_of_living_modifier_positive
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier East_Afro_standard_of_living_modifier_negative
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Center_Afro_standard_of_living_modifier_positive
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Center_Afro_standard_of_living_modifier_negative
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier South_Afro_standard_of_living_modifier_positive
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier South_Afro_standard_of_living_modifier_negative
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Native_Noramerican_standard_of_living_modifier_positive
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Native_Noramerican_standard_of_living_modifier_negative
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Native_Mesoamerican_standard_of_living_modifier_positive
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Native_Mesoamerican_standard_of_living_modifier_negative
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Baltic_standard_of_living_modifier_positive
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Baltic_standard_of_living_modifier_negative
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Finno-Ugric_standard_of_living_modifier_positive
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier Finno-Ugric_standard_of_living_modifier_negative
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier South_Slavic_standard_of_living_modifier_positive
-[22:26:22][culture_type.cpp:275]: Missing culture sol static modifier South_Slavic_standard_of_living_modifier_negative
 [22:26:22][production_method.cpp:143]: Production method references nonexistent technology type! Method: pm_refrigerated_storage_building_fishing_wharf, Technology: pasteurization
 [22:26:22][production_method.cpp:143]: Production method references nonexistent technology type! Method: pm_refrigerated_storage_building_whaling_station, Technology: pasteurization
 [22:26:22][jomini_mapobject_database.cpp:915]: could not find pdxmesh object with key [bottom_extension_mesh]. gfx/map/map_object_data/papermap_items.txt:7

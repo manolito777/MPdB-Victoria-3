@@ -3019,3 +3019,103 @@ pathan_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_pathan_standard_of_living_add = 1
 }
+
+South-Slavic_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+South-Slavic_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Finno-Ugric_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Finno-Ugric_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Baltic_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Baltic_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Native_Noramerican_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Native_Noramerican_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Native_Mesoamerican_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Native_Mesoamerican_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Etiope_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Etiope_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+West_Afro_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+West_Afro_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+East_Afro_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+East_Afro_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+South_Afro_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+South_Afro_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Center_Afro_standard_of_living_modifier_positive = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_scottish_standard_of_living_add = 1
+}
+
+Center_Afro_standard_of_living_modifier_negative = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
+	state_scottish_standard_of_living_add = 1
+}
