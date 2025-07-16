@@ -497,7 +497,12 @@ company_argentinian_wine = {
 
 	potential = {
 		has_dlc_feature = rp1_content
-		c:ARG ?= this
+		OR = {
+			c:ARG ?= this
+			c:PLT ?= this
+			c:FND ?= this
+		}
+		
 	}
 
 	possible = {

@@ -1,9 +1,6 @@
 [22:48:45][pdx_localize.cpp:199]: Duplicate localization key. Key 'ATTITUDE_DETAILS' is defined in both 'localization/english/ai_strategies_l_english.yml' and 'localization/english/zz_daui_on_l_english.yml'.
 [22:48:45][pdx_localize.cpp:199]: Duplicate localization key. Key 'ai_attitude_human_tooltip' is defined in both 'localization/english/ai_strategies_l_english.yml' and 'localization/english/zz_daui_on_l_english.yml'.
 
-[22:49:00][jomini_dynamicdescription.cpp:67]: Unrecognized loc key formation.69.t. events/00_unificaciones_mod_events.txt:329
-[22:49:00][jomini_dynamicdescription.cpp:67]: Unrecognized loc key formation.69.d. events/00_unificaciones_mod_events.txt:330
-[22:49:00][jomini_dynamicdescription.cpp:67]: Unrecognized loc key formation.13.a. CEventOptionDesc:139
 [22:49:00][jomini_effect.cpp:541]: Unknown effect add_building_level at events/HMPS_00_GM_Actions.txt:331
 [22:49:00][jomini_effect.cpp:541]: Unknown effect add_building_level at events/HMPS_00_GM_Actions.txt:339
 [22:49:00][jomini_effect.cpp:541]: Unknown effect add_building_level at events/HMPS_00_GM_Actions.txt:363
@@ -18,64 +15,7 @@
 [22:49:00][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions.18.l. CEventOptionDesc:139
 [22:49:00][jomini_dynamicdescription.cpp:67]: Unrecognized loc key gm_actions.19.t. events/HMPS_00_GM_Money.txt:1016
 [22:49:00][jomini_dynamicdescription.cpp:67]: Unrecognized loc key ruhr_boom.1.a. CEventOptionDesc:139
-[22:49:00][jomini_eventmanager.cpp:118]: 'spooky_halloween_events.1' does not have a valid namespace
-[22:49:00][jomini_onaction.cpp:180]: OnAction spooky_halloween_events is trying to add unknown random event with ID [spooky_halloween_events.1] at: common/on_actions/00_on_actions_monthly.txt:38
-[22:49:00][jomini_eventmanager.cpp:118]: 'spooky_halloween_events.2' does not have a valid namespace
-[22:49:00][jomini_onaction.cpp:180]: OnAction spooky_halloween_events is trying to add unknown random event with ID [spooky_halloween_events.2] at: common/on_actions/00_on_actions_monthly.txt:39
-[22:49:00][jomini_eventmanager.cpp:118]: 'spooky_halloween_events.3' does not have a valid namespace
-[22:49:00][jomini_onaction.cpp:180]: OnAction spooky_halloween_events is trying to add unknown random event with ID [spooky_halloween_events.3] at: common/on_actions/00_on_actions_monthly.txt:40
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/african_city.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/african_city.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_war_machine_industry, near line: 54" in file: "gfx/map/city_data/city_types/african_city.txt" near line: 54
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_carbonera, near line: 77" in file: "gfx/map/city_data/city_types/african_city.txt" near line: 77
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/arabic_city.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/arabic_city.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_war_machine_industry, near line: 54" in file: "gfx/map/city_data/city_types/arabic_city.txt" near line: 54
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_carbonera, near line: 77" in file: "gfx/map/city_data/city_types/arabic_city.txt" near line: 77
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/asian_city.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/asian_city.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_war_machine_industry, near line: 54" in file: "gfx/map/city_data/city_types/asian_city.txt" near line: 54
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_carbonera, near line: 77" in file: "gfx/map/city_data/city_types/asian_city.txt" near line: 77
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/default_city.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/default_city.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_war_machine_industry, near line: 59" in file: "gfx/map/city_data/city_types/default_city.txt" near line: 59
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_carbonera, near line: 82" in file: "gfx/map/city_data/city_types/default_city.txt" near line: 82
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/french_city.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 6" in file: "gfx/map/city_data/city_types/french_city.txt" near line: 6
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_war_machine_industry, near line: 96" in file: "gfx/map/city_data/city_types/french_city.txt" near line: 96
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/french_farm.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/french_farm.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_entity, near line: 4" in file: "gfx/map/city_data/city_types/french_mine.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/french_mine.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_entity, near line: 4" in file: "gfx/map/city_data/city_types/french_port.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_modifiers, near line: 5" in file: "gfx/map/city_data/city_types/french_port.txt" near line: 9
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier_key_prefix, near line: 10" in file: "gfx/map/city_data/city_types/french_port.txt" near line: 10
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier_key_suffix, near line: 11" in file: "gfx/map/city_data/city_types/french_port.txt" near line: 11
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 12" in file: "gfx/map/city_data/city_types/french_port.txt" near line: 12
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_entity, near line: 4" in file: "gfx/map/city_data/city_types/french_wood.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/french_wood.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/indian_city.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 6" in file: "gfx/map/city_data/city_types/indian_city.txt" near line: 6
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_war_machine_industry, near line: 79" in file: "gfx/map/city_data/city_types/indian_city.txt" near line: 79
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/indian_farm.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/indian_farm.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/indian_mine.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/indian_mine.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_entity, near line: 4" in file: "gfx/map/city_data/city_types/indian_port.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_modifiers, near line: 5" in file: "gfx/map/city_data/city_types/indian_port.txt" near line: 9
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier_key_prefix, near line: 10" in file: "gfx/map/city_data/city_types/indian_port.txt" near line: 10
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier_key_suffix, near line: 11" in file: "gfx/map/city_data/city_types/indian_port.txt" near line: 11
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 12" in file: "gfx/map/city_data/city_types/indian_port.txt" near line: 12
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_entity, near line: 4" in file: "gfx/map/city_data/city_types/indian_wood.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/indian_wood.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/latin_city.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/latin_city.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_war_machine_industry, near line: 54" in file: "gfx/map/city_data/city_types/latin_city.txt" near line: 54
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_carbonera, near line: 77" in file: "gfx/map/city_data/city_types/latin_city.txt" near line: 77
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_mesh, near line: 4" in file: "gfx/map/city_data/city_types/southasian_city.txt" near line: 4
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: center_building_size, near line: 5" in file: "gfx/map/city_data/city_types/southasian_city.txt" near line: 5
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_war_machine_industry, near line: 62" in file: "gfx/map/city_data/city_types/southasian_city.txt" near line: 62
-[22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: building_carbonera, near line: 85" in file: "gfx/map/city_data/city_types/southasian_city.txt" near line: 85
+
 [22:49:00][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 30" in file: "common/decisions/00_decisions.txt" near line: 30
 [22:49:00][jomini_eventtarget.cpp:712]: No data specified for an event target link that requires data. Link modifier, location: common/decisions/00_decisions.txt:31
 
@@ -218,9 +158,6 @@
 [22:49:01][event.cpp:357]: No default option in event gm_actions.16.
 [22:49:01][event.cpp:357]: No default option in event gm_actions.17.
 [22:49:01][jomini_onaction.cpp:29]: No on_action scripted with tag HMPS_Check_for_GM cannot link
-[22:49:01][battle_condition_type.cpp:156]: Battle Condition is missing loc key! Battle Condition: battle_condition_cavalry_charge
-[22:49:01][battle_condition_type.cpp:156]: Battle Condition is missing loc key! Battle Condition: battle_condition_decisive_cavalry_charge
-[22:49:01][battle_condition_type.cpp:156]: Battle Condition is missing loc key! Battle Condition: battle_condition_death_ride
 [22:49:01][player_message_type.cpp:177]: Diplomatic Action Group has mixed Notification Types
 [22:49:01][journalentry_type.cpp:290]: Journal entry has redundant loc for je_sick_man_education_goal
 [22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era3_reason!
