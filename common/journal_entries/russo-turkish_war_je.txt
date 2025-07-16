@@ -1,0 +1,36 @@
+je_russo_turkish_war = {
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+
+	group = je_group_russia_expansion
+
+	is_shown_when_inactive = {
+		exists = c:RUS
+        THIS = c:RUS
+        is_subject = no
+	}
+
+	possible = {
+		has_technology_researched = nationalism
+		any_interest_group = {
+			is_powerful = yes
+			is_in_government = yes
+			leader = {
+				OR = {
+					has_ideology = ideology:ideology_jingoist_leader
+					has_ideology = ideology:ideology_ethno_nationalist
+					has_ideology = ideology:ideology_fascist
+				}
+			}
+		}
+		has_opinion = 
+	}
+
+	immediate = {
+	}
+
+	complete = {
+	}
+	should_be_pinned_by_default = yes
+
+	weight = 100
+}
