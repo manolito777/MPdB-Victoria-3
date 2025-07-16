@@ -160,28 +160,6 @@
 [22:49:01][jomini_onaction.cpp:29]: No on_action scripted with tag HMPS_Check_for_GM cannot link
 [22:49:01][player_message_type.cpp:177]: Diplomatic Action Group has mixed Notification Types
 [22:49:01][journalentry_type.cpp:290]: Journal entry has redundant loc for je_sick_man_education_goal
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era3_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era3_2_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era3_5_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era3_5_2_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era4_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era4_2_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era4_5_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era4_5_2_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era5_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era5_2_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era5_5_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_military_balance_era5_5_2_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_eic_ideology_reason!
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_golden_crescent_reason!
-[22:49:01][journalentry_type.cpp:299]: Journal entry is missing loc for je_imperial_examination_system
-[22:49:01][journalentry_type.cpp:304]: Journal entry is missing loc for je_imperial_examination_system_reason!
-[22:49:01][mobilization_option.cpp:71]: Invalid unlocking technology electric_railways for Mobilization Option mobilization_option_rail_transport
-[22:49:01][power_bloc_principle_group.cpp:64]: Power Bloc Principle Group is missing loc key! Key: principle_group_healthcare_focus
-[22:49:01][power_bloc_principle_group.cpp:64]: Power Bloc Principle Group is missing loc key! Key: principle_group_bureaucracy_focus
-[22:49:01][power_bloc_principle_group.cpp:64]: Power Bloc Principle Group is missing loc key! Key: principle_group_mining_focus
-[22:49:01][power_bloc_principle_group.cpp:64]: Power Bloc Principle Group is missing loc key! Key: principle_group_agricultural_focus
-[22:49:01][power_bloc_principle_group.cpp:64]: Power Bloc Principle Group is missing loc key! Key: principle_group_manufacturing_focus
 [22:49:01][treaty_article_type.cpp:991]: maintenance_paid_by of take_on_debt was not specified for a directed article. Setting it to source_country
 [22:49:01][treaty_article_type.cpp:991]: maintenance_paid_by of guarantee_independence was not specified for a directed article. Setting it to source_country
 [22:49:01][treaty_article_type.cpp:991]: maintenance_paid_by of money_transfer was not specified for a directed article. Setting it to source_country
@@ -189,12 +167,6 @@
 [22:49:01][treaty_article_type.cpp:991]: maintenance_paid_by of military_assistance was not specified for a directed article. Setting it to source_country
 [22:49:01][treaty_article_type.cpp:991]: maintenance_paid_by of host_power_bloc_embassy was not specified for a directed article. Setting it to source_country
 [22:49:01][treaty_article_type.cpp:991]: maintenance_paid_by of support_independence was not specified for a directed article. Setting it to source_country
-[22:49:01][jomini_eventtarget.cpp:299]: Invalid scope types for event target link, link: region_state at common/history/buildings/09_central_asia.txt:585
-[22:49:01][jomini_effect.cpp:541]: Unknown effect crreate_building at common/history/buildings/10_india.txt:982
-[22:49:01][pdx_persistent_reader.cpp:268]: Error: "Failed to read key reference: clergy: clergy, near line: 987" in file: "common/history/pops/05_north_america.txt" near line: 991
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: owns_entire_state_region trigger [ Invalid database object 'STATE_DISTRICT_OF_COLUMBIA' ]
-  Script location: common/customizable_localization/02_events.txt:384
 
 [22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'owns_entire_state_region' returned false at common/customizable_localization/02_events.txt:384
 [22:49:02][jomini_script_system.cpp:247]: Script system error!

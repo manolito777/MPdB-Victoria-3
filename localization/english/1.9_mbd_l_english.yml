@@ -49,11 +49,13 @@ pmg_efficient_bureaucracy_principle: "Efficient Bureaucracy Principle"
 state_trait_meseta_iberica: "Iberian Plateau"
 state_trait_malatya_iron_deposits: "Malatya Iron Deposits"
 
-principle_group_healthcare_focus: "Healthcare Focus"
-principle_group_bureaucracy_focus: "Bureaucracy Focus"
-principle_group_mining_focus: "Mining Focus"
-principle_group_agricultural_focus: "Agricultural Focus"
-principle_group_manufacturing_focus: "Manufacturing Focus"
+principle_group_healthcare_focus: "Healthcare Focus Group"
+principle_group_bureaucracy_focus: "Bureaucracy Focus Group"
+principle_group_mining_focus: "Mining Focus Group"
+principle_group_agricultural_focus: "Agricultural Focus Group"
+principle_group_manufacturing_focus: "Manufacturing Focus Group"
+
+
 
 battle_condition_death_ride: "Death Ride"
 battle_condition_decisive_cavalry_charge: "Decisive Cavalry Charge"
@@ -84,4 +86,7 @@ military_balance_4: "Military Balance Penalty 4"
 military_balance_5: "Military Balance Penalty 5"
 military_balance_6: "Military Balance Penalty 6"
 
-
+je_eic_ideology_reason: "The ideologies of the Company must go with the times."
+je_golden_crescent_reason: "We must develop our economy."
+je_imperial_examination_system: "Imperial Examination System"
+je_imperial_examination_system_reason: "We must reform our education."

@@ -582,20 +582,6 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			region_state:PAN={
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:PAN"
-						levels=3
-						region="STATE_PASHTUNISTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
-			}
 			create_building={
 				building="building_opium_plantation"
 				add_ownership={
@@ -1111,5 +1097,7 @@
 			}
 		}
 	}
+}
+
 }
 

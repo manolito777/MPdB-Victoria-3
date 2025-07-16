@@ -488,7 +488,7 @@ mobilization_option_rail_transport = {
 	}
 	
 	unlocking_technologies = {
-		electric_railways	
+		electric_railway	
 	}
 	upkeep_modifier = {
 		goods_input_engines_add = 0.5
