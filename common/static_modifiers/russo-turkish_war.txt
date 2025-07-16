@@ -1,0 +1,14 @@
+russian_small_border_pursuit = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_infamy_decay_mult = -0.15
+}
+
+russian_big_border_pursuit = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_infamy_decay_mult = -0.35
+}
+
+no_russo-turkish_war = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	interest_group_approval_add = -3
+}

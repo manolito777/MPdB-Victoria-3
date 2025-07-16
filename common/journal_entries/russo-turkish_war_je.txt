@@ -1,5 +1,5 @@
 je_russo_turkish_war = {
-	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	group = je_group_russia_expansion
 
@@ -8,7 +8,6 @@ je_russo_turkish_war = {
         THIS = c:RUS
         is_subject = no
 	}
-
 	possible = {
 		has_technology_researched = nationalism
 		any_interest_group = {
@@ -22,14 +21,66 @@ je_russo_turkish_war = {
 				}
 			}
 		}
-		has_opinion = 
+		custom_tooltip = {
+			text = caucasus_secured_tt
+			has_global_variable = caucasus_consolidated_var
+		}
+	}
+
+	immediate = {
+		trigger_event = { id = russo-turkish_war.1  popup = yes }
+
+		set_variable = russo-turkish_war_initialization
+	}
+
+	complete = {
+		has_variable = russo-turkish_war_initialization
+	}
+
+	on_complete = {
+		
+	}
+
+	fail = {
+
+	}
+
+	on_fail = {
+
+	}
+
+	should_be_pinned_by_default = yes
+
+	weight = 100
+}
+
+je_russo_turkish_war = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_russia_expansion
+
+	possible = {
 	}
 
 	immediate = {
 	}
 
 	complete = {
+
 	}
+
+	on_complete = {
+		
+	}
+
+	fail = {
+
+	}
+
+	on_fail = {
+
+	}
+
 	should_be_pinned_by_default = yes
 
 	weight = 100
