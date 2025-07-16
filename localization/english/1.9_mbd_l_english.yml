@@ -49,3 +49,12 @@ pmg_efficient_bureaucracy_principle: "Efficient Bureaucracy Principle"
 state_trait_meseta_iberica: "Iberian Plateau"
 state_trait_malatya_iron_deposits: "Malatya Iron Deposits"
 
+principle_group_healthcare_focus: "Healthcare Focus"
+principle_group_bureaucracy_focus: "Bureaucracy Focus"
+principle_group_mining_focus: "Mining Focus"
+principle_group_agricultural_focus: "Agricultural Focus"
+principle_group_manufacturing_focus: "Manufacturing Focus"
+
+battle_condition_death_ride: "Death Ride"
+battle_condition_decisive_cavalry_charge: "Decisive Cavalry Charge"
+battle_condition_cavalry_charge: "Cavalry Charge"
