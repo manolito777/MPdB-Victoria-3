@@ -54,7 +54,7 @@ je_russo_turkish_war = {
 	weight = 100
 }
 
-je_russo_turkish_war = {
+je_great_russo_turkish_war = {
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	group = je_group_russia_expansion
@@ -67,6 +67,122 @@ je_russo_turkish_war = {
 
 	complete = {
 
+		custom_tooltip = {
+			text = great_russo_turkish_war_goal_tt
+
+			any_scope_state = {
+				state_region = s:STATE_MOLDAVIA
+				is_incorporated = yes
+				OR = {
+					is_split_state = yes
+					is_split_state = no
+				}
+			}
+			any_scope_state = {
+				state_region = s:STATE_DOBRUDJA
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_BULGARIA
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_WALLACHIA
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_KARS
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_TRABZON
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_ERZURUM
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_KASTAMONU
+				OR = {
+					is_incorporated = no
+					is_incorporated = yes
+				}
+				is_split_state = no
+			}
+		}
+	}
+
+	on_complete = {
+
+		trigger_event = { id = russo-turkish_war.2  popup = yes } #russia wins the great russo turkish war.
+	}
+
+	fail = {
+
+	}
+
+	on_fail = {
+
+	}
+
+	timeout = 10950
+
+	on_timeout = {
+
+	}
+
+	should_be_pinned_by_default = yes
+
+	weight = 100
+}
+
+je_western_russo_turkish_war = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_russia_expansion
+
+	possible = {
+	}
+
+	immediate = {
+	}
+
+	complete = {
+
+		custom_tooltip = {
+			text = western_russo_turkish_war_goal_tt
+
+			any_scope_state = {
+				state_region = s:STATE_MOLDAVIA
+				is_incorporated = yes
+				OR = {
+					is_split_state = yes
+					is_split_state = no
+				}
+			}
+			any_scope_state = {
+				state_region = s:STATE_DOBRUDJA
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_BULGARIA
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_WALLACHIA
+				is_incorporated = yes
+				is_split_state = no
+			}
+		}
 	}
 
 	on_complete = {
@@ -78,6 +194,76 @@ je_russo_turkish_war = {
 	}
 
 	on_fail = {
+
+	}
+
+	timeout = 7300
+
+	on_timeout = {
+
+	}
+
+	should_be_pinned_by_default = yes
+
+	weight = 100
+}
+
+je_eastern_russo_turkish_war = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_russia_expansion
+
+	possible = {
+	}
+
+	immediate = {
+	}
+
+	complete = {
+
+		custom_tooltip = {
+			text = eastern_russo_turkish_war_goal_tt
+			any_scope_state = {
+				state_region = s:STATE_KARS
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_TRABZON
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_ERZURUM
+				is_incorporated = yes
+				is_split_state = no
+			}
+			any_scope_state = {
+				state_region = s:STATE_KASTAMONU
+				OR = {
+					is_incorporated = no
+					is_incorporated = yes
+				}
+				is_split_state = no
+			}
+		}
+	}
+
+	on_complete = {
+		
+	}
+
+	fail = {
+
+	}
+
+	on_fail = {
+
+	}
+
+	timeout = 7300
+
+	on_timeout = {
 
 	}
 
