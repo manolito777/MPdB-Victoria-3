@@ -20,3 +20,9 @@ no_russo-turkish_war = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	interest_group_approval_add = -3
 }
+
+rally_against_russia = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_possitive.dds
+	state_conscription_rate_mult = 0.25
+	building_training_rate_mult = 0.1
+}

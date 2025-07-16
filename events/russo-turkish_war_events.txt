@@ -1,7 +1,7 @@
 namespace = russo-turkish_war
 
-# start event
-russo-turkish_war.1 = {
+
+russo-turkish_war.1 = { # start event
 	type = country_event
 	placement = root
 	title = russo-turkish_war.1.t
@@ -48,62 +48,7 @@ russo-turkish_war.1 = {
 		ai_chance = {
 			base = 50
 		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = STATE_KARS }
-			}
-			s:STATE_KARS = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = STATE_TRABZON }
-			}
-			s:STATE_TRABZON = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = STATE_ERZURUM }
-			}
-			s:STATE_ERZURUM = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = STATE_MOLDAVIA }
-			}
-			s:STATE_MOLDAVIA = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = STATE_WALLACHIA }
-			}
-			s:STATE_WALLACHIA = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = s:STATE_DOBRUDJA }
-			}
-			s:STATE_DOBRUDJA = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = s:STATE_BULGARIA }
-			}
-			s:STATE_BULGARIA = {
-				add_claim = ROOT
-			}
-		}
+		
 		add_modifier = {
 			name = russian_big_border_pursuit
 			days = very_long_modifier_time
@@ -118,17 +63,13 @@ russo-turkish_war.1 = {
 				NOT = { THIS = ROOT }
 				any_scope_state = {
 					OR = {
-						state_region = s:STATE_KARS
-						state_region = s:STATE_TRABZON
-						state_region = s:STATE_ERZURUM
-						state_region = s:STATE_MOLDAVIA
 						state_region = s:STATE_WALLACHIA
 						state_region = s:STATE_BULGARIA
 						state_region = s:STATE_DOBRUDJA
 					}
 				}
 			}
-			trigger_event = { id = } #Respuesta del jugador Otomano. Mejorar relaciones con potencias occidentales y/o conscriptos en las regiones afectadas.
+			trigger_event = { id = russo-turkish_war.5 } #Respuesta del jugador Otomano. Mejorar relaciones con potencias occidentales y/o conscriptos en las regiones afectadas.
 		}
 		hidden_effect = {
 			every_country = {
@@ -148,39 +89,6 @@ russo-turkish_war.1 = {
 			base = 20
 		}
 
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = STATE_MOLDAVIA }
-			}
-			s:STATE_MOLDAVIA = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = STATE_WALLACHIA }
-			}
-			s:STATE_WALLACHIA = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = s:STATE_DOBRUDJA }
-			}
-			s:STATE_DOBRUDJA = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = s:STATE_BULGARIA }
-			}
-			s:STATE_BULGARIA = {
-				add_claim = ROOT
-			}
-		}
-
 		add_journal_entry = {
 			type = je_western_russo_turkish_war
 		}
@@ -189,6 +97,20 @@ russo-turkish_war.1 = {
 			name = russian_small_border_pursuit
 			days = very_long_modifier_time
 			# country_infamy_decay_mult
+		}
+
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				any_scope_state = {
+					OR = {
+						state_region = s:STATE_WALLACHIA
+						state_region = s:STATE_BULGARIA
+						state_region = s:STATE_DOBRUDJA
+					}
+				}
+			}
+			trigger_event = { id = russo-turkish_war.5 } #Respuesta del jugador Otomano. Mejorar relaciones con potencias occidentales y/o conscriptos en las regiones afectadas.
 		}
 
 		hidden_effect = {
@@ -209,10 +131,20 @@ russo-turkish_war.1 = {
 			base = 20
 		}
 
-
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				any_scope_state = {
+					OR = {
+						state_region = s:STATE_KARS
+						state_region = s:STATE_TRABZON
+						state_region = s:STATE_ERZURUM
+					}
+				}
+			}
+			trigger_event = { id = russo-turkish_war.5 } #Respuesta del jugador Otomano. Mejorar relaciones con potencias occidentales y/o conscriptos en las regiones afectadas.
+		}
 		
-
-
 		add_journal_entry = {
 			type = je_eastern_russo_turkish_war
 		}
@@ -277,8 +209,8 @@ russo-turkish_war.1 = {
 }
 
 
-#russia wins the great russo-turkish_war
-russo-turkish_war.2 = {
+
+russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 	type = country_event
 	placement = root
 	title = russo-turkish_war.2.t
@@ -409,12 +341,29 @@ russo-turkish_war.2 = {
 				}
 			}
 		}
+		
+		add_loyalists = {
+			value = 0.05
+			culture = cu:russian
+		}
+
+		add_loyalists = {
+			value = 0.25
+			pop_type = officers
+			culture = cu:russian
+		}
+
+		add_loyalists = {
+			value = 0.1
+			pop_type = soldiers
+			culture = cu:russian
+		}
 	}
 }
 
 
-#russia wins the western russo-turkish_war
-russo-turkish_war.3 = {
+
+russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 	type = country_event
 	placement = root
 	title = russo-turkish_war.3.t
@@ -441,6 +390,26 @@ russo-turkish_war.3 = {
 			text = claim_balkans_tt
 		}
 
+		add_primary_culture = cu:South_Slavic
+
+		
+		add_loyalists = {
+			value = 0.05
+			culture = cu:russian
+		}
+
+		add_loyalists = {
+			value = 0.25
+			pop_type = officers
+			culture = cu:russian
+		}
+
+		add_loyalists = {
+			value = 0.1
+			pop_type = soldiers
+			culture = cu:russian
+		}
+
 	}
 	option = {
 		name = russo-turkish_war.3.b
@@ -449,11 +418,23 @@ russo-turkish_war.3 = {
 			text = claim_all_balkans_tt
 		}
 
+		add_loyalists = {
+			value = 0.5
+			pop_type = officers
+			culture = cu:russian
+		}
+
+		add_loyalists = {
+			value = 0.1
+			pop_type = soldiers
+			culture = cu:russian
+		}
+
 	}
 }
 
-#russia wins the eastern russo-turkish_war
-russo-turkish_war.4 = {
+
+russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 	type = country_event
 	placement = root
 	title = russo-turkish_war.4.t
@@ -480,14 +461,124 @@ russo-turkish_war.4 = {
 			text = claim_iraq_tt
 		}
 
+		add_primary_culture = cu:georgian
+		add_primary_culture = cu:armenian
+
+		add_loyalists = {
+			value = 0.25
+			pop_type = officers
+			culture = cu:russian
+		}
+
+		add_loyalists = {
+			value = 0.1
+			pop_type = soldiers
+			culture = cu:russian
+		}
+
 	}
 
 	option = {
-		name = russo-turkish_war.4.ab
+		name = russo-turkish_war.4.b
 
 		custom_tooltip = {
 			text = claim_iraq_iran_tt
 		}
 
+		add_loyalists = {
+			value = 0.5
+			pop_type = officers
+			culture = cu:russian
+		}
+
+		add_loyalists = {
+			value = 0.1
+			pop_type = soldiers
+			culture = cu:russian
+		}
+
+	}
+}
+
+
+
+russo-turkish_war.5 = { #Respuesta del Otomano
+	type = country_event
+	placement = scope:russian_claim_state
+	title = russo-turkish_war.5.t
+	desc = russo-turkish_war.5.d
+
+	duration = 3
+
+	dlc = dlc004
+
+	event_image = {
+		video = "europenorthamerica_before_the_battle"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+		# triggered by russo-turkish_war.1
+	}
+
+	immediate = {
+		c:RUS = {
+			save_scope_as = russian_turkwar_scope
+		}
+		random_scope_state = {
+			limit = {
+				OR = {
+					state_region = s:STATE_WALLACHIA
+					state_region = s:STATE_BULGARIA
+					state_region = s:STATE_DOBRUDJA
+					state_region = s:STATE_KARS
+					state_region = s:STATE_TRABZON
+					state_region = s:STATE_ERZURUM
+				}
+			}
+			save_scope_as = russian_claim_state
+		}
+	}
+
+	option = { # Prepare for war
+		name = russo-turkish_war.5.a
+		default_option = yes
+		every_scope_state = {
+			limit = {
+				OR = {
+					state_region = s:STATE_WALLACHIA
+					state_region = s:STATE_BULGARIA
+					state_region = s:STATE_DOBRUDJA
+					state_region = s:STATE_KARS
+					state_region = s:STATE_TRABZON
+					state_region = s:STATE_ERZURUM
+				}
+			}
+			add_modifier = {
+				name = rally_against_russia
+				years = 10
+				# state_conscription_rate_mult
+			}
+		}
+		ai_chance = {
+			base = 15
+		}
+	}
+
+	option = { # Try to appease France
+		name = russo-turkish_war.5.b
+		change_relations = {
+			country = c:RUS
+			value = 50
+		}
+
+		create_bidirectional_truce = { country = scope:russian_turkwar_scope months = 12 }
+
+		ai_chance = {
+			base = 5
+		}
 	}
 }

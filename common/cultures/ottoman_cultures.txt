@@ -116,7 +116,7 @@
 georgian={
 	color= hsv{ 0.33 0.26 0.43 }
 	religion = orthodox
-	traits = { otomanosphere caucasus_group european_heritage }
+	traits = { caucasus_group european_heritage }
 	male_common_first_names={
 		Akaki
 		Alexander
@@ -258,7 +258,7 @@ georgian={
 armenian={
 	color= hsv{ 0.15 0.55 0.52 }
 	religion = oriental_orthodox
-	traits = { otomanosphere caucasus_group european_heritage }
+	traits = { caucasus_group european_heritage }
 	male_common_first_names={
 		Alexander Arakel Aram Aramais Arsen Artashes Artavazd Artem Ashot Assadour Atom Andranik Avetis
 		Barsegh Benyamin Boghos
