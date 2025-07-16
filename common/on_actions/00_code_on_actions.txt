@@ -3622,14 +3622,6 @@ on_revolution_start = {
 		}
 		if = {
 			limit = {
-				has_journal_entry = je_warlord_china
-				NOT = { has_variable = china_warlord_explosion_revolution }
-			}
-			chi_remove_1_fragile_unity = yes
-			set_variable = china_warlord_explosion_revolution
-		}
-		if = {
-			limit = {
 				has_modifier = declared_bankruptcy
 				scope:target ?= {
 					NOT = {
@@ -4062,14 +4054,6 @@ on_revolution_end = {
 # scope:target = Uprising country
 on_secession_start = {
 	effect = {
-		if = {
-			limit = {
-				has_journal_entry = je_warlord_china
-				NOT = { has_variable = china_warlord_explosion_revolution }
-			}
-			chi_remove_1_fragile_unity = yes
-			set_variable = china_warlord_explosion_revolution
-		}
 		if = {
 			limit = {
 				NOT = {

@@ -235,9 +235,11 @@ raj.2 = {
 			modifier = {
 				trigger = {
 					any_country = {
-						has_diplomatic_pact = {
-							who = ROOT
-							type = guarantee_independence
+						any_scope_treaty = {
+							binds = ROOT
+							any_scope_article = {
+								has_type = guarantee_independence
+							}
 						}	
 					}
 				}

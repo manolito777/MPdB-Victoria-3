@@ -1195,15 +1195,6 @@ ai_strategy_default = {
 					multiply = 1.5
 				}
 			}
-
-			if = {
-				limit = {
-					has_journal_entry = je_boxer_rebellion
-					scope:target_state.state_region = { is_homeland = cu:han }
-				}
-				add = 50
-			}
-
 			if = {
 				limit = {
 					has_journal_entry = je_greek_nationalism
@@ -1524,16 +1515,6 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
-					has_journal_entry = je_opium_wars
-					scope:target_country = {
-						has_variable = opium_wars_target
-					}
-				}
-				multiply = 0
-			}
-
-			if = {
-				limit = {
 					has_strategy = ai_strategy_armed_isolationism
 					scope:target_state = {
 						NOR = {
@@ -1655,20 +1636,6 @@ ai_strategy_default = {
 				}
 			}
 		}
-
-		if = {
-			limit = {
-				has_journal_entry = je_opium_wars
-				scope:target_country = {
-					has_variable = opium_wars_target
-				}
-				scope:target_state = {
-					NOT = { state_region = s:STATE_FORMOSA }
-				}
-			}
-			add = 100
-		}
-
 
 		if = {
 			limit = {
@@ -2253,30 +2220,6 @@ ai_strategy_default = {
 			}
 			add = 1
 		}
-
-		# Opium wars participants should both be confident
-		if = {
-			limit = {
-				has_journal_entry = je_opium_wars
-				scope:target_country = {
-					has_variable = opium_wars_target
-					is_banning_goods = g:opium
-				}
-			}
-			add = 1
-		}
-
-		if = {
-			limit = {
-				has_variable = opium_wars_target
-				is_banning_goods = g:opium
-				scope:target_country = {
-					has_journal_entry = je_opium_wars
-				}
-			}
-			add = 1
-		}
-
 		# Ottomans should be extremely confident against owners of Syria and Egypt when they have the relevant JE's
 		if = {
 			limit = {
@@ -2543,18 +2486,6 @@ ai_strategy_default = {
 							target_is = scope:target_country
 						}
 					}
-				}
-			}
-			add = 100
-		}
-
-		# Opium wars aggressor should be very, very aggressive against target if they're banning opium
-		if = {
-			limit = {
-				has_journal_entry = je_opium_wars
-				scope:target_country = {
-					has_variable = opium_wars_target
-					is_banning_goods = g:opium
 				}
 			}
 			add = 100
@@ -4254,12 +4185,6 @@ ai_strategy_default = {
 			}
 		}
 		region_south_china = {
-			if = {
-				limit = {
-					has_journal_entry = je_opium_wars
-				}
-				add = 1000
-			}
 			if = {
 				limit = {
 					country_is_in_europe = yes
@@ -6298,16 +6223,6 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
-					has_journal_entry = je_opium_wars
-					scope:target_country = {
-						has_variable = opium_wars_target
-					}
-				}
-				add = 75
-			}
-
-			if = {
-				limit = {
 					AND = {
 						has_radical_leftist_government = no
 						scope:target_country = {
@@ -6436,17 +6351,6 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
-					has_journal_entry = je_reunify_china
-					scope:target_country = {
-						has_journal_entry = je_reunify_china
-						has_strategic_adjacency = scope:target_country
-					}
-				}
-				add = 100
-			}
-
-			if = {
-				limit = {
 					has_journal_entry = je_unify_afghanistan
 					scope:target_country = {
 						OR = {
@@ -6498,7 +6402,6 @@ ai_strategy_default = {
 					OR = {
 						has_journal_entry = je_eastern_frontier
 						has_journal_entry = je_unify_afghanistan
-						has_journal_entry = je_reunify_china
 					}
 				}
 				min = 0

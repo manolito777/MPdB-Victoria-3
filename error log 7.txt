@@ -199,138 +199,6 @@
   Script location: common/diplomatic_plays/00_diplomatic_plays.txt:977
 
 [22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/diplomatic_plays/00_diplomatic_plays.txt:977
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_diplomatic_pact trigger [ type: Not found in database class CDiplomaticActionTypeDataBase ]
-  Script location: events/british_raj_events.txt:238
-
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_diplomatic_pact trigger [ Invalid diplomatic action type! ]
-  Script location: events/british_raj_events.txt:238
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_diplomatic_pact' returned false at events/british_raj_events.txt:238
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_technology_researched trigger [ Invalid Technology: 'antibiotics' ]
-  Script location: events/russia_events.txt:490
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_technology_researched' returned false at events/russia_events.txt:490
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_technology_researched trigger [ Invalid Technology: 'antibiotics' ]
-  Script location: common/character_templates/country_jap.txt:60
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_technology_researched' returned false at common/character_templates/country_jap.txt:60
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
-  Script location: common/on_actions/00_code_on_actions.txt:3625
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/on_actions/00_code_on_actions.txt:3625
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
-  Script location: common/on_actions/00_code_on_actions.txt:4067
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/on_actions/00_code_on_actions.txt:4067
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_opium_obsession' ]
-  Script location: common/decisions/goods_ban_decisions.txt:67
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/decisions/goods_ban_decisions.txt:67
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
-  Script location: common/scripted_buttons/04_russia_buttons.txt:57
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_buttons/04_russia_buttons.txt:57
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
-  Script location: common/scripted_buttons/04_russia_buttons.txt:224
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_buttons/04_russia_buttons.txt:224
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
-  Script location: common/scripted_buttons/04_russia_buttons.txt:396
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_buttons/04_russia_buttons.txt:396
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_warlord_china' ]
-  Script location: common/journal_entries/00_abolish_monarchy.txt:70
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/journal_entries/00_abolish_monarchy.txt:70
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
-  Script location: common/scripted_triggers/00_ai_triggers.txt:126
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_triggers/00_ai_triggers.txt:126
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_boxer_rebellion' ]
-  Script location: common/scripted_triggers/00_ai_triggers.txt:132
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_triggers/00_ai_triggers.txt:132
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_reunify_china' ]
-  Script location: common/scripted_triggers/00_ai_triggers.txt:171
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/scripted_triggers/00_ai_triggers.txt:171
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_boxer_rebellion' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:1201
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:1201
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:1527
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:1527
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:1661
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:1661
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:2260
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:2260
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:2274
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:2274
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_taiping' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:2435
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:2435
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:2554
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:2554
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:4259
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:4259
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_opium_wars' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:6301
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:6301
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_reunify_china' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:6439
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:6439
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_reunify_china' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:6441
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:6441
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_reunify_china' ]
-  Script location: common/ai_strategies/00_default_strategy.txt:6501
-
-[22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/00_default_strategy.txt:6501
-[22:49:02][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_reunify_china' ]
-  Script location: common/ai_strategies/02_diplomatic_strategies.txt:1924
 
 [22:49:02][jomini_trigger.cpp:223]: PostValidate of trigger 'has_journal_entry' returned false at common/ai_strategies/02_diplomatic_strategies.txt:1924
 [22:49:02][jomini_script_system.cpp:247]: Script system error!
@@ -419,7 +287,7 @@
 [22:49:03][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_heavy_tanks_defense_mult is not a valid static or dynamic modifier type.
 [22:49:03][modifier_type_definition_database.cpp:43]: Modifier type definition state_radicals_from_sol_change_mult is not a valid static or dynamic modifier type.
 [22:49:03][modifier_type_definition_database.cpp:43]: Modifier type definition state_loyalists_from_sol_change_mult is not a valid static or dynamic modifier type.
-[22:49:03][eventtargetlinks.cpp:3830]: Failed to find culture! Culture: Central_Afro, File Location: common/history/states/00_states.txt:1607
+
 [22:49:03][jomini_script_system.cpp:247]: Script system error!
   Error: add_journal_entry effect [ Invalid journal entry type 'je_south_german_unification' ]
   Script location: events/german_unification.txt:197
@@ -446,9 +314,3 @@
 [22:49:03][jomini_effect.cpp:1137]: Variable 'chinese_central_government' is used but is never set. Setting it in an unused scripted trigger or effect does not count
 [22:49:03][jomini_effect.cpp:1137]: Variable 'china_shatters' is used but is never set. Setting it in an unused scripted trigger or effect does not count
 [22:49:03][jomini_effect.cpp:1137]: Event target 'heavenly_kingdom_spawn' is used but is never set. Setting it in an unused scripted trigger or effect does not count
-
-[22:49:16][jomini_script_system.cpp:247]: Script system error!
-  Error: add_homeland effect [ Unknown culture in homeland effect ]
-  Script location: common/history/states/00_states.txt:1607
-
-[22:49:21][state.cpp:6301]: State Ontario has building type Tobacco Plantations which it cannot support, it will be removed.
