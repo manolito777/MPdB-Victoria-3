@@ -117,6 +117,59 @@ battle_condition_death_ride = {
 #BATTLE CONDITIONS ARTILLERÍA
 
 
+battle_condition_gas_attack = {
+	icon = "gfx/interface/icons/battle_conditions/battle_condition_charted_terrain.dds"
+
+	modifier = {
+		unit_offense_mult = 0.05
+		unit_kill_rate_add = 0.25
+		unit_morale_damage_mult = 0.25
+	}
+
+	possible = {
+		scope:is_advancing_side = yes
+		exists = scope:character
+		scope:character = {
+			has_role = general
+			commander_military_formation = {
+				OR = {
+					formation_army_unit_type_fraction = {
+						target = unit_type:combat_unit_type_siege_artillery
+						value >= 0.25
+					}
+				}
+			}
+		}
+		AND = {
+			has_technology_researched = siege_artillery
+			has_technology_researched = chemical_warfare
+		}
+	}
+
+	weight = {
+		value = 3
+	}
+}
+
+battle_condition_gas_defense = {
+	icon = "gfx/interface/icons/battle_conditions/battle_condition_charted_terrain.dds"
+
+	modifier = {
+		unit_defense_mult = 0.05
+		unit_morale_loss_mult = -0.35
+	}
+	instant_switch = {
+		opposite_battle_side = {
+			has_battle_condition = battle_condition_gas_attack
+		}
+		has_technology_researched = chemical_warfare
+	}
+
+	weight = {
+		value = 10
+	}
+}
+
 	#GAS ATTACK
 		# Tienes artillería de asedio desbloqueada y un % mínimo en el ejército; gas desbloqueado; usando el método en el ejército.
 
