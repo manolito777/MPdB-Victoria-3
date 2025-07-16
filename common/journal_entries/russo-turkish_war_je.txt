@@ -108,14 +108,6 @@ je_great_russo_turkish_war = {
 				is_incorporated = yes
 				is_split_state = no
 			}
-			any_scope_state = {
-				state_region = s:STATE_KASTAMONU
-				OR = {
-					is_incorporated = no
-					is_incorporated = yes
-				}
-				is_split_state = no
-			}
 		}
 	}
 
@@ -217,6 +209,32 @@ je_eastern_russo_turkish_war = {
 	}
 
 	immediate = {
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_KARS }
+			}
+			s:STATE_KARS = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_TRABZON }
+			}
+			s:STATE_TRABZON = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_ERZURUM }
+			}
+			s:STATE_ERZURUM = {
+				add_claim = ROOT
+			}
+		}
+
 	}
 
 	complete = {
@@ -238,19 +256,11 @@ je_eastern_russo_turkish_war = {
 				is_incorporated = yes
 				is_split_state = no
 			}
-			any_scope_state = {
-				state_region = s:STATE_KASTAMONU
-				OR = {
-					is_incorporated = no
-					is_incorporated = yes
-				}
-				is_split_state = no
-			}
 		}
 	}
 
 	on_complete = {
-		
+		trigger_event = { id = russo-turkish_war.4  popup = yes } #russia wins the eastern russo turkish war.
 	}
 
 	fail = {

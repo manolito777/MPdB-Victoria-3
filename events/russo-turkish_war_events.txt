@@ -74,14 +74,6 @@ russo-turkish_war.1 = {
 		}
 		if = {
 			limit = {
-				NOT = { owns_entire_state_region = STATE_KASTAMONU }
-			}
-			s:STATE_KASTAMONU = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
 				NOT = { owns_entire_state_region = STATE_MOLDAVIA }
 			}
 			s:STATE_MOLDAVIA = {
@@ -129,7 +121,6 @@ russo-turkish_war.1 = {
 						state_region = s:STATE_KARS
 						state_region = s:STATE_TRABZON
 						state_region = s:STATE_ERZURUM
-						state_region = s:STATE_KASTAMONU
 						state_region = s:STATE_MOLDAVIA
 						state_region = s:STATE_WALLACHIA
 						state_region = s:STATE_BULGARIA
@@ -218,38 +209,8 @@ russo-turkish_war.1 = {
 			base = 20
 		}
 
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = STATE_KARS }
-			}
-			s:STATE_KARS = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = STATE_TRABZON }
-			}
-			s:STATE_TRABZON = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = STATE_ERZURUM }
-			}
-			s:STATE_ERZURUM = {
-				add_claim = ROOT
-			}
-		}
-		if = {
-			limit = {
-				NOT = { owns_entire_state_region = STATE_KASTAMONU }
-			}
-			s:STATE_KASTAMONU = {
-				add_claim = ROOT
-			}
-		}
+
+		
 
 
 		add_journal_entry = {
@@ -312,5 +273,221 @@ russo-turkish_war.1 = {
 			years = 5
 			# country_infamy_decay_mult
 		}
+	}
+}
+
+
+#russia wins the great russo-turkish_war
+russo-turkish_war.2 = {
+	type = country_event
+	placement = root
+	title = russo-turkish_war.2.t
+	desc = russo-turkish_war.2.d
+	flavor = russo-turkish_war.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+	}
+
+	option = {
+		name = russo-turkish_war.2.a
+
+		custom_tooltip = {
+			text = russia_claims_all_tt
+
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_NORTHERN_THRACE }
+				}
+				s:STATE_NORTHERN_THRACE = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_WESTERN_THRACE }
+				}
+				s:STATE_WESTERN_THRACE = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_EASTERN_THRACE }
+				}
+				s:STATE_EASTERN_THRACE = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_SKOPIA }
+				}
+				s:STATE_SKOPIA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_MACEDONIA }
+				}
+				s:STATE_MACEDONIA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_THESSALIA }
+				}
+				s:STATE_THESSALIA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_HUDAVENDIGAR }
+				}
+				s:STATE_HUDAVENDIGAR = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = STATE_KASTAMONU }
+				}
+				s:STATE_KASTAMONU = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_AYDIN }
+				}
+				s:STATE_AYDIN = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_KONYA }
+				}
+				s:STATE_KONYA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_ANKARA }
+				}
+				s:STATE_ANKARA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_EAST_AEGEAN_ISLANDS }
+				}
+				s:STATE_EAST_AEGEAN_ISLANDS = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_CYPRUS }
+				}
+				s:STATE_CYPRUS = {
+					add_claim = ROOT
+				}
+			}
+		}
+	}
+}
+
+
+#russia wins the western russo-turkish_war
+russo-turkish_war.3 = {
+	type = country_event
+	placement = root
+	title = russo-turkish_war.3.t
+	desc = russo-turkish_war.3.d
+	flavor = russo-turkish_war.3.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+	}
+
+	option = {
+		name = russo-turkish_war.3.a
+
+		custom_tooltip = {
+			text = claim_balkans_tt
+		}
+
+	}
+	option = {
+		name = russo-turkish_war.3.b
+
+		custom_tooltip = {
+			text = claim_all_balkans_tt
+		}
+
+	}
+}
+
+#russia wins the eastern russo-turkish_war
+russo-turkish_war.4 = {
+	type = country_event
+	placement = root
+	title = russo-turkish_war.4.t
+	desc = russo-turkish_war.4.d
+	flavor = russo-turkish_war.4.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+	}
+
+	option = {
+		name = russo-turkish_war.4.a
+
+		custom_tooltip = {
+			text = claim_iraq_tt
+		}
+
+	}
+
+	option = {
+		name = russo-turkish_war.4.ab
+
+		custom_tooltip = {
+			text = claim_iraq_iran_tt
+		}
+
 	}
 }
