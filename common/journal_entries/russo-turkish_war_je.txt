@@ -229,6 +229,63 @@ je_great_russo_turkish_war = {
 
 		trigger_event = { id = russo-turkish_war.11  popup = yes } #russia losses the great russo turkish war.
 
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_KARS }
+			}
+			s:STATE_KARS = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_TRABZON }
+			}
+			s:STATE_TRABZON = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_ERZURUM }
+			}
+			s:STATE_ERZURUM = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_MOLDAVIA }
+			}
+			s:STATE_MOLDAVIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WALLACHIA }
+			}
+			s:STATE_WALLACHIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = s:STATE_DOBRUDJA }
+			}
+			s:STATE_DOBRUDJA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = s:STATE_BULGARIA }
+			}
+			s:STATE_BULGARIA = {
+				remove_claim = ROOT
+			}
+		}
+
 	}
 
 	timeout = 7300
@@ -355,6 +412,63 @@ je_western_russo_turkish_war = {
 		c:TUR = {
 			set_variable = failed_russian_campaign
 		}
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_KARS }
+			}
+			s:STATE_KARS = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_TRABZON }
+			}
+			s:STATE_TRABZON = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_ERZURUM }
+			}
+			s:STATE_ERZURUM = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_MOLDAVIA }
+			}
+			s:STATE_MOLDAVIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WALLACHIA }
+			}
+			s:STATE_WALLACHIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = s:STATE_DOBRUDJA }
+			}
+			s:STATE_DOBRUDJA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = s:STATE_BULGARIA }
+			}
+			s:STATE_BULGARIA = {
+				remove_claim = ROOT
+			}
+		}
 	}
 
 	timeout = 7300
@@ -465,6 +579,63 @@ je_eastern_russo_turkish_war = {
 		}
 
 		trigger_event = { id = russo-turkish_war.10  popup = yes } #russia losses the eastern/western russo turkish war.
+
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_KARS }
+			}
+			s:STATE_KARS = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_TRABZON }
+			}
+			s:STATE_TRABZON = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_ERZURUM }
+			}
+			s:STATE_ERZURUM = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_MOLDAVIA }
+			}
+			s:STATE_MOLDAVIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_WALLACHIA }
+			}
+			s:STATE_WALLACHIA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = s:STATE_DOBRUDJA }
+			}
+			s:STATE_DOBRUDJA = {
+				remove_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = s:STATE_BULGARIA }
+			}
+			s:STATE_BULGARIA = {
+				remove_claim = ROOT
+			}
+		}
 
 	}
 

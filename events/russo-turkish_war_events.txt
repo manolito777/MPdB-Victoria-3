@@ -169,7 +169,7 @@ russo-turkish_war.1 = { # start event
 	}
 
 	option = { # imperialist IG's unhappy
-		name = russo-turkish_war.1.d
+		name = russo-turkish_war.1.e
 		ai_chance = {
 			base = 10
 		}
@@ -198,6 +198,17 @@ russo-turkish_war.1 = { # start event
 				is_decaying = yes
 				# interest_group_approval_add
 			}
+		}
+
+		add_radicals = {
+			value = 0.1
+			pop_type = officers
+			culture = cu:russian
+		}
+
+		add_radicals = {
+			value = 0.1
+			interest_group = ig:ig_armed_forces
 		}
 
 		add_modifier = {
@@ -348,13 +359,13 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 		}
 
 		add_loyalists = {
-			value = 0.25
+			value = 0.35
 			pop_type = officers
 			culture = cu:russian
 		}
 
 		add_loyalists = {
-			value = 0.1
+			value = 0.15
 			pop_type = soldiers
 			culture = cu:russian
 		}
@@ -393,6 +404,30 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 
 		custom_tooltip = {
 			text = claim_balkans_tt
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_NORTHERN_THRACE }
+				}
+				s:STATE_NORTHERN_THRACE = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_WESTERN_THRACE }
+				}
+				s:STATE_WESTERN_THRACE = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_EASTERN_THRACE }
+				}
+				s:STATE_EASTERN_THRACE = {
+					add_claim = ROOT
+				}
+			}
 		}
 
 		add_primary_culture = cu:South_Slavic
@@ -426,6 +461,54 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 
 		custom_tooltip = {
 			text = claim_all_balkans_tt
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_NORTHERN_THRACE }
+				}
+				s:STATE_NORTHERN_THRACE = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_WESTERN_THRACE }
+				}
+				s:STATE_WESTERN_THRACE = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_EASTERN_THRACE }
+				}
+				s:STATE_EASTERN_THRACE = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_SKOPIA }
+				}
+				s:STATE_SKOPIA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_MACEDONIA }
+				}
+				s:STATE_MACEDONIA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_THESSALIA }
+				}
+				s:STATE_THESSALIA = {
+					add_claim = ROOT
+				}
+			}
 		}
 
 		add_loyalists = {
@@ -474,6 +557,47 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 
 		custom_tooltip = {
 			text = claim_iraq_tt
+
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_DIYARBAKIR }
+				}
+				s:STATE_DIYARBAKIR = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_DEIR_EZ_ZOR }
+				}
+				s:STATE_DEIR_EZ_ZOR = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_MOSUL }
+				}
+				s:STATE_MOSUL = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_BAGHDAD }
+				}
+				s:STATE_BAGHDAD = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_BASRA }
+				}
+				s:STATE_BASRA = {
+					add_claim = ROOT
+				}
+			}
 		}
 
 		add_primary_culture = cu:georgian
@@ -503,6 +627,95 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 
 		custom_tooltip = {
 			text = claim_iraq_iran_tt
+
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_DIYARBAKIR }
+				}
+				s:STATE_DIYARBAKIR = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_DEIR_EZ_ZOR }
+				}
+				s:STATE_DEIR_EZ_ZOR = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_MOSUL }
+				}
+				s:STATE_MOSUL = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_BAGHDAD }
+				}
+				s:STATE_BAGHDAD = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_BASRA }
+				}
+				s:STATE_BASRA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_MAZANDARAN }
+				}
+				s:STATE_MAZANDARAN = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_TABRIZ }
+				}
+				s:STATE_TABRIZ = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_URMIA }
+				}
+				s:STATE_URMIA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_PERSIAN_KURDISTAN }
+				}
+				s:STATE_PERSIAN_KURDISTAN = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_KURISTAN }
+				}
+				s:STATE_LURISTAN = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_KHUZESTAN }
+				}
+				s:STATE_KHUZESTAN = {
+					add_claim = ROOT
+				}
+			}
 		}
 
 		add_loyalists = {
