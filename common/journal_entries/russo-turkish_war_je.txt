@@ -171,20 +171,47 @@ je_great_russo_turkish_war = {
 	on_complete = {
 
 		trigger_event = { id = russo-turkish_war.2  popup = yes } #russia wins the great russo turkish war.
+
+		c:TUR = {
+			set_variable = russian_victory
+		}
 	}
 
 	fail = {
 
+		OR = {
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_DOBRUDJA
+				}
+				any_scope_state = {
+					state_region = s:STATE_BESSARABIA
+				} 
+         	}
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_KARS
+				}
+				any_scope_state = {
+					state_region = s:STATE_GREATER_CAUCASUS
+				}   
+         	}
+		}
 	}
 
 	on_fail = {
 
+		c:TUR = {
+			set_variable = failed_russian_campaign
+		}
+
 	}
 
-	timeout = 10950
+	timeout = 7300
 
 	on_timeout = {
 
+		trigger_event = { id = russo-turkish_war.9  popup = yes } #russian advance halted
 	}
 
 	should_be_pinned_by_default = yes
@@ -269,20 +296,45 @@ je_western_russo_turkish_war = {
 
 	on_complete = {
 		trigger_event = { id = russo-turkish_war.3  popup = yes } #russia wins the western russo turkish war.
+		c:TUR ={
+			set_variable = russian_victory
+		}
 	}
 
 	fail = {
+
+		OR = {
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_DOBRUDJA
+				}
+				any_scope_state = {
+					state_region = s:STATE_BESSARABIA
+				} 
+         	}
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_KARS
+				}
+				any_scope_state = {
+					state_region = s:STATE_GREATER_CAUCASUS
+				}   
+         	}
+		}
 
 	}
 
 	on_fail = {
 
+		c:TUR = {
+			set_variable = failed_russian_campaign
+		}
 	}
 
 	timeout = 7300
 
 	on_timeout = {
-
+		trigger_event = { id = russo-turkish_war.9  popup = yes } #russian advance halted
 	}
 
 	should_be_pinned_by_default = yes
@@ -351,20 +403,113 @@ je_eastern_russo_turkish_war = {
 
 	on_complete = {
 		trigger_event = { id = russo-turkish_war.4  popup = yes } #russia wins the eastern russo turkish war.
+
+		c:TUR = {
+			set_variable = russian_victory
+		}
 	}
 
 	fail = {
 
+		OR = {
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_DOBRUDJA
+				}
+				any_scope_state = {
+					state_region = s:STATE_BESSARABIA
+				} 
+         	}
+			NOT = {
+				any_scope_state = {
+					state_region = s:STATE_KARS
+				}
+				any_scope_state = {
+					state_region = s:STATE_GREATER_CAUCASUS
+				}   
+         	}
+		}
+
 	}
 
 	on_fail = {
+
+		c:TUR = {
+			set_variable = failed_russian_campaign
+		}
 
 	}
 
 	timeout = 7300
 
 	on_timeout = {
+		trigger_event = { id = russo-turkish_war.9  popup = yes } #russian advance halted
+	}
 
+	should_be_pinned_by_default = yes
+
+	weight = 100
+}
+
+je_turkish_pov_war = { #ottoman perspective
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	group = je_group_russia_expansion
+
+	possible = {
+
+	}
+
+	immediate = {
+
+	}
+
+	complete = {
+		
+		OR = {
+			custom_tooltip = {
+				text = turkish_victory_tt
+				has_variable = failed_russian_campaign
+			}
+			AND = {
+				any_scope_state = {
+					state_region = s:STATE_GREATER_CAUCASUS
+					is_split_state = no
+				}
+				any_scope_state = {
+					state_region = s:STATE_KARS
+					is_split_state = no
+				}
+			}
+			AND = {
+				any_scope_state = {
+					state_region = s:STATE_DOBRUDJA
+					is_split_state = no
+				}
+				any_scope_state = {
+					state_region = s:STATE_BESSARABIA
+					is_split_state = no
+				}
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = russo-turkish_war.6  popup = yes } #ottomans win the war.
+	}
+
+	fail = {
+		has_variable = russian_victory
+	}
+
+	on_fail = {
+		trigger_event = { id = russo-turkish_war.8  popup = yes } #ottomans loses the war.
+	}
+
+	timeout = 7300
+
+	on_timeout = {
+		trigger_event = { id = russo-turkish_war.7  popup = yes } #ottomans halt the russians
 	}
 
 	should_be_pinned_by_default = yes

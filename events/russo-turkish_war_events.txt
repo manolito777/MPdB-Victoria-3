@@ -541,6 +541,10 @@ russo-turkish_war.5 = { #Respuesta del Otomano
 			}
 			save_scope_as = russian_claim_state
 		}
+
+		add_journal_entry = {
+			type = je_turkish_pov_war
+		}
 	}
 
 	option = { # Prepare for war
@@ -568,7 +572,7 @@ russo-turkish_war.5 = { #Respuesta del Otomano
 		}
 	}
 
-	option = { # Try to appease France
+	option = { # Try to appease Russia
 		name = russo-turkish_war.5.b
 		change_relations = {
 			country = c:RUS
