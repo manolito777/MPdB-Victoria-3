@@ -18,12 +18,34 @@ je_russo_turkish_war = {
 					has_ideology = ideology:ideology_jingoist_leader
 					has_ideology = ideology:ideology_ethno_nationalist
 					has_ideology = ideology:ideology_fascist
+					has_ideology = ideology:authoritarian
 				}
 			}
 		}
 		custom_tooltip = {
 			text = caucasus_secured_tt
 			has_global_variable = caucasus_consolidated_var
+		}
+		any_scope_state = {
+			state_region = s:STATE_KARS
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_GREATER_CAUCASUS
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_DOBRUDJA
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_BESSARABIA
+			is_incorporated = yes
+		}
+		hidden_trigger = {
+			NOT = {
+				has_variable = russo-turkish_war_initialization
+			}
 		}
 	}
 
@@ -205,6 +227,8 @@ je_great_russo_turkish_war = {
 			set_variable = failed_russian_campaign
 		}
 
+		trigger_event = { id = russo-turkish_war.11  popup = yes } #russia losses the great russo turkish war.
+
 	}
 
 	timeout = 7300
@@ -326,6 +350,8 @@ je_western_russo_turkish_war = {
 
 	on_fail = {
 
+		trigger_event = { id = russo-turkish_war.10  popup = yes } #russia losses the eastern/western russo turkish war.
+
 		c:TUR = {
 			set_variable = failed_russian_campaign
 		}
@@ -437,6 +463,8 @@ je_eastern_russo_turkish_war = {
 		c:TUR = {
 			set_variable = failed_russian_campaign
 		}
+
+		trigger_event = { id = russo-turkish_war.10  popup = yes } #russia losses the eastern/western russo turkish war.
 
 	}
 

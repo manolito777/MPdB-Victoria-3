@@ -358,6 +358,11 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			pop_type = soldiers
 			culture = cu:russian
 		}
+
+		add_modifier = {
+			name = russian_big_winner
+			years = 5
+		}
 	}
 }
 
@@ -410,6 +415,11 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			culture = cu:russian
 		}
 
+		add_modifier = {
+			name = russian_winner
+			years = 5
+		}
+
 	}
 	option = {
 		name = russo-turkish_war.3.b
@@ -428,6 +438,11 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			value = 0.1
 			pop_type = soldiers
 			culture = cu:russian
+		}
+
+		add_modifier = {
+			name = russian_winner
+			years = 5
 		}
 
 	}
@@ -476,6 +491,11 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			culture = cu:russian
 		}
 
+		add_modifier = {
+			name = russian_winner
+			years = 5
+		}
+
 	}
 
 	option = {
@@ -495,6 +515,11 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			value = 0.1
 			pop_type = soldiers
 			culture = cu:russian
+		}
+
+		add_modifier = {
+			name = russian_winner
+			years = 5
 		}
 
 	}
@@ -585,4 +610,526 @@ russo-turkish_war.5 = { #Respuesta del Otomano
 			base = 5
 		}
 	}
+}
+
+russo-turkish_war.6 = { #ottomans win the russo-turkish war
+	type = country_event
+	placement = root
+	title = russo-turkish_war.6.t
+	desc = russo-turkish_war.6.d
+	flavor = russo-turkish_war.6.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = russo-turkish_war.6.a
+
+		custom_tooltip = {
+			text = claim_russian_territory_tt
+
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_GREATER_CAUCASUS }
+				}
+				s:STATE_GREATER_CAUCASUS = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_KUBAN }
+				}
+				s:STATE_KUBAN = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:KARS }
+				}
+				s:STATE_KARS = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:NORTH_CAUCASUS }
+				}
+				s:STATE_NORTH_CAUCASUS = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:ROSTOV }
+				}
+				s:STATE_ROSTOV = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:CRIMEA }
+				}
+				s:STATE_ROSTOV = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:TAURIDA }
+				}
+				s:STATE_TAURIDA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:CHERSON }
+				}
+				s:STATE_CHERSON = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:BESSARABIA }
+				}
+				s:STATE_CHERSON = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:DOBRUDJA }
+				}
+				s:STATE_DOBRUDJA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:WALLACHIA }
+				}
+				s:STATE_WALLACHIA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:MOLDAVIA }
+				}
+				s:STATE_WALLACHIA = {
+					add_claim = ROOT
+				}
+			}
+			add_loyalists = {
+				value = 0.5
+				pop_type = officers
+			}
+			add_loyalists = {
+				value = 0.25
+				pop_type = soldiers
+			}
+			add_modifier = {
+				name = ottoman_winner
+				years = 5
+			}
+		}		
+	}
+
+	option = {
+		name = russo-turkish_war.6.b
+
+		custom_tooltip = {
+			text = consolidate_position_tt
+
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:STATE_GREATER_CAUCASUS }
+				}
+				s:STATE_GREATER_CAUCASUS = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:KARS }
+				}
+				s:STATE_KARS = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:BESSARABIA }
+				}
+				s:STATE_BESSARABIA = {
+					add_claim = ROOT
+				}
+			}
+			if = {
+				limit = {
+					NOT = { owns_entire_state_region = s:DOBRUDJA }
+				}
+				s:STATE_DOBRUDJA = {
+					add_claim = ROOT
+				}
+			}
+		}
+
+		add_loyalists = {
+			value = 0.05
+			culture = cu:turkish
+		}
+		add_loyalists = {
+			value = 0.1
+			culture = cu:South_Slavic
+		}
+		add_loyalists = {
+			value = 0.25
+			culture = cu:georgian
+		}
+		add_loyalists = {
+			value = 0.25
+			culture = cu:armenian
+		}
+		add_loyalists = {
+			value = 0.25
+			pop_type = officers
+		}
+		add_loyalists = {
+			value = 0.1
+			pop_type = soldiers
+		}
+		add_modifier = {
+			name = ottoman_winner
+			years = 5
+		}
+	}
+}
+
+russo-turkish_war.7 = { #ottomans halt the russians
+	type = country_event
+	placement = root
+	title = russo-turkish_war.7.t
+	desc = russo-turkish_war.7.d
+	flavor = russo-turkish_war.7.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+
+		name = russo-turkish_war.7.a
+
+		add_loyalists = {
+			value = 0.25
+			pop_type = officers
+		}
+		add_loyalists = {
+			value = 0.1
+			pop_type = soldiers
+		}
+	}
+	
+}
+
+russo-turkish_war.8 = { #ottomans lose the war
+	type = country_event
+	placement = root
+	title = russo-turkish_war.8.t
+	desc = russo-turkish_war.8.d
+	flavor = russo-turkish_war.8.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+
+		name = russo-turkish_war.8.a
+
+		add_radicals = {
+			value = 0.25
+			pop_type = officers
+		}
+		add_radicals = {
+			value = 0.1
+			pop_type = soldiers
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:South_Slavic
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:armenian
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:georgian
+		}
+
+	}
+	
+}
+
+russo-turkish_war.9 = { #russian advance halted
+	type = country_event
+	placement = root
+	title = russo-turkish_war.9.t
+	desc = russo-turkish_war.9.d
+	flavor = russo-turkish_war.9.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = russo-turkish_war.9.a
+
+		add_radicals = {
+			value = 0.25
+			pop_type = officers
+		}
+		add_radicals = {
+			value = 0.1
+			pop_type = soldiers
+		}
+		add_radicals = {
+			value = 0.05
+			culture = cu:russian
+		}
+		add_radicals = {
+			value = 0.05
+			culture = cu:ukrainian
+		}
+		add_radicals = {
+			value = 0.35
+			culture = cu:north_caucasian
+		}
+		add_radicals = {
+			value = 0.5
+			culture = cu:circassian
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:georgian
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:armenian
+		}
+		add_radicals = {
+			value = 0.35
+			culture = cu:azerbaijani
+		}
+		add_radicals = {
+			value = 0.05
+			culture = cu:tatar
+		}
+	}
+	
+}
+
+russo-turkish_war.10 = { #russia loses the western/eastern russo turkish war
+	type = country_event
+	placement = root
+	title = russo-turkish_war.10.t
+	desc = russo-turkish_war.10.d
+	flavor = russo-turkish_war.10.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = russo-turkish_war.10.a
+
+		add_radicals = {
+			value = 0.5
+			pop_type = officers
+		}
+		add_radicals = {
+			value = 0.1
+			pop_type = soldiers
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:russian
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:ukrainian
+		}
+		add_radicals = {
+			value = 0.65
+			culture = cu:north_caucasian
+		}
+		add_radicals = {
+			value = 0.75
+			culture = cu:circassian
+		}
+		add_radicals = {
+			value = 0.15
+			culture = cu:georgian
+		}
+		add_radicals = {
+			value = 0.15
+			culture = cu:armenian
+		}
+		add_radicals = {
+			value = 0.5
+			culture = cu:azerbaijani
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:tatar
+		}
+		add_modifier = {
+			name = russian_national_pride_hurt
+			years = 5
+		}
+
+	}
+	
+}
+
+russo-turkish_war.11 = { #russia loses the great russo turkish war
+	type = country_event
+	placement = root
+	title = russo-turkish_war.11.t
+	desc = russo-turkish_war.11.d
+	flavor = russo-turkish_war.11.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = russo-turkish_war.11.a
+
+		add_radicals = {
+			value = 0.5
+			pop_type = officers
+		}
+		add_radicals = {
+			value = 0.25
+			pop_type = soldiers
+		}
+		add_radicals = {
+			value = 0.1
+			culture = cu:russian
+		}
+		add_radicals = {
+			value = 0.15
+			culture = cu:ukrainian
+		}
+		add_radicals = {
+			value = 0.65
+			culture = cu:north_caucasian
+		}
+		add_radicals = {
+			value = 0.75
+			culture = cu:circassian
+		}
+		add_radicals = {
+			value = 0.35
+			culture = cu:georgian
+		}
+		add_radicals = {
+			value = 0.35
+			culture = cu:armenian
+		}
+		add_radicals = {
+			value = 0.65
+			culture = cu:azerbaijani
+		}
+		add_radicals = {
+			value = 0.15
+			culture = cu:tatar
+		}
+		add_modifier = {
+			name = russian_national_pride_destroyed
+			years = 8
+		}
+
+	}
+	
 }
