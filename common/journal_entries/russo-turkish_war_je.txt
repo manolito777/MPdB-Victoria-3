@@ -18,7 +18,7 @@ je_russo_turkish_war = {
 					has_ideology = ideology:ideology_jingoist_leader
 					has_ideology = ideology:ideology_ethno_nationalist
 					has_ideology = ideology:ideology_fascist
-					has_ideology = ideology:authoritarian
+					has_ideology = ideology:ideology_authoritarian
 				}
 			}
 		}
