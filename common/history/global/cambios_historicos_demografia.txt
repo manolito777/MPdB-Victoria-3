@@ -144,6 +144,7 @@
 				years = 20 
 				is_decaying = yes
 			}
+		}
 	}
 	s:STATE_LANGUEDOC = {
 		region_state:FRA = {
@@ -160,6 +161,7 @@
 				name = fra_napoleonic_wars_legacy
 				years = 20
 				is_decaying = yes
+			}
 		}
 	}
 	s:STATE_PROVENCE = {
@@ -180,5 +182,4 @@
 			}
 		}
 	}
-
 }
