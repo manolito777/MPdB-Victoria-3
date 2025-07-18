@@ -405,3 +405,6 @@ TO-DO:
 		Devolver los 20 de caballería a francia.
 		USA dar mas fuerza compromiso missouri.
 		Buffar las rutas monárquicas de Francia. Ex: más facilidad para asegurar la casa; nerfear el malus del republican unrest.
+		Reworkear la formación de Alemania (NO la NGF) para que sea como en vanilla.
+		Finalizar los tratados "históricos" de la Compañía Patwar.
+		Terminar de localizar la Guerra Ruso-Turca.
