@@ -14,11 +14,11 @@ Europa:
     Lacasa (Groceries). Estado: Zaragoza.
     Kværner (Motor; Planta Eléctrica). Estado: Oslo.
     Volfas Engelman (licor). Estado: Kaunas, Lituania.
-    Zastava Arms (Rifles). Estado: Serbia del Norte.
+    Zastava Arms (Rifles). Estado: Serbia del Norte. #Implementada en Vanilla.
     Zsolnay (porcelana). Estado: Pécs.
     Hédiard (Groceries). Estado: París.    
     Silvateam S.p.A (Fertilizantes; Groceries). Estado: Piamonte.
-    Lena Gold Mining Partnership (Oro). Estado: Buryatia.
+    Lena Gold Mining Partnership (Oro). Estado: Buryatia. #Hecha;falta icono único.
     Kleinwanzleben Sugar Refinery (Trigo). Estado: Sajonia.
     Tomé Fèteira (Herramientas, madera). Estado: Estremadura.
     Allatini (Groceries). Estado: Tesalónica.
@@ -39,7 +39,7 @@ Europa:
     Central Africa Company (Plantaciones). Estado: Kazembe.
     Diamang (Oro). Angola.
     Aïcha (Groceries, fruta). Marruecos.
-    Managem (Hierro; Plomo; Oro). Marruecos.
+    Managem (Hierro; Plomo; Oro). Marruecos. #Hecha; falta icono único.
     Sappi (Papel). Sudáfrica.
 
 América:
@@ -48,8 +48,8 @@ América:
     King Ranch (carne). Estado: Texas. Estados Unidos.
     Wyeth Pharmaceuticals (Fertilizantes?). Estado: Pennsylvania.
 
-    La Cruz Azul (herramientas). Estado: Mexico.
-    Mondragón (Armas). Estado: México. #Hecha.
+    La Cruz Azul (herramientas). Estado: Mexico. #Hecha; falta icono único.
+    Mondragón (Armas). Estado: México. #Hecha; falta icono único.
     Casa Pellandini (Cristal; Muebles de Lujo). Estado: México.
 
     Matarazzo (Ranchos; Agricultura). Brasil.

@@ -408,3 +408,22 @@ TO-DO:
 		Reworkear la formación de Alemania (NO la NGF) para que sea como en vanilla.
 		Finalizar los tratados "históricos" de la Compañía Patwar.
 		Terminar de localizar la Guerra Ruso-Turca.
+
+-----------------
+
+#20-07-25 Erring
+
+Rusia:
+	Terminada la Guerra Ruso-Turca; si hay tiempo agregar un botón scripteado de contenido adicional para firmar la paz (en caso de que no hayan tomado las opciones más drásticas).
+
+Latinoamérica:
+	Aumentado el bono de los modificadores de IG para Brasil y Mexico.
+
+
+
+USA:
+	Aumentada la dificultad de la Guerra Civil y del movimiento Pro Esclavitud.
+
+Map Data:
+	Reajustes de recursos para que sea más concentrado y limitado.
+

@@ -103,3 +103,10 @@ company_mondragon: "Fusiles Mondragón"
 unit_combat_unit_type_trench_infantry_defense_add: "Trench Infantry Defense"
 unit_combat_unit_type_trench_infantry_defense_add_desc: "Flat Modifier to Unit Defense"
 
+company_lena_gold_mining_partnertship: "Lena Gold Mining Partnership"
+company_la_cruz_azul: "Cooperativa La Cruz Azul"
+
+modifier_csa_hiring_bonus: "CSA Hidden Bonus"
+csa_static_modifier: "Confederate War Fervor"
+integration_efforts: "Integration Efforts"
+slavery_de_facto: "De Facto Slavery"
