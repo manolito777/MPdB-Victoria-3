@@ -98,13 +98,16 @@ ig_trait_filibustery_desc: "By Delaying, Denying and Defending we can functional
 ig_trait_king_cotton: "King Cotton"
 ig_trait_king_cotton_desc: "He who rules the cotton rules the world."
 La_plata_agro_complex: "La Plata Agro Complex"
-company_mondragon: "Fusiles Mondragón"
+
 
 unit_combat_unit_type_trench_infantry_defense_add: "Trench Infantry Defense"
 unit_combat_unit_type_trench_infantry_defense_add_desc: "Flat Modifier to Unit Defense"
 
 company_lena_gold_mining_partnertship: "Lena Gold Mining Partnership"
 company_la_cruz_azul: "Cooperativa La Cruz Azul"
+company_managem: "Groupe Managem"
+company_mondragon: "Fusiles Mondragón"
+company_ahlstrom: "Ahlstrom-Munksjö"
 
 modifier_csa_hiring_bonus: "CSA Hidden Bonus"
 csa_static_modifier: "Confederate War Fervor"

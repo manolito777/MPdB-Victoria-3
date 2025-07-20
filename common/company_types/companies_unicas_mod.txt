@@ -54,6 +54,13 @@ La_plata_agro_complex = {
 		building_group_bg_plantations_throughput_add = 0.1
 		state_birth_rate_mult = 0.05
 	}	
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_grain_complete_tt
+			has_variable = prestige_good_generic_grain_var
+		}
+	}
 	
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies
@@ -114,6 +121,13 @@ company_mondragon = {
 		unit_combat_unit_type_trench_infantry_defense_add = 5
 		unit_combat_unit_type_trench_infantry_offense_add = 5
 	}	
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_small_arms_complete_tt
+			has_variable = prestige_good_generic_small_arms_var
+		}
+	}
 	
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies
@@ -276,6 +290,7 @@ company_lena_gold_mining_partnertship  = {
 
 	prosperity_modifier = {
 		building_gold_mine_throughput_add = 0.5
+		country_minting_mult = 0.1
 		country_loan_interest_rate_mult = -0.05
 	}
 
@@ -296,5 +311,64 @@ company_lena_gold_mining_partnertship  = {
 
 	ai_weight = {
 		value = 2 #Higher base value for flavored companies
+	}
+}
+
+
+### -------------- EUROPE ------------- ###
+
+company_alhstrom = {
+	icon = "gfx/interface/icons/company_icons/basic_paper.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_KUOPIO }
+
+	building_types = {
+		building_paper_mills
+		building_logging_camp
+	}
+
+	extension_building_types = {
+		building_glassworks
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_paper
+	}
+
+	prestige_goods_trigger = {
+		custom_tooltip = {
+			text = je_prestige_goods_paper_complete_tt
+			has_variable = prestige_good_generic_paper_var
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_KUOPIO
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_logging_camp
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_group_bg_logging_throughput_add = 0.1
+		building_paper_mills_throughput_add = 0.2
+		building_construction_sector_throughput_add = 0.05
+	}
+
+	ai_will_do = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_paper_mills
+				level >= 3
+			}
+		}
 	}
 }

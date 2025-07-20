@@ -7,7 +7,7 @@ Europa:
     Lindt (groceries). Estado: Zurich.
     H. Cegielski – Poznań S.A (Motor, agraria). Estado: Poznan.
     Haberbusch i Schiele (Licor). Estado: Varsovia.
-    Ahlstrom (Papel). Estado: Kuopio.
+    Ahlstrom (Papel). Estado: Kuopio. #Hecha; falta icono único.
     Hermagoras Society (Papel). Estado: Slovenia.
     Krasny Oktyabr (Groceries). Estado: Moscú / URSS.
     Andritz AG (Motor). Estado: Graz.

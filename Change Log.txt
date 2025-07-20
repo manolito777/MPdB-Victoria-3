@@ -403,7 +403,7 @@ TO-DO:
 		Sacred Civics única de la Iglesia.
 		Paz Scripteada para la Guerra Ruso-Turca.
 		Devolver los 20 de caballería a francia.
-		USA dar mas fuerza compromiso missouri.
+		USA dar mas fuerza compromiso missouri. #Hecho
 		Buffar las rutas monárquicas de Francia. Ex: más facilidad para asegurar la casa; nerfear el malus del republican unrest.
 		Reworkear la formación de Alemania (NO la NGF) para que sea como en vanilla.
 		Finalizar los tratados "históricos" de la Compañía Patwar.
@@ -419,11 +419,26 @@ Rusia:
 Latinoamérica:
 	Aumentado el bono de los modificadores de IG para Brasil y Mexico.
 
-
-
 USA:
 	Aumentada la dificultad de la Guerra Civil y del movimiento Pro Esclavitud.
 
 Map Data:
 	Reajustes de recursos para que sea más concentrado y limitado.
 
+Compañías:
+	Mexico: Fusiles Mondragón; Cooperativa La Cruz Azul.
+	Rusia: Ahlstrom; Lena.
+	África: Groupe Managem.
+
+
+TO-DO:
+	Potato Famine.
+		Revisar Unión Ideológica.
+		Sacred Civics única de la Iglesia.
+		Paz Scripteada para la Guerra Ruso-Turca.
+		Devolver los 20 de caballería a francia.
+		Buffar las rutas monárquicas de Francia. Ex: más facilidad para asegurar la casa; nerfear el malus del republican unrest.
+		Reworkear la formación de Alemania (NO la NGF) para que sea como en vanilla.
+		Finalizar los tratados "históricos" de la Compañía Patwar.
+		Terminar de localizar la Guerra Ruso-Turca.
+		Formable de Indochina/Vietnam.
