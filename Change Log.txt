@@ -422,6 +422,9 @@ Latinoamérica:
 USA:
 	Aumentada la dificultad de la Guerra Civil y del movimiento Pro Esclavitud.
 
+Mexico:
+	Agregada una Decisión para obtener claims sobre las llanuras americanas, destino manifiesto reversed.
+
 Map Data:
 	Reajustes de recursos para que sea más concentrado y limitado.
 
@@ -430,6 +433,8 @@ Compañías:
 	Rusia: Ahlstrom; Lena.
 	África: Groupe Managem.
 
+Métodos:
+	Nerf a las plantaciones de tinte.
 
 TO-DO:
 	Potato Famine.
