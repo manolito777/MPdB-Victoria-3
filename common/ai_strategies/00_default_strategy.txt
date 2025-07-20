@@ -726,6 +726,15 @@ ai_strategy_default = {
             add = 25
         }
 
+		if = { # MOD MBD Confederados deberían de pelear hasta el último hombre.
+			limit = {
+				c:CSA ?= THIS
+				exists = c:USA
+				is_diplomatic_play_enemy_of = c:USA
+			}
+			add = 250
+		}
+
 		# Italian minors should be willing to fight Austria
 		if = {
 			limit = {
@@ -2211,6 +2220,15 @@ ai_strategy_default = {
 				scope:target_country.infamy >= infamy_threshold:pariah
 			}
 			add = 1
+		}
+
+		#Taiping
+		if = {
+			limit = {
+				exists = c:CSA
+				THIS = c:CSA
+			}
+			add = 2
 		}
 
 		# Braver against own overlord in general
