@@ -90,3 +90,16 @@ je_eic_ideology_reason: "The ideologies of the Company must go with the times."
 je_golden_crescent_reason: "We must develop our economy."
 je_imperial_examination_system: "Imperial Examination System"
 je_imperial_examination_system_reason: "We must reform our education."
+
+ig_trait_promesa_de_tierras: "Promise of Land"
+ig_trait_promesa_de_tierras_desc: "By fomenting immigration we can extract the endless wealth of the soil."
+ig_trait_filibustery: "Filibustery"
+ig_trait_filibustery_desc: "By Delaying, Denying and Defending we can functionally impede any reform."
+ig_trait_king_cotton: "King Cotton"
+ig_trait_king_cotton_desc: "He who rules the cotton rules the world."
+La_plata_agro_complex: "La Plata Agro Complex"
+company_mondragon: "Fusiles Mondragón"
+
+unit_combat_unit_type_trench_infantry_defense_add: "Trench Infantry Defense"
+unit_combat_unit_type_trench_infantry_defense_add_desc: "Flat Modifier to Unit Defense"
+

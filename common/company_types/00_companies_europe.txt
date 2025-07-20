@@ -1579,8 +1579,8 @@ company_zastava = {
 	}
 
 	prosperity_modifier = {
-		unit_defense_mult = 0.075
-		unit_recovery_rate_add = 0.05
+		unit_defense_mult = 0.1
+		unit_morale_loss_mult = -0.05
 	}
 
 	ai_will_do = {

@@ -117,6 +117,7 @@ company_compania_sansinena_de_carnes_congeladas = {
 	prosperity_modifier = {
 		state_trade_advantage_mult = 0.1
 		building_port_throughput_add = 0.1
+		building_livestock_ranch_throughput_add = 0.1
 	}
 
 	ai_will_do = {
