@@ -2565,7 +2565,7 @@ MAY = {
 }
 
 IBE = {
-	color = { 250  181  0 }
+	color = { 38  97  83 }
 	
 	country_type = recognized
 
