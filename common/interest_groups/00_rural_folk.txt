@@ -66,6 +66,14 @@
 			}
 			else_if = {
 				limit = {
+					owner = { c:USA ?= this }
+				}
+				set_ig_trait = ig_trait:ig_trait_farmers_markets
+				set_ig_trait = ig_trait:ig_trait_honest_work
+				set_ig_trait = ig_trait:ig_trait_punch_down
+			}
+			else_if = {
+				limit = {
 					owner = { c:EIC ?= this }
 				}
 				set_interest_group_name = ig_ryots
