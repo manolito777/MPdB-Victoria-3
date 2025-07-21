@@ -166,14 +166,14 @@ MEX_antonio_lopez_de_santa_anna = {
 }
 
 MEX_agustin_jeronimo_de_iturbide = {
-	first_name = "Agustin_Jeronimo"
-	last_name = "de_Iturbide"
+	first_name = Agustin_Jeronimo
+	last_name = de_Iturbide
 	historical = yes
     culture = cu:mexican
 	birth_date = 1807.9.30
 	is_agitator = yes
 	interest_group = ig_armed_forces
-	ideology = ideology_royalist
+	ideology = ideology_moderate
 	traits = {
 		basic_diplomat
 		brave
