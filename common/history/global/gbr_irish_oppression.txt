@@ -4,7 +4,6 @@ GLOBAL = {
 		limit = {
 			has_modifier = irish_oppression
 		}
-		save_scope_as = irish_opression_scope
 	}
 
 	s:STATE_MUNSTER = {

@@ -83,6 +83,8 @@
 				set_ig_trait = ig_trait:ig_trait_job_creators
 				remove_ideology = ideology_laissez_faire
 				add_ideology = ideology_laissez_faire_usa
+				remove_ideology = ideology_plutocratic
+				add_ideology = ideology_plutocratic_usa
 			}
 			# India
 			else_if = {

@@ -5,14 +5,12 @@ ig_trait_king_cotton = {
 	modifier = {
 		building_cotton_plantation_throughput_add = 0.1
 		state_trade_advantage_mult = 0.1
-		
 	}
 }
 
 ig_trait_filibustery = {
 	icon = "gfx/interface/icons/ig_trait_icons/noble_privileges.dds"
-	min_approval = unhappy
-
+	max_approval = unhappy
 	modifier = {
 		country_law_enactment_time_mult = 0.25
 		building_group_bg_plantations_tax_mult = -0.2
@@ -22,6 +20,7 @@ ig_trait_filibustery = {
 
 ig_trait_punch_down = {
 	icon = "gfx/interface/icons/ig_trait_icons/old_ways.dds"
+	max_approval = unhappy
 	modifier = {
 		state_radicalism_increases_violent_hostility_mult = 0.20
 		state_radicalism_increases_cultural_erasure_mult = 0.15

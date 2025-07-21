@@ -283,8 +283,22 @@
 				set_interest_group_name = ig_southern_planters
 				set_ig_trait = ig_trait:ig_trait_filibustery
 				set_ig_trait = ig_trait:ig_trait_king_cotton
-				set_ig_trait = ig_trait:ig_trait_profitable_estates
 				remove_ideology = ideology_republican_paternalistic
+				remove_ideology = ideology_paternalistic
+				add_ideology = ideology_republican_paternalistic_usa
+			}
+		}
+		# USA
+		else_if = {
+			limit = {
+				c:USA ?= this
+				NOT = {
+					country_has_primary_culture = cu:dixie
+				}
+			}
+			ig:ig_landowners = {
+				remove_ideology = ideology_republican_paternalistic
+				remove_ideology = ideology_paternalistic
 				add_ideology = ideology_republican_paternalistic_usa
 			}
 		}

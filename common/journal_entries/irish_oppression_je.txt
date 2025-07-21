@@ -31,6 +31,19 @@
 			}
 		}
 	}
+
+	on_fail = {
+		every_scope_state = {
+			limit = {
+				has_modifier = irish_oppression
+			}
+			remove_modifier = irish_oppression
+			add_modifier = {
+				name = irish_oppression_lessened
+			}
+		}
+	}
+
 	weight = 100
 	should_be_pinned_by_default = yes
 }
