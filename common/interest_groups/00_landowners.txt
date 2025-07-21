@@ -199,7 +199,7 @@
 				set_interest_group_name = ig_landed_gentry
 				remove_ideology = ideology_paternalistic
 				add_ideology = ideology_magnatial
-				add_ideology = ideology_english_hegemony
+				add_ideology = ideology_british_hegemony
 			}
 		}
 		# Polish Landowners
