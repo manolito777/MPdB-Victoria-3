@@ -10,9 +10,9 @@ csa_static_modifier = {
 	building_training_rate_mult = 5
 	state_conscription_rate_add = 0.05
 	country_military_goods_cost_mult = -0.35
-	unit_supply_consumption_mult = -0.25
-	unit_defense_mult = 0.35
-	unit_offense_mult = 0.75
+	unit_supply_consumption_mult = -0.35
+	unit_defense_mult = 1.25
+	unit_offense_mult = 0.35
 	unit_morale_loss_mult = -0.1
 }
 
@@ -30,6 +30,7 @@ redeemer_government = {
 reconstruction_government = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_pop_pol_str_mult = 0.25
+	state_tax_waste_add = 0.25
 }
 
 paramilitary_threats = {
@@ -44,11 +45,12 @@ paramilitaries_suppressed = {
 	state_radicalism_increases_violent_hostility_mult = -0.05
 	state_radicalism_increases_cultural_erasure_mult = -0.05
 	state_radicalism_increases_open_prejudice_mult = -0.05
+	state_tax_waste_add = 0.25
 }
 
 integration_efforts = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	state_turmoil_effects_mult =  = 0.25
+	state_turmoil_effects_mult = 0.25
 	state_tax_waste_add = 0.25
 	building_group_bg_plantations_throughput_add = -0.25
 	building_group_bg_plantations_mortality_mult = -0.1
@@ -58,4 +60,10 @@ slavery_de_facto = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 	building_group_bg_plantations_throughput_add = 0.1
 	building_group_bg_plantations_mortality_mult = 0.1
+}
+
+unreconstructed_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	state_radicals_from_political_movements_mult = 0.2
+	state_tax_waste_add = 0.5
 }

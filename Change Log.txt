@@ -421,6 +421,7 @@ Latinoamérica:
 
 USA:
 	Aumentada la dificultad de la Guerra Civil y del movimiento Pro Esclavitud.
+	La aceptación requerida para volver cultura primaria a los afroamericanos pasa de ser base al promedio total de los modificadores.
 
 Mexico:
 	Agregada una Decisión para obtener claims sobre las llanuras americanas, destino manifiesto reversed.
@@ -447,3 +448,4 @@ TO-DO:
 		Finalizar los tratados "históricos" de la Compañía Patwar.
 		Terminar de localizar la Guerra Ruso-Turca.
 		Formable de Indochina/Vietnam.
+
