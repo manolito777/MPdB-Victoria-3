@@ -73,6 +73,17 @@
 				set_ig_trait = ig_trait:ig_trait_the_goods_must_flow
 				set_ig_trait = ig_trait:ig_trait_job_creators
 			}
+			#USA
+			else_if = {
+				limit = {
+					owner = { c:USA ?= this }
+				}
+				set_ig_trait = ig_trait:ig_trait_tax_avoidance
+				set_ig_trait = ig_trait:ig_trait_engines_of_progress
+				set_ig_trait = ig_trait:ig_trait_job_creators
+				remove_ideology = ideology_laissez_faire
+				add_ideology = ideology_laissez_faire_usa
+			}
 			# India
 			else_if = {
 				limit = {

@@ -835,7 +835,7 @@ movement_pro_slavery = {
 			}
 
 			add = {
-				value = 0.5
+				value = 0.35
 				desc = "je_acw_countdown"
 			}
 		}

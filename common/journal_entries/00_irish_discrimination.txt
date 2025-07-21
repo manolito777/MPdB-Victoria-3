@@ -1,0 +1,26 @@
+﻿je_irish_discrimination = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	group = je_group_historical_content
+
+	complete = {
+		cultural_acceptance_base = { target = cu:irish value >= acceptance_status_3 }
+	}
+
+	on_complete = {
+		ig:ig_landowners = {
+			remove_ideology = ideology_british_hegemony
+		}
+	}
+
+	fail = {
+		cu:irish = {
+			culture_secession_progress = {
+				target = ROOT
+				value > 0.5
+			}
+		}
+	}
+	weight = 100
+	should_be_pinned_by_default = yes
+}

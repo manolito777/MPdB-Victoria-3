@@ -51,14 +51,6 @@
 			}
 			else_if = {
 				limit = {
-					owner = { c:USA ?= this}
-				}
-				set_ig_trait = ig_trait:ig_trait_filibustery
-				set_ig_trait = ig_trait:ig_trait_king_cotton
-				set_ig_trait = ig_trait:ig_trait_profitable_estates
-			}
-			else_if = {
-				limit = {
 				
 					owner = { c:PER ?= this}
 				}
@@ -207,6 +199,7 @@
 				set_interest_group_name = ig_landed_gentry
 				remove_ideology = ideology_paternalistic
 				add_ideology = ideology_magnatial
+				add_ideology = ideology_english_hegemony
 			}
 		}
 		# Polish Landowners
@@ -288,8 +281,11 @@
 			}
 			ig:ig_landowners = {
 				set_interest_group_name = ig_southern_planters
-				remove_ideology = ideology_paternalistic
-				add_ideology = ideology_republican_paternalistic
+				set_ig_trait = ig_trait:ig_trait_filibustery
+				set_ig_trait = ig_trait:ig_trait_king_cotton
+				set_ig_trait = ig_trait:ig_trait_profitable_estates
+				remove_ideology = ideology_republican_paternalistic
+				add_ideology = ideology_republican_paternalistic_usa
 			}
 		}
 		# South American Caudillos/republicans
