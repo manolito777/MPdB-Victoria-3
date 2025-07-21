@@ -2387,18 +2387,6 @@ ai_strategy_default = {
 			add = 5
 		}
 
-		#Taiping
-		if = {
-			limit = {
-				exists = c:TPG
-				THIS = c:TPG
-				scope:target_country = {
-					has_journal_entry = je_taiping
-				}
-			}
-			add = 3
-		}
-
 		#Caucasus
 		if = {
 			limit = {
@@ -3356,7 +3344,6 @@ ai_strategy_default = {
 					has_strategy = ai_strategy_territorial_expansion
 					has_strategy = ai_strategy_unify_italy
 					has_strategy = ai_strategy_unify_ethiopia
-					has_strategy = ai_strategy_unify_china
 				}
 			}
 			multiply = 1.25

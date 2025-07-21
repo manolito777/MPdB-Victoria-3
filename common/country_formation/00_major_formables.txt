@@ -34,18 +34,7 @@ ITA = {
 	ai_will_do = { has_technology_researched = nationalism }
 
 	possible = {
-		OR = {
-			country_has_primary_culture = cu:north_italian
-		}
-		any_country = {
-			filter = {
-				OR = {
-					country_has_primary_culture = cu:north_italian								}
-					country_has_primary_culture = cu:south_italian
-			}
-			has_technology_researched = nationalism
-						
-		}	
+		country_has_primary_culture = cu:north_italian
 	}
 }	
 

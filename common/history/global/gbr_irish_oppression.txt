@@ -1,11 +1,5 @@
 ﻿GLOBAL = {
 
-	every_scope_state = {
-		limit = {
-			has_modifier = irish_oppression
-		}
-	}
-
 	s:STATE_MUNSTER = {
 		region_state:GBR = {
 			add_modifier = {

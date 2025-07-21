@@ -582,32 +582,6 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building="building_opium_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:PAN"
-						levels=1
-						region="STATE_PASHTUNISTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:PAN"
-						levels=1
-						region="STATE_PASHTUNISTAN"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
 		}
 	}
 	s:STATE_KANDAHAR={
@@ -1097,7 +1071,5 @@
 			}
 		}
 	}
-}
-
 }
 

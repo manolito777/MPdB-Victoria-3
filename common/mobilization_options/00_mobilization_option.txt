@@ -988,11 +988,7 @@ mobilization_option_ambulances = {
 	texture = "gfx/interface/icons/mobilization_options/ambulance.dds"
 
 	unlocking_technologies = {
-		AND = {
-			modern_nursing
-			combustion_engine
-		}
-
+		combustion_engine
 	}
 	possible = {
 		NOT = { scope:military_formation = { has_mobilization_option = mobilization_option:mobilization_option_first_aid } }

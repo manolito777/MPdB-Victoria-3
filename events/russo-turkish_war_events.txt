@@ -71,15 +71,6 @@ russo-turkish_war.1 = { # start event
 			}
 			trigger_event = { id = russo-turkish_war.5 } #Respuesta del jugador Otomano. Mejorar relaciones con potencias occidentales y/o conscriptos en las regiones afectadas.
 		}
-		hidden_effect = {
-			every_country = {
-				limit = {
-					has_diplomatic_relevance = c:RUS
-					NOT = { THIS = ROOT }
-				}
-				post_notification = russo_big_border_notification
-			}
-		}
 	}
 
 	option = { #Western War
@@ -111,16 +102,6 @@ russo-turkish_war.1 = { # start event
 				}
 			}
 			trigger_event = { id = russo-turkish_war.5 } #Respuesta del jugador Otomano. Mejorar relaciones con potencias occidentales y/o conscriptos en las regiones afectadas.
-		}
-
-		hidden_effect = {
-			every_country = {
-				limit = {
-					has_diplomatic_relevance = c:RUS
-					NOT = { THIS = ROOT }
-				}
-				post_notification = russo_small_border_notification
-			}
 		}
 	}
 
@@ -154,18 +135,6 @@ russo-turkish_war.1 = { # start event
 			days = very_long_modifier_time
 			# country_infamy_decay_mult
 		}
-
-
-		hidden_effect = {
-			every_country = {
-				limit = {
-					has_diplomatic_relevance = c:RUS
-					NOT = { THIS = ROOT }
-				}
-				post_notification = russo_small_border_notification
-			}
-		}
-
 	}
 
 	option = { # imperialist IG's unhappy
@@ -249,7 +218,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_NORTHERN_THRACE }
+					NOT = { owns_entire_state_region = STATE_NORTHERN_THRACE }
 				}
 				s:STATE_NORTHERN_THRACE = {
 					add_claim = ROOT
@@ -257,7 +226,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_WESTERN_THRACE }
+					NOT = { owns_entire_state_region = STATE_WESTERN_THRACE }
 				}
 				s:STATE_WESTERN_THRACE = {
 					add_claim = ROOT
@@ -265,7 +234,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_EASTERN_THRACE }
+					NOT = { owns_entire_state_region = STATE_EASTERN_THRACE }
 				}
 				s:STATE_EASTERN_THRACE = {
 					add_claim = ROOT
@@ -273,7 +242,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_SKOPIA }
+					NOT = { owns_entire_state_region = STATE_SKOPIA }
 				}
 				s:STATE_SKOPIA = {
 					add_claim = ROOT
@@ -281,7 +250,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_MACEDONIA }
+					NOT = { owns_entire_state_region = STATE_MACEDONIA }
 				}
 				s:STATE_MACEDONIA = {
 					add_claim = ROOT
@@ -289,7 +258,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_THESSALIA }
+					NOT = { owns_entire_state_region = STATE_THESSALIA }
 				}
 				s:STATE_THESSALIA = {
 					add_claim = ROOT
@@ -297,7 +266,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_HUDAVENDIGAR }
+					NOT = { owns_entire_state_region = STATE_HUDAVENDIGAR }
 				}
 				s:STATE_HUDAVENDIGAR = {
 					add_claim = ROOT
@@ -313,7 +282,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_AYDIN }
+					NOT = { owns_entire_state_region = STATE_AYDIN }
 				}
 				s:STATE_AYDIN = {
 					add_claim = ROOT
@@ -321,7 +290,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_KONYA }
+					NOT = { owns_entire_state_region = STATE_KONYA }
 				}
 				s:STATE_KONYA = {
 					add_claim = ROOT
@@ -329,7 +298,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_ANKARA }
+					NOT = { owns_entire_state_region = STATE_ANKARA }
 				}
 				s:STATE_ANKARA = {
 					add_claim = ROOT
@@ -337,7 +306,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_EAST_AEGEAN_ISLANDS }
+					NOT = { owns_entire_state_region = STATE_EAST_AEGEAN_ISLANDS }
 				}
 				s:STATE_EAST_AEGEAN_ISLANDS = {
 					add_claim = ROOT
@@ -345,7 +314,7 @@ russo-turkish_war.2 = { #russia wins the great russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_CYPRUS }
+					NOT = { owns_entire_state_region = STATE_CYPRUS }
 				}
 				s:STATE_CYPRUS = {
 					add_claim = ROOT
@@ -406,7 +375,7 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			text = claim_balkans_tt
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_NORTHERN_THRACE }
+					NOT = { owns_entire_state_region = STATE_NORTHERN_THRACE }
 				}
 				s:STATE_NORTHERN_THRACE = {
 					add_claim = ROOT
@@ -414,7 +383,7 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_WESTERN_THRACE }
+					NOT = { owns_entire_state_region = STATE_WESTERN_THRACE }
 				}
 				s:STATE_WESTERN_THRACE = {
 					add_claim = ROOT
@@ -422,7 +391,7 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_EASTERN_THRACE }
+					NOT = { owns_entire_state_region = STATE_EASTERN_THRACE }
 				}
 				s:STATE_EASTERN_THRACE = {
 					add_claim = ROOT
@@ -463,7 +432,7 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			text = claim_all_balkans_tt
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_NORTHERN_THRACE }
+					NOT = { owns_entire_state_region = STATE_NORTHERN_THRACE }
 				}
 				s:STATE_NORTHERN_THRACE = {
 					add_claim = ROOT
@@ -471,7 +440,7 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_WESTERN_THRACE }
+					NOT = { owns_entire_state_region = STATE_WESTERN_THRACE }
 				}
 				s:STATE_WESTERN_THRACE = {
 					add_claim = ROOT
@@ -479,7 +448,7 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_EASTERN_THRACE }
+					NOT = { owns_entire_state_region = STATE_EASTERN_THRACE }
 				}
 				s:STATE_EASTERN_THRACE = {
 					add_claim = ROOT
@@ -487,7 +456,7 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_SKOPIA }
+					NOT = { owns_entire_state_region = STATE_SKOPIA }
 				}
 				s:STATE_SKOPIA = {
 					add_claim = ROOT
@@ -495,7 +464,7 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_MACEDONIA }
+					NOT = { owns_entire_state_region = STATE_MACEDONIA }
 				}
 				s:STATE_MACEDONIA = {
 					add_claim = ROOT
@@ -503,7 +472,7 @@ russo-turkish_war.3 = { #russia wins the western russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_THESSALIA }
+					NOT = { owns_entire_state_region = STATE_THESSALIA }
 				}
 				s:STATE_THESSALIA = {
 					add_claim = ROOT
@@ -630,7 +599,7 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_DIYARBAKIR }
+					NOT = { owns_entire_state_region = STATE_DIYARBAKIR }
 				}
 				s:STATE_DIYARBAKIR = {
 					add_claim = ROOT
@@ -638,7 +607,7 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_DEIR_EZ_ZOR }
+					NOT = { owns_entire_state_region = STATE_DEIR_EZ_ZOR }
 				}
 				s:STATE_DEIR_EZ_ZOR = {
 					add_claim = ROOT
@@ -646,7 +615,7 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_MOSUL }
+					NOT = { owns_entire_state_region = STATE_MOSUL }
 				}
 				s:STATE_MOSUL = {
 					add_claim = ROOT
@@ -654,7 +623,7 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_BAGHDAD }
+					NOT = { owns_entire_state_region = STATE_BAGHDAD }
 				}
 				s:STATE_BAGHDAD = {
 					add_claim = ROOT
@@ -662,7 +631,7 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_BASRA }
+					NOT = { owns_entire_state_region = STATE_BASRA }
 				}
 				s:STATE_BASRA = {
 					add_claim = ROOT
@@ -670,7 +639,7 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_MAZANDARAN }
+					NOT = { owns_entire_state_region = STATE_MAZANDARAN }
 				}
 				s:STATE_MAZANDARAN = {
 					add_claim = ROOT
@@ -678,7 +647,7 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_TABRIZ }
+					NOT = { owns_entire_state_region = STATE_TABRIZ }
 				}
 				s:STATE_TABRIZ = {
 					add_claim = ROOT
@@ -686,7 +655,7 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_URMIA }
+					NOT = { owns_entire_state_region = STATE_URMIA }
 				}
 				s:STATE_URMIA = {
 					add_claim = ROOT
@@ -694,7 +663,7 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_PERSIAN_KURDISTAN }
+					NOT = { owns_entire_state_region = STATE_PERSIAN_KURDISTAN }
 				}
 				s:STATE_PERSIAN_KURDISTAN = {
 					add_claim = ROOT
@@ -702,7 +671,7 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_KURISTAN }
+					NOT = { owns_entire_state_region = STATE_KURISTAN }
 				}
 				s:STATE_LURISTAN = {
 					add_claim = ROOT
@@ -710,7 +679,7 @@ russo-turkish_war.4 = { #russia wins the eastern russo-turkish_war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_KHUZESTAN }
+					NOT = { owns_entire_state_region = STATE_KHUZESTAN }
 				}
 				s:STATE_KHUZESTAN = {
 					add_claim = ROOT
@@ -856,7 +825,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_GREATER_CAUCASUS }
+					NOT = { owns_entire_state_region = STATE_GREATER_CAUCASUS }
 				}
 				s:STATE_GREATER_CAUCASUS = {
 					add_claim = ROOT
@@ -864,7 +833,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_KUBAN }
+					NOT = { owns_entire_state_region = STATE_KUBAN }
 				}
 				s:STATE_KUBAN = {
 					add_claim = ROOT
@@ -872,7 +841,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:KARS }
+					NOT = { owns_entire_state_region = KARS }
 				}
 				s:STATE_KARS = {
 					add_claim = ROOT
@@ -880,7 +849,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:NORTH_CAUCASUS }
+					NOT = { owns_entire_state_region = NORTH_CAUCASUS }
 				}
 				s:STATE_NORTH_CAUCASUS = {
 					add_claim = ROOT
@@ -888,7 +857,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:ROSTOV }
+					NOT = { owns_entire_state_region = ROSTOV }
 				}
 				s:STATE_ROSTOV = {
 					add_claim = ROOT
@@ -896,7 +865,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:CRIMEA }
+					NOT = { owns_entire_state_region = CRIMEA }
 				}
 				s:STATE_ROSTOV = {
 					add_claim = ROOT
@@ -904,7 +873,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:TAURIDA }
+					NOT = { owns_entire_state_region = TAURIDA }
 				}
 				s:STATE_TAURIDA = {
 					add_claim = ROOT
@@ -912,7 +881,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:CHERSON }
+					NOT = { owns_entire_state_region = CHERSON }
 				}
 				s:STATE_CHERSON = {
 					add_claim = ROOT
@@ -920,7 +889,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:BESSARABIA }
+					NOT = { owns_entire_state_region = BESSARABIA }
 				}
 				s:STATE_CHERSON = {
 					add_claim = ROOT
@@ -928,7 +897,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:DOBRUDJA }
+					NOT = { owns_entire_state_region = DOBRUDJA }
 				}
 				s:STATE_DOBRUDJA = {
 					add_claim = ROOT
@@ -936,7 +905,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:WALLACHIA }
+					NOT = { owns_entire_state_region = WALLACHIA }
 				}
 				s:STATE_WALLACHIA = {
 					add_claim = ROOT
@@ -944,7 +913,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:MOLDAVIA }
+					NOT = { owns_entire_state_region = MOLDAVIA }
 				}
 				s:STATE_WALLACHIA = {
 					add_claim = ROOT
@@ -973,7 +942,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:STATE_GREATER_CAUCASUS }
+					NOT = { owns_entire_state_region = STATE_GREATER_CAUCASUS }
 				}
 				s:STATE_GREATER_CAUCASUS = {
 					add_claim = ROOT
@@ -981,7 +950,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:KARS }
+					NOT = { owns_entire_state_region = KARS }
 				}
 				s:STATE_KARS = {
 					add_claim = ROOT
@@ -989,7 +958,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:BESSARABIA }
+					NOT = { owns_entire_state_region = BESSARABIA }
 				}
 				s:STATE_BESSARABIA = {
 					add_claim = ROOT
@@ -997,7 +966,7 @@ russo-turkish_war.6 = { #ottomans win the russo-turkish war
 			}
 			if = {
 				limit = {
-					NOT = { owns_entire_state_region = s:DOBRUDJA }
+					NOT = { owns_entire_state_region = DOBRUDJA }
 				}
 				s:STATE_DOBRUDJA = {
 					add_claim = ROOT

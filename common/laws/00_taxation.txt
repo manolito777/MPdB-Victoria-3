@@ -19,13 +19,13 @@ law_usa_consumption = {
 
 	is_visible = {
 		any_primary_culture = {
-			has_discrimination_trait = yankee
+			country_has_primary_culture  = yankee
 		}
 	}
 
 	can_enact = {
 		any_primary_culture = {
-			has_discrimination_trait = yankee
+			country_has_primary_culture  = yankee
 		}
 	}
 
