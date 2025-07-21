@@ -1,4 +1,4 @@
-ideology_british_hegemony = {
+﻿ideology_british_hegemony = {
 	icon = "gfx/interface/icons/ideology_icons/caudillismo.dds"
 
 	lawgroup_citizenship = {

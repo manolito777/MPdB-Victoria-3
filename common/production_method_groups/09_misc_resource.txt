@@ -64,7 +64,6 @@ pmg_refrigeration_building_fishing_wharf = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_unrefrigerated
-		pm_refrigerated_storage_building_fishing_wharf
 		pm_refrigerated_rail_cars_building_fishing_wharf
 		pm_flash_freezing_building_fishing_wharf
 	}
@@ -83,7 +82,6 @@ pmg_refrigeration_building_whaling_station = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_unrefrigerated
-		pm_refrigerated_storage_building_whaling_station
 		pm_refrigerated_rail_cars_building_whaling_station
 		pm_flash_freezing_building_whaling_station
 	}

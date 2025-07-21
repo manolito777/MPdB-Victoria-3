@@ -1,4 +1,4 @@
-ig_trait_king_cotton = {
+﻿ig_trait_king_cotton = {
 	icon = "gfx/interface/icons/ig_trait_icons/family_ties.dds"
 	min_approval = happy
 

@@ -1,4 +1,4 @@
-manifest_destiny_mexico = { #UNO Reverse
+﻿manifest_destiny_mexico = { #UNO Reverse
 
 	is_shown = {
 		exists = c:MEX

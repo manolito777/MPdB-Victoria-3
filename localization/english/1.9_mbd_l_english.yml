@@ -133,7 +133,6 @@ ideology_republican_reactionary_desc: "This group believes in a republican syste
 ideology_individualist_mod_desc: "This group believes in societal rewards only for those that already have succeeded in life."
 ideology_laissez_faire_usa_desc: "This group believes in free flow of labor, but not of trade."
 ideology_plutocratic_usa: "American Plutocratic"
-ideology_plutocratic_usa: "This group believes in a societal system where the rich have the upper hand."
+ideology_plutocratic_usa_desc: "This group believes in a societal system where the rich have the upper hand."
 
 Agustin_Jeronimo: "Agustín Jerónimo"
-de_Iturbide: "de Iturbide"

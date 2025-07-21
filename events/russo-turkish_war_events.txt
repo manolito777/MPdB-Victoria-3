@@ -1,4 +1,4 @@
-namespace = russo-turkish_war
+﻿namespace = russo-turkish_war
 
 
 russo-turkish_war.1 = { # start event

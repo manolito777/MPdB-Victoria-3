@@ -1,4 +1,4 @@
-irish_oppression = {
+﻿irish_oppression = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
 
 	state_irish_standard_of_living_add = -1.5

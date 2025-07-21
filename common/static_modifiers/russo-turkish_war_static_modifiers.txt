@@ -1,4 +1,4 @@
-russian_small_border_pursuit = {
+﻿russian_small_border_pursuit = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	country_infamy_decay_mult = -0.15
 	country_diplomatic_play_maneuvers_add = 15
@@ -29,7 +29,7 @@ rally_against_russia = {
 
 russian_national_pride_hurt = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
-	interest_group_in_opposition_approval_add =  = -3
+	interest_group_in_opposition_approval_add = -3
 	country_influence_mult = -0.25
 	country_prestige_mult = -0.1
 	state_assimilation_mult = -0.25
@@ -39,7 +39,7 @@ russian_national_pride_hurt = {
 
 russian_national_pride_destroyed = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
-	interest_group_in_opposition_approval_add =  = -3
+	interest_group_in_opposition_approval_add = -3
 	country_influence_mult = -0.35
 	country_prestige_mult = -0.1
 	state_assimilation_mult = -0.5

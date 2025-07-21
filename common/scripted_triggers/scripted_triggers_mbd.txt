@@ -1,4 +1,4 @@
-
+﻿
 is_russo-turkish_east_region = {
 	AND = {
 		any_scope_state = {

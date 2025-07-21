@@ -1,4 +1,4 @@
-### ---------- SOUTH AMERICA ---------- ### 
+﻿### ---------- SOUTH AMERICA ---------- ### 
 
 La_plata_agro_complex = {
 	icon = "gfx/interface/icons/company_icons/historical_company_icons/argentina_centro_vitivinicola_nacional.dds"

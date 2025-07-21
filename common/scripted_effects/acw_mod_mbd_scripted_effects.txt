@@ -1,4 +1,4 @@
-assign_csa_states = {
+﻿assign_csa_states = {
 	c:CSA = {
 		create_military_formation = {
 			type = army

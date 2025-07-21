@@ -1,4 +1,4 @@
-je_russo_turkish_war = {
+﻿je_russo_turkish_war = {
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	group = je_group_russia_expansion
