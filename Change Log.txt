@@ -446,8 +446,11 @@ TO-DO:
 		Devolver los 20 de caballería a francia. #Hecho
 		Irlanda Nerf para UK. #Hecho
 		Buffar las rutas monárquicas de Francia. Ex: más facilidad para asegurar la casa; nerfear el malus del republican unrest.
-		Reworkear la formación de Alemania (NO la NGF) para que sea como en vanilla.
+		Reworkear la formación de Alemania (NO la NGF) para que sea como en vanilla. #NicolPendiente
 		Finalizar los tratados "históricos" de la Compañía Patwar.
-		Terminar de localizar la Guerra Ruso-Turca.
+		Terminar de localizar la Guerra Ruso-Turca. #Hecho
 		Formable de Indochina/Vietnam.
+
+		Revisar los recursos de China: Petróleo y Plomo.
+
 
