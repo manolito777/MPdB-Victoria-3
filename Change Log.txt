@@ -439,7 +439,7 @@ Métodos:
 	Nerf a las plantaciones de tinte.
 
 TO-DO:
-	Potato Famine.
+		Potato Famine. #Medio Hecho, tiene una journal de opresión a los irlandeses.
 		Revisar Unión Ideológica.
 		Sacred Civics única de la Iglesia.
 		Paz Scripteada para la Guerra Ruso-Turca.
