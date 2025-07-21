@@ -379,7 +379,7 @@ combat_unit_type_cannon_artillery = {
 	max_manpower = 1000
 
     upkeep_modifier = {
-        goods_input_artillery_add = 1
+        goods_input_artillery_add = 0.8
         goods_input_grain_add = 0.5
         goods_input_clothes_add = 0.25
     }
@@ -444,7 +444,7 @@ combat_unit_type_mobile_artillery = {
 	max_manpower = 1000
 
     upkeep_modifier = {
-        goods_input_artillery_add = 2
+        goods_input_artillery_add = 1.6
         goods_input_grain_add = 0.5
         goods_input_clothes_add = 0.5
     }
@@ -509,7 +509,7 @@ combat_unit_type_shrapnel_artillery = {
 
     upkeep_modifier = {
         goods_input_artillery_add = 2
-        goods_input_ammunition_add = 3
+        goods_input_ammunition_add = 2.5
         goods_input_groceries_add = 0.5
         goods_input_clothes_add = 0.5
     }
@@ -589,8 +589,8 @@ combat_unit_type_siege_artillery = {
     }
 
     formation_modifier = {
-        military_formation_mobilization_speed_mult = -0.2
-        military_formation_movement_speed_mult = -0.2
+        military_formation_mobilization_speed_mult = -0.3
+        military_formation_movement_speed_mult = -0.3
     }
 
 	unlocking_technologies = { siege_artillery }

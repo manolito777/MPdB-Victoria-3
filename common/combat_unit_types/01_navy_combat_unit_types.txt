@@ -39,7 +39,7 @@ combat_unit_type_screw_frigate = {
     max_manpower = 1000
 
     upkeep_modifier = {
-        goods_input_manowars_add = 1
+        goods_input_manowars_add = 1.5
         goods_input_engines_add = 0.5
         goods_input_coal_add = 0.5
         goods_input_grain_add = 1
