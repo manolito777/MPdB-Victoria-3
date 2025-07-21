@@ -506,8 +506,8 @@ pm_ac_current = {
 
     building_modifiers = {
         workforce_scaled = {
-            goods_input_steel_add = 10
-            goods_output_electricity_add = 30
+            goods_input_steel_add = 5
+            goods_output_electricity_add = 20
         }
 
         level_scaled = {
