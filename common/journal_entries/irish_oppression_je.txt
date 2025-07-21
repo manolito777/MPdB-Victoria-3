@@ -4,12 +4,22 @@
 	group = je_group_historical_content
 
 	complete = {
-		cultural_acceptance_base = { target = cu:irish value >= acceptance_status_3 }
+		country_average_cultural_acceptance = {
+			target = cu:irish
+			value = acceptance_status_4
+		}
 	}
 
 	on_complete = {
 		ig:ig_landowners = {
 			remove_ideology = ideology_british_hegemony
+		}
+
+		every_scope_state = {
+			limit = {
+				has_modifier = irish_oppression
+			}
+			remove_modifier = irish_oppression
 		}
 	}
 

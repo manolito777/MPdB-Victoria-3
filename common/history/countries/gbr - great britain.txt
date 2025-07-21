@@ -38,7 +38,7 @@
 		# Laws 
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_wealth_voting
-		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_women_own_property
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
@@ -71,6 +71,7 @@
 		}
 
 		add_journal_entry = { type = je_victoria }
+		add_journal_entry = { type = je_irish_discrimination }
 		if = {
 			limit = {
 				has_dlc_feature = rp1_content
