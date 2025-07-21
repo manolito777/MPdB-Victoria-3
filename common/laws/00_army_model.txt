@@ -10,7 +10,7 @@
 		state_conscription_rate_add = 0.04
 		country_aristocrats_pol_str_mult = 0.25
 		country_officers_pol_str_mult = 1
-		country_military_goods_cost_mult = -0.1
+		country_military_goods_cost_mult = -0.25
 		state_building_barracks_max_level_add = 25
 		state_building_conscription_center_max_level_add = 25
 	}
@@ -74,7 +74,7 @@ law_professional_army = {
 		state_conscription_rate_add = 0.01
 		country_officers_pol_str_mult = 2
 		country_soldiers_pol_str_mult = 0.50
-		state_building_barracks_max_level_add = 100
+		state_building_barracks_max_level_add = 150
 		state_building_conscription_center_max_level_add = 50
 		country_institution_military_max_investment_add = 1
 	}
@@ -169,8 +169,9 @@ law_national_militia = {
 		country_soldiers_pol_str_mult = 1
 		country_leverage_resistance_mult = 0.5
 		state_building_barracks_max_level_add = 5
-		state_building_conscription_center_max_level_add = 100
-		country_institution_cost_institution_military_mult = -0.35
+		state_building_conscription_center_max_level_add = 150
+		country_military_goods_cost_mult = -0.1
+		country_institution_cost_institution_military_mult = -0.65
 		country_institution_military_max_investment_add = 1
 	}
 	
@@ -234,8 +235,8 @@ law_mass_conscription = {
 	
 	modifier = {
 		state_conscription_rate_add = 0.025
-		state_building_barracks_max_level_add = 100
-		state_building_conscription_center_max_level_add = 100
+		state_building_barracks_max_level_add = 125
+		state_building_conscription_center_max_level_add = 125
 		country_officers_pol_str_mult = 1.5
 		country_soldiers_pol_str_mult = 1
 		country_institution_cost_institution_military_mult = 0.35
@@ -246,7 +247,7 @@ law_mass_conscription = {
 	institution_modifier = {
 		state_conscription_rate_add = 0.01
 		building_training_rate_mult = 0.25
-		unit_morale_loss_mult = 0.04
+		unit_morale_loss_mult = 0.02
 	}
 
 	
