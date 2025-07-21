@@ -682,6 +682,11 @@
 				state_region = s:STATE_ORLEANS
 				count = 5
 			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_MAINE_ANJOU
+				count = 20
+			}
 		}
 
 		create_military_formation = {
