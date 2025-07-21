@@ -79,8 +79,7 @@ ideology_ottomanism = {
 		law_right_of_assembly = approve
 		law_protected_speech = approve
 		law_censorship = neutral
-		law_outlawed_dissent = dissapprove
-		
+		law_outlawed_dissent = disapprove
 	}
 	
 	lawgroup_rights_of_women = {
@@ -123,12 +122,7 @@ ideology_ottomanism = {
 	}
 
 	possible = {
-		owner = {
-			AND = {
-				c:TUR = this
-				has_law = law_type:law_monarchy
-			}
-		}
+		c:TUR = this
 	}
 	
 	leader_weight = {
@@ -157,7 +151,7 @@ ideology_state_ottomanism = {
 		law_right_of_assembly = approve
 		law_protected_speech = approve
 		law_censorship = neutral
-		law_outlawed_dissent = dissapprove
+		law_outlawed_dissent = disapprove
 		
 	}
 	

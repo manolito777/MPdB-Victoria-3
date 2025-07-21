@@ -1,6 +1,6 @@
 ﻿guarantee_independence = {
 	kind = directed
-	cost = 75
+	cost = 50
 
 	relations_progress_per_day = 1
 	relations_improvement_max = 80
@@ -10,8 +10,11 @@
 	flags = {
 		is_guarantee_independence
 		can_be_renegotiated
+		giftable
+		friendly
 	}
 
+	maintenance_paid_by = source_country
 	usage_limit = once_per_side
 
 	mutual_exclusions = {
@@ -24,24 +27,15 @@
 	}
 
 	target_modifier = {
-		country_treaty_leverage_generation_add = 500
+		country_treaty_leverage_generation_add = 300
 	}
 
 	visible = {
-		NOT = { is_country_type = decentralized }
-		is_revolutionary = no
 		is_subject = no
 	}
 
 	possible = {
-		NOT = { is_country_type = decentralized }
-		is_revolutionary = no
-		is_subject = no
 		country_rank > scope:other_country.country_rank
-		scope:other_country = {
-			is_subject = no
-		}
-
 		save_temporary_scope_as = actor
 		scope:other_country = {
 			save_temporary_scope_as = target_country
@@ -78,7 +72,7 @@
 		scope:source_country = {
 			NOR = {
 				custom_tooltip = {
-					text = DUPLICATE_ARTICLE_SAME_INPUTS
+					text = DUPLICATE_ARTICLE_SAME_INPUTS_TREATY
 					any_scope_treaty = {
 						binds = scope:target_country
 						hidden_trigger = {
@@ -180,7 +174,7 @@
 				limit = { country_rank >= rank_value:major_power }
 				add = {
 					value = country_rank
-					multiply = 0.025
+					multiply = 0.1
 				}
 			}
 		}
@@ -338,30 +332,6 @@
 						divide = 3650
 					}
 					max = 2
-				}
-			}
-		}
-
-		contextual_accept_score = {
-			value = 0
-
-			if = {
-				limit = {
-					scope:target_country ?= this
-					scope:treaty ?= {
-						NOT = {
-							any_scope_article_option = {
-								OR = {
-									source_country ?= scope:target_country
-									is_giftable_treaty_article = no
-								}
-							}
-						}
-					}
-				}
-				add = {
-					desc = "DIPLOMATIC_ACCEPTANCE_GIFT"
-					value = 200
 				}
 			}
 		}

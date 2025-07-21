@@ -5,9 +5,10 @@
 	icon = "gfx/interface/icons/diplomatic_treaties_articles_icons/take_on_debt_treaties.dds"
 
 	flags = {
-		is_take_on_debt
+		giftable
 	}
 
+	maintenance_paid_by = source_country
 	usage_limit = once_per_treaty
 
 	unlocked_by_technologies = {
@@ -15,13 +16,10 @@
 	}
 
 	visible = {
-		NOT = { is_country_type = decentralized }
-		is_revolutionary = no
 	}
 
 	possible = {
-		NOT = { is_country_type = decentralized }
-		is_revolutionary = no
+		NOT = { is_country_type = unrecognized }
 	}
 
 	can_ratify = {
@@ -62,15 +60,14 @@
 				}
 				change_relations = { country = scope:debt_giver value = 30 }
 
-				#hidden_effect = {
-				#	scope:debt_giver = {
-				#		set_variable = {
-				#			name = debt_bought_out_recently
-				#			value = yes
-				#			days = 7300
-				#		}
-				#	}
-				#}
+				hidden_effect = {
+					scope:debt_giver = {
+						set_variable = {
+							name = debt_bought_out_recently
+							days = 7300
+						}
+					}
+				}
 			}
 		}
 	}
@@ -127,6 +124,15 @@
 				add = {
 					desc = "DIPLOMATIC_ACCEPTANCE_BASE_ADDITIONAL"
 					value = -25
+
+					if = {
+						limit = {
+							scope:target_country = {
+								has_variable = debt_bought_out_recently
+							}
+						}
+						add = -75
+					}
 				}
 
 				add = {
@@ -134,47 +140,31 @@
 
 					if = {
 						limit = {
-							scope:target_country.scaled_debt < 0.4
+							scope:source_country.gold_reserves > 0
 						}
-						value = -40
+						subtract = {
+							value = scope:target_country.principal
+							divide = scope:source_country.gold_reserves
+							multiply = 50
+						}
 					}
+
 					if = {
 						limit = {
-							scope:target_country.scaled_debt >= 0.4
-							scope:target_country.scaled_debt < 0.6
+							scope:target_country.principal > scope:source_country.gold_reserves
 						}
-						value = -50
+						value = -300
 					}
-					if = {
-						limit = {
-							scope:target_country.scaled_debt >= 0.6
-							scope:target_country.scaled_debt < 0.8
-						}
-						value = -75
-					}
-					if = {
-						limit = {
-							scope:target_country.scaled_debt >= 0.8
-							scope:target_country.scaled_debt < 0.9
-						}
-						value = -100
-					}
-					if = {
-						limit = {
-							scope:target_country.scaled_debt >= 0.9
-							scope:target_country = {
-								in_default = no
-							}
-						}
-						value = -150
-					}
-					if = {
-						limit = {
-							scope:target_country = {
-								in_default = yes
-							}
-						}
-						value = -200
+				}
+
+				multiply = {
+					desc = "concept_rank"
+					value = 1
+
+					add = {
+						value = 10
+						subtract = scope:target_country.country_rank
+						divide = 10
 					}
 				}
 
@@ -246,7 +236,7 @@
 				}
 
 				add = {
-					desc = "DIPLOMATIC_ACCEPTANCE_DEBT"
+					desc = "DIPLOMATIC_ACCEPTANCE_DEBT_TARGET"
 
 					if = {
 						limit = {
@@ -314,32 +304,8 @@
 						limit = {
 							in_default = yes
 						}
-						value = 50
+						value = 40
 					}
-				}
-			}
-		}
-
-		contextual_accept_score = {
-			value = 0
-
-			if = {
-				limit = {
-					scope:target_country ?= this
-					scope:treaty ?= {
-						NOT = {
-							any_scope_article_option = {
-								OR = {
-									source_country ?= scope:target_country
-									is_giftable_treaty_article = no
-								}
-							}
-						}
-					}
-				}
-				add = {
-					desc = "DIPLOMATIC_ACCEPTANCE_GIFT"
-					value = 200
 				}
 			}
 		}

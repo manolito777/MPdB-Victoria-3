@@ -136,3 +136,6 @@ ideology_plutocratic_usa: "American Plutocratic"
 ideology_plutocratic_usa_desc: "This group believes in a societal system where the rich have the upper hand."
 
 Agustin_Jeronimo: "Agustín Jerónimo"
+
+battle_condition_gas_attack: "Gas Attack"
+battle_condition_gas_defense: "Gas Defense"
