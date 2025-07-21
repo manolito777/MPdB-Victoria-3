@@ -1799,22 +1799,6 @@ GBR_John_Frost = {
     }
 }
 
-GBR_thomas_barnes = {
-    # Editor of The Times, 1817-1841
-    first_name = Thomas
-    last_name = Barnes
-    historical = yes
-    culture = primary_culture
-    birth_date = 1785.9.11
-    is_agitator = yes
-    interest_group = ig_petty_bourgeoisie
-    ideology = ideology_reformer
-    traits = {
-        literary
-        meticulous
-    }
-}
-
 # Generated Agitators
 
 agitator_john_stuart_mill = {

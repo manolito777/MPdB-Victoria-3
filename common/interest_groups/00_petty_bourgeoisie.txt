@@ -117,9 +117,9 @@
 				limit = {
 					owner = { c:GBR ?= this }
 				}
-				set_ig_trait = ig_trait:ig_trait_swadesh
-				set_ig_trait = ig_trait:ig_trait_lines_of_credit
-				set_ig_trait = ig_trait:ig_trait_cooperative_agencies
+				set_ig_trait = ig_trait:ig_trait_bah_humbug
+				set_ig_trait = ig_trait:ig_trait_civil_service
+				set_ig_trait = ig_trait:ig_trait_old_lady_of_threadneedle_street
 			}
 			else_if = {
 				limit = {
