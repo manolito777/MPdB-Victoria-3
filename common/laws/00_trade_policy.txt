@@ -93,10 +93,7 @@ law_free_trade = {
 	progressiveness = 50
 
 	disallowing_laws = {
-		OR = {
-			law_command_economy
-			law_usa_consumption
-		}
+		law_command_economy
 	}
 
 	unlocking_technologies = {
@@ -147,10 +144,7 @@ law_isolationism = {
 	progressiveness = -50
 
 	disallowing_laws = {
-		OR = {
-			law_laissez_faire
-			law_usa_consumption
-		}
+		law_laissez_faire
 	}
 
 	is_visible = {
