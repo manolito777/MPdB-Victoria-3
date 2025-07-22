@@ -64,7 +64,7 @@ company_construction_power_bloc = {
 }
 
 
-----------------------------
+#### ---------------------------- ####
 
 company_healthcare_focus = {
 	icon = "gfx/interface/icons/company_icons/basic_construction.dds"

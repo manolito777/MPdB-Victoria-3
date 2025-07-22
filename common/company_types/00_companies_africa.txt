@@ -175,7 +175,7 @@ company_suez_company = {
 	prosperity_modifier = {
 		state_trade_advantage_mult = 0.25
 		country_max_companies_add = 1
-		country_max_charters_add = 1
+		country_free_charters_add = 1
 		country_company_throughput_bonus_add = 0.1
 	}
 	

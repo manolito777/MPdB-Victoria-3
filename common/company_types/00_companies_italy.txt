@@ -52,7 +52,7 @@ company_ilva = {
 	}
 
 	prosperity_modifier = {
-		bbuilding_railway_throughput_add = 0.15
+		building_railway_throughput_add = 0.15
 		building_artillery_foundries_throughput_add = 0.15
 	}
 

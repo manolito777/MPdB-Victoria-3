@@ -218,3 +218,43 @@
 
 
 [21:42:39][jomini_eventmanager.cpp:371]: Event german_unification.2 is orphaned ######
+
+
+
+
+
+
+
+[17:46:53][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: modifier, near line: 373" in file: "common/scripted_buttons/03_brazilian_amazon_scripted_buttons.txt" near line: 381
+[17:46:53][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 144" in file: "common/scripted_buttons/guerra_carlista_scripted_buttons.txt" near line: 144
+[17:46:53][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 240" in file: "common/scripted_buttons/guerra_carlista_scripted_buttons.txt" near line: 240
+[17:46:53][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: base, near line: 316" in file: "common/scripted_buttons/guerra_carlista_scripted_buttons.txt" near line: 316
+[17:46:53][pdx_persistent_reader.cpp:268]: Error: "Unknown trigger type: save_scope_as, near line: 292" in file: "common/journal_entries/00_german_unification.txt" near line: 296
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 42" in file: "common/journal_entries/Military_balance_je.txt" near line: 44
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: Posi, near line: 55" in file: "common/journal_entries/Military_balance_je.txt" near line: 55
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: =, near line: 55" in file: "common/journal_entries/Military_balance_je.txt" near line: 55
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 97" in file: "common/journal_entries/Military_balance_je.txt" near line: 99
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 150" in file: "common/journal_entries/Military_balance_je.txt" near line: 152
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 196" in file: "common/journal_entries/Military_balance_je.txt" near line: 198
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 244" in file: "common/journal_entries/Military_balance_je.txt" near line: 246
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 297" in file: "common/journal_entries/Military_balance_je.txt" near line: 299
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: visible, near line: 6" in file: "common/journal_entries/conquista_americas_je.txt" near line: 9
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: visible, near line: 174" in file: "common/journal_entries/conquista_americas_je.txt" near line: 177
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: is_shown_when_active, near line: 132" in file: "common/journal_entries/five_years_plan_je.txt" near line: 177
+
+
+
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: =, near line: 69" in file: "common/company_types/companies_principles.txt" near line: 128
+[17:46:54][lexer.cpp:285]: File 'common/company_types/companies_tratado_mod.txt' should be in utf8-bom encoding (will try to use it anyways)
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: unit__army_defense_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: unit__army_defense_mult, near line: 120" in file: "common/company_types/companies_unicas_mod.txt" near line: 120
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: state_capitalists_investment_pool_contribution_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: state_capitalists_investment_pool_contribution_mult, near line: 1066" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1066
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unknown modifier type: power_bloc_religion_trade_route_competitiveness_mult. It is either invalid, or a potential dynamic modifier type definition missing from the database.: power_bloc_religion_trade_route_competitiveness_mult, near line: 1323" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1323
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: if, near line: 1839" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1844
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: if, near line: 1912" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1917
+[17:46:54][pdx_persistent_reader.cpp:268]: Error: "Unexpected token: if, near line: 1994" in file: "common/power_bloc_principles/00_power_bloc_principles.txt" near line: 1999
+[17:46:54][ideology.cpp:76]: Invalid law group possible in ideology law scoring
+[17:46:54][ideology.cpp:90]: Invalid law c:TUR in ideology law scoring
+[17:46:54][ideology.cpp:76]: Invalid law group leader_weight in ideology law scoring
+[17:46:54][ideology.cpp:90]: Invalid law value in ideology law scoring
+[17:46:54][country_formation.cpp:70]: Invalid leadership play dp_leadership_Iberia in country_formation
+

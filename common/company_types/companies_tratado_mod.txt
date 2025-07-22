@@ -12,10 +12,12 @@ company_east_indies_trading_company = {
 	}
 	
 	potential = {
-		has_interest_marker_in_region = region_north_china
-        has_interest_marker_in_region = region_south_china
-        has_interest_marker_in_region = region_manchuria
-        has_interest_marker_in_region = region_japan
+		OR = {
+			has_interest_marker_in_region = region_north_china
+        	has_interest_marker_in_region = region_south_china
+        	has_interest_marker_in_region = region_manchuria
+        	has_interest_marker_in_region = region_japan
+		}
 	}
 
     attainable = {
@@ -23,7 +25,7 @@ company_east_indies_trading_company = {
 
 	possible = {
         any_country = {
-            country_rank >= rank_value:major_power
+            country_rank >= rank_value:great_power
         }
 		any_scope_state = {
             OR = {
