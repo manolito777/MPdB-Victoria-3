@@ -583,20 +583,20 @@
 			}
 		}
 		region_state:POR = {
-			#doblados los yue mahayana
+			#doblados los yue mahayana # Reducidos por falta de tierra arable
 			create_pop = {
 				culture = yue
-				size = 672000
+				size = 252000
 				religion = mahayana
 			}
 			create_pop = {
 				culture = portuguese
-				size = 996
+				size = 15996
 			}
 			create_pop = {
 				culture = yue
 				religion = catholic
-				size = 25000
+				size = 65000
 			}
 		}
 	}

@@ -458,3 +458,12 @@ TO-DO:
 		Hacer compañía exclusiva de etiopia (1-2).
 		
 
+------------------
+
+Mapa:
+	América:
+		Agregado el Estrecho de Darién.
+	Asia:
+		Ajustado Macao para que sea funcional bajo las circunstancias del mod.
+	África:
+		Agregada tierra arable a Mozambique (el mozambique portugués comenzaba con 10k desempleados).
