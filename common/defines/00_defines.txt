@@ -983,8 +983,8 @@ NDiplomacy = {
 	COLONY_PROVINCE_NO_ADJACENCY_MULT = 0.1 # Multiply by this if no adjacencies at all
 	COLONY_PROVINCE_RANDOM_FACTOR = 1.5 # The higher this is, the more random colonization province picking will be
 
-	BASE_WAR_SUPPORT = 200
-	MAX_WAR_SUPPORT = 200
+	BASE_WAR_SUPPORT = 150
+	MAX_WAR_SUPPORT = 150
 	MIN_WAR_SUPPORT = -100
 	
 	# Definitions for all the diplomatic catalysts that are called from code instead of script
