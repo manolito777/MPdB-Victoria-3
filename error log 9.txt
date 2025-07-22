@@ -134,8 +134,7 @@
 
 [21:42:37][jomini_onaction.cpp:29]: No on_action scripted with tag spooky_halloween_events cannot link
 [21:42:37][jomini_onaction.cpp:29]: No on_action scripted with tag HMPS_Check_for_GM cannot link
-[21:42:37][battle_condition_type.cpp:156]: Battle Condition is missing loc key! Battle Condition: battle_condition_gas_attack
-[21:42:37][battle_condition_type.cpp:156]: Battle Condition is missing loc key! Battle Condition: battle_condition_gas_defense
+
 [21:42:37][player_message_type.cpp:177]: Diplomatic Action Group has mixed Notification Types
 [21:42:37][journalentry_type.cpp:290]: Journal entry has redundant loc for je_sick_man_education_goal
 
