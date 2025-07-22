@@ -18,15 +18,11 @@ law_usa_consumption = {
 	}
 
 	is_visible = {
-		any_primary_culture = {
-			country_has_primary_culture  = yankee
-		}
+		c:USA ?= this
 	}
 
 	can_enact = {
-		any_primary_culture = {
-			country_has_primary_culture  = yankee
-		}
+		c:USA ?= this
 	}
 
 	tax_modifier_very_low = {
