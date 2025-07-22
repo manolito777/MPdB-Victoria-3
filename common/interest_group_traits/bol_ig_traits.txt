@@ -28,12 +28,3 @@ ig_trait_el_buen_jefe = {
 		unit_morale_recovery_mult = 0.1
 	}
 }
-ig_trait_femboys = {
-	icon = "gfx/interface/icons/ig_trait_icons/honest_work.dds"
-	min_approval = happy
-	
-	modifier = {
-		state_construction_mult = 0.05
-		building_group_bg_plantations_throughput_add = 0.05
-	}
-}
