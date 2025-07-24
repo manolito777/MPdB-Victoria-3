@@ -611,10 +611,11 @@ law_command_economy = {
 		country_government_dividends_efficiency_add = 0.4
 		country_private_construction_allocation_mult = 0.1
 		country_free_charters_add = 1
-
+        country_government_dividends_reinvestment_add = 0.10
+        state_bureaucrats_investment_pool_contribution_add = 1
 		country_leverage_resistance_mult = 0.25
 
-		country_disable_privatization_bool = yes
+		
 	}
 
 	ai_will_do = {
