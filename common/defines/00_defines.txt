@@ -1,4 +1,4 @@
-﻿NGame = {	
+NGame = {	
 	START_DATE = "1836.1.1"
 	END_DATE = "1936.1.1"
 	SAVE_VERSION = 0
@@ -1569,10 +1569,10 @@ NCharacters = {
 	MAX_TRAITS_CONDITION = 2						# The max amount of Condition Traits a character can develop normally (note: not adhered to by add_trait effect)
 
 	TRAIT_GAIN_DIVISOR = 100.0						# Final trait gain is always divided by this so we don't have to use all the decimals
-	DEFAULT_TRAIT_GAIN = 0.25						# Every character's Expected Traits meter increases by this much per week by default
+	DEFAULT_TRAIT_GAIN = 0.4						# Every character's Expected Traits meter increases by this much per week by default
 	TRAIT_GAIN_POLITICIAN_POWERFUL = 0.1			# Powerful Politicians Expected Traits meter increases by this much *extra* each week
 	TRAIT_GAIN_RULER = 0.1							# Rulers Expected Traits meter increases by this much *extra* each week
-	TRAIT_GAIN_COMMANDER_RECRUITABLE = 0.05			# Recruitable offer commanders Expected Traits meter increases by this much per week, overrides all other factors
+	TRAIT_GAIN_COMMANDER_RECRUITABLE = 0.25			# Recruitable offer commanders Expected Traits meter increases by this much per week, overrides all other factors
 	TRAIT_GAIN_IN_EXILE_POOL = 0.1					# Characters in the exile pool Expected Traits meter increases by this much per week, overrides all other factors
 	TRAIT_GAIN_VOIDED = 0.0							# Voided characters Expected Traits meter increases by this much per week, overrides all other factors
 
