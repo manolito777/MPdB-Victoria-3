@@ -1566,7 +1566,7 @@ NCharacters = {
 	MAX_EXPECTED_TRAIT_VALUE = 12.0					# The maximum amount of Trait Value a character can develop normally (note: not adhered to by add_trait effect)
 	MAX_TRAITS_PERSONALITY = 2						# The max amount of Personality Traits a character can develop normally (note: not adhered to by add_trait effect)
 	MAX_TRAITS_SKILL = 2							# The max amount of Skill Traits a character can develop normally (note: not adhered to by add_trait effect)
-	MAX_TRAITS_CONDITION = 2						# The max amount of Condition Traits a character can develop normally (note: not adhered to by add_trait effect)
+	MAX_TRAITS_CONDITION = 1						# The max amount of Condition Traits a character can develop normally (note: not adhered to by add_trait effect)
 
 	TRAIT_GAIN_DIVISOR = 100.0						# Final trait gain is always divided by this so we don't have to use all the decimals
 	DEFAULT_TRAIT_GAIN = 0.4						# Every character's Expected Traits meter increases by this much per week by default
@@ -1667,13 +1667,13 @@ NWar = {
 	NAVAL_INVASION_MAX_LAND_BATTLE_DEFEATS_AT_ZERO_OCCUPATION = 3 		# At this number of land defeats with zero occupation you fail the naval invasion
 	NAVAL_INVASION_MIN_POWER_PROJECTION_RATIO_TO_BLOCK_LANDING = 0.25 	# How powerful a fleet must be to be considered as "blocking" a naval invading fleet
 
-	STATE_CONQUEST_HOMELAND_AND_CLAIM_RADICALIZATION = 0.05
+	STATE_CONQUEST_HOMELAND_AND_CLAIM_RADICALIZATION = 0.01
 	STATE_CONQUEST_HOMELAND_AND_CLAIM_DEMILITARIZATION = 0.25
-	STATE_CONQUEST_HOMELAND_OR_CLAIM_RADICALIZATION = 0.15
+	STATE_CONQUEST_HOMELAND_OR_CLAIM_RADICALIZATION = 0.05
 	STATE_CONQUEST_HOMELAND_OR_CLAIM_DEMILITARIZATION = 0.5
-	STATE_CONQUEST_DEFAULT_RADICALIZATION = 0.35
+	STATE_CONQUEST_DEFAULT_RADICALIZATION = 0.1
 	STATE_CONQUEST_DEFAULT_DEMILITARIZATION = 0.75
-	STATE_PEACEFUL_ANNEXATION_RADICALIZATION_FACTOR = 0.15	# If the state was annexed due to an accepted diplomatic demand by the overlord, multiply by this
+	STATE_PEACEFUL_ANNEXATION_RADICALIZATION_FACTOR = 0.1	# If the state was annexed due to an accepted diplomatic demand by the overlord, multiply by this
 	STATE_CONQUEST_KEEP_ALL = 0.0
 
 	NUM_PROVINCES_FOR_ADVANCEMENT_SELECTION = 5		# After having computed weights for possible advancement provinces using front_battle_province_weight, filter out all but the X top weighted provinces. This is done to prevent randomly selecting an element that had a low weight.
