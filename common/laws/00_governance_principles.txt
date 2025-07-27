@@ -21,6 +21,7 @@ law_chiefdom = {
 		country_legitimacy_headofstate_add = 20
 		country_authority_add = 100
 		state_birth_rate_mult = 0.1
+		state_non_homeland_mortality_mult = -0.15
 	}
 
 	ai_enact_weight_modifier = { #Petitions
