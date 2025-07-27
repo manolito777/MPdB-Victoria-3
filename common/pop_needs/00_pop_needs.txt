@@ -58,22 +58,22 @@ popneed_basic_food = {
 		goods = fish
 
 		weight = 1
-		max_supply_share = 0.5
+		max_supply_share = 0.75
 		min_supply_share = 0.0
 	}
 
 	entry = {
 		goods = meat
 
-		weight = 1.5
-		max_supply_share = 0.4
+		weight = 1.05
+		max_supply_share = 0.5
 		min_supply_share = 0.0
 	}
 
 	entry = {
 		goods = fruit
 
-		weight = 1.25
+		weight = 1.05
 		max_supply_share = 0.5
 		min_supply_share = 0.0
 	}
@@ -193,6 +193,10 @@ popneed_services = {
 
 popneed_intoxicants = {
 	default = liquor
+	
+	obsession_demand_min = 0.75
+	obsession_demand_mult = 1.75
+	prestige_goods_demand_increase = 0.75
 
 	entry = {
 		goods = liquor
@@ -221,7 +225,7 @@ popneed_intoxicants = {
 	entry = {
 		goods = wine
 
-		weight = 0.3
+		weight = 0.35
 		max_supply_share = 0.35
 		min_supply_share = 0.0
 	}
@@ -229,6 +233,10 @@ popneed_intoxicants = {
 
 popneed_luxury_drinks = {
 	default = tea
+	
+	obsession_demand_min = 0.75
+	obsession_demand_mult = 1.75
+	prestige_goods_demand_increase = 0.75
 
 	entry = {
 		goods = tea
@@ -249,8 +257,8 @@ popneed_luxury_drinks = {
 	entry = {
 		goods = wine
 
-		weight = 0.33
-		max_supply_share = 0.2
+		weight = 0.35
+		max_supply_share = 0.35
 		min_supply_share = 0.0
 	}
 }
@@ -301,7 +309,7 @@ popneed_luxury_food = {
 	entry = {
 		goods = meat
 
-		weight = 1.5
+		weight = 1.25
 		max_supply_share = 0.75
 		min_supply_share = 0.1
 	}
@@ -309,7 +317,7 @@ popneed_luxury_food = {
 	entry = {
 		goods = fruit
 
-		weight = 0.5
+		weight = 0.65
 		max_supply_share = 0.75
 		min_supply_share = 0.1
 	}
@@ -332,7 +340,19 @@ popneed_luxury_food = {
 }
 
 popneed_luxury_items = {
-	default = luxury_clothes
+	default = silk
+
+	obsession_demand_min = 0.75
+	obsession_demand_mult = 1.75
+	prestige_goods_demand_increase = 0.75
+	
+	entry = {
+		goods = silk
+
+		weight = 0.5
+		max_supply_share = 0.25
+		min_supply_share = 0.1
+	}	
 
 	entry = {
 		goods = luxury_clothes
@@ -369,6 +389,10 @@ popneed_luxury_items = {
 
 popneed_leisure = {
 	default = services
+	
+	obsession_demand_min = 0.5
+	obsession_demand_mult = 2.0
+	prestige_goods_demand_increase = 1.0
 
 	entry = {
 		goods = services
@@ -381,7 +405,7 @@ popneed_leisure = {
 	entry = {
 		goods = fine_art
 
-		weight = 10
+		weight = 8
 		max_supply_share = 1.0
 		min_supply_share = 0.0
 	}
