@@ -2912,7 +2912,7 @@ FRA_dictatorship = {
 	color1 = "white"
     color2 = "white"
     textured_emblem = {
-		texture = "fradiccoa.dds"
+		texture = "fracoa.dds"
 		instance = { scale = { 1 1 } position = { 0.5 0.50 } }
 	}
 }
@@ -2957,7 +2957,7 @@ FRA_fascist = {
 	color1 = "white"
     color2 = "white"
     textured_emblem = {
-		texture = "fradiccoa.dds"
+		texture = "frafascoa.dds"
 		instance = { scale = { 1 1 } position = { 0.5 0.50 } }
 	}	
 }
