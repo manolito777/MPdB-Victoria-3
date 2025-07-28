@@ -67,8 +67,8 @@ company_construction_power_bloc = {
 #### ---------------------------- ####
 
 company_healthcare_focus = {
-	icon = "gfx/interface/icons/company_icons/basic_construction.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufactering_light.dds"
+	icon = "gfx/interface/icons/company_icons/lafageda.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_rice.dds"
 
 	building_types = {
 		building_chemical_plants
