@@ -352,3 +352,8 @@ prestige_good_salitre = {
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/prestige_good_salitre.dds"
 }
+prestige_good_yogur_la_fageda = {
+	base_good = groceries
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/prestige_good_yogurlf.dds"
+}
