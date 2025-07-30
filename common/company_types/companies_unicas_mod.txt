@@ -1,7 +1,7 @@
 ﻿### ---------- SOUTH AMERICA ---------- ### 
 
 La_plata_agro_complex = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/argentina_centro_vitivinicola_nacional.dds"
+	icon = "gfx/interface/icons/company_icons/lpac.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_rice.dds"
 	
 	flavored_company = yes
@@ -73,7 +73,7 @@ La_plata_agro_complex = {
 
 #Fusiles Mondragón
 company_mondragon = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/argentina_centro_vitivinicola_nacional.dds"
+	icon = "gfx/interface/icons/company_icons/mondragon.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_rice.dds"
 	
 	flavored_company = yes
@@ -136,7 +136,7 @@ company_mondragon = {
 
 #Cooperativa La Cruz Azul
 company_la_cruz_azul = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/argentina_centro_vitivinicola_nacional.dds"
+	icon = "gfx/interface/icons/company_icons/cruzazul.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_rice.dds"
 	
 	flavored_company = yes
@@ -192,7 +192,7 @@ company_la_cruz_azul = {
 
 # Groupe Managem
 company_managem  = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/company_de_beers.dds"
+	icon = "gfx/interface/icons/company_icons/groupmanagem.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 
 	flavored_company = yes
@@ -257,7 +257,7 @@ company_managem  = {
 
 #LENA
 company_lena_gold_mining_partnertship  = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/company_de_beers.dds"
+	icon = "gfx/interface/icons/company_icons/lena.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 
 	flavored_company = yes
@@ -318,7 +318,7 @@ company_lena_gold_mining_partnertship  = {
 ### -------------- EUROPE ------------- ###
 
 company_alhstrom = {
-	icon = "gfx/interface/icons/company_icons/basic_paper.dds"
+	icon = "gfx/interface/icons/company_icons/ahlstrom.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 
 	flavored_company = yes
@@ -419,8 +419,8 @@ company_healthcare_focus = {
 	
 
 	prosperity_modifier = {
-		state_birth_rate_mult = 0.1
-
+		country_society_tech_spread_mult = 0.1
+        political_movement_radicalism_add = 0.05
 	}
 
 	ai_will_do = {
