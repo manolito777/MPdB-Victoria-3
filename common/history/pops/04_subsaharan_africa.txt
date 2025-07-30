@@ -1,11 +1,6 @@
 ﻿POPS = {
 	s:STATE_IVORY_COAST = {
-		region_state:FRA = {
-			create_pop = {
-				culture = West_Afro
-				size = 88000
-			}
-		}
+
 		region_state:BLE = {
 			create_pop = {
 				culture = West_Afro
@@ -34,7 +29,7 @@
 		region_state:AYI = {
 			create_pop = {
 				culture = West_Afro
-				size = 79200
+				size = 179200
 			}
 			create_pop = {
 				pop_type = slaves
@@ -92,20 +87,7 @@
 		}
 	}
 	s:STATE_SENEGAL = {
-		region_state:FRA = {
-			create_pop = {
-				culture = West_Afro
-				size = 95992
-			}
-			create_pop = {
-				culture = West_Afro
-				size = 12400
-			}
-			create_pop = {
-				culture = West_Afro
-				size = 32000
-			}
-		}
+
 		region_state:JLF = {
 			create_pop = {
 				culture = West_Afro
@@ -131,7 +113,7 @@
 		region_state:FTR = {
 			create_pop = {
 				culture = West_Afro
-				size = 80004
+				size = 280004
 			}
 			create_pop = {
 				culture = West_Afro
@@ -150,30 +132,7 @@
 		}
 	}
 	s:STATE_GAMBIA = {
-		region_state:POR = {
-			create_pop = {
-				culture = West_Afro
-				size = 552304
-			}
-			create_pop = {
-				culture = West_Afro
-				size = 127996
-			}
-		}
-		region_state:GBR = {
-			create_pop = {
-				culture = West_Afro
-				size = 91540
-			}
-			create_pop = {
-				culture = West_Afro
-				size = 38000
-			}
-			create_pop = {
-				culture = West_Afro
-				size = 22860
-			}
-		}
+
 		region_state:SRR = {
 			create_pop = {
 				culture = West_Afro
@@ -214,7 +173,7 @@
 			create_pop = {
 				culture = West_Afro
 				religion = animist
-				size = 204000
+				size = 604000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -749,34 +708,12 @@
 		}
 	}
 	s:STATE_GHANA = {
-		region_state:GBR = {
-			create_pop = {
-				culture = West_Afro
-				size = 40204
-			}
-			create_pop = {
-				culture = West_Afro
-				size = 4844
-			}
-			create_pop = {
-				culture = West_Afro
-				size = 6984
-			}
-		}
-		region_state:NET = {
-			create_pop = {
-				culture = West_Afro
-				size = 45572
-			}
-			create_pop = {
-				culture = West_Afro
-				size = 4220
-			}
-		}
+
+
 		region_state:ASH = {
 			create_pop = {
 				culture = West_Afro
-				size = 436308
+				size = 636308
 			}
 			create_pop = {
 				culture = West_Afro
@@ -794,24 +731,11 @@
 		}
 	}
 	s:STATE_TOGO = {
-		region_state:DEN = {
-			create_pop = {
-				culture = West_Afro
-				size = 116308
-			}
-			create_pop = {
-				culture = West_Afro
-				size = 115996
-			}
-			create_pop = {
-				culture = West_Afro
-				size = 47996
-			}
-		}
+
 		region_state:ASH = {
 			create_pop = {
 				culture = West_Afro
-				size = 20000
+				size = 220000
 			}
 			create_pop = {
 				culture = West_Afro
@@ -956,7 +880,7 @@
 		}
 	}
 	s:STATE_ZANZIBAR = {
-		region_state:OMA = {
+		region_state:HHE = {
 			create_pop = {
 				culture = East_Afro
 				size = 382800
@@ -1938,21 +1862,7 @@
 		}
 	}
 	s:STATE_SOUTH_CAMEROON = {
-		region_state:SPA = {
-			create_pop = {
-				culture = spanish
-				size = 800
-			}
-			create_pop = {
-				culture = Center_Afro
-				religion = catholic
-				size = 9804
-			}
-			create_pop = {
-				culture = Center_Afro
-				size = 6400
-			}
-		}
+
 		region_state:FNG = {
 			create_pop = {
 				culture = Center_Afro
@@ -1976,7 +1886,7 @@
 		region_state:DLA = {
 			create_pop = {
 				culture = Center_Afro
-				size = 600000
+				size = 610000
 			}
 			create_pop = {
 				pop_type = slaves
