@@ -244,7 +244,7 @@ NOR = {
 }
 
 SWE = {
-	color = { 87  130  199 }
+	color = { 0 106 167 }
 	
 	country_type = recognized
 
@@ -660,7 +660,7 @@ MOD = {
 }
 
 PAP = {
-	color = { 211  220  178 }
+	color = { 229 150 87 }
 	
 	country_type = recognized
 
@@ -694,7 +694,7 @@ PRA = { #Gao-Para
 }
 
 SAR = {
-	color = { 117  146  167 }
+	color = { 97 209 251 }
 	
 	country_type = recognized
 
@@ -728,7 +728,7 @@ TRE = {
 }
 
 TUS = {
-	color = { 84  96  136 }
+	color = { 216 30 5 }
 	
 	country_type = recognized
 
@@ -1063,7 +1063,7 @@ SLO = {
 }
 
 TUR = {
-	color = { 85 34 34 }
+	color = { 126  203  120 }
 	
 	country_type = recognized
 
@@ -2084,7 +2084,7 @@ ALT = {
 }
 
 HAI = {
-	color = { 139  179  207 }
+	color = { 135  206  250 }
 	
 	country_type = recognized
 	
