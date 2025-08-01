@@ -85,7 +85,7 @@ company_Alpargatas = {
 
 	
 	building_types = {  #26
-
+        building_cotton_plantation
 		building_logging_camp
 	}
 	

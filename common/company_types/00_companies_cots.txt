@@ -53,8 +53,8 @@ company_sao_paulo_railway = {
 	}
 
 	prosperity_modifier = {
-		building_group_bg_logging_camp_throughput_add = 0.2
-		state_trade_capacity_mult = 0.15
+		
+		state_trade_capacity_mult = 0.25
 	}
 
 	ai_will_do = {
