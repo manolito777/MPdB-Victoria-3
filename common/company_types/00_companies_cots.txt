@@ -9,6 +9,7 @@ company_sao_paulo_railway = {
 
 	building_types = {
 		building_railway
+		building_logging_camp
 	}
 
 	extension_building_types = {
@@ -36,7 +37,7 @@ company_sao_paulo_railway = {
 			is_incorporated = yes
 			has_building = building_railway
 			any_scope_building = {
-				is_building_type = building_coffee_plantation
+				is_building_type = building_logging_camp
 				level >= 5
 			}
 		}
@@ -52,7 +53,7 @@ company_sao_paulo_railway = {
 	}
 
 	prosperity_modifier = {
-		building_group_bg_coffee_plantations_throughput_add = 0.2
+		building_group_bg_logging_camp_throughput_add = 0.2
 		state_trade_capacity_mult = 0.15
 	}
 
