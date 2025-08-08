@@ -229,7 +229,7 @@ german_unification.4 = {
 		}
 		add_modifier = {
 				name = ger_explosion_demografica
-				months = 120
+				months = 180
 				is_decaying = yes
 		}
 		add_primary_culture = cu:south_german
